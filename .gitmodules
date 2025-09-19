@@ -1,0 +1,6 @@
+[submodule "Networking/Network_portal"]
+	path = Networking/Network_portal
+	url = https://github.com/WSNDataFerry/Networking_portal.git
+[submodule "Networking/Network_stack"]
+	path = Networking/Network_stack
+	url = https://github.com/WSNDataFerry/Network_stack.git
