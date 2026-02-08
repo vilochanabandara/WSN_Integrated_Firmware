@@ -1,0 +1,231 @@
+--- Slide 1 ---
+AUTONOMOUS DATA FERRYING FROM A SELF-ORGANIZING/HEALING WSN IN DISCONNECTED ZONES
+25-26J-010
+--- Slide 2 ---
+Introduction to the Overall Project
+--- Slide 3 ---
+--- Slide 4 ---
+AUTONOMOUS MULTI-SENSOR ENVIRONMENTAL MONITORING NODE
+COMPUTER SYSTEMS AND NETWORK ENGINEERING
+--- Slide 5 ---
+Existing Wireless Sensor Network nodes deployed in disconnected zones often fail to achieve long-term autonomy due to poor power management and inefficient on-node data handling.
+Current compression strategies in constrained devices are underexplored – most rely on either no compression or basic entropy methods without rigorous evaluation for energy vs. performance trade-offs.
+Knowledge Gap or Problem Definition
+Nodes consume excessive energy under single-mode operation; many systems collapse in weeks or months.
+Data transmission without compression wastes bandwidth and increases latency in UAV ferrying.
+No comparative study exists showing which entropy-based compression is better suited for ESP32-class hardware in WSNs.
+Shortcomings of Existing Systems
+Introduce a Power Management Engine with three adaptive modes for longevity and self-healing.
+Evaluate Huffman vs. LZ-family compression directly on ESP32-S3 to provide evidence-based guidance on the most energy-efficient approach for resource-constrained WSN nodes.
+This fills a research gap by combining power-aware design + practical compression benchmarking for disconnected WSNs.
+Proposed Solution
+--- Slide 6 ---
+Data
+Synthetic and open environmental datasets (climate, acoustic, gas readings) available from repositories (e.g., IEEE Dataport, UCI).
+Ethics
+No personal/sensitive data involved. Environmental sensing only → no ethical clearance needed.
+Validation Metrics:
+Compression ratio (% data reduction).
+CPU cycle consumption and memory footprint on ESP32-S3.
+Energy usage per compression/decompression cycle.
+Overall impact on node lifetime extension (months of operation).
+Methods:
+Benchmarked against baseline (no compression).
+Prototype testing with real sensor datasets (audio, gas, climate).
+Simulation of long-term energy profiles.
+Key Domains of Specialisation
+Embedded Systems & Hardware Design
+ESP32-S3 microcontroller integration with BLE and solar-based PSU.
+Computer Systems & Network Engineering
+Low-power wireless protocols, energy management in sensor networks.
+Data Compression / Information Theory
+Entropy coding for resource-constrained environments.
+Latest Technologies Utilised
+ESP32-S3 microcontroller with BLE and SPIFFS storage.
+BLE beaconing for low-power UAV detection.
+Solar + battery hybrid PSU for self-sustaining energy.
+Entropy-based compression implemented in embedded C.
+How to Evaluate Success
+Data Availability and Ethical Clearance
+--- Slide 7 ---
+--- Slide 8 ---
+Deployed in remote disconnected zones (wildlife reserves, disaster areas).
+A UAV passes periodically, wakes up nodes via BLE beacon, and collects compressed data.
+PME ensures nodes autonomously survive >12 months by adjusting modes based on battery levels.
+Researchers and operators receive reliable, compressed sensor data through the UAV → base station pipeline.
+Real-World Usage Scenario
+--- Slide 9 ---
+COMPUTER SYSTEMS AND NETWORK ENGINEERING
+AUTONOMOUS CLUSTER FORMATION AND CLUSTER HEAD SELECTION SYSTEM
+--- Slide 10 ---
+Gap Analysis
+Weakness in Current Protocols
+Existing clustering protocols for WSNs (e.g., LEACH, HEED) are not robust when applied to disconnected, resource-constrained environments.
+Research Aim
+Develop an autonomous cluster formation algorithm that is more reliable and secure.
+Shortcomings of 
+Existing Systems
+Energy-focused protocols (LEACH, HEED) neglect trust, fairness, and persistence.
+Lack of authentication is vulnerable to spoofing & replay attacks.
+No trust evaluation (packet reliability, handshake integrity).
+Absence of uptime persistence, leading to unfair CH rotation.
+Proposed Solution
+Multi-parameter CH election formula (Battery, Uptime, Trust, Link Quality).
+Secure CH announcements with HMAC over BLE extended advertisements.
+RTC memory persistent uptime tracking.
+Improves robustness, survivability, and fairness of WSNs in harsh, infrastructure-less environments.
+--- Slide 11 ---
+--- Slide 12 ---
+System Overview
+General Architecture
+
+Sensor nodes self-organize into clusters.
+A Cluster Head (CH) is elected using a secure, fair, and multi-parameter algorithm.
+The elected CH is responsible for local coordination until UAV pickup.
+Node Level Behaviour 
+Neighbour Discovery:
+Each ESP32-S3 node periodically broadcasts BLE extended advertisements to announce its presence.
+Score Calculation:
+Every node computes a composite election score based on:
+Battery Level: Normalised via ADC readings.
+Uptime: Persistent tracking using RTC memory.
+Trust Score: Calculated from handshake success rate, packet delivery ratio, and neighbour feedback.
+Link Quality: Evaluated using RSSI and packet error rate (PER).
+Score Exchange:
+Nodes broadcast their computed score securely to neighbours.
+CH Election:
+The node with the highest verified score is elected as the Cluster Head. Ties are resolved by MAC address.
+Security & Trust Enforcement
+Authentication:
+CH announcements are broadcast using HMAC-SHA256, preventing spoofing and replay attacks.
+Trust Filtering:
+Nodes with trust scores below a set threshold are automatically excluded from CH candidacy.
+Verification:
+Cluster members validate the HMAC before recognizing the CH.
+--- Slide 13 ---
+System Architecture
+--- Slide 14 ---
+COMPUTER SYSTEMS AND NETWORK ENGINEERING
+ENERGY EFFICIENT AND FAULT TOLERANT CLUSTER DATA COMMUNICATION IN UAV ASSISTED WSN
+--- Slide 15 ---
+Challenges in Existing UAV-assisted WSNs:
+Current UAV assisted WSNs suffer from energy waste due to continuous polling, high power UAV detection through Wi-Fi scanning, and volatile Cluster Head (CH) storage leading to data loss.
+
+Key Knowledge Gaps / Problems:
+How to design energy efficient MS↔CH communication for solar powered nodes?
+How to guarantee fault tolerant, lossless CH↔UAV handover in disconnected environments?
+
+Solution: 
+Integrates time sliced ESP-NOW scheduling, BLE beaconing with ACK exchange for UAV detection, and persistent JSON storage in SPIFFS for reliable, fault tolerant operation.
+--- Slide 16 ---
+ESP-NOW: 
+Peer to peer, no Wi-Fi association overhead.
+BLE Beaconing: 
+Ultra low power UAV detection + ACK exchange.
+SPIFFS + JSON: 
+Fault tolerant data storage.
+MQTT over Wi-Fi: 
+Lightweight publish/subscribe with acknowledgements.
+Wireless Communication & Networking: 
+ESP-NOW for low power MS↔CH transfer 
+BLE for UAV detection 
+MQTT for CH→UAV handover.
+Embedded Systems & IoT: 
+ESP32 microcontrollers 
+SPIFFS flash storage 
+JSON based persistence.
+Energy Aware Computing: 
+Time sliced scheduling
+Specialization Knowledge and Technology
+--- Slide 17 ---
+Evaluation, Validation and Data Availability
+--- Slide 18 ---
+System Overview
+Real World Usage Scenario
+MS→CH: Time sliced ESP-NOW, MS nodes wake only in assigned slots.
+CH Storage: JSON in SPIFFS 
+UAV Detection: BLE beacon-ACK exchange confirms UAV presence.
+CH→UAV: Data offloaded via MQTT over Wi-Fi with acknowledgement.
+Deployed in disconnected zones such as forest reserves, flood-prone regions, and rural agriculture fields.
+MS nodes operate autonomously, waking only during scheduled slots to conserve solar energy.
+CH securely buffers sensor readings, ensuring no data is lost even if leadership changes.
+UAVs make periodic flights, triggering data handover through BLE beacons and collecting updates via MQTT.
+Researchers and decision-makers access consolidated data through a central dashboard, enabling early warnings for wildfires, crop failures, or disaster response.
+--- Slide 19 ---
+--- Slide 20 ---
+INTELLIGENT UAV-ASSISTED DATA FERRING WITH 
+PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+COMPUTER SYSTEMS AND NETWORK ENGINEERING
+--- Slide 21 ---
+Proven Gap
+Sensors in disconnected zones lack accurate GPS-free localization; RSSI and GPS have major shortcomings.
+
+Static UAV routing wastes energy, delays critical data collection.
+
+Health monitoring of WSN nodes is limited or absent, risking data loss.
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+Creative Solution
+Solution: UAV uses BLE 5.1 AoA/AoD for precise GPS mapping onboard, dynamic energy-aware route planning, and real-time network health auditing.
+--- Slide 22 ---
+Specialization Knowledge and Technology
+Domains: Embedded Systems, Wireless Networks, Signal Processing, Machine Learning.
+
+Tech: BLE 5.1 Direction Finding (AoA/AoD), ESP-NOW, Raspberry Pi onboard computing, Machine Learning for energy prediction and fault detection, MQTT for data sync.
+
+Validation: Sub-meter localization accuracy, improved UAV flight efficiency, >95% fault detection accuracy in tests
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+--- Slide 23 ---
+Implementation Overview
+BLE antenna array and direction-finding process on UAV capture beacon angles.
+
+Onboard computations triangulate WSN cluster head GPS locations.
+
+UAV routing engine dynamically prioritizes visiting critical or low-energy nodes.
+
+Health auditing identifies failed or silent nodes during flights; alerts fed to base dashboard.
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+--- Slide 24 ---
+Real-World Use Case
+Deployed in disconnected zones for scientific research, wildlife preserves, agriculture with no connectivity.
+
+UAV autonomously plans efficient routes balancing mission energy with urgency.
+
+Real-time node health monitoring reduces data loss and extends network lifespan.
+
+Operator dashboard displays live maps, UAV routes, sensor health, enabling swift decisions.
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+--- Slide 25 ---
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+System Design V1
+--- Slide 26 ---
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+System Design V1
+--- Slide 27 ---
+INTELLIGENT UAV-ASSISTED DATA MULING WITH PRIORITY-BASED ROUTING IN DISCONNECTED SENSOR DEPLOYMENTS
+System Design V1
+--- Slide 28 ---
+SUPPORTING ITEMS
+--- Slide 29 ---
+Patent potential in cluster head election algorithm, BLE-triggered wake-up + ESP-NOW communication model, and integration of UAV as aerial auditor.
+Research outputs can be protected under software IP (dashboard + algorithms) and hardware design patents for sensor nodes.
+Primary Customers: Environmental scientists, conservation NGOs, smart agriculture companies.
+Customer Needs: Reliable monitoring without infrastructure, energy efficient long deployments, security and trust aware data collection.
+Commercialization
+Applicable in STEM researches, Geology and climate survey, offshore platforms, and remote agricultural zones.
+Modular sensor packs enable rapid deployment in different terrains (environmental, industrial, defense).
+Drone + WSN integration provides a delay-tolerant, infrastructure-free monitoring solution.
+Potential commercial product: “UAV-assisted Environmental Monitoring Kit” including sensor nodes, UAV module, and dashboard software.
+Value proposition: Reliable, low-power monitoring in areas where no cellular/internet infrastructure exists.
+Budget
+Estimated Material Cost: ESP32-based nodes, BLE/ESP-NOW modules, sensors (ENS160, INMP441, HMC5883L, BME280, etc.), UAV with onboard SBC (Raspberry Pi/Jetson), solar charging units.
+Labor Cost: Prototype assembly, firmware development, testing, and field trials.
+Cost Recovery Strategy:
+Pricing model: Sell sensor node kits + UAV bundle + subscription for dashboard access.
+Target: Research institutions, NGOs, government agencies, and defense contractors.
+Break-even through subscription-based services (data analytics, predictive maintenance, ecosystem monitoring).
+Target Market & Customer Profile
+Intellectual Property Rights
+--- Slide 30 ---
+Q & A
+--- Slide 31 ---
+Thank you!

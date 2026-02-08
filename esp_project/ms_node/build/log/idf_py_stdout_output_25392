@@ -1,0 +1,484 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools/idf_monitor.py -p COM3 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\user\Desktop\esp_project\ms_node\build\ms_node.elf C:\Users\user\Desktop\esp_project\ms_node\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Jan  4 2026 03:53:28[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (76) boot:  3 storage          Unknown data     01 82 00210000 00c00000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=19da4h (105892) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00029dcc vaddr=3fc9d600 size=041f8h ( 16888) load[0m
+[0;32mI (115) esp_image: segment 2: paddr=0002dfcc vaddr=40374000 size=0204ch (  8268) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=825dch (533980) map[0m
+[0;32mI (217) esp_image: segment 4: paddr=000b2604 vaddr=4037604c size=17548h ( 95560) load[0m
+[0;32mI (238) esp_image: segment 5: paddr=000c9b54 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (238) esp_image: segment 6: paddr=000c9b7c vaddr=600fe000 size=0006ch (   108) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (264) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (264) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (266) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (270) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (274) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (278) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (283) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (288) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (293) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (298) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (302) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (306) esp_psram: Speed: 40MHz[0m
+[0;32mI (309) cpu_start: Multicore app[0m
+[0;32mI (1043) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1052) cpu_start: Pro cpu start user code[0m
+[0;32mI (1052) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1053) app_init: Application information:[0m
+[0;32mI (1053) app_init: Project name:     ms_node[0m
+[0;32mI (1057) app_init: App version:      1[0m
+[0;32mI (1060) app_init: Compile time:     Jan  4 2026 04:13:18[0m
+[0;32mI (1065) app_init: ELF file SHA256:  36e617307...[0m
+[0;32mI (1070) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (1074) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1078) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (1082) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (1086) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1092) heap_init: At 3FCA53F0 len 00044320 (272 KiB): RAM[0m
+[0;32mI (1097) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1102) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1108) heap_init: At 600FE06C len 00001F7C (7 KiB): RTCRAM[0m
+[0;32mI (1113) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1121) spi_flash: detected chip: generic[0m
+[0;32mI (1124) spi_flash: flash io: dio[0m
+[0;32mI (1127) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1133) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1140) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (1163) coexist: coexist rom version e7ae62f[0m
+[0;32mI (1164) main_task: Started on CPU0[0m
+[0;32mI (1174) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1174) main_task: Calling app_main()[0m
+[0;32mI (1184) BLE_INIT: BT controller compile version [2edb0b0][0m
+[0;32mI (1184) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (1184) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (1194) BLE_INIT: Bluetooth MAC: 10:20:ba:4d:f0:3e[0m
+[0;32mI (1194) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (1234) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (1284) ble_beacon: Auto-calculated beacon offset: 600ms (MAC byte: 0x3C)[0m
+[0;32mI (1284) ble_beacon: Beacon config: base=1000ms, offset=600ms[0m
+[0;32mI (1284) ble_beacon: update: batt=0 mode=0 adv_int=1.60s (batt_chg=1 mode_chg=0 int_chg=1 first=1)[0m
+[0;32mI (1294) ble_beacon: adv data set complete[0m
+[0;32mI (1294) ble_beacon: configured adv data[0m
+[0;32mI (1294) ble_beacon: scan rsp set complete[0m
+[0;32mI (1304) ble_beacon: configured scan rsp[0m
+[0;32mI (1304) ble_beacon: adv started (interval min=2560 max=2560)[0m
+[0;32mI (1314) ble_beacon: restarted advertising[0m
+[0;32mI (1314) ble_gatt: GATTS register app_id=0 status=0[0m
+[0;32mI (1314) ble_gatt: Service created: handle=40 status=0[0m
+[0;32mI (1324) ble_gatt: Characteristic added: handle=42[0m
+[0;32mI (1324) ble_gatt: Characteristic added: handle=44[0m
+[0;32mI (1334) ble_gatt: Characteristic added: handle=46[0m
+[0;32mI (1334) ble_gatt: Characteristic added: handle=48[0m
+[0;32mI (1344) ble_gatt: GATT service initialized[0m
+[0;32mI (1344) logger: Node ID: 10:20:BA:4D:F0:3C (0x1020BA4DF03C)[0m
+[0;32mI (2044) logger: SPIFFS total=11558801 used=251[0m
+[0;32mI (2044) sensor_config: No saved config found, using defaults (first boot)[0m
+[0;32mI (2044) main: Sensor config: audio_interval=300000ms, env_interval=60000ms[0m
+[0;32mI (2044) main: Node ID: 10:20:BA:4D:F0:3C[0m
+[0;32mI (2054) main: Storage: 251/11558801 bytes (0.0% used)[0m
+[0;32mI (2054) main: wakeup cause: power-on or reset[0m
+[0;32mI (2064) battery: ADC calibration: curve fitting enabled[0m
+[0;32mI (2064) battery: Battery ADC init: unit=0 ch=3 atten=1 R1=220000 R2=100000 samples=32[0m
+[0;32mI (2074) pme: PME init batt=100% (fake enabled tick=1000ms drop=1%)[0m
+[0;32mI (2074) i2c_bus: Initializing I2C on SDA=8 SCL=9[0m
+[0;32mI (2094) sensors: BME280 init OK (id=0x60)[0m
+[0;32mI (2154) sensors: ENS160 init OK (PART_ID=0x0160)[0m
+[0;32mI (2164) sensors: GY-271 init OK (assumed QMC5883L @ 0x0D)[0m
+[0;32mI (2164) sensors: INA219 init OK (cfg=0x399F)[0m
+[0;32mI (2164) inmp441: Initialized: rate=16000Hz bits=16 pins(WS=5,SCK=6,SD=7)[0m
+[0;32mI (2164) sensors: Running sensors_raw_sanity_check...[0m
+[0;32mI (2174) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2174) sensors: Presence -> BME280:1 AHT21:1 ENS160:1 GY-271:1 INA219:1 INMP441:1[0m
+[0;32mI (2184) sensors: BME280 chip id: 0x60[0m
+[0;32mI (2264) sensors: AHT21 raw: 18 97 33 26 8E 2E[0m
+[0;32mI (2264) sensors: ENS160 raw[0]: 0x60[0m
+[0;32mI (2264) sensors: GY-271 raw XYZ: 2867 -1170 1237 | status: 0x04[0m
+[0;32mI (2264) sensors: INA219 cfg: 0x399F[0m
+[0;32mI (2264) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2274) sensors: sensors_raw_sanity_check done.[0m
+[0;32mI (2474) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (2474) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (2474) ble_beacon: update: batt=1 mode=1 adv_int=3.60s (batt_chg=1 mode_chg=1 int_chg=1 first=0)[0m
+[0;32mI (2474) ble_beacon: configured adv data[0m
+[0;32mI (2484) ble_beacon: configured scan rsp[0m
+[0;32mI (2534) ble_beacon: stopped advertising[0m
+[0;32mI (2534) ble_beacon: restarted advertising[0m
+[0;32mI (2554) comp_bench: BASELINE | json | in=219 out=219 ratio=1.000 comp=17us decomp=2us heap_drop=0 min_drop=0[0m
+[0;32mI (2554) comp_bench: HUFF | json | in=219 out=377 ratio=1.721 comp=590us decomp=665us heap_drop=0 min_drop=13392[0m
+[0;32mI (2564) comp_bench: MINIZ | json | in=219 out=98 ratio=0.447 comp=951us decomp=726us heap_drop=0 min_drop=318708[0m
+[0;32mI (2564) comp_bench: BASELINE | delta | in=25 out=25 ratio=1.000 comp=3us decomp=1us heap_drop=0 min_drop=0[0m
+[0;32mI (2574) comp_bench: HUFF | delta | in=25 out=276 ratio=11.040 comp=265us decomp=181us heap_drop=0 min_drop=0[0m
+[0;32mI (2584) comp_bench: MINIZ | delta | in=25 out=36 ratio=1.440 comp=360us decomp=28us heap_drop=0 min_drop=0[0m
+[0;32mI (2594) comp_bench: BASELINE | audio | in=512 out=512 ratio=1.000 comp=5us decomp=1us heap_drop=0 min_drop=0[0m
+[0;32mI (2614) comp_bench: HUFF | audio | in=512 out=517 ratio=1.010 comp=1794us decomp=1444us heap_drop=0 min_drop=288[0m
+[0;32mI (2614) comp_bench: MINIZ | audio | in=512 out=115 ratio=0.225 comp=813us decomp=473us heap_drop=0 min_drop=336[0m
+[0;32mI (7534) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (7534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (12534) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (12534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (17534) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (17534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (22534) main: BAT vadc=1039mV vbat=3324mV pct=3%[0m
+[0;32mI (22534) main: PME batt=3% mode=POWER_SAVE[0m
+[0;32mI (27534) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (27534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (32534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (32534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (37534) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (37534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (42534) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (42534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (47534) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (47534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (52534) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (52534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (57534) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (57534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (62534) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (62534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (67534) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (67534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (72534) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (72534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (77534) main: BAT vadc=1038mV vbat=3321mV pct=2%[0m
+[0;32mI (77534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (82534) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (82534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (87534) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (87534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (92534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (92534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (97534) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (97534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (102534) main: BAT vadc=1038mV vbat=3321mV pct=2%[0m
+[0;32mI (102534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (107534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (107534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (112534) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (112534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (117534) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (117534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (122534) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (122534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (122534) main: INA219 bus=3.296 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (127534) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (127534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (132534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (132534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (137534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (137534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (142534) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (142534) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (147534) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (147534) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (152534) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (152534) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (157534) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (157534) main: PME batt=1% mode=POWER_SAVE[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Jan  4 2026 03:53:28[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (76) boot:  3 storage          Unknown data     01 82 00210000 00c00000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=19da4h (105892) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00029dcc vaddr=3fc9d600 size=041f8h ( 16888) load[0m
+[0;32mI (115) esp_image: segment 2: paddr=0002dfcc vaddr=40374000 size=0204ch (  8268) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=825dch (533980) map[0m
+[0;32mI (217) esp_image: segment 4: paddr=000b2604 vaddr=4037604c size=17548h ( 95560) load[0m
+[0;32mI (238) esp_image: segment 5: paddr=000c9b54 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (238) esp_image: segment 6: paddr=000c9b7c vaddr=600fe000 size=0006ch (   108) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (264) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (264) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (266) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (270) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (274) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (278) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (283) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (288) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (293) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (298) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (302) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (306) esp_psram: Speed: 40MHz[0m
+[0;32mI (309) cpu_start: Multicore app[0m
+[0;32mI (1043) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1052) cpu_start: Pro cpu start user code[0m
+[0;32mI (1052) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1053) app_init: Application information:[0m
+[0;32mI (1053) app_init: Project name:     ms_node[0m
+[0;32mI (1057) app_init: App version:      1[0m
+[0;32mI (1060) app_init: Compile time:     Jan  4 2026 04:13:18[0m
+[0;32mI (1065) app_init: ELF file SHA256:  36e617307...[0m
+[0;32mI (1070) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (1074) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1078) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (1082) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (1086) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1092) heap_init: At 3FCA53F0 len 00044320 (272 KiB): RAM[0m
+[0;32mI (1097) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1102) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1108) heap_init: At 600FE06C len 00001F7C (7 KiB): RTCRAM[0m
+[0;32mI (1113) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1121) spi_flash: detected chip: generic[0m
+[0;32mI (1124) spi_flash: flash io: dio[0m
+[0;32mI (1127) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1133) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1140) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (1163) coexist: coexist rom version e7ae62f[0m
+[0;32mI (1164) main_task: Started on CPU0[0m
+[0;32mI (1174) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1174) main_task: Calling app_main()[0m
+[0;32mI (1184) BLE_INIT: BT controller compile version [2edb0b0][0m
+[0;32mI (1184) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (1184) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (1194) BLE_INIT: Bluetooth MAC: 10:20:ba:4d:f0:3e[0m
+[0;32mI (1194) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (1254) ble_beacon: Auto-calculated beacon offset: 600ms (MAC byte: 0x3C)[0m
+[0;32mI (1254) ble_beacon: Beacon config: base=1000ms, offset=600ms[0m
+[0;32mI (1264) ble_beacon: update: batt=0 mode=0 adv_int=1.60s (batt_chg=1 mode_chg=0 int_chg=1 first=1)[0m
+[0;32mI (1274) ble_beacon: adv data set complete[0m
+[0;32mI (1274) ble_beacon: configured adv data[0m
+[0;32mI (1274) ble_beacon: scan rsp set complete[0m
+[0;32mI (1284) ble_beacon: configured scan rsp[0m
+[0;32mI (1284) ble_beacon: adv started (interval min=2560 max=2560)[0m
+[0;32mI (1284) ble_beacon: restarted advertising[0m
+[0;32mI (1294) ble_gatt: GATTS register app_id=0 status=0[0m
+[0;32mI (1294) ble_gatt: Service created: handle=40 status=0[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=42[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=44[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=46[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=48[0m
+[0;32mI (1324) ble_gatt: GATT service initialized[0m
+[0;32mI (1324) logger: Node ID: 10:20:BA:4D:F0:3C (0x1020BA4DF03C)[0m
+[0;32mI (2024) logger: SPIFFS total=11558801 used=251[0m
+[0;32mI (2024) sensor_config: No saved config found, using defaults (first boot)[0m
+[0;32mI (2024) main: Sensor config: audio_interval=300000ms, env_interval=60000ms[0m
+[0;32mI (2024) main: Node ID: 10:20:BA:4D:F0:3C[0m
+[0;32mI (2034) main: Storage: 251/11558801 bytes (0.0% used)[0m
+[0;32mI (2034) main: wakeup cause: power-on or reset[0m
+[0;32mI (2044) battery: ADC calibration: curve fitting enabled[0m
+[0;32mI (2044) battery: Battery ADC init: unit=0 ch=3 atten=1 R1=220000 R2=100000 samples=32[0m
+[0;32mI (2054) pme: PME init batt=100% (fake enabled tick=1000ms drop=1%)[0m
+[0;32mI (2054) i2c_bus: Initializing I2C on SDA=8 SCL=9[0m
+[0;32mI (2064) sensors: BME280 init OK (id=0x60)[0m
+[0;32mI (2134) sensors: ENS160 init OK (PART_ID=0x0160)[0m
+[0;32mI (2144) sensors: GY-271 init OK (assumed QMC5883L @ 0x0D)[0m
+[0;32mI (2144) sensors: INA219 init OK (cfg=0x399F)[0m
+[0;32mI (2144) inmp441: Initialized: rate=16000Hz bits=16 pins(WS=5,SCK=6,SD=7)[0m
+[0;32mI (2144) sensors: Running sensors_raw_sanity_check...[0m
+[0;32mI (2154) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2154) sensors: Presence -> BME280:1 AHT21:1 ENS160:1 GY-271:1 INA219:1 INMP441:1[0m
+[0;32mI (2164) sensors: BME280 chip id: 0x60[0m
+[0;32mI (2244) sensors: AHT21 raw: 18 96 A6 96 8F BF[0m
+[0;32mI (2244) sensors: ENS160 raw[0]: 0x60[0m
+[0;32mI (2244) sensors: GY-271 raw XYZ: 2872 -1200 1227 | status: 0x04[0m
+[0;32mI (2244) sensors: INA219 cfg: 0x399F[0m
+[0;32mI (2244) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2254) sensors: sensors_raw_sanity_check done.[0m
+[0;32mI (2454) main: BAT vadc=1028mV vbat=3289mV pct=0%[0m
+[0;32mI (2454) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (2454) ble_beacon: update: batt=0 mode=1 adv_int=3.60s (batt_chg=0 mode_chg=1 int_chg=1 first=0)[0m
+[0;32mI (2454) ble_beacon: configured adv data[0m
+[0;32mI (2464) ble_beacon: configured scan rsp[0m
+[0;32mI (2514) ble_beacon: stopped advertising[0m
+[0;32mI (2514) ble_beacon: restarted advertising[0m
+[0;32mI (2534) comp_bench: BASELINE | json | in=219 out=219 ratio=1.000 comp=17us decomp=2us heap_drop=0 min_drop=0[0m
+[0;32mI (2534) comp_bench: HUFF | json | in=219 out=377 ratio=1.721 comp=590us decomp=665us heap_drop=0 min_drop=13392[0m
+[0;32mI (2544) comp_bench: MINIZ | json | in=219 out=98 ratio=0.447 comp=950us decomp=725us heap_drop=0 min_drop=318708[0m
+[0;32mI (2544) comp_bench: BASELINE | delta | in=25 out=25 ratio=1.000 comp=2us decomp=1us heap_drop=0 min_drop=0[0m
+[0;32mI (2554) comp_bench: HUFF | delta | in=25 out=276 ratio=11.040 comp=264us decomp=182us heap_drop=0 min_drop=0[0m
+[0;32mI (2564) comp_bench: MINIZ | delta | in=25 out=36 ratio=1.440 comp=361us decomp=28us heap_drop=0 min_drop=0[0m
+[0;32mI (2574) comp_bench: BASELINE | audio | in=512 out=512 ratio=1.000 comp=4us decomp=1us heap_drop=0 min_drop=0[0m
+[0;32mI (2594) comp_bench: HUFF | audio | in=512 out=517 ratio=1.010 comp=1793us decomp=1443us heap_drop=0 min_drop=288[0m
+[0;32mI (2594) comp_bench: MINIZ | audio | in=512 out=115 ratio=0.225 comp=813us decomp=473us heap_drop=0 min_drop=336[0m
+[0;32mI (7514) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (7514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (12514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (12514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (17514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (17514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (22514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (22514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (27514) main: BAT vadc=1030mV vbat=3296mV pct=0%[0m
+[0;32mI (27514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (32514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (32514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (37514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (37514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (42514) main: BAT vadc=1039mV vbat=3324mV pct=3%[0m
+[0;32mI (42514) main: PME batt=3% mode=POWER_SAVE[0m
+[0;32mI (47514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (47514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (52514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (52514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (57514) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (57514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (62514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (62514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (67514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (67514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (72514) main: BAT vadc=1036mV vbat=3315mV pct=2%[0m
+[0;32mI (72514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (77514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (77514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (82514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (82514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (87514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (87514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (92514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (92514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (97514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (97514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (102514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (102514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (107514) main: BAT vadc=1030mV vbat=3296mV pct=0%[0m
+[0;32mI (107514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (112514) main: BAT vadc=1029mV vbat=3292mV pct=0%[0m
+[0;32mI (112514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (117514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (117514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (122514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (122514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (122514) main: INA219 bus=3.296 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (127514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (127514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (132514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (132514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (137514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (137514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (142514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (142514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (147514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (147514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (152514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (152514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (157514) main: BAT vadc=1029mV vbat=3292mV pct=0%[0m
+[0;32mI (157514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (162514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (162514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (167514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (167514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (172514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (172514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (177514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (177514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (182514) main: BAT vadc=1038mV vbat=3321mV pct=2%[0m
+[0;32mI (182514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (187514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (187514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (192514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (192514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (197514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (197514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (202514) main: BAT vadc=1029mV vbat=3292mV pct=0%[0m
+[0;32mI (202514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (207514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (207514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (212514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (212514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (217514) main: BAT vadc=1030mV vbat=3296mV pct=0%[0m
+[0;32mI (217514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (222514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (222514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (227514) main: BAT vadc=1038mV vbat=3321mV pct=2%[0m
+[0;32mI (227514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (232514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (232514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (237514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (237514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (242514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (242514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (242514) main: INA219 bus=3.292 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (247514) main: BAT vadc=1028mV vbat=3289mV pct=0%[0m
+[0;32mI (247514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (252514) main: BAT vadc=1033mV vbat=3305mV pct=1%[0m
+[0;32mI (252514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (257514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (257514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (262514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (262514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (267514) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (267514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (272514) main: BAT vadc=1030mV vbat=3296mV pct=0%[0m
+[0;32mI (272514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (277514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (277514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (282514) main: BAT vadc=1037mV vbat=3318mV pct=2%[0m
+[0;32mI (282514) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (287514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (287514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (292514) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (292514) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (297514) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (297514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (302514) main: BAT vadc=1031mV vbat=3299mV pct=0%[0m
+[0;32mI (302514) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (302594) main: AHT21 T=31.85 C | H=59.06 %[0m
+[0;32mI (307594) main: BAT vadc=1035mV vbat=3312mV pct=1%[0m
+[0;32mI (307594) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (312594) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (312594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (317594) main: BAT vadc=1038mV vbat=3321mV pct=2%[0m
+[0;32mI (317594) main: PME batt=2% mode=POWER_SAVE[0m
+[0;32mI (322594) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (322594) main: PME batt=1% mode=POWER_SAVE[0m
+[0;32mI (327594) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (327594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (332594) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (332594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (337594) main: BAT vadc=1030mV vbat=3296mV pct=0%[0m
+[0;32mI (337594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (342594) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (342594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (347594) main: BAT vadc=1032mV vbat=3302mV pct=0%[0m
+[0;32mI (347594) main: PME batt=0% mode=POWER_SAVE[0m
+[0;32mI (352594) main: BAT vadc=1034mV vbat=3308mV pct=1%[0m
+[0;32mI (352594) main: PME batt=1% mode=POWER_SAVE[0m

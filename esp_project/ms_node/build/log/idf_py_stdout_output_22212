@@ -1,0 +1,134 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools/idf_monitor.py -p COM3 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\user\Desktop\esp_project\ms_node\build\ms_node.elf C:\Users\user\Desktop\esp_project\ms_node\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Jan  4 2026 03:53:28[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00300000[0m
+[0;32mI (76) boot:  3 storage          Unknown data     01 82 00310000 00200000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=19bd4h (105428) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=00029bfc vaddr=3fc9d600 size=041f8h ( 16888) load[0m
+[0;32mI (115) esp_image: segment 2: paddr=0002ddfc vaddr=40374000 size=0221ch (  8732) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=81ff4h (532468) map[0m
+[0;32mI (217) esp_image: segment 4: paddr=000b201c vaddr=4037621c size=17378h ( 95096) load[0m
+[0;32mI (238) esp_image: segment 5: paddr=000c939c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (238) esp_image: segment 6: paddr=000c93c4 vaddr=600fe000 size=0006ch (   108) load[0m
+[0;32mI (251) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (251) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (263) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (263) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (265) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (270) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (274) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (278) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (283) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (288) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (292) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (298) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (302) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (305) esp_psram: Speed: 40MHz[0m
+[0;32mI (308) cpu_start: Multicore app[0m
+[0;32mI (1042) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1052) cpu_start: Pro cpu start user code[0m
+[0;32mI (1052) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1052) app_init: Application information:[0m
+[0;32mI (1052) app_init: Project name:     ms_node[0m
+[0;32mI (1056) app_init: App version:      1[0m
+[0;32mI (1060) app_init: Compile time:     Jan  4 2026 04:13:18[0m
+[0;32mI (1065) app_init: ELF file SHA256:  0d07fecbc...[0m
+[0;32mI (1069) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (1073) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1077) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (1081) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (1085) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1092) heap_init: At 3FCA53B0 len 00044360 (272 KiB): RAM[0m
+[0;32mI (1097) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1102) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1107) heap_init: At 600FE06C len 00001F7C (7 KiB): RTCRAM[0m
+[0;32mI (1113) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1120) spi_flash: detected chip: generic[0m
+[0;32mI (1123) spi_flash: flash io: dio[0m
+[0;32mI (1127) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1133) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1139) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (1163) coexist: coexist rom version e7ae62f[0m
+[0;32mI (1164) main_task: Started on CPU0[0m
+[0;32mI (1174) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1174) main_task: Calling app_main()[0m
+[0;32mI (1184) BLE_INIT: BT controller compile version [2edb0b0][0m
+[0;32mI (1184) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (1184) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (1194) BLE_INIT: Bluetooth MAC: 10:20:ba:4d:f0:3e[0m
+[0;32mI (1194) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (1254) ble_beacon: Auto-calculated beacon offset: 600ms (MAC byte: 0x3C)[0m
+[0;32mI (1254) ble_beacon: Beacon config: base=1000ms, offset=600ms[0m
+[0;32mI (1264) ble_beacon: update: batt=0 mode=0 adv_int=1.60s (batt_chg=1 mode_chg=0 int_chg=1 first=1)[0m
+[0;32mI (1274) ble_beacon: adv data set complete[0m
+[0;32mI (1274) ble_beacon: configured adv data[0m
+[0;32mI (1274) ble_beacon: scan rsp set complete[0m
+[0;32mI (1284) ble_beacon: configured scan rsp[0m
+[0;32mI (1284) ble_beacon: adv started (interval min=2560 max=2560)[0m
+[0;32mI (1284) ble_beacon: restarted advertising[0m
+[0;32mI (1294) ble_gatt: GATTS register app_id=0 status=0[0m
+[0;32mI (1294) ble_gatt: Service created: handle=40 status=0[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=42[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=44[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=46[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=48[0m
+[0;32mI (1324) ble_gatt: GATT service initialized[0m
+[0;32mI (1324) logger: Node ID: 10:20:BA:4D:F0:3C (0x1020BA4DF03C)[0m
+[0;32mI (1444) logger: SPIFFS total=1920401 used=10793[0m
+[0;32mI (1444) sensor_config: No saved config found, using defaults (first boot)[0m
+[0;32mI (1444) main: Sensor config: audio_interval=300000ms, env_interval=60000ms[0m
+[0;32mI (1454) main: Node ID: 10:20:BA:4D:F0:3C[0m
+[0;32mI (1454) main: Storage: 10793/1920401 bytes (0.6% used)[0m
+[0;32mI (1464) main: wakeup cause: power-on or reset[0m
+[0;32mI (1464) battery: ADC calibration: curve fitting enabled[0m
+[0;32mI (1474) battery: Battery ADC init: unit=0 ch=3 atten=1 R1=220000 R2=100000 samples=32[0m
+[0;32mI (1474) pme: PME init batt=100% (fake enabled tick=1000ms drop=1%)[0m
+[0;32mI (1484) i2c_bus: Initializing I2C on SDA=8 SCL=9[0m
+[0;32mI (1494) sensors: BME280 init OK (id=0x60)[0m
+[0;32mI (1554) sensors: ENS160 init OK (PART_ID=0x0160)[0m
+[0;32mI (1564) sensors: GY-271 init OK (assumed QMC5883L @ 0x0D)[0m
+[0;32mI (1564) sensors: INA219 init OK (cfg=0x399F)[0m
+[0;32mI (1564) inmp441: Initialized: rate=16000Hz bits=16 pins(WS=5,SCK=6,SD=7)[0m
+[0;32mI (1564) sensors: Running sensors_raw_sanity_check...[0m
+[0;32mI (1574) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (1574) sensors: Presence -> BME280:1 AHT21:1 ENS160:1 GY-271:1 INA219:1 INMP441:1[0m
+[0;32mI (1584) sensors: BME280 chip id: 0x60[0m
+[0;32mI (1664) sensors: AHT21 raw: 18 95 11 26 8F D9[0m
+[0;32mI (1664) sensors: ENS160 raw[0]: 0x60[0m
+[0;32mI (1664) sensors: GY-271 raw XYZ: 2235 -1575 1345 | status: 0x04[0m
+[0;32mI (1664) sensors: INA219 cfg: 0x399F[0m
+[0;32mI (1664) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (1674) sensors: sensors_raw_sanity_check done.[0m
+[0;32mI (1874) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (1874) main: PME batt=8% mode=CRITICAL[0m
+[0;32mI (1874) ble_beacon: update: batt=8 mode=2 adv_int=10.60s (batt_chg=1 mode_chg=1 int_chg=1 first=0)[0m
+[0;32mI (1874) ble_beacon: configured adv data[0m
+[0;32mI (1884) ble_beacon: configured scan rsp[0m
+[0;32mI (1934) ble_beacon: stopped advertising[0m
+[0;32mI (1934) ble_beacon: restarted advertising[0m
+[0;33mW (1934) main: PME critical: entering deep sleep for 7200000 ms[0m
+[0;32mI (1934) logger: Flush start: 258 bytes[0m
+[0;32mI (1944) logger: Chunk written: RAW 258 bytes | CRC32=0x733D743C | Integrity: PASS[0m
+[0;32mI (1944) logger: Flush done[0m

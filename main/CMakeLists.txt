@@ -1,0 +1,30 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "ble_manager.c"
+        "metrics.c"
+        "neighbor_manager.c"
+        "election.c"
+        "auth.c"
+        "state_machine.c"
+        "persistence.c"
+        "esp_now_manager.c"
+        "led_manager.c"
+    INCLUDE_DIRS 
+        "."
+    PRIV_REQUIRES 
+        nvs_flash
+        spiffs
+        esp_wifi
+        bt
+        driver
+        esp_driver_gpio
+        esp_adc
+        esp_timer
+        freertos
+        mbedtls
+        esp_common
+        log
+)
+
+

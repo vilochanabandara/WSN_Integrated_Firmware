@@ -1,0 +1,1728 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools/idf_monitor.py -p COM3 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\user\Desktop\esp_project\ms_node\build\ms_node.elf C:\Users\user\Desktop\esp_project\ms_node\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5.1-2\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Jan  4 2026 03:53:28[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (76) boot:  3 storage          Unknown data     01 82 00210000 00c00000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=19e14h (106004) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00029e3c vaddr=3fc9d600 size=041f8h ( 16888) load[0m
+[0;32mI (115) esp_image: segment 2: paddr=0002e03c vaddr=40374000 size=01fdch (  8156) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=82500h (533760) map[0m
+[0;32mI (217) esp_image: segment 4: paddr=000b2528 vaddr=40375fdc size=175b8h ( 95672) load[0m
+[0;32mI (238) esp_image: segment 5: paddr=000c9ae8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (238) esp_image: segment 6: paddr=000c9b10 vaddr=600fe000 size=0006ch (   108) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (264) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (264) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (266) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (270) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (274) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (278) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (283) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (288) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (293) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (298) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (302) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (306) esp_psram: Speed: 40MHz[0m
+[0;32mI (309) cpu_start: Multicore app[0m
+[0;32mI (1043) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1052) cpu_start: Pro cpu start user code[0m
+[0;32mI (1052) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1053) app_init: Application information:[0m
+[0;32mI (1053) app_init: Project name:     ms_node[0m
+[0;32mI (1057) app_init: App version:      1[0m
+[0;32mI (1060) app_init: Compile time:     Jan  4 2026 04:13:18[0m
+[0;32mI (1065) app_init: ELF file SHA256:  394084842...[0m
+[0;32mI (1070) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (1074) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1078) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (1082) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (1086) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1092) heap_init: At 3FCA53B0 len 00044360 (272 KiB): RAM[0m
+[0;32mI (1097) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1102) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1108) heap_init: At 600FE06C len 00001F7C (7 KiB): RTCRAM[0m
+[0;32mI (1113) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1121) spi_flash: detected chip: generic[0m
+[0;32mI (1124) spi_flash: flash io: dio[0m
+[0;32mI (1127) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1133) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1140) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (1163) coexist: coexist rom version e7ae62f[0m
+[0;32mI (1164) main_task: Started on CPU0[0m
+[0;32mI (1174) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1174) main_task: Calling app_main()[0m
+[0;32mI (1184) BLE_INIT: BT controller compile version [2edb0b0][0m
+[0;32mI (1184) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (1184) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (1194) BLE_INIT: Bluetooth MAC: 10:20:ba:4d:f0:3e[0m
+[0;32mI (1194) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (1254) ble_beacon: Auto-calculated beacon offset: 600ms (MAC byte: 0x3C)[0m
+[0;32mI (1254) ble_beacon: Beacon config: base=1000ms, offset=600ms[0m
+[0;32mI (1264) ble_beacon: update: batt=0 mode=0 adv_int=1.60s (batt_chg=1 mode_chg=0 int_chg=1 first=1)[0m
+[0;32mI (1274) ble_beacon: adv data set complete[0m
+[0;32mI (1274) ble_beacon: configured adv data[0m
+[0;32mI (1274) ble_beacon: scan rsp set complete[0m
+[0;32mI (1284) ble_beacon: configured scan rsp[0m
+[0;32mI (1284) ble_beacon: adv started (interval min=2560 max=2560)[0m
+[0;32mI (1284) ble_beacon: restarted advertising[0m
+[0;32mI (1294) ble_gatt: GATTS register app_id=0 status=0[0m
+[0;32mI (1294) ble_gatt: Service created: handle=40 status=0[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=42[0m
+[0;32mI (1304) ble_gatt: Characteristic added: handle=44[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=46[0m
+[0;32mI (1314) ble_gatt: Characteristic added: handle=48[0m
+[0;32mI (1324) ble_gatt: GATT service initialized[0m
+[0;32mI (1324) logger: Node ID: 10:20:BA:4D:F0:3C (0x1020BA4DF03C)[0m
+[0;32mI (2024) logger: SPIFFS total=11558801 used=251[0m
+[0;32mI (2024) sensor_config: No saved config found, using defaults (first boot)[0m
+[0;32mI (2024) main: Sensor config: audio_interval=300000ms, env_interval=60000ms[0m
+[0;32mI (2024) main: Node ID: 10:20:BA:4D:F0:3C[0m
+[0;32mI (2034) main: Storage: 251/11558801 bytes (0.0% used)[0m
+[0;32mI (2034) main: wakeup cause: power-on or reset[0m
+[0;32mI (2044) battery: ADC calibration: curve fitting enabled[0m
+[0;32mI (2044) battery: Battery ADC init: unit=0 ch=3 atten=1 R1=220000 R2=100000 samples=32[0m
+[0;32mI (2054) pme: PME init batt=100% (fake enabled tick=1000ms drop=1%)[0m
+[0;32mI (2054) i2c_bus: Initializing I2C on SDA=8 SCL=9[0m
+[0;32mI (2064) sensors: BME280 init OK (id=0x60)[0m
+[0;32mI (2134) sensors: ENS160 init OK (PART_ID=0x0160)[0m
+[0;32mI (2144) sensors: GY-271 init OK (assumed QMC5883L @ 0x0D)[0m
+[0;32mI (2144) sensors: INA219 init OK (cfg=0x399F)[0m
+[0;32mI (2144) inmp441: Initialized: rate=16000Hz bits=16 pins(WS=5,SCK=6,SD=7)[0m
+[0;32mI (2144) sensors: Running sensors_raw_sanity_check...[0m
+[0;32mI (2154) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2154) sensors: Presence -> BME280:1 AHT21:1 ENS160:1 GY-271:1 INA219:1 INMP441:1[0m
+[0;32mI (2164) sensors: BME280 chip id: 0x60[0m
+[0;32mI (2244) sensors: AHT21 raw: 18 9D 4F 56 7E B6[0m
+[0;32mI (2244) sensors: ENS160 raw[0]: 0x60[0m
+[0;32mI (2244) sensors: GY-271 raw XYZ: 2830 -1170 1242 | status: 0x04[0m
+[0;32mI (2244) sensors: INA219 cfg: 0x399F[0m
+[0;32mI (2244) inmp441: INMP441 I2S check: initialized and ready (rate=16000Hz, bits=16)[0m
+[0;32mI (2254) sensors: sensors_raw_sanity_check done.[0m
+[0;32mI (2534) comp_bench: HUFF | json | in=219 out=377 ratio=1.721 comp=595us decomp=663us heap_drop=0 min_drop=13740[0m
+[0;32mI (2534) comp_bench: MINIZ | json | in=219 out=98 ratio=0.447 comp=934us decomp=732us heap_drop=0 min_drop=318708[0m
+[0;32mI (2544) comp_bench: HUFF | delta | in=25 out=276 ratio=11.040 comp=240us decomp=168us heap_drop=0 min_drop=20[0m
+[0;32mI (2554) comp_bench: MINIZ | delta | in=25 out=36 ratio=1.440 comp=347us decomp=29us heap_drop=0 min_drop=0[0m
+[0;32mI (2564) comp_bench: HUFF | audio | in=512 out=517 ratio=1.010 comp=1777us decomp=1424us heap_drop=0 min_drop=484[0m
+[0;32mI (2574) comp_bench: MINIZ | audio | in=512 out=115 ratio=0.225 comp=794us decomp=479us heap_drop=0 min_drop=336[0m
+[1;31mE (4764) logger: Failed to open log file for dumping[0m
+[0;32mI (5764) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (5764) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (5764) ble_beacon: update: batt=13 mode=1 adv_int=3.60s (batt_chg=1 mode_chg=1 int_chg=1 first=0)[0m
+[0;32mI (5774) ble_beacon: configured adv data[0m
+[0;32mI (5774) ble_beacon: configured scan rsp[0m
+[0;32mI (5824) ble_beacon: stopped advertising[0m
+[0;32mI (5824) ble_beacon: restarted advertising[0m
+[0;32mI (10824) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (10824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (15824) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (15824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (15824) main: INA219 bus=3.396 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (20824) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (20824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (25824) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (25824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (25824) main: INA219 bus=3.396 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (30824) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (30824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (35824) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (35824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (35824) main: INA219 bus=3.396 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (40824) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (40824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (45824) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (45824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (45824) main: INA219 bus=3.396 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (50824) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (50824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (55824) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (55824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (55824) main: INA219 bus=3.400 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (60824) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (60824) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (65824) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (65824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (65904) main: AHT21 T=31.29 C | H=61.10 %[0m
+[0;32mI (65904) main: INA219 bus=3.400 V | shunt=6.360 mV | i=63.6 mA[0m
+[0;32mI (70904) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (70904) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (75904) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (75904) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (75904) main: INA219 bus=3.396 V | shunt=7.560 mV | i=75.6 mA[0m
+[0;32mI (80904) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (80904) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (85904) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (85904) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (85904) main: INA219 bus=3.400 V | shunt=7.940 mV | i=79.4 mA[0m
+[0;32mI (90904) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (90904) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (95904) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (95904) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (95904) main: INA219 bus=3.396 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (100904) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (100904) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (105904) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (105904) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (105904) main: INA219 bus=3.396 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (110904) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (110904) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (115904) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (115904) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (115904) main: INA219 bus=3.396 V | shunt=7.960 mV | i=79.6 mA[0m
+[0;32mI (120904) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (120904) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (125904) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (125904) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (125984) main: AHT21 T=31.39 C | H=60.65 %[0m
+[0;32mI (125984) main: ENS160 status: 0x8B | AQI=1 | TVOC=30 ppb | eCO2=414 ppm[0m
+[0;32mI (125984) main: INA219 bus=3.400 V | shunt=7.440 mV | i=74.4 mA[0m
+[0;32mI (130994) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (130994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (135994) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (135994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (135994) main: INA219 bus=3.396 V | shunt=7.460 mV | i=74.6 mA[0m
+[0;32mI (140994) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (140994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (145994) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (145994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (145994) main: INA219 bus=3.396 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (150994) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (150994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (155994) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (155994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (155994) main: INA219 bus=3.396 V | shunt=8.000 mV | i=80.0 mA[0m
+[0;32mI (160994) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (160994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (165994) main: BAT vadc=1070mV vbat=3424mV pct=14%[0m
+[0;32mI (165994) main: PME batt=14% mode=POWER_SAVE[0m
+[0;32mI (165994) main: INA219 bus=3.396 V | shunt=7.670 mV | i=76.7 mA[0m
+[0;32mI (170994) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (170994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (175994) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (175994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (175994) main: INA219 bus=3.396 V | shunt=7.690 mV | i=76.9 mA[0m
+[0;32mI (180994) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (180994) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (185994) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (185994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (186074) main: AHT21 T=31.51 C | H=60.53 %[0m
+[0;32mI (186074) main: INA219 bus=3.400 V | shunt=6.390 mV | i=63.9 mA[0m
+[0;32mI (191074) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (191074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (196074) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (196074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (196074) main: INA219 bus=3.396 V | shunt=7.760 mV | i=77.6 mA[0m
+[0;32mI (201074) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (201074) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (206074) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (206074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (206074) main: INA219 bus=3.396 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (211074) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (211074) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (216074) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (216074) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (216074) main: INA219 bus=3.396 V | shunt=7.510 mV | i=75.1 mA[0m
+[0;32mI (221074) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (221074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (226074) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (226074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (226074) main: INA219 bus=3.396 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (231074) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (231074) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (236074) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (236074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (236074) main: INA219 bus=3.396 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (241074) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (241074) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (246074) main: BAT vadc=1071mV vbat=3427mV pct=14%[0m
+[0;32mI (246074) main: PME batt=14% mode=POWER_SAVE[0m
+[0;32mI (246154) main: AHT21 T=31.49 C | H=60.44 %[0m
+[0;32mI (246154) main: ENS160 status: 0x8B | AQI=1 | TVOC=34 ppb | eCO2=423 ppm[0m
+[0;32mI (246154) main: INA219 bus=3.400 V | shunt=7.540 mV | i=75.4 mA[0m
+[0;32mI (251164) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (251164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (256164) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (256164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (256164) main: INA219 bus=3.396 V | shunt=7.590 mV | i=75.9 mA[0m
+[0;32mI (261164) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (261164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (266164) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (266164) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (266164) main: INA219 bus=3.396 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (271164) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (271164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (276164) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (276164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (276164) main: INA219 bus=3.392 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (281164) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (281164) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (286164) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (286164) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (286164) main: INA219 bus=3.392 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (291164) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (291164) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (296164) main: BAT vadc=1069mV vbat=3420mV pct=13%[0m
+[0;32mI (296164) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (296164) main: INA219 bus=3.396 V | shunt=7.630 mV | i=76.3 mA[0m
+[0;32mI (301164) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (301164) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (306164) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (306164) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (306244) main: AHT21 T=31.59 C | H=60.18 %[0m
+[0;32mI (306244) main: INA219 bus=3.400 V | shunt=6.970 mV | i=69.7 mA[0m
+[0;32mI (311244) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (311244) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (316244) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (316244) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (316244) main: INA219 bus=3.396 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (316244) logger: Flush start: 16206 bytes[0m
+[0;32mI (317354) logger: Log file size: 16242 bytes[0m
+[0;32mI (317354) logger: Chunk written: RAW 16206 bytes | CRC32=0x7DA15E25 | Integrity: PASS[0m
+[0;32mI (317354) logger: Flush done[0m
+[0;32mI (322364) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (322364) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (327364) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (327364) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (327364) main: INA219 bus=3.392 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (332364) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (332364) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (337364) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (337364) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (337364) main: INA219 bus=3.392 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (342364) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (342364) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (347364) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (347364) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (347364) main: INA219 bus=3.396 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (352364) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (352364) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (357364) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (357364) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (357364) main: INA219 bus=3.392 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (362364) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (362364) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (367364) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (367364) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (367444) main: AHT21 T=31.70 C | H=59.88 %[0m
+[0;32mI (367444) main: ENS160 status: 0x8B | AQI=1 | TVOC=28 ppb | eCO2=410 ppm[0m
+[0;32mI (367444) main: INA219 bus=3.396 V | shunt=7.330 mV | i=73.3 mA[0m
+[0;32mI (372454) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (372454) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (377454) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (377454) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (377454) main: INA219 bus=3.396 V | shunt=7.650 mV | i=76.5 mA[0m
+[0;32mI (382454) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (382454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (387454) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (387454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (387454) main: INA219 bus=3.396 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (392454) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (392454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (397454) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (397454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (397454) main: INA219 bus=3.396 V | shunt=7.640 mV | i=76.4 mA[0m
+[0;32mI (402454) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (402454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (407454) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (407454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (407454) main: INA219 bus=3.396 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (412454) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (412454) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (417454) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (417454) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (417454) main: INA219 bus=3.396 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (422454) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (422454) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (427454) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (427454) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (427534) main: AHT21 T=31.72 C | H=59.81 %[0m
+[0;32mI (427534) main: INA219 bus=3.400 V | shunt=6.830 mV | i=68.3 mA[0m
+[0;32mI (432534) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (432534) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (437534) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (437534) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (437534) main: INA219 bus=3.396 V | shunt=8.000 mV | i=80.0 mA[0m
+[0;32mI (442534) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (442534) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (447534) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (447534) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (447534) main: INA219 bus=3.396 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (452534) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (452534) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (457534) main: BAT vadc=1071mV vbat=3427mV pct=14%[0m
+[0;32mI (457534) main: PME batt=14% mode=POWER_SAVE[0m
+[0;32mI (457534) main: INA219 bus=3.396 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (462534) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (462534) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (467534) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (467534) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (467534) main: INA219 bus=3.396 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (472534) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (472534) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (477534) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (477534) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (477534) main: INA219 bus=3.396 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (482534) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (482534) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (487534) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (487534) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (487614) main: AHT21 T=31.71 C | H=59.69 %[0m
+[0;32mI (487614) main: ENS160 status: 0x8B | AQI=1 | TVOC=21 ppb | eCO2=400 ppm[0m
+[0;32mI (487614) main: INA219 bus=3.396 V | shunt=7.250 mV | i=72.5 mA[0m
+[0;32mI (492624) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (492624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (497624) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (497624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (497624) main: INA219 bus=3.392 V | shunt=7.620 mV | i=76.2 mA[0m
+[0;32mI (502624) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (502624) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (507624) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (507624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (507624) main: INA219 bus=3.396 V | shunt=7.460 mV | i=74.6 mA[0m
+[0;32mI (512624) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (512624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (517624) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (517624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (517624) main: INA219 bus=3.392 V | shunt=7.780 mV | i=77.8 mA[0m
+[0;32mI (522624) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (522624) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (527624) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (527624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (527624) main: INA219 bus=3.392 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (532624) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (532624) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (537624) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (537624) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (537624) main: INA219 bus=3.392 V | shunt=7.570 mV | i=75.7 mA[0m
+[0;32mI (542624) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (542624) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (547624) main: BAT vadc=1069mV vbat=3420mV pct=13%[0m
+[0;32mI (547624) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (547704) main: AHT21 T=31.61 C | H=59.81 %[0m
+[0;32mI (547704) main: INA219 bus=3.400 V | shunt=6.500 mV | i=65.0 mA[0m
+[0;32mI (552704) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (552704) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (557704) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (557704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (557704) main: INA219 bus=3.392 V | shunt=8.020 mV | i=80.2 mA[0m
+[0;32mI (562704) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (562704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (567704) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (567704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (567704) main: INA219 bus=3.392 V | shunt=8.060 mV | i=80.6 mA[0m
+[0;32mI (572704) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (572704) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (577704) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (577704) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (577704) main: INA219 bus=3.392 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (582704) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (582704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (587704) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (587704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (587704) main: INA219 bus=3.392 V | shunt=7.930 mV | i=79.3 mA[0m
+[0;32mI (592704) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (592704) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (597704) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (597704) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (597704) main: INA219 bus=3.396 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (602704) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (602704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (607704) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (607704) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (607784) main: AHT21 T=31.72 C | H=59.62 %[0m
+[0;32mI (607784) main: ENS160 status: 0x8B | AQI=1 | TVOC=34 ppb | eCO2=423 ppm[0m
+[0;32mI (607784) main: INA219 bus=3.396 V | shunt=7.440 mV | i=74.4 mA[0m
+[0;32mI (612794) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (612794) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (617794) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (617794) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (617794) main: INA219 bus=3.392 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (622794) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (622794) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (627794) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (627794) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (627794) main: INA219 bus=3.392 V | shunt=7.920 mV | i=79.2 mA[0m
+[0;32mI (627794) logger: Flush start: 16232 bytes[0m
+[0;32mI (627964) logger: Log file size: 32510 bytes[0m
+[0;32mI (627964) logger: Chunk written: RAW 16232 bytes | CRC32=0xD30FFD6F | Integrity: PASS[0m
+[0;32mI (627964) logger: Flush done[0m
+[0;32mI (632964) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (632964) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (637964) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (637964) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (637964) main: INA219 bus=3.392 V | shunt=7.630 mV | i=76.3 mA[0m
+[0;32mI (642964) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (642964) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (647964) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (647964) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (647964) main: INA219 bus=3.388 V | shunt=7.690 mV | i=76.9 mA[0m
+[0;32mI (652964) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (652964) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (657964) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (657964) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (657964) main: INA219 bus=3.392 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (662964) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (662964) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (667964) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (667964) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (668044) main: AHT21 T=31.67 C | H=59.64 %[0m
+[0;32mI (668044) main: INA219 bus=3.396 V | shunt=7.520 mV | i=75.2 mA[0m
+[0;32mI (673044) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (673044) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (678044) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (678044) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (678044) main: INA219 bus=3.392 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (683044) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (683044) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (688044) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (688044) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (688044) main: INA219 bus=3.392 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (693044) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (693044) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (698044) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (698044) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (698044) main: INA219 bus=3.392 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (703044) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (703044) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (708044) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (708044) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (708044) main: INA219 bus=3.388 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (713044) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (713044) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (718044) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (718044) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (718044) main: INA219 bus=3.388 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (723044) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (723044) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (728044) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (728044) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (728124) main: AHT21 T=31.73 C | H=59.52 %[0m
+[0;32mI (728124) main: ENS160 status: 0x8B | AQI=1 | TVOC=26 ppb | eCO2=406 ppm[0m
+[0;32mI (728124) main: INA219 bus=3.392 V | shunt=7.580 mV | i=75.8 mA[0m
+[0;32mI (733134) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (733134) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (738134) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (738134) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (738134) main: INA219 bus=3.392 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (743134) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (743134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (748134) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (748134) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (748134) main: INA219 bus=3.392 V | shunt=8.020 mV | i=80.2 mA[0m
+[0;32mI (753134) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (753134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (758134) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (758134) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (758134) main: INA219 bus=3.392 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (763134) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (763134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (768134) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (768134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (768134) main: INA219 bus=3.388 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (773134) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (773134) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (778134) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (778134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (778134) main: INA219 bus=3.392 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (783134) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (783134) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (788134) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (788134) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (788214) main: AHT21 T=31.69 C | H=59.58 %[0m
+[0;32mI (788214) main: INA219 bus=3.392 V | shunt=7.090 mV | i=70.9 mA[0m
+[0;32mI (793214) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (793214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (798214) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (798214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (798214) main: INA219 bus=3.388 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (803214) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (803214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (808214) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (808214) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (808214) main: INA219 bus=3.388 V | shunt=7.630 mV | i=76.3 mA[0m
+[0;32mI (813214) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (813214) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (818214) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (818214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (818214) main: INA219 bus=3.392 V | shunt=7.690 mV | i=76.9 mA[0m
+[0;32mI (823214) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (823214) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (828214) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (828214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (828214) main: INA219 bus=3.392 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (833214) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (833214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (838214) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (838214) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (838214) main: INA219 bus=3.388 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (843214) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (843214) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (848214) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (848214) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (848294) main: AHT21 T=31.83 C | H=59.52 %[0m
+[0;32mI (848294) main: ENS160 status: 0x8B | AQI=1 | TVOC=38 ppb | eCO2=432 ppm[0m
+[0;32mI (848294) main: INA219 bus=3.392 V | shunt=7.370 mV | i=73.7 mA[0m
+[0;32mI (853304) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (853304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (858304) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (858304) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (858304) main: INA219 bus=3.388 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (863304) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (863304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (868304) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (868304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (868304) main: INA219 bus=3.388 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (873304) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (873304) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (878304) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (878304) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (878304) main: INA219 bus=3.392 V | shunt=7.930 mV | i=79.3 mA[0m
+[0;32mI (883304) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (883304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (888304) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (888304) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (888304) main: INA219 bus=3.388 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (893304) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (893304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (898304) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (898304) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (898304) main: INA219 bus=3.388 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (903304) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (903304) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (908304) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (908304) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (908384) main: AHT21 T=31.93 C | H=59.54 %[0m
+[0;32mI (908384) main: INA219 bus=3.392 V | shunt=7.060 mV | i=70.6 mA[0m
+[0;32mI (913384) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (913384) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (918384) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (918384) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (918384) main: INA219 bus=3.392 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (923384) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (923384) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (928384) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (928384) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (928384) main: INA219 bus=3.388 V | shunt=7.560 mV | i=75.6 mA[0m
+[0;32mI (933384) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (933384) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (938384) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (938384) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (938384) main: INA219 bus=3.388 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (938384) logger: Flush start: 16229 bytes[0m
+[0;32mI (938844) logger: Log file size: 48775 bytes[0m
+[0;32mI (938844) logger: Chunk written: RAW 16229 bytes | CRC32=0x7C0B2B4F | Integrity: PASS[0m
+[0;32mI (938844) logger: Flush done[0m
+[0;32mI (943854) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (943854) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (948854) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (948854) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (948854) main: INA219 bus=3.388 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (953854) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (953854) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (958854) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (958854) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (958854) main: INA219 bus=3.388 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (963854) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (963854) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (968854) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (968854) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (968934) main: AHT21 T=31.94 C | H=58.97 %[0m
+[0;32mI (968934) main: ENS160 status: 0x8B | AQI=1 | TVOC=30 ppb | eCO2=415 ppm[0m
+[0;32mI (968934) main: INA219 bus=3.392 V | shunt=7.180 mV | i=71.8 mA[0m
+[0;32mI (973944) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (973944) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (978944) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (978944) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (978944) main: INA219 bus=3.388 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (983944) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (983944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (988944) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (988944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (988944) main: INA219 bus=3.388 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (993944) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (993944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (998944) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (998944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (998944) main: INA219 bus=3.392 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (1003944) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1003944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1008944) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1008944) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1008944) main: INA219 bus=3.388 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1013944) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1013944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1018944) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1018944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1018944) main: INA219 bus=3.388 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (1023944) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1023944) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1028944) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1028944) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1029024) main: AHT21 T=31.90 C | H=58.97 %[0m
+[0;32mI (1029024) main: INA219 bus=3.392 V | shunt=6.440 mV | i=64.4 mA[0m
+[0;32mI (1034024) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1034024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1039024) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (1039024) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1039024) main: INA219 bus=3.388 V | shunt=7.590 mV | i=75.9 mA[0m
+[0;32mI (1044024) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1044024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1049024) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (1049024) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (1049024) main: INA219 bus=3.388 V | shunt=7.640 mV | i=76.4 mA[0m
+[0;32mI (1054024) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1054024) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1059024) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1059024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1059024) main: INA219 bus=3.388 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (1064024) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1064024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1069024) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1069024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1069024) main: INA219 bus=3.388 V | shunt=7.600 mV | i=76.0 mA[0m
+[0;32mI (1074024) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (1074024) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (1079024) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1079024) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1079024) main: INA219 bus=3.388 V | shunt=7.450 mV | i=74.5 mA[0m
+[0;32mI (1084024) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (1084024) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1089024) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (1089024) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1089104) main: AHT21 T=31.83 C | H=59.19 %[0m
+[0;32mI (1089104) main: ENS160 status: 0x8B | AQI=1 | TVOC=31 ppb | eCO2=417 ppm[0m
+[0;32mI (1089104) main: INA219 bus=3.388 V | shunt=7.420 mV | i=74.2 mA[0m
+[0;32mI (1094114) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1094114) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1099114) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1099114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1099114) main: INA219 bus=3.388 V | shunt=5.930 mV | i=59.3 mA[0m
+[0;32mI (1104114) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (1104114) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1109114) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1109114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1109114) main: INA219 bus=3.388 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (1114114) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1114114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1119114) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1119114) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1119114) main: INA219 bus=3.388 V | shunt=7.620 mV | i=76.2 mA[0m
+[0;32mI (1124114) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1124114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1129114) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1129114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1129114) main: INA219 bus=3.388 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (1134114) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1134114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1139114) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1139114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1139114) main: INA219 bus=3.388 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (1144114) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1144114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1149114) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1149114) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1149194) main: AHT21 T=31.89 C | H=59.17 %[0m
+[0;32mI (1149194) main: INA219 bus=3.388 V | shunt=7.160 mV | i=71.6 mA[0m
+[0;32mI (1154194) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (1154194) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1159194) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1159194) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1159194) main: INA219 bus=3.392 V | shunt=7.760 mV | i=77.6 mA[0m
+[0;32mI (1164194) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1164194) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1169194) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1169194) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1169194) main: INA219 bus=3.388 V | shunt=7.710 mV | i=77.1 mA[0m
+[0;32mI (1174194) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (1174194) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1179194) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1179194) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1179194) main: INA219 bus=3.388 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1184194) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1184194) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1189194) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1189194) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1189194) main: INA219 bus=3.388 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (1194194) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1194194) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1199194) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1199194) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1199194) main: INA219 bus=3.388 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (1204194) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1204194) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1209194) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1209194) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1209274) main: AHT21 T=31.75 C | H=59.34 %[0m
+[0;32mI (1209274) main: ENS160 status: 0x8B | AQI=1 | TVOC=24 ppb | eCO2=400 ppm[0m
+[0;32mI (1209274) main: INA219 bus=3.388 V | shunt=7.500 mV | i=75.0 mA[0m
+[0;32mI (1214284) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1214284) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1219284) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1219284) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1219284) main: INA219 bus=3.388 V | shunt=7.760 mV | i=77.6 mA[0m
+[0;32mI (1224284) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1224284) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1229284) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1229284) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1229284) main: INA219 bus=3.384 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (1234284) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1234284) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1239284) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1239284) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1239284) main: INA219 bus=3.388 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (1244284) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1244284) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1249284) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1249284) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1249284) main: INA219 bus=3.388 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (1249284) logger: Flush start: 16281 bytes[0m
+[0;32mI (1249764) logger: Log file size: 65092 bytes[0m
+[0;32mI (1249764) logger: Chunk written: RAW 16281 bytes | CRC32=0xAC4C148C | Integrity: PASS[0m
+[0;32mI (1249764) logger: Flush done[0m
+[0;32mI (1254764) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1254764) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1259764) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1259764) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1259764) main: INA219 bus=3.388 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (1264764) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1264764) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1269764) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1269764) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1269844) main: AHT21 T=31.86 C | H=59.12 %[0m
+[0;32mI (1269844) main: INA219 bus=3.388 V | shunt=7.200 mV | i=72.0 mA[0m
+[0;32mI (1274844) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1274844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1279844) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1279844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1279844) main: INA219 bus=3.388 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1284844) main: BAT vadc=1066mV vbat=3411mV pct=12%[0m
+[0;32mI (1284844) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1289844) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1289844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1289844) main: INA219 bus=3.388 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (1294844) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1294844) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1299844) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1299844) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1299844) main: INA219 bus=3.388 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (1304844) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1304844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1309844) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1309844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1309844) main: INA219 bus=3.388 V | shunt=7.930 mV | i=79.3 mA[0m
+[0;32mI (1314844) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1314844) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1319844) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1319844) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1319844) main: INA219 bus=3.388 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (1324844) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1324844) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1329844) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1329844) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1329924) main: AHT21 T=31.88 C | H=59.10 %[0m
+[0;32mI (1329924) main: ENS160 status: 0x8B | AQI=1 | TVOC=36 ppb | eCO2=427 ppm[0m
+[0;32mI (1329924) main: INA219 bus=3.388 V | shunt=7.320 mV | i=73.2 mA[0m
+[0;32mI (1334934) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1334934) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1339934) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1339934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1339934) main: INA219 bus=3.388 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (1344934) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1344934) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1349934) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1349934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1349934) main: INA219 bus=3.388 V | shunt=7.800 mV | i=78.0 mA[0m
+[0;32mI (1354934) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1354934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1359934) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1359934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1359934) main: INA219 bus=3.384 V | shunt=7.490 mV | i=74.9 mA[0m
+[0;32mI (1364934) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1364934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1369934) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1369934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1369934) main: INA219 bus=3.384 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (1374934) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1374934) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1379934) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1379934) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1379934) main: INA219 bus=3.384 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (1384934) main: BAT vadc=1068mV vbat=3417mV pct=13%[0m
+[0;32mI (1384934) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (1389934) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1389934) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1390014) main: AHT21 T=31.77 C | H=59.26 %[0m
+[0;32mI (1390014) main: INA219 bus=3.388 V | shunt=7.080 mV | i=70.8 mA[0m
+[0;32mI (1395014) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1395014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1400014) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1400014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1400014) main: INA219 bus=3.384 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (1405014) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1405014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1410014) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1410014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1410014) main: INA219 bus=3.384 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (1415014) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1415014) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1420014) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1420014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1420014) main: INA219 bus=3.388 V | shunt=7.940 mV | i=79.4 mA[0m
+[0;32mI (1425014) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1425014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1430014) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1430014) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1430014) main: INA219 bus=3.384 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (1435014) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1435014) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1440014) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1440014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1440014) main: INA219 bus=3.384 V | shunt=7.980 mV | i=79.8 mA[0m
+[0;32mI (1445014) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1445014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1450014) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1450014) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1450094) main: AHT21 T=31.87 C | H=59.16 %[0m
+[0;32mI (1450094) main: ENS160 status: 0x8B | AQI=1 | TVOC=38 ppb | eCO2=432 ppm[0m
+[0;32mI (1450094) main: INA219 bus=3.384 V | shunt=7.270 mV | i=72.7 mA[0m
+[0;32mI (1455104) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1455104) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1460104) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1460104) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1460104) main: INA219 bus=3.384 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (1465104) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1465104) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1470104) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1470104) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1470104) main: INA219 bus=3.384 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1475104) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1475104) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1480104) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1480104) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1480104) main: INA219 bus=3.388 V | shunt=7.690 mV | i=76.9 mA[0m
+[0;32mI (1485104) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1485104) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1490104) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1490104) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1490104) main: INA219 bus=3.384 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1495104) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1495104) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1500104) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1500104) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1500104) main: INA219 bus=3.388 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (1505104) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1505104) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1510104) main: BAT vadc=1067mV vbat=3414mV pct=13%[0m
+[0;32mI (1510104) main: PME batt=13% mode=POWER_SAVE[0m
+[0;32mI (1510184) main: AHT21 T=31.80 C | H=59.42 %[0m
+[0;32mI (1510184) main: INA219 bus=3.388 V | shunt=7.310 mV | i=73.1 mA[0m
+[0;32mI (1515184) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1515184) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1520184) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1520184) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1520184) main: INA219 bus=3.384 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (1525184) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1525184) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1530184) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1530184) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1530184) main: INA219 bus=3.384 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (1535184) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1535184) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1540184) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1540184) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1540184) main: INA219 bus=3.380 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (1545184) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1545184) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1550184) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1550184) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1550184) main: INA219 bus=3.384 V | shunt=7.660 mV | i=76.6 mA[0m
+[0;32mI (1555184) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1555184) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1560184) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1560184) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1560184) main: INA219 bus=3.384 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (1560184) logger: Flush start: 16291 bytes[0m
+[0;32mI (1560644) logger: Log file size: 81419 bytes[0m
+[0;32mI (1560644) logger: Chunk written: RAW 16291 bytes | CRC32=0x54A591AC | Integrity: PASS[0m
+[0;32mI (1560644) logger: Flush done[0m
+[0;32mI (1565654) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1565654) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1570654) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1570654) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1570734) main: AHT21 T=31.92 C | H=59.24 %[0m
+[0;32mI (1570734) main: ENS160 status: 0x8B | AQI=1 | TVOC=32 ppb | eCO2=418 ppm[0m
+[0;32mI (1570734) main: INA219 bus=3.384 V | shunt=7.510 mV | i=75.1 mA[0m
+[0;32mI (1575744) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1575744) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1580744) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (1580744) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (1580744) main: INA219 bus=3.384 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (1585744) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1585744) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1590744) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1590744) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1590744) main: INA219 bus=3.380 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (1595744) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1595744) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1600744) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1600744) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1600744) main: INA219 bus=3.384 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (1605744) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1605744) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1610744) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1610744) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1610744) main: INA219 bus=3.384 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (1615744) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1615744) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1620744) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1620744) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1620744) main: INA219 bus=3.380 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (1625744) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1625744) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1630744) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1630744) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1630824) main: AHT21 T=32.02 C | H=59.00 %[0m
+[0;32mI (1630824) main: INA219 bus=3.384 V | shunt=7.560 mV | i=75.6 mA[0m
+[0;32mI (1635824) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1635824) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1640824) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1640824) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1640824) main: INA219 bus=3.384 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1645824) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1645824) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1650824) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1650824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1650824) main: INA219 bus=3.380 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (1655824) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1655824) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1660824) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1660824) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1660824) main: INA219 bus=3.384 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (1665824) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1665824) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1670824) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1670824) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1670824) main: INA219 bus=3.380 V | shunt=7.970 mV | i=79.7 mA[0m
+[0;32mI (1675824) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1675824) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1680824) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1680824) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1680824) main: INA219 bus=3.380 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (1685824) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1685824) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1690824) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1690824) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1690904) main: AHT21 T=32.09 C | H=58.77 %[0m
+[0;32mI (1690904) main: ENS160 status: 0x8B | AQI=1 | TVOC=46 ppb | eCO2=450 ppm[0m
+[0;32mI (1690904) main: INA219 bus=3.380 V | shunt=7.570 mV | i=75.7 mA[0m
+[0;32mI (1695914) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1695914) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1700914) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1700914) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1700914) main: INA219 bus=3.384 V | shunt=7.930 mV | i=79.3 mA[0m
+[0;32mI (1705914) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1705914) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1710914) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1710914) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1710914) main: INA219 bus=3.380 V | shunt=8.180 mV | i=81.8 mA[0m
+[0;32mI (1715914) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1715914) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1720914) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1720914) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1720914) main: INA219 bus=3.384 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (1725914) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1725914) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1730914) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1730914) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1730914) main: INA219 bus=3.376 V | shunt=7.610 mV | i=76.1 mA[0m
+[0;32mI (1735914) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1735914) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1740914) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1740914) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1740914) main: INA219 bus=3.380 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (1745914) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1745914) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1750914) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1750914) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1750994) main: AHT21 T=32.07 C | H=58.83 %[0m
+[0;32mI (1750994) main: INA219 bus=3.380 V | shunt=7.230 mV | i=72.3 mA[0m
+[0;32mI (1755994) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1755994) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1760994) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1760994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1760994) main: INA219 bus=3.380 V | shunt=7.780 mV | i=77.8 mA[0m
+[0;32mI (1765994) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1765994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1770994) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1770994) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1770994) main: INA219 bus=3.380 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (1775994) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1775994) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1780994) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1780994) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1780994) main: INA219 bus=3.380 V | shunt=7.780 mV | i=77.8 mA[0m
+[0;32mI (1785994) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1785994) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1790994) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1790994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1790994) main: INA219 bus=3.380 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (1795994) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1795994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1800994) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1800994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1800994) main: INA219 bus=3.380 V | shunt=7.970 mV | i=79.7 mA[0m
+[0;32mI (1805994) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1805994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1810994) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1810994) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1811074) main: AHT21 T=32.11 C | H=58.82 %[0m
+[0;32mI (1811074) main: ENS160 status: 0x8B | AQI=1 | TVOC=48 ppb | eCO2=453 ppm[0m
+[0;32mI (1811074) main: INA219 bus=3.380 V | shunt=7.500 mV | i=75.0 mA[0m
+[0;32mI (1816084) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1816084) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1821084) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1821084) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1821084) main: INA219 bus=3.380 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (1826084) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1826084) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1831084) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1831084) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1831084) main: INA219 bus=3.380 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (1836084) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1836084) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1841084) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1841084) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1841084) main: INA219 bus=3.380 V | shunt=7.580 mV | i=75.8 mA[0m
+[0;32mI (1846084) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1846084) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1851084) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1851084) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1851084) main: INA219 bus=3.380 V | shunt=7.760 mV | i=77.6 mA[0m
+[0;32mI (1856084) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1856084) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1861084) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (1861084) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (1861084) main: INA219 bus=3.380 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (1866084) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1866084) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1871084) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (1871084) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1871164) main: AHT21 T=32.07 C | H=58.70 %[0m
+[0;32mI (1871164) main: INA219 bus=3.380 V | shunt=6.600 mV | i=66.0 mA[0m
+[0;32mI (1871164) logger: Flush start: 16294 bytes[0m
+[0;32mI (1871634) logger: Log file size: 97749 bytes[0m
+[0;32mI (1871634) logger: Chunk written: RAW 16294 bytes | CRC32=0x55B687A4 | Integrity: PASS[0m
+[0;32mI (1871634) logger: Flush done[0m
+[0;32mI (1876634) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1876634) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1881634) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1881634) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1881634) main: INA219 bus=3.380 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (1886634) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1886634) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1891634) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1891634) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1891634) main: INA219 bus=3.380 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (1896634) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (1896634) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1901634) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1901634) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1901634) main: INA219 bus=3.376 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (1906634) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1906634) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1911634) main: BAT vadc=1065mV vbat=3408mV pct=12%[0m
+[0;32mI (1911634) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1911634) main: INA219 bus=3.380 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (1916634) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (1916634) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (1921634) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (1921634) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1921634) main: INA219 bus=3.376 V | shunt=7.920 mV | i=79.2 mA[0m
+[0;32mI (1926634) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1926634) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1931634) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1931634) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1931714) main: AHT21 T=32.15 C | H=58.57 %[0m
+[0;32mI (1931714) main: ENS160 status: 0x8B | AQI=1 | TVOC=29 ppb | eCO2=412 ppm[0m
+[0;32mI (1931714) main: INA219 bus=3.380 V | shunt=7.390 mV | i=73.9 mA[0m
+[0;32mI (1936724) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1936724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1941724) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1941724) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1941724) main: INA219 bus=3.380 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (1946724) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1946724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1951724) main: BAT vadc=1064mV vbat=3404mV pct=12%[0m
+[0;32mI (1951724) main: PME batt=12% mode=POWER_SAVE[0m
+[0;32mI (1951724) main: INA219 bus=3.380 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (1956724) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1956724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1961724) main: BAT vadc=1063mV vbat=3401mV pct=11%[0m
+[0;32mI (1961724) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1961724) main: INA219 bus=3.376 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (1966724) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (1966724) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (1971724) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (1971724) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1971724) main: INA219 bus=3.376 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (1976724) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (1976724) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (1981724) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1981724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1981724) main: INA219 bus=3.376 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (1986724) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1986724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1991724) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (1991724) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (1991804) main: AHT21 T=32.13 C | H=58.70 %[0m
+[0;32mI (1991804) main: INA219 bus=3.380 V | shunt=7.160 mV | i=71.6 mA[0m
+[0;32mI (1996804) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (1996804) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2001804) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (2001804) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2001804) main: INA219 bus=3.380 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (2006804) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2006804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2011804) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2011804) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2011804) main: INA219 bus=3.372 V | shunt=7.640 mV | i=76.4 mA[0m
+[0;32mI (2016804) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2016804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2021804) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2021804) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2021804) main: INA219 bus=3.376 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (2026804) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2026804) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2031804) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2031804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2031804) main: INA219 bus=3.376 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2036804) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2036804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2041804) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2041804) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2041804) main: INA219 bus=3.376 V | shunt=7.680 mV | i=76.8 mA[0m
+[0;32mI (2046804) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2046804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2051804) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2051804) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2051884) main: AHT21 T=32.22 C | H=58.50 %[0m
+[0;32mI (2051884) main: ENS160 status: 0x8B | AQI=1 | TVOC=49 ppb | eCO2=455 ppm[0m
+[0;32mI (2051884) main: INA219 bus=3.380 V | shunt=7.200 mV | i=72.0 mA[0m
+[0;32mI (2056894) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (2056894) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2061894) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2061894) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2061894) main: INA219 bus=3.376 V | shunt=7.660 mV | i=76.6 mA[0m
+[0;32mI (2066894) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2066894) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2071894) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2071894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2071894) main: INA219 bus=3.376 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (2076894) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2076894) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2081894) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2081894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2081894) main: INA219 bus=3.380 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (2086894) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2086894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2091894) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2091894) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2091894) main: INA219 bus=3.376 V | shunt=7.570 mV | i=75.7 mA[0m
+[0;32mI (2096894) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2096894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2101894) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2101894) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2101894) main: INA219 bus=3.376 V | shunt=7.960 mV | i=79.6 mA[0m
+[0;32mI (2106894) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2106894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2111894) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2111894) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2111974) main: AHT21 T=32.00 C | H=58.89 %[0m
+[0;32mI (2111974) main: INA219 bus=3.380 V | shunt=6.350 mV | i=63.5 mA[0m
+[0;32mI (2116974) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2116974) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2121974) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2121974) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2121974) main: INA219 bus=3.372 V | shunt=7.710 mV | i=77.1 mA[0m
+[0;32mI (2126974) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2126974) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2131974) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2131974) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2131974) main: INA219 bus=3.380 V | shunt=7.940 mV | i=79.4 mA[0m
+[0;32mI (2136974) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2136974) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2141974) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (2141974) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2141974) main: INA219 bus=3.376 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2146974) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2146974) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2151974) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2151974) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2151974) main: INA219 bus=3.372 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (2156974) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2156974) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2161974) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2161974) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2161974) main: INA219 bus=3.376 V | shunt=7.640 mV | i=76.4 mA[0m
+[0;32mI (2166974) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2166974) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2171974) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2171974) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2172054) main: AHT21 T=31.97 C | H=58.94 %[0m
+[0;32mI (2172054) main: ENS160 status: 0x8B | AQI=1 | TVOC=46 ppb | eCO2=448 ppm[0m
+[0;32mI (2172054) main: INA219 bus=3.376 V | shunt=7.420 mV | i=74.2 mA[0m
+[0;32mI (2177064) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2177064) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2182064) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2182064) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2182064) main: INA219 bus=3.376 V | shunt=7.620 mV | i=76.2 mA[0m
+[0;32mI (2182064) logger: Flush start: 16296 bytes[0m
+[0;32mI (2182524) logger: Log file size: 114081 bytes[0m
+[0;32mI (2182524) logger: Chunk written: RAW 16296 bytes | CRC32=0x318201BC | Integrity: PASS[0m
+[0;32mI (2182524) logger: Flush done[0m
+[0;32mI (2187534) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2187534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2192534) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2192534) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2192534) main: INA219 bus=3.376 V | shunt=7.920 mV | i=79.2 mA[0m
+[0;32mI (2197534) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2197534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2202534) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2202534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2202534) main: INA219 bus=3.372 V | shunt=7.670 mV | i=76.7 mA[0m
+[0;32mI (2207534) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2207534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2212534) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2212534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2212534) main: INA219 bus=3.372 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (2217534) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2217534) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2222534) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2222534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2222534) main: INA219 bus=3.376 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (2227534) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2227534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2232534) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2232534) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2232614) main: AHT21 T=32.07 C | H=58.73 %[0m
+[0;32mI (2232614) main: INA219 bus=3.376 V | shunt=7.180 mV | i=71.8 mA[0m
+[0;32mI (2237614) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2237614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2242614) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2242614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2242614) main: INA219 bus=3.372 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (2247614) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2247614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2252614) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2252614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2252614) main: INA219 bus=3.372 V | shunt=7.590 mV | i=75.9 mA[0m
+[0;32mI (2257614) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2257614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2262614) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2262614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2262614) main: INA219 bus=3.376 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2267614) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2267614) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2272614) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2272614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2272614) main: INA219 bus=3.376 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2277614) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2277614) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2282614) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2282614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2282614) main: INA219 bus=3.372 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (2287614) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2287614) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2292614) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2292614) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2292694) main: AHT21 T=32.12 C | H=58.69 %[0m
+[0;32mI (2292694) main: ENS160 status: 0x8B | AQI=1 | TVOC=49 ppb | eCO2=455 ppm[0m
+[0;32mI (2292694) main: INA219 bus=3.376 V | shunt=7.550 mV | i=75.5 mA[0m
+[0;32mI (2297704) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2297704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2302704) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2302704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2302704) main: INA219 bus=3.372 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (2307704) main: BAT vadc=1051mV vbat=3363mV pct=7%[0m
+[0;32mI (2307704) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2312704) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2312704) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2312704) main: INA219 bus=3.376 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (2317704) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2317704) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2322704) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2322704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2322704) main: INA219 bus=3.372 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (2327704) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2327704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2332704) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2332704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2332704) main: INA219 bus=3.372 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2337704) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2337704) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2342704) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2342704) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2342704) main: INA219 bus=3.380 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (2347704) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2347704) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2352704) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2352704) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2352784) main: AHT21 T=32.14 C | H=58.83 %[0m
+[0;32mI (2352784) main: INA219 bus=3.372 V | shunt=6.990 mV | i=69.9 mA[0m
+[0;32mI (2357784) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2357784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2362784) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2362784) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2362784) main: INA219 bus=3.372 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (2367784) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2367784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2372784) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2372784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2372784) main: INA219 bus=3.376 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2377784) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2377784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2382784) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2382784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2382784) main: INA219 bus=3.384 V | shunt=6.630 mV | i=66.3 mA[0m
+[0;32mI (2387784) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2387784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2392784) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2392784) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2392784) main: INA219 bus=3.376 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (2397784) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2397784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2402784) main: BAT vadc=1059mV vbat=3388mV pct=10%[0m
+[0;32mI (2402784) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2402784) main: INA219 bus=3.372 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2407784) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2407784) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2412784) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2412784) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2412864) main: AHT21 T=32.16 C | H=58.79 %[0m
+[0;32mI (2412864) main: ENS160 status: 0x8B | AQI=1 | TVOC=56 ppb | eCO2=469 ppm[0m
+[0;32mI (2412864) main: INA219 bus=3.372 V | shunt=7.380 mV | i=73.8 mA[0m
+[0;32mI (2417874) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2417874) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2422874) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2422874) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2422874) main: INA219 bus=3.372 V | shunt=7.890 mV | i=78.9 mA[0m
+[0;32mI (2427874) main: BAT vadc=1062mV vbat=3398mV pct=11%[0m
+[0;32mI (2427874) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2432874) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2432874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2432874) main: INA219 bus=3.372 V | shunt=7.700 mV | i=77.0 mA[0m
+[0;32mI (2437874) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2437874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2442874) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2442874) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2442874) main: INA219 bus=3.368 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2447874) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2447874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2452874) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2452874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2452874) main: INA219 bus=3.372 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (2457874) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2457874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2462874) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2462874) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2462874) main: INA219 bus=3.372 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (2467874) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (2467874) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2472874) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2472874) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2472954) main: AHT21 T=32.20 C | H=58.67 %[0m
+[0;32mI (2472954) main: INA219 bus=3.372 V | shunt=7.200 mV | i=72.0 mA[0m
+[0;32mI (2477954) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2477954) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2482954) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2482954) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2482954) main: INA219 bus=3.372 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2487954) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2487954) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2492954) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2492954) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2492954) main: INA219 bus=3.368 V | shunt=7.620 mV | i=76.2 mA[0m
+[0;32mI (2492954) logger: Flush start: 16291 bytes[0m
+[0;32mI (2493424) logger: Log file size: 130408 bytes[0m
+[0;32mI (2493424) logger: Chunk written: RAW 16291 bytes | CRC32=0x2BE7A6B2 | Integrity: PASS[0m
+[0;32mI (2493424) logger: Flush done[0m
+[0;32mI (2498424) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2498424) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2503424) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2503424) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2503424) main: INA219 bus=3.372 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (2508424) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2508424) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2513424) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2513424) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2513424) main: INA219 bus=3.368 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (2518424) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2518424) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2523424) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2523424) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2523424) main: INA219 bus=3.372 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2528424) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2528424) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2533424) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2533424) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2533504) main: AHT21 T=32.10 C | H=59.22 %[0m
+[0;32mI (2533504) main: ENS160 status: 0x8B | AQI=2 | TVOC=75 ppb | eCO2=505 ppm[0m
+[0;32mI (2533504) main: INA219 bus=3.372 V | shunt=7.440 mV | i=74.4 mA[0m
+[0;32mI (2538514) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2538514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2543514) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2543514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2543514) main: INA219 bus=3.372 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (2548514) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2548514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2553514) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2553514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2553514) main: INA219 bus=3.368 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (2558514) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2558514) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2563514) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2563514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2563514) main: INA219 bus=3.372 V | shunt=7.720 mV | i=77.2 mA[0m
+[0;32mI (2568514) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2568514) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2573514) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2573514) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2573514) main: INA219 bus=3.368 V | shunt=7.570 mV | i=75.7 mA[0m
+[0;32mI (2578514) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2578514) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2583514) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2583514) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2583514) main: INA219 bus=3.368 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (2588514) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2588514) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2593514) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2593514) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2593594) main: AHT21 T=32.21 C | H=58.84 %[0m
+[0;32mI (2593594) main: INA219 bus=3.372 V | shunt=7.450 mV | i=74.5 mA[0m
+[0;32mI (2598594) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2598594) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2603594) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2603594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2603594) main: INA219 bus=3.368 V | shunt=7.920 mV | i=79.2 mA[0m
+[0;32mI (2608594) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2608594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2613594) main: BAT vadc=1060mV vbat=3392mV pct=10%[0m
+[0;32mI (2613594) main: PME batt=10% mode=POWER_SAVE[0m
+[0;32mI (2613594) main: INA219 bus=3.364 V | shunt=7.990 mV | i=79.9 mA[0m
+[0;32mI (2618594) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2618594) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2623594) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2623594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2623594) main: INA219 bus=3.364 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2628594) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2628594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2633594) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2633594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2633594) main: INA219 bus=3.368 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (2638594) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2638594) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2643594) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2643594) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2643594) main: INA219 bus=3.368 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2648594) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2648594) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2653594) main: BAT vadc=1058mV vbat=3385mV pct=9%[0m
+[0;32mI (2653594) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2653674) main: AHT21 T=32.14 C | H=59.03 %[0m
+[0;32mI (2653674) main: ENS160 status: 0x8B | AQI=2 | TVOC=81 ppb | eCO2=516 ppm[0m
+[0;32mI (2653674) main: INA219 bus=3.368 V | shunt=7.690 mV | i=76.9 mA[0m
+[0;32mI (2658684) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2658684) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2663684) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2663684) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2663684) main: INA219 bus=3.364 V | shunt=7.870 mV | i=78.7 mA[0m
+[0;32mI (2668684) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2668684) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2673684) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2673684) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2673684) main: INA219 bus=3.368 V | shunt=7.960 mV | i=79.6 mA[0m
+[0;32mI (2678684) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2678684) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2683684) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2683684) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2683684) main: INA219 bus=3.368 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2688684) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2688684) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2693684) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2693684) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2693684) main: INA219 bus=3.364 V | shunt=7.590 mV | i=75.9 mA[0m
+[0;32mI (2698684) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2698684) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2703684) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2703684) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2703684) main: INA219 bus=3.364 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2708684) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2708684) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2713684) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2713684) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2713764) main: AHT21 T=32.13 C | H=59.06 %[0m
+[0;32mI (2713764) main: INA219 bus=3.368 V | shunt=6.460 mV | i=64.6 mA[0m
+[0;32mI (2718764) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2718764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2723764) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2723764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2723764) main: INA219 bus=3.364 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (2728764) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2728764) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2733764) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2733764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2733764) main: INA219 bus=3.364 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (2738764) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2738764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2743764) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2743764) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2743764) main: INA219 bus=3.364 V | shunt=7.790 mV | i=77.9 mA[0m
+[0;32mI (2748764) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2748764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2753764) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2753764) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2753764) main: INA219 bus=3.364 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (2758764) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2758764) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2763764) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2763764) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2763764) main: INA219 bus=3.364 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (2768764) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2768764) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2773764) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2773764) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2773844) main: AHT21 T=32.16 C | H=59.09 %[0m
+[0;32mI (2773844) main: ENS160 status: 0x8B | AQI=2 | TVOC=73 ppb | eCO2=503 ppm[0m
+[0;32mI (2773844) main: INA219 bus=3.364 V | shunt=7.750 mV | i=77.5 mA[0m
+[0;32mI (2778854) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2778854) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2783854) main: BAT vadc=1050mV vbat=3360mV pct=7%[0m
+[0;32mI (2783854) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2783854) main: INA219 bus=3.364 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (2788854) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2788854) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2793854) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2793854) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2793854) main: INA219 bus=3.364 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (2798854) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2798854) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2803854) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2803854) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2803854) main: INA219 bus=3.360 V | shunt=7.740 mV | i=77.4 mA[0m
+[0;32mI (2803854) logger: Flush start: 16294 bytes[0m
+[0;32mI (2804314) logger: Log file size: 146738 bytes[0m
+[0;32mI (2804314) logger: Chunk written: RAW 16294 bytes | CRC32=0xFC1B5173 | Integrity: PASS[0m
+[0;32mI (2804314) logger: Flush done[0m
+[0;32mI (2809324) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2809324) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2814324) main: BAT vadc=1050mV vbat=3360mV pct=7%[0m
+[0;32mI (2814324) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2814324) main: INA219 bus=3.360 V | shunt=7.840 mV | i=78.4 mA[0m
+[0;32mI (2819324) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2819324) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2824324) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2824324) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2824324) main: INA219 bus=3.360 V | shunt=7.900 mV | i=79.0 mA[0m
+[0;32mI (2829324) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2829324) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2834324) main: BAT vadc=1051mV vbat=3363mV pct=7%[0m
+[0;32mI (2834324) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2834404) main: AHT21 T=32.04 C | H=59.18 %[0m
+[0;32mI (2834404) main: INA219 bus=3.364 V | shunt=6.650 mV | i=66.5 mA[0m
+[0;32mI (2839404) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2839404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2844404) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2844404) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2844404) main: INA219 bus=3.360 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (2849404) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2849404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2854404) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2854404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2854404) main: INA219 bus=3.360 V | shunt=7.730 mV | i=77.3 mA[0m
+[0;32mI (2859404) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2859404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2864404) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2864404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2864404) main: INA219 bus=3.364 V | shunt=7.830 mV | i=78.3 mA[0m
+[0;32mI (2869404) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2869404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2874404) main: BAT vadc=1050mV vbat=3360mV pct=7%[0m
+[0;32mI (2874404) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2874404) main: INA219 bus=3.364 V | shunt=7.810 mV | i=78.1 mA[0m
+[0;32mI (2879404) main: BAT vadc=1053mV vbat=3369mV pct=8%[0m
+[0;32mI (2879404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2884404) main: BAT vadc=1056mV vbat=3379mV pct=9%[0m
+[0;32mI (2884404) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2884404) main: INA219 bus=3.364 V | shunt=7.770 mV | i=77.7 mA[0m
+[0;32mI (2889404) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2889404) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2894404) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2894404) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2894484) main: AHT21 T=32.15 C | H=59.30 %[0m
+[0;32mI (2894484) main: ENS160 status: 0x8B | AQI=2 | TVOC=69 ppb | eCO2=494 ppm[0m
+[0;32mI (2894484) main: INA219 bus=3.360 V | shunt=7.600 mV | i=76.0 mA[0m
+[0;32mI (2899494) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2899494) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2904494) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2904494) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2904494) main: INA219 bus=3.360 V | shunt=7.940 mV | i=79.4 mA[0m
+[0;32mI (2909494) main: BAT vadc=1055mV vbat=3376mV pct=8%[0m
+[0;32mI (2909494) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2914494) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2914494) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2914494) main: INA219 bus=3.360 V | shunt=7.850 mV | i=78.5 mA[0m
+[0;32mI (2919494) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2919494) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2924494) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2924494) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2924494) main: INA219 bus=3.364 V | shunt=7.860 mV | i=78.6 mA[0m
+[0;32mI (2929494) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2929494) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2934494) main: BAT vadc=1057mV vbat=3382mV pct=9%[0m
+[0;32mI (2934494) main: PME batt=9% mode=POWER_SAVE[0m
+[0;32mI (2934494) main: INA219 bus=3.360 V | shunt=7.950 mV | i=79.5 mA[0m
+[0;32mI (2939494) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2939494) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2944494) main: BAT vadc=1061mV vbat=3395mV pct=11%[0m
+[0;32mI (2944494) main: PME batt=11% mode=POWER_SAVE[0m
+[0;32mI (2944494) main: INA219 bus=3.360 V | shunt=7.910 mV | i=79.1 mA[0m
+[0;32mI (2949494) main: BAT vadc=1051mV vbat=3363mV pct=7%[0m
+[0;32mI (2949494) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2954494) main: BAT vadc=1051mV vbat=3363mV pct=7%[0m
+[0;32mI (2954494) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2954574) main: AHT21 T=32.11 C | H=59.21 %[0m
+[0;32mI (2954574) main: INA219 bus=3.328 V | shunt=13.120 mV | i=131.2 mA[0m
+[0;32mI (2959574) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2959574) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2964574) main: BAT vadc=1054mV vbat=3372mV pct=8%[0m
+[0;32mI (2964574) main: PME batt=8% mode=POWER_SAVE[0m
+[0;32mI (2964574) main: INA219 bus=3.360 V | shunt=7.880 mV | i=78.8 mA[0m
+[0;32mI (2969574) main: BAT vadc=1051mV vbat=3363mV pct=7%[0m
+[0;32mI (2969574) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2974574) main: BAT vadc=1052mV vbat=3366mV pct=7%[0m
+[0;32mI (2974574) main: PME batt=7% mode=POWER_SAVE[0m
+[0;32mI (2974574) main: INA219 bus=3.360 V | shunt=7.820 mV | i=78.2 mA[0m
+[0;32mI (2979574) main: BAT vadc=1050mV vbat=3360mV pct=7%[0m
+[0;32mI (2979574) main: PME batt=7% mode=POWER_SAVE[0m
