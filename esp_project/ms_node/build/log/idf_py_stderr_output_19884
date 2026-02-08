@@ -1,7 +1,0 @@
-Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DLOGGER_DUMP_ON_BOOT=1 -DCCACHE_ENABLE=1 C:\Users\user\Desktop\esp_project\ms_node
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    LOGGER_DUMP_ON_BOOT
-
-

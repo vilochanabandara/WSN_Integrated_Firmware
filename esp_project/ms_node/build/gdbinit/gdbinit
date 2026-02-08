@@ -1,2 +1,2 @@
-source C:/Users/user/Desktop/esp_project/ms_node/build/gdbinit/symbols
-source C:/Users/user/Desktop/esp_project/ms_node/build/gdbinit/connect
+source /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/gdbinit/symbols
+source /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/gdbinit/connect

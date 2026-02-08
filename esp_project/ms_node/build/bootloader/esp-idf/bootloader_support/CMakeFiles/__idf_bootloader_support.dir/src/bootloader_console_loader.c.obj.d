@@ -1,0 +1,29 @@
+esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj: \
+ /Users/vilochanabandara/esp/esp-idf/components/bootloader_support/src/bootloader_console_loader.c \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/config/sdkconfig.h \
+ /Users/vilochanabandara/esp/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/include/esp_rom_serial_output.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/vilochanabandara/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/usb/chip_usb_dw_wrapper.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/usb/usb_dc.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/usb/cdc_acm.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/usb/usb_persist.h
