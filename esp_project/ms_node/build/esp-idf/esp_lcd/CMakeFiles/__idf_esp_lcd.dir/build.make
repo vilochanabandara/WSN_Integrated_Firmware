@@ -76,136 +76,166 @@ esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj: esp-idf/e
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.i
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c > CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c -o CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.s
 
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v1.c
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v1.c
 
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c > CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.i
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v1.c > CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.i
 
-esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.s
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v1.c -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.s
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v2.c
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v2.c
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v2.c > CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.i
+
+esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v2.c -o CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c > CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c > CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c -o CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c -o CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c > CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c > CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c -o CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c -o CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.s
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/flags.make
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj -MF CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj.d -o CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c > CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c > CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.i
 
 esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c -o CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c -o CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.s
 
 # Object files for target __idf_esp_lcd
 __idf_esp_lcd_OBJECTS = \
 "CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj" \
+"CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj" \
-"CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj" \
+"CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj" \
+"CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj" \
 "CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj"
@@ -215,16 +245,18 @@ __idf_esp_lcd_EXTERNAL_OBJECTS =
 
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
-esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj
+esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj
+esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i80.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/rgb/esp_lcd_panel_rgb.c.obj
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make
 esp-idf/esp_lcd/libesp_lcd.a: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libesp_lcd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C static library libesp_lcd.a"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_lcd.dir/cmake_clean_target.cmake
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_lcd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_lcd.dir/link.txt --verbose=$(VERBOSE)
 

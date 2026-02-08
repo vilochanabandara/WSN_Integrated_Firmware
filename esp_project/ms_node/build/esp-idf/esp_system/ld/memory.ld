@@ -12,7 +12,7 @@
  */
 /*
  * Automatically generated file. DO NOT EDIT.
- * Espressif IoT Development Framework (ESP-IDF) 6.1.0 Configuration Header
+ * Espressif IoT Development Framework (ESP-IDF) 5.3.4 Configuration Header
  */
        
 /* List of deprecated options */
@@ -22,6 +22,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 /* CPU instruction prefetch padding size for flash mmap scenario */
+/* Copy from esp_secure_boot.h */
 /*
  * PMP region granularity size
  * Software may determine the PMP granularity by writing zero to pmp0cfg, then writing all ones
@@ -31,16 +32,6 @@
 /* CPU instruction prefetch padding size for memory protection scenario */
 /* Memory alignment size for PMS */
     /* rtc timer data (s_rtc_timer_retain_mem, see esp_clk.c files). For rtc_timer_data_in_rtc_mem section. */
-/*
- * FAST_REFLASHING_PADDING
- *
- * Aligns the current location (.) to CONFIG_ESPTOOLPY_FAST_REFLASHING_PADDING.
- * If more than half of the alignment block is already consumed,
- * extra padding is applied to skip to the next boundary.
- * For example, if the current location (.) is 0x1900 and the padding is 4 KB,
- * the location will be moved to 0x3000 instead of 0x2000 because less than
- * half of the current 4 KB block remains (0x2000 - 0x1900 < 2 KB).
- */
 /*
  * 40370000 <- IRAM/Icache -> 40378000 <- D/IRAM (I) -> 403E0000
  *                            3FC88000 <- D/IRAM (D) -> 3FCF0000 <- DRAM/DCache -> 3FD00000

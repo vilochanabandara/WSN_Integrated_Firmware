@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj"
   "CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj"
   "CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj.d"
+  "CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj"
+  "CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj.d"
   "CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj"
   "CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj.d"
   "CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.obj"

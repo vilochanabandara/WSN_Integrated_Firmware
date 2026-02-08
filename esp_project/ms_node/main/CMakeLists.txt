@@ -2,8 +2,7 @@ idf_component_register(
     SRCS 
         "ms_node.c" 
         "compression_bench.c" 
-        "ble_beacon.c" 
-        "ble_gatt_service.c"
+        "ble_manager.c" 
         "state_machine.c"
         "election.c"
         "metrics.c"
@@ -11,7 +10,6 @@ idf_component_register(
         "esp_now_manager.c"
         "auth.c"
         "led_manager.c"
-        "ble_manager.c"
         "persistence.c"
     INCLUDE_DIRS "."
     REQUIRES bt nvs_flash esp_wifi esp_adc driver esp_timer mbedtls

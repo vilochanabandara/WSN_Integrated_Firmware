@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /Users/vilochanabandara/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "SERIAL_TOOL=/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/ms_node.elf" -D WORKING_DIRECTORY=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build -P run_serial_tool.cmake
+	cd /Users/vilochanabandara/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "SERIAL_TOOL=/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/ms_node.elf" -D WORKING_DIRECTORY=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build -P run_serial_tool.cmake
 
 CMakeFiles/monitor.dir/codegen:
 .PHONY : CMakeFiles/monitor.dir/codegen

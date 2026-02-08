@@ -76,107 +76,62 @@ esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj:
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.i
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.s
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.i
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.i
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.s
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.i
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.s
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.i
-
-esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.s
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.i
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.s
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/flags.make
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj -MF CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj.d -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c > CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.i
 
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c -o CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.s
 
 # Object files for target __idf_esp_driver_rmt
 __idf_esp_driver_rmt_OBJECTS = \
 "CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj" \
 "CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj" \
-"CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj" \
-"CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj" \
-"CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj" \
 "CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj" \
 "CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj"
 
@@ -185,14 +140,11 @@ __idf_esp_driver_rmt_EXTERNAL_OBJECTS =
 
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
-esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
-esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
-esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make
 esp-idf/esp_driver_rmt/libesp_driver_rmt.a: esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libesp_driver_rmt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_driver_rmt.a"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_rmt.dir/cmake_clean_target.cmake
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_rmt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_rmt.dir/link.txt --verbose=$(VERBOSE)
 

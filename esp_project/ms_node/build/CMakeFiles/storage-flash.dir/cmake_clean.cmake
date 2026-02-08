@@ -1,3 +1,6 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/storage-flash"
+)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

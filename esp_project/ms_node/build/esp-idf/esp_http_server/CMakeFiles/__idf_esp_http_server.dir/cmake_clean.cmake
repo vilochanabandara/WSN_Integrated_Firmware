@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_mbedtls.c.obj"
-  "CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_mbedtls.c.obj.d"
   "CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj"
   "CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj.d"
   "CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj"

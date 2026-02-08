@@ -1,0 +1,37 @@
+[0;33m--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.[0m
+[0;33m--- Using /dev/cu.usbmodem5ABA0603751 instead...[0m
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.usbmodem5ABA0603751 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x420d46af: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m434[0m
+[0m--- 0x420d4a24: [0;33mtask_wdt_isr[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m507[0m
+[0m--- 0x4037c655: [0;33m_xt_lowint1[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x42007f06: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h[0m[0m:[1;31m403[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x42008e7f: [0;33muart_write[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m243[0m
+[0m--- 0x4200a7e5: [0;33mesp_vfs_write[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/vfs/vfs.c[0m[0m:[1;31m502[0m
+[0m--- 0x420c263e: [0;33mwrite[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/syscalls/syswrite.c[0m[0m:[1;31m11[0m
+[0m--- 0x4200a111: [0;33mconsole_write[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m80[0m
+[0m--- 0x4200a7e5: [0;33mesp_vfs_write[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/vfs/vfs.c[0m[0m:[1;31m502[0m
+[0m--- 0x420c1352: [0;33m__swrite[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c[0m[0m:[1;31m94[0m
+[0m--- 0x420c08cd: [0;33m__sflush_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c[0m[0m:[1;31m224[0m
+[0m--- 0x420c091f: [0;33m_fflush_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c[0m[0m:[1;31m278[0m
+[0m--- 0x420c0f01: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x420c9cbb: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x420c9b91: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x420c13c9: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/HOST-aarch64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4038d381: [0;33mesp_log_writev[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/log/log.c[0m[0m:[1;31m210[0m
+[0m--- 0x4038d351: [0;33mesp_log_write[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/log/log.c[0m[0m:[1;31m220[0m
+[0m--- 0x4200f079: [0;33mmetrics_update_trust[0m[0m at [0;32m/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/metrics.c[0m[0m:[1;31m167[0m
+[0m--- 0x4200d6d1: [0;33mble_gap_event[0m[0m at [0;32m/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ble_manager.c[0m[0m:[1;31m284[0m
+[0m--- 0x420114a5: [0;33mble_gap_disc_report[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gap.c[0m[0m:[1;31m1513[0m
+[0m--- 0x420119b1: [0;33mble_gap_rx_adv_report[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gap.c[0m[0m:[1;31m2417[0m
+[0m--- 0x4201e54f: [0;33mble_hs_hci_evt_le_adv_rpt[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c[0m[0m:[1;31m965[0m
+[0m--- 0x4201e0fa: [0;33mble_hs_hci_evt_le_meta[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c[0m[0m:[1;31m717[0m
+[0m--- 0x4201e743: [0;33mble_hs_hci_evt_process[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c[0m[0m:[1;31m1835[0m
+[0m--- 0x4201d959: [0;33mble_hs_event_rx_hci_ev[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs.c[0m[0m:[1;31m655[0m
+[0m--- 0x420cb6eb: [0;33mnpl_freertos_event_run[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c[0m[0m:[1;31m536[0m
+[0m--- 0x40377cbd: [0;33mble_npl_event_run[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h[0m[0m:[1;31m185[0m
+[0m--- (inlined by) [0;33mnimble_port_run[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/nimble_port.c[0m[0m:[1;31m425[0m
+[0m--- 0x4200d227: [0;33mble_host_task[0m[0m at [0;32m/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ble_manager.c[0m[0m:[1;31m38[0m
+[0m--- 0x40386999: [0;33mvPortTaskWrapper[0m[0m at [0;32m/Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m

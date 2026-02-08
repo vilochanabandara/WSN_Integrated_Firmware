@@ -3,6 +3,8 @@
 #include "config.h"
 #include "esp_log.h"
 #include "esp_timer.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
 #include "nvs.h"
 #include "nvs_flash.h"
 #include "pme.h" // Include PME for energy management
@@ -12,10 +14,15 @@
 static const char *TAG = "METRICS";
 
 static node_metrics_t current_metrics = {0};
+static sensor_payload_t current_sensor_data = {0};
 // static adc_oneshot_unit_handle_t adc_handle = NULL; // Removed: Handled by
 // battery.c
 static bool metrics_initialized = false;
 static uint64_t last_uptime_save = 0;
+// Mutex to protect metrics state
+// We use a recursive mutex because metrics_update() calls other metrics_*
+// functions
+static SemaphoreHandle_t metrics_mutex = NULL;
 
 // RTC memory for uptime persistence
 #define RTC_UPTIME_MAGIC 0xABCD1234
@@ -41,17 +48,49 @@ float g_weight_link_quality = WEIGHT_LINK_QUALITY;
 
 void metrics_set_weights(float battery, float uptime, float trust,
                          float link_quality) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   g_weight_battery = battery;
   g_weight_uptime = uptime;
   g_weight_trust = trust;
   g_weight_link_quality = link_quality;
   ESP_LOGW(TAG, "Weights updated: Bat=%.2f, Up=%.2f, Trust=%.2f, LQ=%.2f",
            battery, uptime, trust, link_quality);
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
+}
+
+void metrics_set_sensor_data(const sensor_payload_t *data) {
+  if (data) {
+    if (metrics_mutex)
+      xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+    current_sensor_data = *data;
+    if (metrics_mutex)
+      xSemaphoreGiveRecursive(metrics_mutex);
+  }
+}
+
+void metrics_get_sensor_data(sensor_payload_t *data) {
+  if (data) {
+    if (metrics_mutex)
+      xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+    *data = current_sensor_data;
+    if (metrics_mutex)
+      xSemaphoreGiveRecursive(metrics_mutex);
+  }
 }
 
 float metrics_read_battery(void) {
   // Use PME to get the authoritative battery percentage
   uint8_t pct = pme_get_batt_pct();
+
+  // When 0% (no battery / USB / PME not yet updated), treat as sufficient for CH
+  // so we don't trigger re-election (matches clusterCreation "USB power" behavior)
+  if (pct == 0) {
+    return 1.0f;
+  }
 
   // Normalize to 0.0 - 1.0
   float battery_normalized = (float)pct / 100.0f;
@@ -85,6 +124,9 @@ uint64_t metrics_get_uptime(void) {
 }
 
 void metrics_persist_uptime(void) {
+  // Lock handled by caller (metrics_update) usually, but to be safe:
+  // (Assuming single writer for uptime mostly)
+
   nvs_handle_t nvs_handle;
   esp_err_t err = nvs_open("metrics", NVS_READWRITE, &nvs_handle);
   if (err != ESP_OK) {
@@ -104,13 +146,22 @@ void metrics_persist_uptime(void) {
 }
 
 void metrics_record_hmac_success(bool success) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   float val = success ? 1.0f : 0.0f;
   hsr_ewma = HSR_WEIGHT * val + (1.0f - HSR_WEIGHT) * hsr_ewma;
   ESP_LOGI(TAG, "[METRICS] HMAC Update: Success=%d, New HSR_EWMA=%.3f", success,
            hsr_ewma);
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 void metrics_update_trust(float reputation) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   // Update Reputation EWMA
   reputation_ewma = REPUTATION_WEIGHT * reputation +
                     (1.0f - REPUTATION_WEIGHT) * reputation_ewma;
@@ -133,9 +184,14 @@ void metrics_update_trust(float reputation) {
     current_metrics.trust = 0.0f;
   if (current_metrics.trust > 1.0f)
     current_metrics.trust = 1.0f;
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 void metrics_recompute_link_quality(void) {
+  // Internal helper, expects mutex held by caller
+
   // Convert RSSI to quality (0-1): -100dBm = 0, -50dBm = 1
   float rssi_quality = (rssi_ewma + 100.0f) / 50.0f;
   if (rssi_quality < 0.0f)
@@ -160,10 +216,16 @@ void metrics_recompute_link_quality(void) {
 }
 
 void metrics_record_ble_reception(int successes, int failures) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   // Total events
   int total = successes + failures;
-  if (total == 0)
+  if (total == 0) {
+    if (metrics_mutex)
+      xSemaphoreGiveRecursive(metrics_mutex);
     return;
+  }
 
   // Current batch PER (Failures / Total)
   float batch_per = (float)failures / (float)total;
@@ -178,15 +240,27 @@ void metrics_record_ble_reception(int successes, int failures) {
            successes, failures, batch_per, per_ewma);
 
   metrics_recompute_link_quality();
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 void metrics_update_rssi(float rssi) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   // EWMA for RSSI
   rssi_ewma = 0.1f * rssi + 0.9f * rssi_ewma;
   metrics_recompute_link_quality();
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 void metrics_update_per(float success) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   // success: 1.0 for success, 0.0 for failure
   // PER = 1.0 - success_rate
   // We update PER EWMA directly. If success=1, PER input is 0.
@@ -195,16 +269,27 @@ void metrics_update_per(float success) {
   ESP_LOGI(TAG, "[METRICS] PER Update: Success=%.0f, New PER_EWMA=%.3f",
            success, per_ewma);
   metrics_recompute_link_quality();
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 // Keep the old function for compatibility but implement using new ones
 void metrics_update_link_quality(float rssi_ewma_val, float per) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   rssi_ewma = rssi_ewma_val;
   per_ewma = PDR_EWMA_ALPHA * per + (1.0f - PDR_EWMA_ALPHA) * per_ewma;
   metrics_recompute_link_quality();
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 float metrics_compute_score(const node_metrics_t *metrics) {
+  // Pure function, no state modification, safe to call without lock
+  // (provided input 'metrics' is consistent)
   return (g_weight_battery * metrics->battery +
           g_weight_uptime *
               (metrics->uptime_seconds / 86400.0f) + // Normalize to days
@@ -212,10 +297,20 @@ float metrics_compute_score(const node_metrics_t *metrics) {
           g_weight_link_quality * metrics->link_quality);
 }
 
+// Forward decl
+void metrics_update_variance_estimates(void);
+void metrics_compute_entropy_confidence(void);
+void metrics_update_stellar_weights(void);
+float metrics_compute_stellar_score(const node_metrics_t *metrics,
+                                    int pareto_rank, float centrality);
+
 void metrics_update(void) {
   if (!metrics_initialized) {
     return;
   }
+
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
 
   // Update battery
   current_metrics.battery = metrics_read_battery();
@@ -238,13 +333,8 @@ void metrics_update(void) {
 
 #if USE_STELLAR_ALGORITHM
   // --- STELLAR UPDATE LOOP ---
-  // 1. Update variance estimates (Noise tracking)
-  metrics_update_variance_estimates();
-
-  // 2. Update entropy confidence (Data quality check)
-  metrics_compute_entropy_confidence();
-
   // 3. Update weights using Lyapunov stability (Self-learning)
+  // This internally calls variance and entropy updates
   metrics_update_stellar_weights();
 
   // 4. Compute final STELLAR score
@@ -258,11 +348,28 @@ void metrics_update(void) {
   // Non-STELLAR (Legacy) Score
   current_metrics.composite_score = metrics_compute_score(&current_metrics);
 #endif
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
-node_metrics_t metrics_get_current(void) { return current_metrics; }
+node_metrics_t metrics_get_current(void) {
+  node_metrics_t ret;
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+  ret = current_metrics;
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
+  return ret;
+}
 
 void metrics_init(void) {
+  // Create recursive mutex for thread safety
+  metrics_mutex = xSemaphoreCreateRecursiveMutex();
+  if (metrics_mutex == NULL) {
+    ESP_LOGE(TAG, "Failed to create metrics mutex!");
+  }
+
   // ADC initialization is handled by ms_node.c (battery_init)
   // We just use pme_get_batt_pct() in metrics_read_battery()
 
@@ -324,10 +431,7 @@ static float prev_battery = 0.5f;
 static float prev_trust = 0.5f;
 static float prev_linkq = 0.5f;
 
-/**
- * @brief Compute differential entropy H(m) = 0.5 * ln(2πe * σ²)
- * This quantifies the uncertainty in a metric measurement
- */
+// Helper: Compute differential entropy H(m) = 0.5 * ln(2πe * σ²)
 static float compute_differential_entropy(float variance) {
   const float TWO_PI_E = 17.0794684f; // 2πe ≈ 17.079
   if (variance < 1e-6f)
@@ -335,10 +439,7 @@ static float compute_differential_entropy(float variance) {
   return 0.5f * logf(TWO_PI_E * variance);
 }
 
-/**
- * @brief Compute entropy-based confidence for all metrics
- * Higher entropy (more uncertainty) → Lower confidence
- */
+// Helper: Compute entropy-based confidence for all metrics
 void metrics_compute_entropy_confidence(void) {
   float entropies[4];
   float sum_exp = 0.0f;
@@ -372,9 +473,7 @@ void metrics_compute_entropy_confidence(void) {
            current_metrics.entropy_confidence[3]);
 }
 
-/**
- * @brief Update variance estimates using EWMA for uncertainty quantification
- */
+// Helper: Update variance estimates using EWMA for uncertainty quantification
 void metrics_update_variance_estimates(void) {
   float diff;
 
@@ -402,10 +501,7 @@ void metrics_update_variance_estimates(void) {
   current_metrics.linkq_variance = linkq_variance_ewma;
 }
 
-/**
- * @brief Project weight vector onto probability simplex
- * Ensures Σw_i = 1 and w_i ≥ min_weight
- */
+// Helper: Project weight vector onto probability simplex
 static void project_onto_simplex(float *weights, int n) {
   float sum = 0.0f;
 
@@ -425,14 +521,11 @@ static void project_onto_simplex(float *weights, int n) {
   }
 }
 
-/**
- * @brief Update weight vector using Lyapunov gradient descent
- * Implements: w(k+1) = w(k) - η·∂V/∂w - β·(w - w_eq) + proj(simplex)
- *
- * Lyapunov function: V(w,t) = ½‖w - w*‖² + λ·‖∇J‖²
- * Guarantees: V̇ ≤ -αV (exponential stability)
- */
+// EXPOSED FUNCTION: Needs protection!
 void metrics_update_stellar_weights(void) {
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+
   // Update variance estimates first
   metrics_update_variance_estimates();
 
@@ -497,10 +590,19 @@ void metrics_update_stellar_weights(void) {
            g_stellar_weights.weights[0], g_stellar_weights.weights[1],
            g_stellar_weights.weights[2], g_stellar_weights.weights[3],
            g_stellar_weights.lyapunov_value, g_stellar_weights.converged);
+
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
 }
 
 stellar_weights_t metrics_get_stellar_weights(void) {
-  return g_stellar_weights;
+  stellar_weights_t ret;
+  if (metrics_mutex)
+    xSemaphoreTakeRecursive(metrics_mutex, portMAX_DELAY);
+  ret = g_stellar_weights;
+  if (metrics_mutex)
+    xSemaphoreGiveRecursive(metrics_mutex);
+  return ret;
 }
 
 // ============================================

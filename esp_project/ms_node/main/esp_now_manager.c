@@ -36,6 +36,23 @@ static void esp_now_send_cb(const void *arg, esp_now_send_status_t status) {
 
 static void esp_now_recv_cb(const esp_now_recv_info_t *info,
                             const uint8_t *data, int len) {
+  if (len == sizeof(sensor_payload_t)) {
+    // It's a sensor packet!
+    const sensor_payload_t *payload = (const sensor_payload_t *)data;
+    ESP_LOGI(TAG,
+             "RX Sensor Data from node_%lu: Temp=%.1fC, Hum=%.1f%%, Gas=%d, "
+             "Audio=%.3f",
+             payload->node_id, payload->temp_c, payload->hum_pct, payload->aqi,
+             payload->audio_rms);
+
+    // Update neighbor trust
+    neighbor_entry_t *n = neighbor_manager_get_by_mac(info->src_addr);
+    if (n) {
+      neighbor_manager_update_trust(n->node_id, true);
+    }
+    return;
+  }
+
   if (len < sizeof(uint32_t)) {
     ESP_LOGW(TAG, "Received invalid data length: %d", len);
     return;

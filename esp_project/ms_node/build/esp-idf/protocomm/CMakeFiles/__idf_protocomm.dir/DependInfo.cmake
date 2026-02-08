@@ -19,10 +19,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/security/security0.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/security/security1.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/security/security2.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/simple_ble/simple_ble.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/transports/protocomm_ble.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/transports/protocomm_console.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/transports/protocomm_httpd.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj.d"
+  "/Users/vilochanabandara/esp/esp-idf/components/protocomm/src/transports/protocomm_nimble.c" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj" "gcc" "esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

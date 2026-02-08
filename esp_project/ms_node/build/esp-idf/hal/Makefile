@@ -319,30 +319,6 @@ cache_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.s
 .PHONY : cache_hal.c.s
 
-cam_hal.obj: cam_hal.c.obj
-.PHONY : cam_hal.obj
-
-# target to build an object file
-cam_hal.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.obj
-.PHONY : cam_hal.c.obj
-
-cam_hal.i: cam_hal.c.i
-.PHONY : cam_hal.i
-
-# target to preprocess a source file
-cam_hal.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.i
-.PHONY : cam_hal.c.i
-
-cam_hal.s: cam_hal.c.s
-.PHONY : cam_hal.s
-
-# target to generate assembly for a file
-cam_hal.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.s
-.PHONY : cam_hal.c.s
-
 color_hal.obj: color_hal.c.obj
 .PHONY : color_hal.obj
 
@@ -511,6 +487,54 @@ esp32s3/touch_sensor_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.s
 .PHONY : esp32s3/touch_sensor_hal.c.s
 
+gdma_hal_ahb_v1.obj: gdma_hal_ahb_v1.c.obj
+.PHONY : gdma_hal_ahb_v1.obj
+
+# target to build an object file
+gdma_hal_ahb_v1.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.obj
+.PHONY : gdma_hal_ahb_v1.c.obj
+
+gdma_hal_ahb_v1.i: gdma_hal_ahb_v1.c.i
+.PHONY : gdma_hal_ahb_v1.i
+
+# target to preprocess a source file
+gdma_hal_ahb_v1.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.i
+.PHONY : gdma_hal_ahb_v1.c.i
+
+gdma_hal_ahb_v1.s: gdma_hal_ahb_v1.c.s
+.PHONY : gdma_hal_ahb_v1.s
+
+# target to generate assembly for a file
+gdma_hal_ahb_v1.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.s
+.PHONY : gdma_hal_ahb_v1.c.s
+
+gdma_hal_top.obj: gdma_hal_top.c.obj
+.PHONY : gdma_hal_top.obj
+
+# target to build an object file
+gdma_hal_top.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.obj
+.PHONY : gdma_hal_top.c.obj
+
+gdma_hal_top.i: gdma_hal_top.c.i
+.PHONY : gdma_hal_top.i
+
+# target to preprocess a source file
+gdma_hal_top.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.i
+.PHONY : gdma_hal_top.c.i
+
+gdma_hal_top.s: gdma_hal_top.c.s
+.PHONY : gdma_hal_top.s
+
+# target to generate assembly for a file
+gdma_hal_top.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.s
+.PHONY : gdma_hal_top.c.s
+
 gpio_hal.obj: gpio_hal.c.obj
 .PHONY : gpio_hal.obj
 
@@ -583,6 +607,102 @@ hmac_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.s
 .PHONY : hmac_hal.c.s
 
+i2c_hal.obj: i2c_hal.c.obj
+.PHONY : i2c_hal.obj
+
+# target to build an object file
+i2c_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
+.PHONY : i2c_hal.c.obj
+
+i2c_hal.i: i2c_hal.c.i
+.PHONY : i2c_hal.i
+
+# target to preprocess a source file
+i2c_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.i
+.PHONY : i2c_hal.c.i
+
+i2c_hal.s: i2c_hal.c.s
+.PHONY : i2c_hal.s
+
+# target to generate assembly for a file
+i2c_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.s
+.PHONY : i2c_hal.c.s
+
+i2c_hal_iram.obj: i2c_hal_iram.c.obj
+.PHONY : i2c_hal_iram.obj
+
+# target to build an object file
+i2c_hal_iram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
+.PHONY : i2c_hal_iram.c.obj
+
+i2c_hal_iram.i: i2c_hal_iram.c.i
+.PHONY : i2c_hal_iram.i
+
+# target to preprocess a source file
+i2c_hal_iram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.i
+.PHONY : i2c_hal_iram.c.i
+
+i2c_hal_iram.s: i2c_hal_iram.c.s
+.PHONY : i2c_hal_iram.s
+
+# target to generate assembly for a file
+i2c_hal_iram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.s
+.PHONY : i2c_hal_iram.c.s
+
+i2s_hal.obj: i2s_hal.c.obj
+.PHONY : i2s_hal.obj
+
+# target to build an object file
+i2s_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
+.PHONY : i2s_hal.c.obj
+
+i2s_hal.i: i2s_hal.c.i
+.PHONY : i2s_hal.i
+
+# target to preprocess a source file
+i2s_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.i
+.PHONY : i2s_hal.c.i
+
+i2s_hal.s: i2s_hal.c.s
+.PHONY : i2s_hal.s
+
+# target to generate assembly for a file
+i2s_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.s
+.PHONY : i2s_hal.c.s
+
+lcd_hal.obj: lcd_hal.c.obj
+.PHONY : lcd_hal.obj
+
+# target to build an object file
+lcd_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.obj
+.PHONY : lcd_hal.c.obj
+
+lcd_hal.i: lcd_hal.c.i
+.PHONY : lcd_hal.i
+
+# target to preprocess a source file
+lcd_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.i
+.PHONY : lcd_hal.c.i
+
+lcd_hal.s: lcd_hal.c.s
+.PHONY : lcd_hal.s
+
+# target to generate assembly for a file
+lcd_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.s
+.PHONY : lcd_hal.c.s
+
 ledc_hal.obj: ledc_hal.c.obj
 .PHONY : ledc_hal.obj
 
@@ -630,6 +750,30 @@ ledc_hal_iram.s: ledc_hal_iram.c.s
 ledc_hal_iram.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.s
 .PHONY : ledc_hal_iram.c.s
+
+mcpwm_hal.obj: mcpwm_hal.c.obj
+.PHONY : mcpwm_hal.obj
+
+# target to build an object file
+mcpwm_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
+.PHONY : mcpwm_hal.c.obj
+
+mcpwm_hal.i: mcpwm_hal.c.i
+.PHONY : mcpwm_hal.i
+
+# target to preprocess a source file
+mcpwm_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.i
+.PHONY : mcpwm_hal.c.i
+
+mcpwm_hal.s: mcpwm_hal.c.s
+.PHONY : mcpwm_hal.s
+
+# target to generate assembly for a file
+mcpwm_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.s
+.PHONY : mcpwm_hal.c.s
 
 mmu_hal.obj: mmu_hal.c.obj
 .PHONY : mmu_hal.obj
@@ -702,6 +846,30 @@ mpu_hal.s: mpu_hal.c.s
 mpu_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.s
 .PHONY : mpu_hal.c.s
+
+pcnt_hal.obj: pcnt_hal.c.obj
+.PHONY : pcnt_hal.obj
+
+# target to build an object file
+pcnt_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
+.PHONY : pcnt_hal.c.obj
+
+pcnt_hal.i: pcnt_hal.c.i
+.PHONY : pcnt_hal.i
+
+# target to preprocess a source file
+pcnt_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.i
+.PHONY : pcnt_hal.c.i
+
+pcnt_hal.s: pcnt_hal.c.s
+.PHONY : pcnt_hal.s
+
+# target to generate assembly for a file
+pcnt_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.s
+.PHONY : pcnt_hal.c.s
 
 rmt_hal.obj: rmt_hal.c.obj
 .PHONY : rmt_hal.obj
@@ -822,6 +990,102 @@ sha_hal.s: sha_hal.c.s
 sha_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.s
 .PHONY : sha_hal.c.s
+
+spi_flash_encrypt_hal_iram.obj: spi_flash_encrypt_hal_iram.c.obj
+.PHONY : spi_flash_encrypt_hal_iram.obj
+
+# target to build an object file
+spi_flash_encrypt_hal_iram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
+.PHONY : spi_flash_encrypt_hal_iram.c.obj
+
+spi_flash_encrypt_hal_iram.i: spi_flash_encrypt_hal_iram.c.i
+.PHONY : spi_flash_encrypt_hal_iram.i
+
+# target to preprocess a source file
+spi_flash_encrypt_hal_iram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.i
+.PHONY : spi_flash_encrypt_hal_iram.c.i
+
+spi_flash_encrypt_hal_iram.s: spi_flash_encrypt_hal_iram.c.s
+.PHONY : spi_flash_encrypt_hal_iram.s
+
+# target to generate assembly for a file
+spi_flash_encrypt_hal_iram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.s
+.PHONY : spi_flash_encrypt_hal_iram.c.s
+
+spi_flash_hal.obj: spi_flash_hal.c.obj
+.PHONY : spi_flash_hal.obj
+
+# target to build an object file
+spi_flash_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+.PHONY : spi_flash_hal.c.obj
+
+spi_flash_hal.i: spi_flash_hal.c.i
+.PHONY : spi_flash_hal.i
+
+# target to preprocess a source file
+spi_flash_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.i
+.PHONY : spi_flash_hal.c.i
+
+spi_flash_hal.s: spi_flash_hal.c.s
+.PHONY : spi_flash_hal.s
+
+# target to generate assembly for a file
+spi_flash_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.s
+.PHONY : spi_flash_hal.c.s
+
+spi_flash_hal_gpspi.obj: spi_flash_hal_gpspi.c.obj
+.PHONY : spi_flash_hal_gpspi.obj
+
+# target to build an object file
+spi_flash_hal_gpspi.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.obj
+.PHONY : spi_flash_hal_gpspi.c.obj
+
+spi_flash_hal_gpspi.i: spi_flash_hal_gpspi.c.i
+.PHONY : spi_flash_hal_gpspi.i
+
+# target to preprocess a source file
+spi_flash_hal_gpspi.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.i
+.PHONY : spi_flash_hal_gpspi.c.i
+
+spi_flash_hal_gpspi.s: spi_flash_hal_gpspi.c.s
+.PHONY : spi_flash_hal_gpspi.s
+
+# target to generate assembly for a file
+spi_flash_hal_gpspi.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.s
+.PHONY : spi_flash_hal_gpspi.c.s
+
+spi_flash_hal_iram.obj: spi_flash_hal_iram.c.obj
+.PHONY : spi_flash_hal_iram.obj
+
+# target to build an object file
+spi_flash_hal_iram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
+.PHONY : spi_flash_hal_iram.c.obj
+
+spi_flash_hal_iram.i: spi_flash_hal_iram.c.i
+.PHONY : spi_flash_hal_iram.i
+
+# target to preprocess a source file
+spi_flash_hal_iram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.i
+.PHONY : spi_flash_hal_iram.c.i
+
+spi_flash_hal_iram.s: spi_flash_hal_iram.c.s
+.PHONY : spi_flash_hal_iram.s
+
+# target to generate assembly for a file
+spi_flash_hal_iram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.s
+.PHONY : spi_flash_hal_iram.c.s
 
 spi_hal.obj: spi_hal.c.obj
 .PHONY : spi_hal.obj
@@ -967,53 +1231,29 @@ systimer_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.s
 .PHONY : systimer_hal.c.s
 
-temperature_sensor_hal.obj: temperature_sensor_hal.c.obj
-.PHONY : temperature_sensor_hal.obj
+timer_hal.obj: timer_hal.c.obj
+.PHONY : timer_hal.obj
 
 # target to build an object file
-temperature_sensor_hal.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/temperature_sensor_hal.c.obj
-.PHONY : temperature_sensor_hal.c.obj
+timer_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
+.PHONY : timer_hal.c.obj
 
-temperature_sensor_hal.i: temperature_sensor_hal.c.i
-.PHONY : temperature_sensor_hal.i
-
-# target to preprocess a source file
-temperature_sensor_hal.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/temperature_sensor_hal.c.i
-.PHONY : temperature_sensor_hal.c.i
-
-temperature_sensor_hal.s: temperature_sensor_hal.c.s
-.PHONY : temperature_sensor_hal.s
-
-# target to generate assembly for a file
-temperature_sensor_hal.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/temperature_sensor_hal.c.s
-.PHONY : temperature_sensor_hal.c.s
-
-touch_sens_hal.obj: touch_sens_hal.c.obj
-.PHONY : touch_sens_hal.obj
-
-# target to build an object file
-touch_sens_hal.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.obj
-.PHONY : touch_sens_hal.c.obj
-
-touch_sens_hal.i: touch_sens_hal.c.i
-.PHONY : touch_sens_hal.i
+timer_hal.i: timer_hal.c.i
+.PHONY : timer_hal.i
 
 # target to preprocess a source file
-touch_sens_hal.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.i
-.PHONY : touch_sens_hal.c.i
+timer_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.i
+.PHONY : timer_hal.c.i
 
-touch_sens_hal.s: touch_sens_hal.c.s
-.PHONY : touch_sens_hal.s
+timer_hal.s: timer_hal.c.s
+.PHONY : timer_hal.s
 
 # target to generate assembly for a file
-touch_sens_hal.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.s
-.PHONY : touch_sens_hal.c.s
+timer_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.s
+.PHONY : timer_hal.c.s
 
 touch_sensor_hal.obj: touch_sensor_hal.c.obj
 .PHONY : touch_sensor_hal.obj
@@ -1039,29 +1279,53 @@ touch_sensor_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.s
 .PHONY : touch_sensor_hal.c.s
 
-twai_hal_v1.obj: twai_hal_v1.c.obj
-.PHONY : twai_hal_v1.obj
+twai_hal.obj: twai_hal.c.obj
+.PHONY : twai_hal.obj
 
 # target to build an object file
-twai_hal_v1.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.obj
-.PHONY : twai_hal_v1.c.obj
+twai_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.obj
+.PHONY : twai_hal.c.obj
 
-twai_hal_v1.i: twai_hal_v1.c.i
-.PHONY : twai_hal_v1.i
+twai_hal.i: twai_hal.c.i
+.PHONY : twai_hal.i
 
 # target to preprocess a source file
-twai_hal_v1.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.i
-.PHONY : twai_hal_v1.c.i
+twai_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.i
+.PHONY : twai_hal.c.i
 
-twai_hal_v1.s: twai_hal_v1.c.s
-.PHONY : twai_hal_v1.s
+twai_hal.s: twai_hal.c.s
+.PHONY : twai_hal.s
 
 # target to generate assembly for a file
-twai_hal_v1.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.s
-.PHONY : twai_hal_v1.c.s
+twai_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal.c.s
+.PHONY : twai_hal.c.s
+
+twai_hal_iram.obj: twai_hal_iram.c.obj
+.PHONY : twai_hal_iram.obj
+
+# target to build an object file
+twai_hal_iram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj
+.PHONY : twai_hal_iram.c.obj
+
+twai_hal_iram.i: twai_hal_iram.c.i
+.PHONY : twai_hal_iram.i
+
+# target to preprocess a source file
+twai_hal_iram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.i
+.PHONY : twai_hal_iram.c.i
+
+twai_hal_iram.s: twai_hal_iram.c.s
+.PHONY : twai_hal_iram.s
+
+# target to generate assembly for a file
+twai_hal_iram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.s
+.PHONY : twai_hal_iram.c.s
 
 uart_hal.obj: uart_hal.c.obj
 .PHONY : uart_hal.obj
@@ -1135,6 +1399,30 @@ uhci_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.s
 .PHONY : uhci_hal.c.s
 
+usb_dwc_hal.obj: usb_dwc_hal.c.obj
+.PHONY : usb_dwc_hal.obj
+
+# target to build an object file
+usb_dwc_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.obj
+.PHONY : usb_dwc_hal.c.obj
+
+usb_dwc_hal.i: usb_dwc_hal.c.i
+.PHONY : usb_dwc_hal.i
+
+# target to preprocess a source file
+usb_dwc_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.i
+.PHONY : usb_dwc_hal.c.i
+
+usb_dwc_hal.s: usb_dwc_hal.c.s
+.PHONY : usb_dwc_hal.s
+
+# target to generate assembly for a file
+usb_dwc_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.s
+.PHONY : usb_dwc_hal.c.s
+
 usb_serial_jtag_hal.obj: usb_serial_jtag_hal.c.obj
 .PHONY : usb_serial_jtag_hal.obj
 
@@ -1158,6 +1446,54 @@ usb_serial_jtag_hal.s: usb_serial_jtag_hal.c.s
 usb_serial_jtag_hal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.s
 .PHONY : usb_serial_jtag_hal.c.s
+
+usb_wrap_hal.obj: usb_wrap_hal.c.obj
+.PHONY : usb_wrap_hal.obj
+
+# target to build an object file
+usb_wrap_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.obj
+.PHONY : usb_wrap_hal.c.obj
+
+usb_wrap_hal.i: usb_wrap_hal.c.i
+.PHONY : usb_wrap_hal.i
+
+# target to preprocess a source file
+usb_wrap_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.i
+.PHONY : usb_wrap_hal.c.i
+
+usb_wrap_hal.s: usb_wrap_hal.c.s
+.PHONY : usb_wrap_hal.s
+
+# target to generate assembly for a file
+usb_wrap_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.s
+.PHONY : usb_wrap_hal.c.s
+
+xt_wdt_hal.obj: xt_wdt_hal.c.obj
+.PHONY : xt_wdt_hal.obj
+
+# target to build an object file
+xt_wdt_hal.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.obj
+.PHONY : xt_wdt_hal.c.obj
+
+xt_wdt_hal.i: xt_wdt_hal.c.i
+.PHONY : xt_wdt_hal.i
+
+# target to preprocess a source file
+xt_wdt_hal.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.i
+.PHONY : xt_wdt_hal.c.i
+
+xt_wdt_hal.s: xt_wdt_hal.c.s
+.PHONY : xt_wdt_hal.s
+
+# target to generate assembly for a file
+xt_wdt_hal.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.s
+.PHONY : xt_wdt_hal.c.s
 
 # Help Target
 help:
@@ -1190,9 +1526,6 @@ help:
 	@echo "... cache_hal.obj"
 	@echo "... cache_hal.i"
 	@echo "... cache_hal.s"
-	@echo "... cam_hal.obj"
-	@echo "... cam_hal.i"
-	@echo "... cam_hal.s"
 	@echo "... color_hal.obj"
 	@echo "... color_hal.i"
 	@echo "... color_hal.s"
@@ -1214,6 +1547,12 @@ help:
 	@echo "... esp32s3/touch_sensor_hal.obj"
 	@echo "... esp32s3/touch_sensor_hal.i"
 	@echo "... esp32s3/touch_sensor_hal.s"
+	@echo "... gdma_hal_ahb_v1.obj"
+	@echo "... gdma_hal_ahb_v1.i"
+	@echo "... gdma_hal_ahb_v1.s"
+	@echo "... gdma_hal_top.obj"
+	@echo "... gdma_hal_top.i"
+	@echo "... gdma_hal_top.s"
 	@echo "... gpio_hal.obj"
 	@echo "... gpio_hal.i"
 	@echo "... gpio_hal.s"
@@ -1223,12 +1562,27 @@ help:
 	@echo "... hmac_hal.obj"
 	@echo "... hmac_hal.i"
 	@echo "... hmac_hal.s"
+	@echo "... i2c_hal.obj"
+	@echo "... i2c_hal.i"
+	@echo "... i2c_hal.s"
+	@echo "... i2c_hal_iram.obj"
+	@echo "... i2c_hal_iram.i"
+	@echo "... i2c_hal_iram.s"
+	@echo "... i2s_hal.obj"
+	@echo "... i2s_hal.i"
+	@echo "... i2s_hal.s"
+	@echo "... lcd_hal.obj"
+	@echo "... lcd_hal.i"
+	@echo "... lcd_hal.s"
 	@echo "... ledc_hal.obj"
 	@echo "... ledc_hal.i"
 	@echo "... ledc_hal.s"
 	@echo "... ledc_hal_iram.obj"
 	@echo "... ledc_hal_iram.i"
 	@echo "... ledc_hal_iram.s"
+	@echo "... mcpwm_hal.obj"
+	@echo "... mcpwm_hal.i"
+	@echo "... mcpwm_hal.s"
 	@echo "... mmu_hal.obj"
 	@echo "... mmu_hal.i"
 	@echo "... mmu_hal.s"
@@ -1238,6 +1592,9 @@ help:
 	@echo "... mpu_hal.obj"
 	@echo "... mpu_hal.i"
 	@echo "... mpu_hal.s"
+	@echo "... pcnt_hal.obj"
+	@echo "... pcnt_hal.i"
+	@echo "... pcnt_hal.s"
 	@echo "... rmt_hal.obj"
 	@echo "... rmt_hal.i"
 	@echo "... rmt_hal.s"
@@ -1253,6 +1610,18 @@ help:
 	@echo "... sha_hal.obj"
 	@echo "... sha_hal.i"
 	@echo "... sha_hal.s"
+	@echo "... spi_flash_encrypt_hal_iram.obj"
+	@echo "... spi_flash_encrypt_hal_iram.i"
+	@echo "... spi_flash_encrypt_hal_iram.s"
+	@echo "... spi_flash_hal.obj"
+	@echo "... spi_flash_hal.i"
+	@echo "... spi_flash_hal.s"
+	@echo "... spi_flash_hal_gpspi.obj"
+	@echo "... spi_flash_hal_gpspi.i"
+	@echo "... spi_flash_hal_gpspi.s"
+	@echo "... spi_flash_hal_iram.obj"
+	@echo "... spi_flash_hal_iram.i"
+	@echo "... spi_flash_hal_iram.s"
 	@echo "... spi_hal.obj"
 	@echo "... spi_hal.i"
 	@echo "... spi_hal.s"
@@ -1271,18 +1640,18 @@ help:
 	@echo "... systimer_hal.obj"
 	@echo "... systimer_hal.i"
 	@echo "... systimer_hal.s"
-	@echo "... temperature_sensor_hal.obj"
-	@echo "... temperature_sensor_hal.i"
-	@echo "... temperature_sensor_hal.s"
-	@echo "... touch_sens_hal.obj"
-	@echo "... touch_sens_hal.i"
-	@echo "... touch_sens_hal.s"
+	@echo "... timer_hal.obj"
+	@echo "... timer_hal.i"
+	@echo "... timer_hal.s"
 	@echo "... touch_sensor_hal.obj"
 	@echo "... touch_sensor_hal.i"
 	@echo "... touch_sensor_hal.s"
-	@echo "... twai_hal_v1.obj"
-	@echo "... twai_hal_v1.i"
-	@echo "... twai_hal_v1.s"
+	@echo "... twai_hal.obj"
+	@echo "... twai_hal.i"
+	@echo "... twai_hal.s"
+	@echo "... twai_hal_iram.obj"
+	@echo "... twai_hal_iram.i"
+	@echo "... twai_hal_iram.s"
 	@echo "... uart_hal.obj"
 	@echo "... uart_hal.i"
 	@echo "... uart_hal.s"
@@ -1292,9 +1661,18 @@ help:
 	@echo "... uhci_hal.obj"
 	@echo "... uhci_hal.i"
 	@echo "... uhci_hal.s"
+	@echo "... usb_dwc_hal.obj"
+	@echo "... usb_dwc_hal.i"
+	@echo "... usb_dwc_hal.s"
 	@echo "... usb_serial_jtag_hal.obj"
 	@echo "... usb_serial_jtag_hal.i"
 	@echo "... usb_serial_jtag_hal.s"
+	@echo "... usb_wrap_hal.obj"
+	@echo "... usb_wrap_hal.i"
+	@echo "... usb_wrap_hal.s"
+	@echo "... xt_wdt_hal.obj"
+	@echo "... xt_wdt_hal.i"
+	@echo "... xt_wdt_hal.s"
 .PHONY : help
 
 

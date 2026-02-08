@@ -175,29 +175,53 @@ __idf_esp_lcd/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build
 .PHONY : __idf_esp_lcd/fast
 
-i2c/esp_lcd_panel_io_i2c.obj: i2c/esp_lcd_panel_io_i2c.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c.obj
+i2c/esp_lcd_panel_io_i2c_v1.obj: i2c/esp_lcd_panel_io_i2c_v1.c.obj
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.obj
 
 # target to build an object file
-i2c/esp_lcd_panel_io_i2c.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c.c.obj
+i2c/esp_lcd_panel_io_i2c_v1.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.obj
 
-i2c/esp_lcd_panel_io_i2c.i: i2c/esp_lcd_panel_io_i2c.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c.i
+i2c/esp_lcd_panel_io_i2c_v1.i: i2c/esp_lcd_panel_io_i2c_v1.c.i
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.i
 
 # target to preprocess a source file
-i2c/esp_lcd_panel_io_i2c.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c.c.i
+i2c/esp_lcd_panel_io_i2c_v1.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.i
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.i
 
-i2c/esp_lcd_panel_io_i2c.s: i2c/esp_lcd_panel_io_i2c.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c.s
+i2c/esp_lcd_panel_io_i2c_v1.s: i2c/esp_lcd_panel_io_i2c_v1.c.s
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.s
 
 # target to generate assembly for a file
-i2c/esp_lcd_panel_io_i2c.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c.c.s
+i2c/esp_lcd_panel_io_i2c_v1.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.s
+.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.s
+
+i2c/esp_lcd_panel_io_i2c_v2.obj: i2c/esp_lcd_panel_io_i2c_v2.c.obj
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.obj
+
+# target to build an object file
+i2c/esp_lcd_panel_io_i2c_v2.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.obj
+
+i2c/esp_lcd_panel_io_i2c_v2.i: i2c/esp_lcd_panel_io_i2c_v2.c.i
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.i
+
+# target to preprocess a source file
+i2c/esp_lcd_panel_io_i2c_v2.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.i
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.i
+
+i2c/esp_lcd_panel_io_i2c_v2.s: i2c/esp_lcd_panel_io_i2c_v2.c.s
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.s
+
+# target to generate assembly for a file
+i2c/esp_lcd_panel_io_i2c_v2.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.s
+.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.s
 
 i80/esp_lcd_panel_io_i80.obj: i80/esp_lcd_panel_io_i80.c.obj
 .PHONY : i80/esp_lcd_panel_io_i80.obj
@@ -319,6 +343,30 @@ src/esp_lcd_panel_io.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s
 .PHONY : src/esp_lcd_panel_io.c.s
 
+src/esp_lcd_panel_nt35510.obj: src/esp_lcd_panel_nt35510.c.obj
+.PHONY : src/esp_lcd_panel_nt35510.obj
+
+# target to build an object file
+src/esp_lcd_panel_nt35510.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+.PHONY : src/esp_lcd_panel_nt35510.c.obj
+
+src/esp_lcd_panel_nt35510.i: src/esp_lcd_panel_nt35510.c.i
+.PHONY : src/esp_lcd_panel_nt35510.i
+
+# target to preprocess a source file
+src/esp_lcd_panel_nt35510.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.i
+.PHONY : src/esp_lcd_panel_nt35510.c.i
+
+src/esp_lcd_panel_nt35510.s: src/esp_lcd_panel_nt35510.c.s
+.PHONY : src/esp_lcd_panel_nt35510.s
+
+# target to generate assembly for a file
+src/esp_lcd_panel_nt35510.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.s
+.PHONY : src/esp_lcd_panel_nt35510.c.s
+
 src/esp_lcd_panel_ops.obj: src/esp_lcd_panel_ops.c.obj
 .PHONY : src/esp_lcd_panel_ops.obj
 
@@ -404,9 +452,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_lcd"
-	@echo "... i2c/esp_lcd_panel_io_i2c.obj"
-	@echo "... i2c/esp_lcd_panel_io_i2c.i"
-	@echo "... i2c/esp_lcd_panel_io_i2c.s"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v1.obj"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v1.i"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v1.s"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v2.obj"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v2.i"
+	@echo "... i2c/esp_lcd_panel_io_i2c_v2.s"
 	@echo "... i80/esp_lcd_panel_io_i80.obj"
 	@echo "... i80/esp_lcd_panel_io_i80.i"
 	@echo "... i80/esp_lcd_panel_io_i80.s"
@@ -422,6 +473,9 @@ help:
 	@echo "... src/esp_lcd_panel_io.obj"
 	@echo "... src/esp_lcd_panel_io.i"
 	@echo "... src/esp_lcd_panel_io.s"
+	@echo "... src/esp_lcd_panel_nt35510.obj"
+	@echo "... src/esp_lcd_panel_nt35510.i"
+	@echo "... src/esp_lcd_panel_nt35510.s"
 	@echo "... src/esp_lcd_panel_ops.obj"
 	@echo "... src/esp_lcd_panel_ops.i"
 	@echo "... src/esp_lcd_panel_ops.s"

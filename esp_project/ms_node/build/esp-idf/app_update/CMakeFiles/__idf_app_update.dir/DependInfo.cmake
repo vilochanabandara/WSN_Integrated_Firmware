@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/vilochanabandara/esp/esp-idf/components/app_update/esp_ota_app_desc.c" "esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj" "gcc" "esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/app_update/esp_ota_ops.c" "esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj" "gcc" "esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj.d"
   )
 

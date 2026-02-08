@@ -3,18 +3,18 @@
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/assert.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
- /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
@@ -29,10 +29,10 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexc
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
- /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/hal.h \

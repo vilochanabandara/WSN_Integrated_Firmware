@@ -72,79 +72,47 @@ include esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.mak
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/codegen:
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/codegen
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i
 
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i
-
-esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s
+esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s
 
 # Object files for target __idf_esp_driver_sdmmc
 __idf_esp_driver_sdmmc_OBJECTS = \
-"CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj" \
-"CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj" \
-"CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj" \
-"CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj"
+"CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj" \
+"CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj"
 
 # External object files for target __idf_esp_driver_sdmmc
 __idf_esp_driver_sdmmc_EXTERNAL_OBJECTS =
 
-esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj
-esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj
-esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj
-esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj
+esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj
+esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj
 esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make
 esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_driver_sdmmc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libesp_driver_sdmmc.a"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdmmc.dir/cmake_clean_target.cmake
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_sdmmc.dir/link.txt --verbose=$(VERBOSE)
 

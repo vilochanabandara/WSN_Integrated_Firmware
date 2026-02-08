@@ -9,8 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/auth.c" "esp-idf/main/CMakeFiles/__idf_main.dir/auth.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/auth.c.obj.d"
-  "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ble_beacon.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_beacon.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_beacon.c.obj.d"
-  "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ble_gatt_service.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_gatt_service.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_gatt_service.c.obj.d"
   "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ble_manager.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_manager.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_manager.c.obj.d"
   "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/compression_bench.c" "esp-idf/main/CMakeFiles/__idf_main.dir/compression_bench.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/compression_bench.c.obj.d"
   "/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/election.c" "esp-idf/main/CMakeFiles/__idf_main.dir/election.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/election.c.obj.d"

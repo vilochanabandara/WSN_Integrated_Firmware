@@ -175,102 +175,6 @@ __idf_esp_hid/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build
 .PHONY : __idf_esp_hid/fast
 
-src/ble_hidd.obj: src/ble_hidd.c.obj
-.PHONY : src/ble_hidd.obj
-
-# target to build an object file
-src/ble_hidd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidd.c.obj
-.PHONY : src/ble_hidd.c.obj
-
-src/ble_hidd.i: src/ble_hidd.c.i
-.PHONY : src/ble_hidd.i
-
-# target to preprocess a source file
-src/ble_hidd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidd.c.i
-.PHONY : src/ble_hidd.c.i
-
-src/ble_hidd.s: src/ble_hidd.c.s
-.PHONY : src/ble_hidd.s
-
-# target to generate assembly for a file
-src/ble_hidd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidd.c.s
-.PHONY : src/ble_hidd.c.s
-
-src/ble_hidh.obj: src/ble_hidh.c.obj
-.PHONY : src/ble_hidh.obj
-
-# target to build an object file
-src/ble_hidh.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidh.c.obj
-.PHONY : src/ble_hidh.c.obj
-
-src/ble_hidh.i: src/ble_hidh.c.i
-.PHONY : src/ble_hidh.i
-
-# target to preprocess a source file
-src/ble_hidh.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidh.c.i
-.PHONY : src/ble_hidh.c.i
-
-src/ble_hidh.s: src/ble_hidh.c.s
-.PHONY : src/ble_hidh.s
-
-# target to generate assembly for a file
-src/ble_hidh.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidh.c.s
-.PHONY : src/ble_hidh.c.s
-
-src/bt_hidd.obj: src/bt_hidd.c.obj
-.PHONY : src/bt_hidd.obj
-
-# target to build an object file
-src/bt_hidd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidd.c.obj
-.PHONY : src/bt_hidd.c.obj
-
-src/bt_hidd.i: src/bt_hidd.c.i
-.PHONY : src/bt_hidd.i
-
-# target to preprocess a source file
-src/bt_hidd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidd.c.i
-.PHONY : src/bt_hidd.c.i
-
-src/bt_hidd.s: src/bt_hidd.c.s
-.PHONY : src/bt_hidd.s
-
-# target to generate assembly for a file
-src/bt_hidd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidd.c.s
-.PHONY : src/bt_hidd.c.s
-
-src/bt_hidh.obj: src/bt_hidh.c.obj
-.PHONY : src/bt_hidh.obj
-
-# target to build an object file
-src/bt_hidh.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidh.c.obj
-.PHONY : src/bt_hidh.c.obj
-
-src/bt_hidh.i: src/bt_hidh.c.i
-.PHONY : src/bt_hidh.i
-
-# target to preprocess a source file
-src/bt_hidh.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidh.c.i
-.PHONY : src/bt_hidh.c.i
-
-src/bt_hidh.s: src/bt_hidh.c.s
-.PHONY : src/bt_hidh.s
-
-# target to generate assembly for a file
-src/bt_hidh.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidh.c.s
-.PHONY : src/bt_hidh.c.s
-
 src/esp_hid_common.obj: src/esp_hid_common.c.obj
 .PHONY : src/esp_hid_common.obj
 
@@ -343,6 +247,54 @@ src/esp_hidh.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.s
 .PHONY : src/esp_hidh.c.s
 
+src/nimble_hidd.obj: src/nimble_hidd.c.obj
+.PHONY : src/nimble_hidd.obj
+
+# target to build an object file
+src/nimble_hidd.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.obj
+.PHONY : src/nimble_hidd.c.obj
+
+src/nimble_hidd.i: src/nimble_hidd.c.i
+.PHONY : src/nimble_hidd.i
+
+# target to preprocess a source file
+src/nimble_hidd.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.i
+.PHONY : src/nimble_hidd.c.i
+
+src/nimble_hidd.s: src/nimble_hidd.c.s
+.PHONY : src/nimble_hidd.s
+
+# target to generate assembly for a file
+src/nimble_hidd.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.s
+.PHONY : src/nimble_hidd.c.s
+
+src/nimble_hidh.obj: src/nimble_hidh.c.obj
+.PHONY : src/nimble_hidh.obj
+
+# target to build an object file
+src/nimble_hidh.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.obj
+.PHONY : src/nimble_hidh.c.obj
+
+src/nimble_hidh.i: src/nimble_hidh.c.i
+.PHONY : src/nimble_hidh.i
+
+# target to preprocess a source file
+src/nimble_hidh.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.i
+.PHONY : src/nimble_hidh.c.i
+
+src/nimble_hidh.s: src/nimble_hidh.c.s
+.PHONY : src/nimble_hidh.s
+
+# target to generate assembly for a file
+src/nimble_hidh.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.s
+.PHONY : src/nimble_hidh.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -356,18 +308,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_hid"
-	@echo "... src/ble_hidd.obj"
-	@echo "... src/ble_hidd.i"
-	@echo "... src/ble_hidd.s"
-	@echo "... src/ble_hidh.obj"
-	@echo "... src/ble_hidh.i"
-	@echo "... src/ble_hidh.s"
-	@echo "... src/bt_hidd.obj"
-	@echo "... src/bt_hidd.i"
-	@echo "... src/bt_hidd.s"
-	@echo "... src/bt_hidh.obj"
-	@echo "... src/bt_hidh.i"
-	@echo "... src/bt_hidh.s"
 	@echo "... src/esp_hid_common.obj"
 	@echo "... src/esp_hid_common.i"
 	@echo "... src/esp_hid_common.s"
@@ -377,6 +317,12 @@ help:
 	@echo "... src/esp_hidh.obj"
 	@echo "... src/esp_hidh.i"
 	@echo "... src/esp_hidh.s"
+	@echo "... src/nimble_hidd.obj"
+	@echo "... src/nimble_hidd.i"
+	@echo "... src/nimble_hidd.s"
+	@echo "... src/nimble_hidh.obj"
+	@echo "... src/nimble_hidh.i"
+	@echo "... src/nimble_hidh.s"
 .PHONY : help
 
 

@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/efuse-common-table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse-common-table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse-common-table:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/efuse && /Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/efuse/efuse_table_gen.py /Users/vilochanabandara/esp/esp-idf/components/efuse/esp32s3/esp_efuse_table.csv -t esp32s3 --max_blk_len 256
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/efuse && /Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/efuse/efuse_table_gen.py /Users/vilochanabandara/esp/esp-idf/components/efuse/esp32s3/esp_efuse_table.csv -t esp32s3 --max_blk_len 256
 
 esp-idf/efuse/CMakeFiles/efuse-common-table.dir/codegen:
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-common-table.dir/codegen

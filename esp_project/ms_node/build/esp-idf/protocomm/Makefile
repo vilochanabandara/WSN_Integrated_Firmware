@@ -439,54 +439,6 @@ src/security/security2.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.s
 .PHONY : src/security/security2.c.s
 
-src/simple_ble/simple_ble.obj: src/simple_ble/simple_ble.c.obj
-.PHONY : src/simple_ble/simple_ble.obj
-
-# target to build an object file
-src/simple_ble/simple_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.obj
-.PHONY : src/simple_ble/simple_ble.c.obj
-
-src/simple_ble/simple_ble.i: src/simple_ble/simple_ble.c.i
-.PHONY : src/simple_ble/simple_ble.i
-
-# target to preprocess a source file
-src/simple_ble/simple_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.i
-.PHONY : src/simple_ble/simple_ble.c.i
-
-src/simple_ble/simple_ble.s: src/simple_ble/simple_ble.c.s
-.PHONY : src/simple_ble/simple_ble.s
-
-# target to generate assembly for a file
-src/simple_ble/simple_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.s
-.PHONY : src/simple_ble/simple_ble.c.s
-
-src/transports/protocomm_ble.obj: src/transports/protocomm_ble.c.obj
-.PHONY : src/transports/protocomm_ble.obj
-
-# target to build an object file
-src/transports/protocomm_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.obj
-.PHONY : src/transports/protocomm_ble.c.obj
-
-src/transports/protocomm_ble.i: src/transports/protocomm_ble.c.i
-.PHONY : src/transports/protocomm_ble.i
-
-# target to preprocess a source file
-src/transports/protocomm_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.i
-.PHONY : src/transports/protocomm_ble.c.i
-
-src/transports/protocomm_ble.s: src/transports/protocomm_ble.c.s
-.PHONY : src/transports/protocomm_ble.s
-
-# target to generate assembly for a file
-src/transports/protocomm_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.s
-.PHONY : src/transports/protocomm_ble.c.s
-
 src/transports/protocomm_console.obj: src/transports/protocomm_console.c.obj
 .PHONY : src/transports/protocomm_console.obj
 
@@ -535,6 +487,30 @@ src/transports/protocomm_httpd.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.s
 .PHONY : src/transports/protocomm_httpd.c.s
 
+src/transports/protocomm_nimble.obj: src/transports/protocomm_nimble.c.obj
+.PHONY : src/transports/protocomm_nimble.obj
+
+# target to build an object file
+src/transports/protocomm_nimble.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj
+.PHONY : src/transports/protocomm_nimble.c.obj
+
+src/transports/protocomm_nimble.i: src/transports/protocomm_nimble.c.i
+.PHONY : src/transports/protocomm_nimble.i
+
+# target to preprocess a source file
+src/transports/protocomm_nimble.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.i
+.PHONY : src/transports/protocomm_nimble.c.i
+
+src/transports/protocomm_nimble.s: src/transports/protocomm_nimble.c.s
+.PHONY : src/transports/protocomm_nimble.s
+
+# target to generate assembly for a file
+src/transports/protocomm_nimble.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.s
+.PHONY : src/transports/protocomm_nimble.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -581,18 +557,15 @@ help:
 	@echo "... src/security/security2.obj"
 	@echo "... src/security/security2.i"
 	@echo "... src/security/security2.s"
-	@echo "... src/simple_ble/simple_ble.obj"
-	@echo "... src/simple_ble/simple_ble.i"
-	@echo "... src/simple_ble/simple_ble.s"
-	@echo "... src/transports/protocomm_ble.obj"
-	@echo "... src/transports/protocomm_ble.i"
-	@echo "... src/transports/protocomm_ble.s"
 	@echo "... src/transports/protocomm_console.obj"
 	@echo "... src/transports/protocomm_console.i"
 	@echo "... src/transports/protocomm_console.s"
 	@echo "... src/transports/protocomm_httpd.obj"
 	@echo "... src/transports/protocomm_httpd.i"
 	@echo "... src/transports/protocomm_httpd.s"
+	@echo "... src/transports/protocomm_nimble.obj"
+	@echo "... src/transports/protocomm_nimble.i"
+	@echo "... src/transports/protocomm_nimble.s"
 .PHONY : help
 
 

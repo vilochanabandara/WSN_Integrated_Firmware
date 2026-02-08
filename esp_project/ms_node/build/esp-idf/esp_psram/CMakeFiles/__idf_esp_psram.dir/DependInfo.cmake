@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vilochanabandara/esp/esp-idf/components/esp_psram/esp32s3/esp_psram_impl_octal.c" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32s3/esp_psram_impl_octal.c.obj" "gcc" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32s3/esp_psram_impl_octal.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/esp_psram/system_layer/esp_psram.c" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram.c.obj" "gcc" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/esp_psram/xip_impl/mmu_psram_flash.c" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/xip_impl/mmu_psram_flash.c.obj" "gcc" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/xip_impl/mmu_psram_flash.c.obj.d"
+  "/Users/vilochanabandara/esp/esp-idf/components/esp_psram/esp_psram.c" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj" "gcc" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj.d"
+  "/Users/vilochanabandara/esp/esp-idf/components/esp_psram/mmu_psram_flash.c" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj" "gcc" "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

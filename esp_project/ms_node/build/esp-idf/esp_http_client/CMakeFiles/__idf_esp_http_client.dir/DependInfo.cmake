@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vilochanabandara/esp/esp-idf/components/esp_http_client/esp_http_client.c" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj" "gcc" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/esp_http_client/lib/http_auth.c" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj" "gcc" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/esp_http_client/lib/http_crypto_mbedtls.c" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.obj" "gcc" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/esp_http_client/lib/http_header.c" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj" "gcc" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/esp_http_client/lib/http_utils.c" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj" "gcc" "esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj.d"
   )

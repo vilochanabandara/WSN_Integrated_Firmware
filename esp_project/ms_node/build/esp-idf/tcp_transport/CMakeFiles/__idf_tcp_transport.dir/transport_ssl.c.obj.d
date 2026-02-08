@@ -1,60 +1,59 @@
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/tcp_transport/transport_ssl.c \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
  /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/config/sdkconfig.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/assert.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdint.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/errno.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/errno.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/errno.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/unistd.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/select.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/select.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timeval.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/timespec.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timespec.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_pthreadtypes.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/sched.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/types.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/unistd.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/errno.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/errno.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/errno.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/unistd.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/select.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/select.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timeval.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/timespec.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timespec.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_pthreadtypes.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/sched.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/types.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/unistd.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp-tls/esp_tls.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_err.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdarg.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp-tls/esp_tls_errors.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
@@ -62,7 +61,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/vilochanabandara/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/mpu_caps.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \
@@ -76,10 +75,10 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/limits.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/syslimits.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
@@ -111,12 +110,12 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/include/sha1_alt.h \
  /Users/vilochanabandara/esp/esp-idf/components/hal/include/hal/sha_types.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/include/esp32s3/rom/sha.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h \
  /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reg_base.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/include/sha256_alt.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
@@ -148,45 +147,33 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h \
  /Users/vilochanabandara/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/time.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/time.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/time.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/time.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/time.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/time.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_config.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_level.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_color.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_buffer.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_timestamp.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_write.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_format.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_args.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_macros.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_attr.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_private/log_attr.h \
+ /Users/vilochanabandara/esp/esp-idf/components/log/include/esp_log_internal.h \
  /Users/vilochanabandara/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
  /Users/vilochanabandara/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h \
  /Users/vilochanabandara/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
  /Users/vilochanabandara/esp/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/time.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/time.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/machine/_time.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/time.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/time.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/machine/_time.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/include/lwip/sockets.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/port/include/lwipopts.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/fcntl.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/_default_fcntl.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/stat.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/ioctl.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/poll.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/fcntl.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/_default_fcntl.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/stat.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/ioctl.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/poll.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_system/include/esp_task.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
@@ -207,7 +194,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h \
+ /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
@@ -216,18 +203,21 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xt_utils.h \
  /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_macros.h \
+ /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/esp_newlib.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/vilochanabandara/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/vilochanabandara/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/reent.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/reent.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h \
  /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h \
@@ -247,7 +237,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/ctype.h \
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/ctype.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
@@ -265,6 +255,6 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj: \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
- /Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/net/if.h \
+ /Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/net/if.h \
  /Users/vilochanabandara/esp/esp-idf/components/lwip/lwip/src/include/lwip/if_api.h \
- /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h
+ /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h

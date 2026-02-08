@@ -1,2 +1,0 @@
-/Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar qc libesp_hal_lcd.a CMakeFiles/__idf_esp_hal_lcd.dir/lcd_hal.c.obj CMakeFiles/__idf_esp_hal_lcd.dir/esp32s3/lcd_periph.c.obj
-/Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib libesp_hal_lcd.a

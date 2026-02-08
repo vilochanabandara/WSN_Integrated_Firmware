@@ -76,267 +76,365 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: esp-idf/soc/CMakeFiles/__idf_
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj -MF CMakeFiles/__idf_soc.dir/lldesc.c.obj.d -o CMakeFiles/__idf_soc.dir/lldesc.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj -MF CMakeFiles/__idf_soc.dir/lldesc.c.obj.d -o CMakeFiles/__idf_soc.dir/lldesc.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/lldesc.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c > CMakeFiles/__idf_soc.dir/lldesc.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c > CMakeFiles/__idf_soc.dir/lldesc.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/lldesc.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c -o CMakeFiles/__idf_soc.dir/lldesc.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/lldesc.c -o CMakeFiles/__idf_soc.dir/lldesc.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -MF CMakeFiles/__idf_soc.dir/dport_access_common.c.obj.d -o CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -MF CMakeFiles/__idf_soc.dir/dport_access_common.c.obj.d -o CMakeFiles/__idf_soc.dir/dport_access_common.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/dport_access_common.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c > CMakeFiles/__idf_soc.dir/dport_access_common.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c > CMakeFiles/__idf_soc.dir/dport_access_common.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/dport_access_common.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c -o CMakeFiles/__idf_soc.dir/dport_access_common.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/dport_access_common.c -o CMakeFiles/__idf_soc.dir/dport_access_common.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c > CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c > CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/interrupts.c -o CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/uart_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/adc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gdma_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gdma_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gdma_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/gdma_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/spi_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/ledc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/pcnt_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/pcnt_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/pcnt_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/pcnt_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rmt_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdm_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2s_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2s_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2s_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2s_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2c_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2c_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2c_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/i2c_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/timer_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/timer_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/timer_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/timer_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/lcd_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/lcd_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/lcd_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/lcd_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mcpwm_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mcpwm_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mcpwm_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mcpwm_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/mpi_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/twai_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/wdt_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/wdt_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/wdt_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/wdt_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.s
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/usb_dwc_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/usb_dwc_periph.c
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.i"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/usb_dwc_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.i
+
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.s"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/usb_dwc_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj"
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.s
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/cam_periph.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/cam_periph.c
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/cam_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.i
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/cam_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.s
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj -MF CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj.d -o CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c > CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.i
-
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c -o CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.s
 
 # Object files for target __idf_soc
 __idf_soc_OBJECTS = \
@@ -347,18 +445,25 @@ __idf_soc_OBJECTS = \
 "CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj" \
 "CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj" \
-"CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj"
+"CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj" \
+"CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj"
 
 # External object files for target __idf_soc
 __idf_soc_EXTERNAL_OBJECTS =
@@ -370,21 +475,28 @@ esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj
+esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/cam_periph.c.obj
-esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/power_supply_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libsoc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C static library libsoc.a"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_soc.dir/cmake_clean_target.cmake
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/soc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_soc.dir/link.txt --verbose=$(VERBOSE)
 

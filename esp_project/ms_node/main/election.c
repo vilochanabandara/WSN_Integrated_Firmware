@@ -166,7 +166,11 @@ static uint32_t nash_bargaining_selection(stellar_candidate_t *candidates,
       nash_product += sw.weights[j] * logf(surplus); // α_i × log(u_i - d_i)
     }
 
-    if (valid && nash_product > max_nash_product) {
+    // Tie-break by lowest node_id so all nodes pick the same winner
+    if (valid &&
+        (nash_product > max_nash_product ||
+         (fabsf(nash_product - max_nash_product) < 1e-6f &&
+          (winner == 0 || candidates[i].node_id < winner)))) {
       max_nash_product = nash_product;
       winner = candidates[i].node_id;
       winner_idx = (int)i;
@@ -326,6 +330,13 @@ static uint32_t election_run_stellar(void) {
     return 0;
   }
 
+  // Single candidate (self or only node): always elect as CH
+  if (candidate_count == 1) {
+    uint32_t sole_winner = candidates[0].node_id;
+    ESP_LOGI(TAG, "[STELLAR] Single candidate: node_%lu elected as CH", sole_winner);
+    return sole_winner;
+  }
+
   // Phase 1: Log utility values
   ESP_LOGI(TAG, "[Phase 1] Computed utility values for %zu candidates",
            candidate_count);
@@ -374,21 +385,26 @@ static uint32_t election_run_stellar(void) {
     float max_score = -1e9f;
     for (size_t i = 0; i < candidate_count; i++) {
       if (candidates[i].on_pareto_frontier &&
-          candidates[i].stellar_score > max_score) {
+          (candidates[i].stellar_score > max_score ||
+           (fabsf(candidates[i].stellar_score - max_score) < 1e-6f &&
+            (winner == 0 || candidates[i].node_id < winner)))) {
         max_score = candidates[i].stellar_score;
         winner = candidates[i].node_id;
       }
     }
   }
 
-  // Final fallback: if still no winner, use highest overall score
+  // Final fallback: if still no winner, use highest overall score (tie-break:
+  // lowest node_id)
   if (winner == 0) {
     ESP_LOGW(
         TAG,
         "[Phase 3] Pareto fallback failed, using overall max STELLAR score");
     float max_score = -1e9f;
     for (size_t i = 0; i < candidate_count; i++) {
-      if (candidates[i].stellar_score > max_score) {
+      if (candidates[i].stellar_score > max_score ||
+          (fabsf(candidates[i].stellar_score - max_score) < 1e-6f &&
+           (winner == 0 || candidates[i].node_id < winner))) {
         max_score = candidates[i].stellar_score;
         winner = candidates[i].node_id;
       }

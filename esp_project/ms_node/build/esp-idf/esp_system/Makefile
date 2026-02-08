@@ -176,32 +176,46 @@ __idf_esp_system/fast:
 .PHONY : __idf_esp_system/fast
 
 # Convenience name for target.
-esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/rule:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/rule
-.PHONY : esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/rule
+esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
+.PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
 
 # Convenience name for target.
-memory_ld_in_preprocess: esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/rule
-.PHONY : memory_ld_in_preprocess
+memory.ld: esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
+.PHONY : memory.ld
 
 # fast build rule for target.
-memory_ld_in_preprocess/fast:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/build.make esp-idf/esp_system/CMakeFiles/memory_ld_in_preprocess.dir/build
-.PHONY : memory_ld_in_preprocess/fast
+memory.ld/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/memory.ld.dir/build.make esp-idf/esp_system/CMakeFiles/memory.ld.dir/build
+.PHONY : memory.ld/fast
 
 # Convenience name for target.
-esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/rule:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/rule
-.PHONY : esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/rule
+esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
+.PHONY : esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
 
 # Convenience name for target.
-sections_ld_in_preprocess: esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/rule
-.PHONY : sections_ld_in_preprocess
+sections.ld.in: esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
+.PHONY : sections.ld.in
 
 # fast build rule for target.
-sections_ld_in_preprocess/fast:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/build.make esp-idf/esp_system/CMakeFiles/sections_ld_in_preprocess.dir/build
-.PHONY : sections_ld_in_preprocess/fast
+sections.ld.in/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build.make esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build
+.PHONY : sections.ld.in/fast
+
+# Convenience name for target.
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule
+.PHONY : esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule
+
+# Convenience name for target.
+__ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule
+.PHONY : __ldgen_output_sections.ld
+
+# fast build rule for target.
+__ldgen_output_sections.ld/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build
+.PHONY : __ldgen_output_sections.ld/fast
 
 crosscore_int.obj: crosscore_int.c.obj
 .PHONY : crosscore_int.obj
@@ -554,6 +568,30 @@ port/arch/xtensa/trax.s: port/arch/xtensa/trax.c.s
 port/arch/xtensa/trax.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.s
 .PHONY : port/arch/xtensa/trax.c.s
+
+port/brownout.obj: port/brownout.c.obj
+.PHONY : port/brownout.obj
+
+# target to build an object file
+port/brownout.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj
+.PHONY : port/brownout.c.obj
+
+port/brownout.i: port/brownout.c.i
+.PHONY : port/brownout.i
+
+# target to preprocess a source file
+port/brownout.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.i
+.PHONY : port/brownout.c.i
+
+port/brownout.s: port/brownout.c.s
+.PHONY : port/brownout.s
+
+# target to generate assembly for a file
+port/brownout.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.s
+.PHONY : port/brownout.c.s
 
 port/cpu_start.obj: port/cpu_start.c.obj
 .PHONY : port/cpu_start.obj
@@ -1007,8 +1045,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... memory_ld_in_preprocess"
-	@echo "... sections_ld_in_preprocess"
+	@echo "... __ldgen_output_sections.ld"
+	@echo "... memory.ld"
+	@echo "... sections.ld.in"
 	@echo "... __idf_esp_system"
 	@echo "... crosscore_int.obj"
 	@echo "... crosscore_int.i"
@@ -1054,6 +1093,9 @@ help:
 	@echo "... port/arch/xtensa/trax.obj"
 	@echo "... port/arch/xtensa/trax.i"
 	@echo "... port/arch/xtensa/trax.s"
+	@echo "... port/brownout.obj"
+	@echo "... port/brownout.i"
+	@echo "... port/brownout.s"
 	@echo "... port/cpu_start.obj"
 	@echo "... port/cpu_start.i"
 	@echo "... port/cpu_start.s"

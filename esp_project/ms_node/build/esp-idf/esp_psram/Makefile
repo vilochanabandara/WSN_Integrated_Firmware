@@ -199,53 +199,53 @@ esp32s3/esp_psram_impl_octal.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32s3/esp_psram_impl_octal.c.s
 .PHONY : esp32s3/esp_psram_impl_octal.c.s
 
-system_layer/esp_psram.obj: system_layer/esp_psram.c.obj
-.PHONY : system_layer/esp_psram.obj
+esp_psram.obj: esp_psram.c.obj
+.PHONY : esp_psram.obj
 
 # target to build an object file
-system_layer/esp_psram.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram.c.obj
-.PHONY : system_layer/esp_psram.c.obj
+esp_psram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj
+.PHONY : esp_psram.c.obj
 
-system_layer/esp_psram.i: system_layer/esp_psram.c.i
-.PHONY : system_layer/esp_psram.i
+esp_psram.i: esp_psram.c.i
+.PHONY : esp_psram.i
 
 # target to preprocess a source file
-system_layer/esp_psram.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram.c.i
-.PHONY : system_layer/esp_psram.c.i
+esp_psram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i
+.PHONY : esp_psram.c.i
 
-system_layer/esp_psram.s: system_layer/esp_psram.c.s
-.PHONY : system_layer/esp_psram.s
+esp_psram.s: esp_psram.c.s
+.PHONY : esp_psram.s
 
 # target to generate assembly for a file
-system_layer/esp_psram.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/system_layer/esp_psram.c.s
-.PHONY : system_layer/esp_psram.c.s
+esp_psram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
+.PHONY : esp_psram.c.s
 
-xip_impl/mmu_psram_flash.obj: xip_impl/mmu_psram_flash.c.obj
-.PHONY : xip_impl/mmu_psram_flash.obj
+mmu_psram_flash.obj: mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.obj
 
 # target to build an object file
-xip_impl/mmu_psram_flash.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/xip_impl/mmu_psram_flash.c.obj
-.PHONY : xip_impl/mmu_psram_flash.c.obj
+mmu_psram_flash.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.c.obj
 
-xip_impl/mmu_psram_flash.i: xip_impl/mmu_psram_flash.c.i
-.PHONY : xip_impl/mmu_psram_flash.i
+mmu_psram_flash.i: mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.i
 
 # target to preprocess a source file
-xip_impl/mmu_psram_flash.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/xip_impl/mmu_psram_flash.c.i
-.PHONY : xip_impl/mmu_psram_flash.c.i
+mmu_psram_flash.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.c.i
 
-xip_impl/mmu_psram_flash.s: xip_impl/mmu_psram_flash.c.s
-.PHONY : xip_impl/mmu_psram_flash.s
+mmu_psram_flash.s: mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.s
 
 # target to generate assembly for a file
-xip_impl/mmu_psram_flash.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/xip_impl/mmu_psram_flash.c.s
-.PHONY : xip_impl/mmu_psram_flash.c.s
+mmu_psram_flash.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.c.s
 
 # Help Target
 help:
@@ -263,12 +263,12 @@ help:
 	@echo "... esp32s3/esp_psram_impl_octal.obj"
 	@echo "... esp32s3/esp_psram_impl_octal.i"
 	@echo "... esp32s3/esp_psram_impl_octal.s"
-	@echo "... system_layer/esp_psram.obj"
-	@echo "... system_layer/esp_psram.i"
-	@echo "... system_layer/esp_psram.s"
-	@echo "... xip_impl/mmu_psram_flash.obj"
-	@echo "... xip_impl/mmu_psram_flash.i"
-	@echo "... xip_impl/mmu_psram_flash.s"
+	@echo "... esp_psram.obj"
+	@echo "... esp_psram.i"
+	@echo "... esp_psram.s"
+	@echo "... mmu_psram_flash.obj"
+	@echo "... mmu_psram_flash.i"
+	@echo "... mmu_psram_flash.s"
 .PHONY : help
 
 

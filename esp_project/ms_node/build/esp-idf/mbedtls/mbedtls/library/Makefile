@@ -217,6 +217,30 @@ lib/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.obj
+
+# target to build an object file
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.obj
+
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.i
+
+# target to preprocess a source file
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.i
+
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.s
+
+# target to generate assembly for a file
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.c.s
+
 Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj
 
@@ -264,30 +288,6 @@ Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_
 Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
-
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj
-
-# target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.obj
-
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i
-
-# target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.i
-
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s
-
-# target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.c.s
 
 Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj
@@ -529,30 +529,6 @@ Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj
-
-# target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.obj
-
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i
-
-# target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.i
-
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s
-
-# target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.c.s
-
 Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.obj
 
@@ -697,125 +673,125 @@ Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.obj
 
 # target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.obj
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.i
 
 # target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.i
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.s
 
 # target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.obj
 
 # target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.obj
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.i
 
 # target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.i
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.s
 
 # target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.obj
 
 # target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.obj
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.i
 
 # target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.i
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.s
 
 # target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj
 
 # target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i
 
 # target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s
 
 # target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.c.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.obj
 
 # target to build an object file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.obj
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.obj
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.i: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.i
 
 # target to preprocess a source file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.i
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.i
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.i
 
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.s: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.s
 
 # target to generate assembly for a file
-Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
-.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.c.s
+Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.s
+.PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.c.s
 
 Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj: Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
 .PHONY : Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj
@@ -3425,15 +3401,15 @@ help:
 	@echo "... mbedcrypto"
 	@echo "... mbedtls"
 	@echo "... mbedx509"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes.s"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_dma_core.s"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes.s"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.s"
@@ -3464,9 +3440,6 @@ help:
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hardware.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_hmac_pbkdf2.s"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/esp_mem.s"
@@ -3485,21 +3458,21 @@ help:
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/net_sockets.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha_gdma_impl.s"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.obj"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.i"
-	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/core/sha.s"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha1.s"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha256.s"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha512.s"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.obj"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.i"
+	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/dma/sha.s"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.obj"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.i"
 	@echo "... Users/vilochanabandara/esp/esp-idf/components/mbedtls/port/sha/esp_sha.s"

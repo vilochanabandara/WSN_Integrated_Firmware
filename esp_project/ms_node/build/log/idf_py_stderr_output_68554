@@ -1,0 +1,10 @@
+[0;33m--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.[0m
+[0;33m--- Using /dev/cu.usbmodem5ABA0603751 instead...[0m
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.usbmodem5ABA0603751 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- Connection to /dev/cu.usbmodem5ABA0603751 failed. Available ports:
+--- /dev/cu.usbmodem5ABA0604721
+--- /dev/cu.usbmodem5ABA0603751
+--- /dev/cu.usbmodem5ABA0607321
+--- /dev/cu.usbmodem5ABA0605221[0m
+[0m

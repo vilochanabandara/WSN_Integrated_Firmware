@@ -175,101 +175,53 @@ __idf_esp_driver_sdmmc/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build
 .PHONY : __idf_esp_driver_sdmmc/fast
 
-legacy/src/sdmmc_host.obj: legacy/src/sdmmc_host.c.obj
-.PHONY : legacy/src/sdmmc_host.obj
+src/sdmmc_host.obj: src/sdmmc_host.c.obj
+.PHONY : src/sdmmc_host.obj
 
 # target to build an object file
-legacy/src/sdmmc_host.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj
-.PHONY : legacy/src/sdmmc_host.c.obj
+src/sdmmc_host.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj
+.PHONY : src/sdmmc_host.c.obj
 
-legacy/src/sdmmc_host.i: legacy/src/sdmmc_host.c.i
-.PHONY : legacy/src/sdmmc_host.i
+src/sdmmc_host.i: src/sdmmc_host.c.i
+.PHONY : src/sdmmc_host.i
 
 # target to preprocess a source file
-legacy/src/sdmmc_host.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i
-.PHONY : legacy/src/sdmmc_host.c.i
+src/sdmmc_host.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i
+.PHONY : src/sdmmc_host.c.i
 
-legacy/src/sdmmc_host.s: legacy/src/sdmmc_host.c.s
-.PHONY : legacy/src/sdmmc_host.s
+src/sdmmc_host.s: src/sdmmc_host.c.s
+.PHONY : src/sdmmc_host.s
 
 # target to generate assembly for a file
-legacy/src/sdmmc_host.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s
-.PHONY : legacy/src/sdmmc_host.c.s
+src/sdmmc_host.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s
+.PHONY : src/sdmmc_host.c.s
 
-legacy/src/sdmmc_transaction.obj: legacy/src/sdmmc_transaction.c.obj
-.PHONY : legacy/src/sdmmc_transaction.obj
+src/sdmmc_transaction.obj: src/sdmmc_transaction.c.obj
+.PHONY : src/sdmmc_transaction.obj
 
 # target to build an object file
-legacy/src/sdmmc_transaction.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj
-.PHONY : legacy/src/sdmmc_transaction.c.obj
+src/sdmmc_transaction.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj
+.PHONY : src/sdmmc_transaction.c.obj
 
-legacy/src/sdmmc_transaction.i: legacy/src/sdmmc_transaction.c.i
-.PHONY : legacy/src/sdmmc_transaction.i
-
-# target to preprocess a source file
-legacy/src/sdmmc_transaction.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i
-.PHONY : legacy/src/sdmmc_transaction.c.i
-
-legacy/src/sdmmc_transaction.s: legacy/src/sdmmc_transaction.c.s
-.PHONY : legacy/src/sdmmc_transaction.s
-
-# target to generate assembly for a file
-legacy/src/sdmmc_transaction.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s
-.PHONY : legacy/src/sdmmc_transaction.c.s
-
-src/sd_host_sdmmc.obj: src/sd_host_sdmmc.c.obj
-.PHONY : src/sd_host_sdmmc.obj
-
-# target to build an object file
-src/sd_host_sdmmc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj
-.PHONY : src/sd_host_sdmmc.c.obj
-
-src/sd_host_sdmmc.i: src/sd_host_sdmmc.c.i
-.PHONY : src/sd_host_sdmmc.i
+src/sdmmc_transaction.i: src/sdmmc_transaction.c.i
+.PHONY : src/sdmmc_transaction.i
 
 # target to preprocess a source file
-src/sd_host_sdmmc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i
-.PHONY : src/sd_host_sdmmc.c.i
+src/sdmmc_transaction.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i
+.PHONY : src/sdmmc_transaction.c.i
 
-src/sd_host_sdmmc.s: src/sd_host_sdmmc.c.s
-.PHONY : src/sd_host_sdmmc.s
-
-# target to generate assembly for a file
-src/sd_host_sdmmc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s
-.PHONY : src/sd_host_sdmmc.c.s
-
-src/sd_trans_sdmmc.obj: src/sd_trans_sdmmc.c.obj
-.PHONY : src/sd_trans_sdmmc.obj
-
-# target to build an object file
-src/sd_trans_sdmmc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj
-.PHONY : src/sd_trans_sdmmc.c.obj
-
-src/sd_trans_sdmmc.i: src/sd_trans_sdmmc.c.i
-.PHONY : src/sd_trans_sdmmc.i
-
-# target to preprocess a source file
-src/sd_trans_sdmmc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i
-.PHONY : src/sd_trans_sdmmc.c.i
-
-src/sd_trans_sdmmc.s: src/sd_trans_sdmmc.c.s
-.PHONY : src/sd_trans_sdmmc.s
+src/sdmmc_transaction.s: src/sdmmc_transaction.c.s
+.PHONY : src/sdmmc_transaction.s
 
 # target to generate assembly for a file
-src/sd_trans_sdmmc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s
-.PHONY : src/sd_trans_sdmmc.c.s
+src/sdmmc_transaction.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s
+.PHONY : src/sdmmc_transaction.c.s
 
 # Help Target
 help:
@@ -284,18 +236,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_driver_sdmmc"
-	@echo "... legacy/src/sdmmc_host.obj"
-	@echo "... legacy/src/sdmmc_host.i"
-	@echo "... legacy/src/sdmmc_host.s"
-	@echo "... legacy/src/sdmmc_transaction.obj"
-	@echo "... legacy/src/sdmmc_transaction.i"
-	@echo "... legacy/src/sdmmc_transaction.s"
-	@echo "... src/sd_host_sdmmc.obj"
-	@echo "... src/sd_host_sdmmc.i"
-	@echo "... src/sd_host_sdmmc.s"
-	@echo "... src/sd_trans_sdmmc.obj"
-	@echo "... src/sd_trans_sdmmc.i"
-	@echo "... src/sd_trans_sdmmc.s"
+	@echo "... src/sdmmc_host.obj"
+	@echo "... src/sdmmc_host.i"
+	@echo "... src/sdmmc_host.s"
+	@echo "... src/sdmmc_transaction.obj"
+	@echo "... src/sdmmc_transaction.i"
+	@echo "... src/sdmmc_transaction.s"
 .PHONY : help
 
 

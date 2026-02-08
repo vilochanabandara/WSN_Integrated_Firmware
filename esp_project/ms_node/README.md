@@ -359,6 +359,27 @@ idf.py -p COM3 monitor
 idf.py -p COM3 flash monitor
 ```
 
+### Device management (optimize, monitor, reflash)
+
+Use the **device manager** to build, flash, monitor, and push config to one or all nodes from a single place. Edit `devices.yaml` with your serial ports (copy from `devices.example.yaml` if needed).
+
+```bash
+# From repo: esp_project/tools/ or esp_project/ms_node/
+python ../tools/device_manager.py build
+python ../tools/device_manager.py list-ports          # List USB serial ports
+python ../tools/device_manager.py list-devices        # Show devices.yaml
+python ../tools/device_manager.py flash --name Node1  # Flash one device
+python ../tools/device_manager.py flash-all           # Flash all devices
+python ../tools/device_manager.py monitor --name Node1
+python ../tools/device_manager.py monitor-all         # Monitor all (parallel)
+# Push config over serial (same keys as BLE Config Update)
+python ../tools/device_manager.py optimize --port /dev/tty.usbmodem123 audio_interval_ms=300000 inmp441_enabled=0
+```
+
+**Serial CONFIG:** When a device is connected via USB, you can also send config from the serial monitor: type `CONFIG key=value` (e.g. `CONFIG audio_interval_ms=300000`). The device applies and saves to NVS; the main loop reloads config periodically.
+
+**Cluster check:** Run `python check_cluster.py` to monitor all nodes and verify discovery/election (uses `devices.yaml`).
+
 ### Configuration
 
 Key `sdkconfig` settings:

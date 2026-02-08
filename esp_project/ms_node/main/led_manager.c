@@ -1,21 +1,40 @@
 #include "led_manager.h"
 #include "driver/gpio.h"
 #include "esp_log.h"
+#include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "led_strip.h"
 
 // GPIO for WS2812 RGB LED on ESP32-S3-DevKitC-1
 #define LED_GPIO 48
+#define LED_DEBOUNCE_MS 500
 
 static const char *TAG = "LED_MANAGER";
 
 static TaskHandle_t led_task_handle = NULL;
 static led_strip_handle_t led_strip;
 static volatile node_state_t current_led_state = STATE_INIT;
+static volatile node_state_t pending_led_state = STATE_INIT;
+static uint64_t pending_since_us = 0;
 
 static void led_task(void *pvParameters) {
   while (1) {
+    uint64_t now_us = esp_timer_get_time();
+    uint64_t pending_duration_us = now_us - pending_since_us;
+    if (pending_led_state != current_led_state) {
+      uint32_t required_ms = LED_DEBOUNCE_MS;
+      /* Once we are showing MEMBER (green), never switch to white (CANDIDATE/DISCOVER).
+       * Only allow switch to CH (blue) or INIT. Stops flicker completely. */
+      if (current_led_state == STATE_MEMBER &&
+          (pending_led_state == STATE_CANDIDATE || pending_led_state == STATE_DISCOVER)) {
+        required_ms = 60000;  /* Effectively never: 60s so we stay green */
+      }
+      if (pending_duration_us >= (uint64_t)required_ms * 1000ULL) {
+        current_led_state = pending_led_state;
+        ESP_LOGI(TAG, "LED applied state: %d", (int)current_led_state);
+      }
+    }
     switch (current_led_state) {
     case STATE_CH:
       // CH = SOLID BLUE
@@ -89,8 +108,8 @@ void led_manager_init(void) {
 }
 
 void led_manager_set_state(node_state_t state) {
-  if (current_led_state != state) {
-    ESP_LOGI(TAG, "LED State changed: %d -> %d", current_led_state, state);
-    current_led_state = state;
+  if (pending_led_state != state) {
+    pending_led_state = state;
+    pending_since_us = esp_timer_get_time();
   }
 }

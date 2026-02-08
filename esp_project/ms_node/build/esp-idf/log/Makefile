@@ -175,341 +175,77 @@ __idf_log/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
 .PHONY : __idf_log/fast
 
-src/buffer/log_buffers.obj: src/buffer/log_buffers.c.obj
-.PHONY : src/buffer/log_buffers.obj
+log.obj: log.c.obj
+.PHONY : log.obj
 
 # target to build an object file
-src/buffer/log_buffers.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
-.PHONY : src/buffer/log_buffers.c.obj
+log.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+.PHONY : log.c.obj
 
-src/buffer/log_buffers.i: src/buffer/log_buffers.c.i
-.PHONY : src/buffer/log_buffers.i
+log.i: log.c.i
+.PHONY : log.i
 
 # target to preprocess a source file
-src/buffer/log_buffers.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.i
-.PHONY : src/buffer/log_buffers.c.i
+log.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log.c.i
+.PHONY : log.c.i
 
-src/buffer/log_buffers.s: src/buffer/log_buffers.c.s
-.PHONY : src/buffer/log_buffers.s
+log.s: log.c.s
+.PHONY : log.s
 
 # target to generate assembly for a file
-src/buffer/log_buffers.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.s
-.PHONY : src/buffer/log_buffers.c.s
+log.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log.c.s
+.PHONY : log.c.s
 
-src/log.obj: src/log.c.obj
-.PHONY : src/log.obj
+log_buffers.obj: log_buffers.c.obj
+.PHONY : log_buffers.obj
 
 # target to build an object file
-src/log.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
-.PHONY : src/log.c.obj
+log_buffers.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+.PHONY : log_buffers.c.obj
 
-src/log.i: src/log.c.i
-.PHONY : src/log.i
+log_buffers.i: log_buffers.c.i
+.PHONY : log_buffers.i
 
 # target to preprocess a source file
-src/log.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.i
-.PHONY : src/log.c.i
+log_buffers.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.i
+.PHONY : log_buffers.c.i
 
-src/log.s: src/log.c.s
-.PHONY : src/log.s
+log_buffers.s: log_buffers.c.s
+.PHONY : log_buffers.s
 
 # target to generate assembly for a file
-src/log.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.s
-.PHONY : src/log.c.s
+log_buffers.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.s
+.PHONY : log_buffers.c.s
 
-src/log_format_text.obj: src/log_format_text.c.obj
-.PHONY : src/log_format_text.obj
+log_freertos.obj: log_freertos.c.obj
+.PHONY : log_freertos.obj
 
 # target to build an object file
-src/log_format_text.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
-.PHONY : src/log_format_text.c.obj
+log_freertos.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
+.PHONY : log_freertos.c.obj
 
-src/log_format_text.i: src/log_format_text.c.i
-.PHONY : src/log_format_text.i
-
-# target to preprocess a source file
-src/log_format_text.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.i
-.PHONY : src/log_format_text.c.i
-
-src/log_format_text.s: src/log_format_text.c.s
-.PHONY : src/log_format_text.s
-
-# target to generate assembly for a file
-src/log_format_text.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.s
-.PHONY : src/log_format_text.c.s
-
-src/log_level/log_level.obj: src/log_level/log_level.c.obj
-.PHONY : src/log_level/log_level.obj
-
-# target to build an object file
-src/log_level/log_level.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/log_level.c.obj
-.PHONY : src/log_level/log_level.c.obj
-
-src/log_level/log_level.i: src/log_level/log_level.c.i
-.PHONY : src/log_level/log_level.i
+log_freertos.i: log_freertos.c.i
+.PHONY : log_freertos.i
 
 # target to preprocess a source file
-src/log_level/log_level.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/log_level.c.i
-.PHONY : src/log_level/log_level.c.i
+log_freertos.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.i
+.PHONY : log_freertos.c.i
 
-src/log_level/log_level.s: src/log_level/log_level.c.s
-.PHONY : src/log_level/log_level.s
-
-# target to generate assembly for a file
-src/log_level/log_level.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/log_level.c.s
-.PHONY : src/log_level/log_level.c.s
-
-src/log_level/tag_log_level/cache/log_binary_heap.obj: src/log_level/tag_log_level/cache/log_binary_heap.c.obj
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.obj
-
-# target to build an object file
-src/log_level/tag_log_level/cache/log_binary_heap.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache/log_binary_heap.c.obj
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.c.obj
-
-src/log_level/tag_log_level/cache/log_binary_heap.i: src/log_level/tag_log_level/cache/log_binary_heap.c.i
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.i
-
-# target to preprocess a source file
-src/log_level/tag_log_level/cache/log_binary_heap.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache/log_binary_heap.c.i
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.c.i
-
-src/log_level/tag_log_level/cache/log_binary_heap.s: src/log_level/tag_log_level/cache/log_binary_heap.c.s
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.s
+log_freertos.s: log_freertos.c.s
+.PHONY : log_freertos.s
 
 # target to generate assembly for a file
-src/log_level/tag_log_level/cache/log_binary_heap.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache/log_binary_heap.c.s
-.PHONY : src/log_level/tag_log_level/cache/log_binary_heap.c.s
-
-src/log_level/tag_log_level/linked_list/log_linked_list.obj: src/log_level/tag_log_level/linked_list/log_linked_list.c.obj
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.obj
-
-# target to build an object file
-src/log_level/tag_log_level/linked_list/log_linked_list.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list/log_linked_list.c.obj
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.c.obj
-
-src/log_level/tag_log_level/linked_list/log_linked_list.i: src/log_level/tag_log_level/linked_list/log_linked_list.c.i
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.i
-
-# target to preprocess a source file
-src/log_level/tag_log_level/linked_list/log_linked_list.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list/log_linked_list.c.i
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.c.i
-
-src/log_level/tag_log_level/linked_list/log_linked_list.s: src/log_level/tag_log_level/linked_list/log_linked_list.c.s
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.s
-
-# target to generate assembly for a file
-src/log_level/tag_log_level/linked_list/log_linked_list.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list/log_linked_list.c.s
-.PHONY : src/log_level/tag_log_level/linked_list/log_linked_list.c.s
-
-src/log_level/tag_log_level/tag_log_level.obj: src/log_level/tag_log_level/tag_log_level.c.obj
-.PHONY : src/log_level/tag_log_level/tag_log_level.obj
-
-# target to build an object file
-src/log_level/tag_log_level/tag_log_level.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/tag_log_level.c.obj
-.PHONY : src/log_level/tag_log_level/tag_log_level.c.obj
-
-src/log_level/tag_log_level/tag_log_level.i: src/log_level/tag_log_level/tag_log_level.c.i
-.PHONY : src/log_level/tag_log_level/tag_log_level.i
-
-# target to preprocess a source file
-src/log_level/tag_log_level/tag_log_level.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/tag_log_level.c.i
-.PHONY : src/log_level/tag_log_level/tag_log_level.c.i
-
-src/log_level/tag_log_level/tag_log_level.s: src/log_level/tag_log_level/tag_log_level.c.s
-.PHONY : src/log_level/tag_log_level/tag_log_level.s
-
-# target to generate assembly for a file
-src/log_level/tag_log_level/tag_log_level.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/tag_log_level.c.s
-.PHONY : src/log_level/tag_log_level/tag_log_level.c.s
-
-src/log_print.obj: src/log_print.c.obj
-.PHONY : src/log_print.obj
-
-# target to build an object file
-src/log_print.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
-.PHONY : src/log_print.c.obj
-
-src/log_print.i: src/log_print.c.i
-.PHONY : src/log_print.i
-
-# target to preprocess a source file
-src/log_print.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.i
-.PHONY : src/log_print.c.i
-
-src/log_print.s: src/log_print.c.s
-.PHONY : src/log_print.s
-
-# target to generate assembly for a file
-src/log_print.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.s
-.PHONY : src/log_print.c.s
-
-src/log_timestamp_common.obj: src/log_timestamp_common.c.obj
-.PHONY : src/log_timestamp_common.obj
-
-# target to build an object file
-src/log_timestamp_common.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
-.PHONY : src/log_timestamp_common.c.obj
-
-src/log_timestamp_common.i: src/log_timestamp_common.c.i
-.PHONY : src/log_timestamp_common.i
-
-# target to preprocess a source file
-src/log_timestamp_common.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.i
-.PHONY : src/log_timestamp_common.c.i
-
-src/log_timestamp_common.s: src/log_timestamp_common.c.s
-.PHONY : src/log_timestamp_common.s
-
-# target to generate assembly for a file
-src/log_timestamp_common.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.s
-.PHONY : src/log_timestamp_common.c.s
-
-src/os/log_lock.obj: src/os/log_lock.c.obj
-.PHONY : src/os/log_lock.obj
-
-# target to build an object file
-src/os/log_lock.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_lock.c.obj
-.PHONY : src/os/log_lock.c.obj
-
-src/os/log_lock.i: src/os/log_lock.c.i
-.PHONY : src/os/log_lock.i
-
-# target to preprocess a source file
-src/os/log_lock.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_lock.c.i
-.PHONY : src/os/log_lock.c.i
-
-src/os/log_lock.s: src/os/log_lock.c.s
-.PHONY : src/os/log_lock.s
-
-# target to generate assembly for a file
-src/os/log_lock.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_lock.c.s
-.PHONY : src/os/log_lock.c.s
-
-src/os/log_timestamp.obj: src/os/log_timestamp.c.obj
-.PHONY : src/os/log_timestamp.obj
-
-# target to build an object file
-src/os/log_timestamp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_timestamp.c.obj
-.PHONY : src/os/log_timestamp.c.obj
-
-src/os/log_timestamp.i: src/os/log_timestamp.c.i
-.PHONY : src/os/log_timestamp.i
-
-# target to preprocess a source file
-src/os/log_timestamp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_timestamp.c.i
-.PHONY : src/os/log_timestamp.c.i
-
-src/os/log_timestamp.s: src/os/log_timestamp.c.s
-.PHONY : src/os/log_timestamp.s
-
-# target to generate assembly for a file
-src/os/log_timestamp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_timestamp.c.s
-.PHONY : src/os/log_timestamp.c.s
-
-src/os/log_write.obj: src/os/log_write.c.obj
-.PHONY : src/os/log_write.obj
-
-# target to build an object file
-src/os/log_write.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_write.c.obj
-.PHONY : src/os/log_write.c.obj
-
-src/os/log_write.i: src/os/log_write.c.i
-.PHONY : src/os/log_write.i
-
-# target to preprocess a source file
-src/os/log_write.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_write.c.i
-.PHONY : src/os/log_write.c.i
-
-src/os/log_write.s: src/os/log_write.c.s
-.PHONY : src/os/log_write.s
-
-# target to generate assembly for a file
-src/os/log_write.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_write.c.s
-.PHONY : src/os/log_write.c.s
-
-src/os/util.obj: src/os/util.c.obj
-.PHONY : src/os/util.obj
-
-# target to build an object file
-src/os/util.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/util.c.obj
-.PHONY : src/os/util.c.obj
-
-src/os/util.i: src/os/util.c.i
-.PHONY : src/os/util.i
-
-# target to preprocess a source file
-src/os/util.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/util.c.i
-.PHONY : src/os/util.c.i
-
-src/os/util.s: src/os/util.c.s
-.PHONY : src/os/util.s
-
-# target to generate assembly for a file
-src/os/util.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/os/util.c.s
-.PHONY : src/os/util.c.s
-
-src/util.obj: src/util.c.obj
-.PHONY : src/util.obj
-
-# target to build an object file
-src/util.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
-.PHONY : src/util.c.obj
-
-src/util.i: src/util.c.i
-.PHONY : src/util.i
-
-# target to preprocess a source file
-src/util.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.i
-.PHONY : src/util.c.i
-
-src/util.s: src/util.c.s
-.PHONY : src/util.s
-
-# target to generate assembly for a file
-src/util.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.s
-.PHONY : src/util.c.s
+log_freertos.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.s
+.PHONY : log_freertos.c.s
 
 # Help Target
 help:
@@ -524,48 +260,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_log"
-	@echo "... src/buffer/log_buffers.obj"
-	@echo "... src/buffer/log_buffers.i"
-	@echo "... src/buffer/log_buffers.s"
-	@echo "... src/log.obj"
-	@echo "... src/log.i"
-	@echo "... src/log.s"
-	@echo "... src/log_format_text.obj"
-	@echo "... src/log_format_text.i"
-	@echo "... src/log_format_text.s"
-	@echo "... src/log_level/log_level.obj"
-	@echo "... src/log_level/log_level.i"
-	@echo "... src/log_level/log_level.s"
-	@echo "... src/log_level/tag_log_level/cache/log_binary_heap.obj"
-	@echo "... src/log_level/tag_log_level/cache/log_binary_heap.i"
-	@echo "... src/log_level/tag_log_level/cache/log_binary_heap.s"
-	@echo "... src/log_level/tag_log_level/linked_list/log_linked_list.obj"
-	@echo "... src/log_level/tag_log_level/linked_list/log_linked_list.i"
-	@echo "... src/log_level/tag_log_level/linked_list/log_linked_list.s"
-	@echo "... src/log_level/tag_log_level/tag_log_level.obj"
-	@echo "... src/log_level/tag_log_level/tag_log_level.i"
-	@echo "... src/log_level/tag_log_level/tag_log_level.s"
-	@echo "... src/log_print.obj"
-	@echo "... src/log_print.i"
-	@echo "... src/log_print.s"
-	@echo "... src/log_timestamp_common.obj"
-	@echo "... src/log_timestamp_common.i"
-	@echo "... src/log_timestamp_common.s"
-	@echo "... src/os/log_lock.obj"
-	@echo "... src/os/log_lock.i"
-	@echo "... src/os/log_lock.s"
-	@echo "... src/os/log_timestamp.obj"
-	@echo "... src/os/log_timestamp.i"
-	@echo "... src/os/log_timestamp.s"
-	@echo "... src/os/log_write.obj"
-	@echo "... src/os/log_write.i"
-	@echo "... src/os/log_write.s"
-	@echo "... src/os/util.obj"
-	@echo "... src/os/util.i"
-	@echo "... src/os/util.s"
-	@echo "... src/util.obj"
-	@echo "... src/util.i"
-	@echo "... src/util.s"
+	@echo "... log.obj"
+	@echo "... log.i"
+	@echo "... log.s"
+	@echo "... log_buffers.obj"
+	@echo "... log_buffers.i"
+	@echo "... log_buffers.s"
+	@echo "... log_freertos.obj"
+	@echo "... log_freertos.i"
+	@echo "... log_freertos.s"
 .PHONY : help
 
 

@@ -1,0 +1,9 @@
+/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/state_machine.c:27:17: warning: 'last_ch_beacon_time' defined but not used [-Wunused-variable]
+   27 | static uint64_t last_ch_beacon_time = 0;
+      |                 ^~~~~~~~~~~~~~~~~~~
+/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/election.c:427:17: warning: 'election_run_legacy' defined but not used [-Wunused-function]
+  427 | static uint32_t election_run_legacy(void) {
+      |                 ^~~~~~~~~~~~~~~~~~~
+/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/ms_node.c:115:13: warning: 'compression_bench_task' defined but not used [-Wunused-function]
+  115 | static void compression_bench_task(void *arg) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~

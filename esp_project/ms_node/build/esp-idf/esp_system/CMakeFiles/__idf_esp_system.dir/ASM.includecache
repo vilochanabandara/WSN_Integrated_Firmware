@@ -12,18 +12,6 @@ assert.h
 
 /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/assert.h
-sdkconfig.h
--
-stdlib.h
--
-stdint.h
--
-
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h
-sdkconfig.h
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/sdkconfig.h
-
 /Users/vilochanabandara/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S
 xtensa/coreasm.h
 -
@@ -61,8 +49,6 @@ xtensa/config/system.h
 -
 xtensa/hal.h
 -
-sdkconfig.h
-/Users/vilochanabandara/esp/esp-idf/components/esp_system/port/arch/xtensa/sdkconfig.h
 
 /Users/vilochanabandara/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S
 xtensa_context.h
@@ -123,8 +109,8 @@ assert.h
 -
 freertos/FreeRTOSConfig_arch.h
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/freertos/FreeRTOSConfig_arch.h
-esp_trace_freertos.h
-/Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/esp_trace_freertos.h
+SEGGER_SYSVIEW_FreeRTOS.h
+/Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
 
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h
 sdkconfig.h
@@ -132,27 +118,55 @@ sdkconfig.h
 xtensa_config.h
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/xtensa_config.h
 
+/Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/assert.h
+sdkconfig.h
+-
+stdlib.h
+-
+stdint.h
+-
+
+/Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/reent.h
+
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h
 stdint.h
 -
 
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/dport_reg.h
-soc/interrupt_reg.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/interrupt_reg.h
-soc/system_reg.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/system_reg.h
-soc/sensitive_reg.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/sensitive_reg.h
-soc/soc.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/soc.h
-soc/dport_access.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/dport_access.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+interrupt_reg.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_reg.h
+system_reg.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/system_reg.h
+sensitive_reg.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/sensitive_reg.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+dport_access.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_core0_reg.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_core1_reg.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
 
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_reg.h
 soc/interrupt_core0_reg.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/interrupt_core0_reg.h
 soc/interrupt_core1_reg.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/interrupt_core1_reg.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/mpu_caps.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reg_base.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/sensitive_reg.h
 soc.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
 
@@ -163,32 +177,16 @@ esp_assert.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/esp_assert.h
 esp_bit_defs.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/esp_bit_defs.h
-soc/reg_base.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/reg_base.h
+reg_base.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reg_base.h
 
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
-soc/soc_caps_eval.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/soc_caps_eval.h
+mpu_caps.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/mpu_caps.h
 
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core0_reg.h
-soc/soc.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core1_reg.h
-soc/soc.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/sensitive_reg.h
-soc/soc.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h
-soc/soc.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/system_reg.h
+soc.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
 
@@ -220,22 +218,22 @@ xtensa/config/tie-asm.h
 tie-asm.h
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h
 
+/Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h
+xtensa/corebits.h
+-
+
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
 
-/Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
-xtensa/corebits.h
--
-
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/esp_private/panic_reason.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h
 xtensa/config/core.h
 -
-xtensa/config/xt_specreg.h
+xtensa/config/specreg.h
 -
 xtensa/config/system.h
 -

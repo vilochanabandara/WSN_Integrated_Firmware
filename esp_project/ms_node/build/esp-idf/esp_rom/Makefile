@@ -287,54 +287,6 @@ patches/esp_rom_longjmp.S.obj:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
 .PHONY : patches/esp_rom_longjmp.S.obj
 
-patches/esp_rom_print.obj: patches/esp_rom_print.c.obj
-.PHONY : patches/esp_rom_print.obj
-
-# target to build an object file
-patches/esp_rom_print.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
-.PHONY : patches/esp_rom_print.c.obj
-
-patches/esp_rom_print.i: patches/esp_rom_print.c.i
-.PHONY : patches/esp_rom_print.i
-
-# target to preprocess a source file
-patches/esp_rom_print.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.i
-.PHONY : patches/esp_rom_print.c.i
-
-patches/esp_rom_print.s: patches/esp_rom_print.c.s
-.PHONY : patches/esp_rom_print.s
-
-# target to generate assembly for a file
-patches/esp_rom_print.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.s
-.PHONY : patches/esp_rom_print.c.s
-
-patches/esp_rom_serial_output.obj: patches/esp_rom_serial_output.c.obj
-.PHONY : patches/esp_rom_serial_output.obj
-
-# target to build an object file
-patches/esp_rom_serial_output.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.obj
-.PHONY : patches/esp_rom_serial_output.c.obj
-
-patches/esp_rom_serial_output.i: patches/esp_rom_serial_output.c.i
-.PHONY : patches/esp_rom_serial_output.i
-
-# target to preprocess a source file
-patches/esp_rom_serial_output.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.i
-.PHONY : patches/esp_rom_serial_output.c.i
-
-patches/esp_rom_serial_output.s: patches/esp_rom_serial_output.c.s
-.PHONY : patches/esp_rom_serial_output.s
-
-# target to generate assembly for a file
-patches/esp_rom_serial_output.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_serial_output.c.s
-.PHONY : patches/esp_rom_serial_output.c.s
-
 patches/esp_rom_spiflash.obj: patches/esp_rom_spiflash.c.obj
 .PHONY : patches/esp_rom_spiflash.obj
 
@@ -407,6 +359,54 @@ patches/esp_rom_systimer.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.s
 .PHONY : patches/esp_rom_systimer.c.s
 
+patches/esp_rom_uart.obj: patches/esp_rom_uart.c.obj
+.PHONY : patches/esp_rom_uart.obj
+
+# target to build an object file
+patches/esp_rom_uart.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+.PHONY : patches/esp_rom_uart.c.obj
+
+patches/esp_rom_uart.i: patches/esp_rom_uart.c.i
+.PHONY : patches/esp_rom_uart.i
+
+# target to preprocess a source file
+patches/esp_rom_uart.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.i
+.PHONY : patches/esp_rom_uart.c.i
+
+patches/esp_rom_uart.s: patches/esp_rom_uart.c.s
+.PHONY : patches/esp_rom_uart.s
+
+# target to generate assembly for a file
+patches/esp_rom_uart.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.s
+.PHONY : patches/esp_rom_uart.c.s
+
+patches/esp_rom_wdt.obj: patches/esp_rom_wdt.c.obj
+.PHONY : patches/esp_rom_wdt.obj
+
+# target to build an object file
+patches/esp_rom_wdt.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj
+.PHONY : patches/esp_rom_wdt.c.obj
+
+patches/esp_rom_wdt.i: patches/esp_rom_wdt.c.i
+.PHONY : patches/esp_rom_wdt.i
+
+# target to preprocess a source file
+patches/esp_rom_wdt.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.i
+.PHONY : patches/esp_rom_wdt.c.i
+
+patches/esp_rom_wdt.s: patches/esp_rom_wdt.c.s
+.PHONY : patches/esp_rom_wdt.s
+
+# target to generate assembly for a file
+patches/esp_rom_wdt.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.s
+.PHONY : patches/esp_rom_wdt.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -434,12 +434,6 @@ help:
 	@echo "... patches/esp_rom_gpio.i"
 	@echo "... patches/esp_rom_gpio.s"
 	@echo "... patches/esp_rom_longjmp.obj"
-	@echo "... patches/esp_rom_print.obj"
-	@echo "... patches/esp_rom_print.i"
-	@echo "... patches/esp_rom_print.s"
-	@echo "... patches/esp_rom_serial_output.obj"
-	@echo "... patches/esp_rom_serial_output.i"
-	@echo "... patches/esp_rom_serial_output.s"
 	@echo "... patches/esp_rom_spiflash.obj"
 	@echo "... patches/esp_rom_spiflash.i"
 	@echo "... patches/esp_rom_spiflash.s"
@@ -449,6 +443,12 @@ help:
 	@echo "... patches/esp_rom_systimer.obj"
 	@echo "... patches/esp_rom_systimer.i"
 	@echo "... patches/esp_rom_systimer.s"
+	@echo "... patches/esp_rom_uart.obj"
+	@echo "... patches/esp_rom_uart.i"
+	@echo "... patches/esp_rom_uart.s"
+	@echo "... patches/esp_rom_wdt.obj"
+	@echo "... patches/esp_rom_wdt.i"
+	@echo "... patches/esp_rom_wdt.s"
 .PHONY : help
 
 

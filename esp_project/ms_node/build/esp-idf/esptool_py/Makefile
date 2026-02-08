@@ -161,6 +161,48 @@ depend:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
+.PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
+
+# Convenience name for target.
+app-flash: esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
+.PHONY : app-flash
+
+# fast build rule for target.
+app-flash/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
+.PHONY : app-flash/fast
+
+# Convenience name for target.
+esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
+.PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
+
+# Convenience name for target.
+encrypted-app-flash: esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
+.PHONY : encrypted-app-flash
+
+# fast build rule for target.
+encrypted-app-flash/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build.make esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build
+.PHONY : encrypted-app-flash/fast
+
+# Convenience name for target.
+esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
+.PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
+
+# Convenience name for target.
+app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
+.PHONY : app_check_size
+
+# fast build rule for target.
+app_check_size/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
+.PHONY : app_check_size/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +215,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... app-flash"
+	@echo "... app_check_size"
+	@echo "... encrypted-app-flash"
 .PHONY : help
 
 

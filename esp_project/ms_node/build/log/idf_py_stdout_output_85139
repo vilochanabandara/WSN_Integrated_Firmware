@@ -1,0 +1,1738 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x1510
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xce8
+load:0x403cb700,len:0x2eb8
+entry 0x403c8918
+[0;32mI (27) boot: ESP-IDF v5.3.4-1025-g6f6766f917 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Feb  8 2026 23:33:48[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (28) boot: chip revision: v0.2[0m
+[0;32mI (31) boot: efuse block revision: v1.3[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (79) boot:  3 storage          Unknown data     01 82 00210000 00c00000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (89) esp_image: segment 0: paddr=00010020 vaddr=3c0e0020 size=2be2ch (179756) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0003be54 vaddr=3fca3a00 size=041c4h ( 16836) load[0m
+[0;32mI (133) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=d6400h (877568) map[0m
+[0;32mI (294) esp_image: segment 3: paddr=00116428 vaddr=3fca7bc4 size=01968h (  6504) load[0m
+[0;32mI (295) esp_image: segment 4: paddr=00117d98 vaddr=40374000 size=1f9ech (129516) load[0m
+[0;32mI (327) esp_image: segment 5: paddr=0013778c vaddr=50000000 size=00004h (     4) load[0m
+[0;32mI (327) esp_image: segment 6: paddr=00137798 vaddr=600fe000 size=0006ch (   108) load[0m
+[0;32mI (343) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (343) boot: Disabling RNG early entropy source...[0m
+[0;32mI (353) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (353) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (354) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (356) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (360) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (364) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (368) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (373) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (378) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (383) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (388) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (392) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (396) esp_psram: Speed: 40MHz[0m
+[0;32mI (399) cpu_start: Multicore app[0m
+[0;32mI (1133) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1141) cpu_start: Pro cpu start user code[0m
+[0;32mI (1141) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1141) app_init: Application information:[0m
+[0;32mI (1142) app_init: Project name:     ms_node[0m
+[0;32mI (1146) app_init: App version:      fe9c18f-dirty[0m
+[0;32mI (1150) app_init: Compile time:     Feb  8 2026 23:34:02[0m
+[0;32mI (1155) app_init: ELF file SHA256:  0315d8e02...[0m
+[0;32mI (1160) app_init: ESP-IDF:          v5.3.4-1025-g6f6766f917[0m
+[0;32mI (1165) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1169) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (1173) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (1177) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1184) heap_init: At 3FCAE1A0 len 0003B570 (237 KiB): RAM[0m
+[0;32mI (1189) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (1194) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1199) heap_init: At 600FE06C len 00001F7C (7 KiB): RTCRAM[0m
+[0;32mI (1205) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1212) spi_flash: detected chip: generic[0m
+[0;32mI (1215) spi_flash: flash io: dio[0m
+[0;32mI (1219) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1224) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1230) coexist: coex firmware version: b351c23[0m
+[0;32mI (1235) coexist: coexist rom version e7ae62f[0m
+[0;32mI (1239) main_task: Started on CPU0[0m
+[0;32mI (1259) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1259) main_task: Calling app_main()[0m
+[0;32mI (1269) AUTH: Authentication system initialized[0m
+[0;32mI (1269) METRICS: Loaded uptime: 1073267 seconds[0m
+[0;32mI (1269) METRICS: Metrics system initialized with STELLAR extensions[0m
+[0;32mI (1279) NEIGHBOR: Neighbor manager initialized[0m
+[0;32mI (1279) ELECTION: Election system initialized (STELLAR=1)[0m
+[0;32mI (1979) PERSISTENCE: Persistence system initialized[0m
+[0;32mI (1979) BLE: Initializing BLE[0m
+[0;32mI (1979) BLE: sizeof(ble_score_packet_t) = 21[0m
+[0;32mI (1979) BLE_INIT: BT controller compile version [1bb2f50][0m
+[0;32mI (1979) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (1989) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1[0m
+[0;32mI (1999) BLE_INIT: Bluetooth MAC: 10:20:ba:4b:dd:c2[0m
+[0;32mI (1999) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (2049) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (2119) BLE: NimBLE port initialized[0m
+[0;32mI (2119) BLE: Starting BLE host task[0m
+[0;32mI (2119) BLE: BLE host task started[0m
+[0;32mI (2129) NimBLE: GAP procedure initiated: stop advertising.[0m
+
+[0;32mI (2129) BLE: BLE host synchronized[0m
+[0;32mI (2129) BLE: BLE initialization complete (waiting for sync)[0m
+[0;32mI (2129) LED_MANAGER: Initializing LED Manager on GPIO 48 (High Contrast Mode)[0m
+[0;32mI (2139) gpio: GPIO[48]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (2149) logger: Node ID: 10:20:BA:4B:DD:C0 (0x1020BA4BDDC0)[0m
+[0;33mW (2149) logger: SPIFFS corrupted, formatting...[0m
+[0;32mI (2849) logger: SPIFFS formatted successfully[0m
+[0;32mI (2849) logger: SPIFFS total=11558801 used=251[0m
+[0;32mI (2849) ESP_NOW: Initializing ESP-NOW...[0m
+[0;32mI (2859) pp: pp rom version: e7ae62f[0m
+[0;32mI (2859) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (2869) wifi:wifi driver task: 3fcd1db0, prio:23, stack:6656, core=0[0m
+[0;32mI (2869) wifi:wifi firmware version: 0a721a5[0m
+[0;32mI (2869) wifi:wifi certification version: v7.0[0m
+[0;32mI (2879) wifi:config NVS flash: enabled[0m
+[0;32mI (2879) wifi:config nano formating: disabled[0m
+[0;32mI (2879) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (2889) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (2889) wifi:Init management short buffer num: 32[0m
+[0;32mI (2899) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (2899) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (2909) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (2909) wifi:Init static rx buffer num: 10[0m
+[0;32mI (2909) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (2919) wifi_init: rx ba win: 6[0m
+[0;32mI (2919) wifi_init: accept mbox: 6[0m
+[0;32mI (2919) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2929) wifi_init: udp mbox: 6[0m
+[0;32mI (2929) wifi_init: tcp mbox: 6[0m
+[0;32mI (2929) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2939) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2939) wifi_init: tcp mss: 1440[0m
+[0;32mI (2939) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2949) wifi_init: WiFi RX IRAM OP enabled[0m
+[1;31mE (2949) wifi:failed to post WiFi event=43 ret=259[0m
+[0;32mI (2959) wifi:mode : sta (10:20:ba:4b:dd:c0)[0m
+[0;32mI (2959) wifi:enable tsf[0m
+[1;31mE (2959) wifi:failed to post WiFi event=2 ret=259[0m
+[0;32mI (2969) wifi:Set ps type: 1, coexist: 0[0m
+
+[0;32mI (2969) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (2969) ESP_NOW: ESP-NOW initialized on channel 1[0m
+[0;32mI (2979) RF_RX: Initializing RF Receiver on GPIO 21[0m
+[0;32mI (2979) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (2989) STATE: State machine initialized: node_id=3125534146, MAC=1020ba4bddc2[0m
+[0;32mI (3049) sensor_config: No saved config found, using defaults (first boot)[0m
+[0;32mI (3049) main: Sensor config: audio_interval=300000ms, env_interval=60000ms[0m
+[0;32mI (3049) main: Node ID: 10:20:BA:4B:DD:C0[0m
+[0;32mI (3049) main: Storage: 251/11558801 bytes (0.0% used)[0m
+[0;32mI (3079) main: Creating STELLAR cluster tasks...[0m
+[0;32mI (3079) main: State machine task started[0m
+[0;32mI (3079) STATE: Boot & self-init[0m
+[0;32mI (3079) main: Metrics task started[0m
+[0;32mI (3079) METRICS: [STELLAR] Lyapunov weights: B=0.300 U=0.200 T=0.300 L=0.200, V=0.00076, Conv=1[0m
+[0;32mI (3089) METRICS: [STELLAR] Score components: u_B=1.000 u_U=0.762 u_T=0.500 u_L=0.707, base=0.744, κ=1.000, ρ=0.000, Ψ=0.7437[0m
+[0;32mI (3099) main: STATUS: State=INIT, Role=NODE, CH=0, Size=0[0m
+[0;32mI (3099) main: wakeup cause: power-on or reset[0m
+[0;32mI (3109) main: Serial CONFIG: send 'CONFIG key=value' to update (e.g. CONFIG audio_interval_ms=300000)[0m
+[0;32mI (3109) battery: ADC calibration: curve fitting enabled[0m
+[0;32mI (3119) battery: Battery ADC init: unit=0 ch=3 atten=1 R1=220000 R2=100000 samples=32[0m
+[0;32mI (3129) pme: PME init batt=100% (fake enabled tick=1000ms drop=1%)[0m
+[0;32mI (3169) i2c_bus: Initializing I2C on SDA=8 SCL=9[0m
+[0;32mI (3179) STATE: Boot & self-init[0m
+[0;33mW (3189) sensors: BME280 not responding on 0x76[0m
+[0;33mW (3189) main: BME280 init attempt 1/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;32mI (3279) STATE: Boot & self-init[0m
+[0;32mI (3279) STATE: State transition: INIT -> DISCOVER[0m
+[0;32mI (3279) LED_MANAGER: LED State changed: 0 -> 1[0m
+[0;32mI (3379) BLE: Advertising packet: node_id=3125534146, seq=0, HMAC=93, packet_size=21[0m
+[0;32mI (3379) BLE: Transmitting packet bytes (last 2): 00 93[0m
+[0;32mI (3379) NimBLE: GAP procedure initiated: advertise; [0m
+[0;32mI (3379) NimBLE: disc_mode=2[0m
+[0;32mI (3379) NimBLE:  adv_channel_map=0 own_addr_type=0 adv_filter_policy=0 adv_itvl_min=48 adv_itvl_max=96[0m
+[0;32mI (3389) NimBLE: [0m
+
+[0;32mI (3399) BLE: BLE advertising started[0m
+[0;32mI (3399) NimBLE: GAP procedure initiated: discovery; [0m
+[0;32mI (3399) NimBLE: own_addr_type=0 filter_policy=0 passive=0 limited=0 filter_duplicates=0 [0m
+[0;32mI (3409) NimBLE: duration=forever[0m
+[0;32mI (3409) NimBLE: [0m
+
+[0;32mI (3419) BLE: BLE scanning started[0m
+[0;32mI (3419) BLE: Advertising packet: node_id=3125534146, seq=1, HMAC=db, packet_size=21[0m
+[0;32mI (3429) BLE: Transmitting packet bytes (last 2): 01 db[0m
+[0;32mI (3539) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (3539) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (3539) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (3549) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba e3 bd 72 3f ac 26 0b 27 1b 26 5c b0 00 0b 25 [0m
+[0;33mW (3559) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (3559) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (3569) BLE: Received packet HMAC: 25, mfg_data_len=21, packet_size=21[0m
+[0;33mW (3579) BLE: HMAC check: computed=25, received=25, diff=0, node_id=3125566642, seq_num=11[0m
+[0;32mI (3589) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.700[0m
+[0;32mI (3589) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=11[0m
+[0;32mI (3599) METRICS: [METRICS] Trust Update Input: Rep=0.999, Current PDR=0.900, Current HSR=0.700[0m
+[0;32mI (3609) NEIGHBOR: Added neighbor: node_id=3125566642, RSSI=-23, Seq=11[0m
+[0;32mI (3609) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (3669) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (3669) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (3669) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (3679) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (3689) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (3689) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (3699) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (3709) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (3719) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.820[0m
+[0;32mI (3719) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=12[0m
+[0;32mI (3729) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.900, Current HSR=0.820[0m
+[0;32mI (3739) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.090[0m
+[0;32mI (3749) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;33mW (3749) sensors: BME280 not responding on 0x76[0m
+[0;33mW (3759) main: BME280 init attempt 2/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;32mI (3859) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (3859) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (3859) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (3869) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (3879) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (3889) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (3889) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (3899) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (3909) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.892[0m
+[0;32mI (3919) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=12[0m
+[0;32mI (3919) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.910, Current HSR=0.892[0m
+[0;32mI (3929) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.081[0m
+[0;32mI (3939) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (3989) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (3989) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (3989) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (3999) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (4009) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4019) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4019) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4029) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (4039) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.935[0m
+[0;32mI (4049) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=12[0m
+[0;32mI (4049) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.919, Current HSR=0.935[0m
+[0;32mI (4059) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.073[0m
+[0;32mI (4069) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (4079) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (4079) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4089) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4099) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (4099) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4109) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4119) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4129) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (4129) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.961[0m
+[0;32mI (4139) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=12[0m
+[0;32mI (4149) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.927, Current HSR=0.961[0m
+[0;32mI (4149) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.066[0m
+[0;32mI (4159) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (4169) METRICS: [STELLAR] Lyapunov weights: B=0.300 U=0.201 T=0.300 L=0.200, V=0.00115, Conv=0[0m
+[0;32mI (4179) METRICS: [STELLAR] Score components: u_B=1.000 u_U=0.762 u_T=0.970 u_L=0.976, base=0.938, κ=1.000, ρ=0.000, Ψ=0.9381[0m
+[0;32mI (4189) main: STATUS: State=DISCOVER, Role=NODE, CH=0, Size=1[0m
+[0;32mI (4189) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (4199) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4209) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4209) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (4219) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4229) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4239) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4239) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (4249) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.977[0m
+[0;32mI (4259) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=12[0m
+[0;32mI (4259) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.934, Current HSR=0.977[0m
+[0;32mI (4269) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.059[0m
+[0;32mI (4279) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (4289) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (4289) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4299) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4309) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (4309) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4319) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4329) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4339) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (4339) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.986[0m
+[0;32mI (4349) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=12[0m
+[0;32mI (4359) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.941, Current HSR=0.986[0m
+[0;32mI (4369) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.053[0m
+[0;32mI (4369) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (4379) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (4389) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4389) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4399) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4409) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4419) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4419) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4429) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4439) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.992[0m
+[0;32mI (4439) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (4449) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.947, Current HSR=0.992[0m
+[0;32mI (4459) NEIGHBOR: Added neighbor: node_id=3125566106, RSSI=-26, Seq=1[0m
+[0;32mI (4469) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (4469) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (4479) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4479) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4489) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4499) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4509) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4509) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4519) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4529) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.995[0m
+[0;32mI (4529) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (4539) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.947, Current HSR=0.995[0m
+[0;32mI (4549) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.048[0m
+[0;32mI (4559) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (4559) BLE: Advertising packet: node_id=3125534146, seq=2, HMAC=1c, packet_size=21[0m
+[0;32mI (4569) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (4579) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4579) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4589) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (4599) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4609) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4609) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4619) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (4629) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.997[0m
+[0;32mI (4639) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=12[0m
+[0;32mI (4639) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.952, Current HSR=0.997[0m
+[0;32mI (4649) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.043[0m
+[0;32mI (4659) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (4659) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (4669) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4679) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4679) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4689) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4699) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4709) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4709) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4719) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.998[0m
+[0;32mI (4729) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-21, seq=1[0m
+[0;32mI (4739) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.957, Current HSR=0.998[0m
+[0;32mI (4739) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.039[0m
+[0;32mI (4749) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (4759) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (4759) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4769) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4779) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4789) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4789) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4799) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4809) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4819) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.999[0m
+[0;32mI (4819) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (4829) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.961, Current HSR=0.999[0m
+[0;32mI (4839) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.035[0m
+[0;32mI (4849) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (4849) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (4859) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4859) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4869) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4879) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4889) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4889) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4899) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4909) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=0.999[0m
+[0;32mI (4909) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (4919) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.965, Current HSR=0.999[0m
+[0;32mI (4929) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.031[0m
+[0;32mI (4939) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (4939) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (4949) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (4959) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (4959) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (4969) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (4979) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (4989) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (4989) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (4999) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5009) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-30, seq=1[0m
+[0;32mI (5009) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.969, Current HSR=1.000[0m
+[0;32mI (5019) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.028[0m
+[0;32mI (5029) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (5039) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (5039) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5049) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5059) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (5059) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5069) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5079) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5089) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (5089) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5099) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=12[0m
+[0;32mI (5109) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.972, Current HSR=1.000[0m
+[0;32mI (5119) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.025[0m
+[0;32mI (5119) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (5129) BLE: Discovery event received: data_len=23, rssi=-25[0m
+[0;32mI (5139) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5139) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5149) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (5159) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5169) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5169) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5179) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (5189) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5189) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-25, seq=12[0m
+[0;32mI (5199) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.975, Current HSR=1.000[0m
+[0;32mI (5209) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.023[0m
+[0;32mI (5219) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (5219) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (5229) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5239) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5239) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5249) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5259) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5269) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5269) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (5279) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5289) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (5289) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.977, Current HSR=1.000[0m
+[0;32mI (5299) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.021[0m
+[0;32mI (5309) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (5319) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (5319) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5329) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5339) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5339) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5349) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5359) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5369) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (5369) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5379) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (5389) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.979, Current HSR=1.000[0m
+[0;32mI (5399) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.019[0m
+[0;32mI (5399) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (5409) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (5409) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5419) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5429) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5439) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5439) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5449) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5459) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (5469) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5469) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (5479) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.981, Current HSR=1.000[0m
+[0;32mI (5489) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.017[0m
+[0;32mI (5499) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (5499) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (5509) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5509) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5519) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (5529) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5539) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5549) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5549) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (5559) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5569) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-28, seq=12[0m
+[0;32mI (5569) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.983, Current HSR=1.000[0m
+[0;32mI (5579) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.015[0m
+[0;32mI (5589) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (5599) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (5599) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5609) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5619) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5619) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5629) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5639) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5649) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (5649) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5659) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (5669) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.985, Current HSR=1.000[0m
+[0;32mI (5669) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.014[0m
+[0;32mI (5679) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (5689) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (5689) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5699) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5709) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (5719) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5719) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5729) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5739) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (5749) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5749) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=12[0m
+[0;32mI (5759) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.986, Current HSR=1.000[0m
+[0;32mI (5769) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.012[0m
+[0;32mI (5779) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (5779) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (5789) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5789) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5799) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 10 24 0e 27 5c b0 00 0c 7a [0m
+[0;33mW (5809) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5819) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5829) BLE: Received packet HMAC: 7a, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5829) BLE: HMAC check: computed=7a, received=7a, diff=0, node_id=3125566642, seq_num=12[0m
+[0;32mI (5839) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5849) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=12[0m
+[0;32mI (5849) METRICS: [METRICS] Trust Update Input: Rep=0.923, Current PDR=0.988, Current HSR=1.000[0m
+[0;32mI (5859) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.011[0m
+[0;32mI (5869) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (5879) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (5879) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5889) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5899) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5899) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5909) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (5919) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (5929) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (5929) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (5939) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (5949) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.989, Current HSR=1.000[0m
+[0;32mI (5949) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.010[0m
+[0;32mI (5959) BLE: Discovery event received: data_len=0, rssi=-30[0m
+[0;32mI (5969) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (5969) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (5979) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (5989) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (5999) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (5999) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6009) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6019) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6029) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6029) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (6039) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.990, Current HSR=1.000[0m
+[0;32mI (6049) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.009[0m
+[0;32mI (6059) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (6059) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (6069) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6069) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6079) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6089) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6099) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6099) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6109) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6119) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6119) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-21, seq=1[0m
+[0;32mI (6129) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.991, Current HSR=1.000[0m
+[0;32mI (6139) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.008[0m
+[0;32mI (6149) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (6149) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (6159) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6169) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6169) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (6179) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6189) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6199) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6199) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (6209) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6219) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (6229) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.992, Current HSR=1.000[0m
+[0;32mI (6229) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.007[0m
+[0;32mI (6239) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (6249) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6249) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6259) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6269) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6279) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6289) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6289) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6299) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6309) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (6309) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.993, Current HSR=1.000[0m
+[0;32mI (6319) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.006[0m
+[0;32mI (6329) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (6339) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6339) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6349) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6359) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6359) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6369) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6379) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6389) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6389) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (6399) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.994, Current HSR=1.000[0m
+[0;32mI (6409) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.006[0m
+[0;32mI (6419) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (6419) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (6429) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6439) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6439) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (6449) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6459) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6469) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6469) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (6479) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6489) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (6489) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.994, Current HSR=1.000[0m
+[0;32mI (6499) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.005[0m
+[0;32mI (6509) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (6519) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (6519) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6529) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6539) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6539) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6549) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6559) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6569) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6569) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6579) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (6589) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.995, Current HSR=1.000[0m
+[0;32mI (6599) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.005[0m
+[0;32mI (6599) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (6609) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (6609) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6619) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6629) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (6639) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6639) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6649) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6659) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (6669) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6669) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (6679) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.995, Current HSR=1.000[0m
+[0;32mI (6689) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.004[0m
+[0;32mI (6699) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (6699) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6709) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6719) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (6719) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6729) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6739) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6749) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (6749) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6759) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (6769) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.996, Current HSR=1.000[0m
+[0;32mI (6779) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.004[0m
+[0;32mI (6789) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (6789) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6799) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6799) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6809) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6819) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6829) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6829) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6839) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6849) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (6859) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.996, Current HSR=1.000[0m
+[0;32mI (6859) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.003[0m
+[0;32mI (6869) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (6879) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (6879) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6889) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6899) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (6909) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (6909) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (6919) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (6929) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (6939) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (6939) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (6949) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.997, Current HSR=1.000[0m
+[0;32mI (6959) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.003[0m
+[0;32mI (6969) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (6969) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (6979) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (6979) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (6989) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (6999) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7009) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7009) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7019) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7029) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7029) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=13[0m
+[0;32mI (7039) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.997, Current HSR=1.000[0m
+[0;32mI (7049) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.003[0m
+[0;32mI (7059) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (7059) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (7069) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7079) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7079) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (7089) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7099) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7109) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7109) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (7119) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7129) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (7129) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.997, Current HSR=1.000[0m
+[0;32mI (7139) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.003[0m
+[0;32mI (7149) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (7159) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (7159) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7169) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7179) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7179) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7189) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7199) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7209) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7209) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7219) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (7229) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.997, Current HSR=1.000[0m
+[0;32mI (7239) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.002[0m
+[0;32mI (7249) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (7249) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (7259) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7259) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7269) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7279) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7289) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7289) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7299) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7309) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7309) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=13[0m
+[0;32mI (7319) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.998, Current HSR=1.000[0m
+[0;32mI (7329) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.002[0m
+[0;32mI (7339) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (7339) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (7349) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7359) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7369) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7379) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7389) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7389) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7399) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7409) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (7409) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.998, Current HSR=1.000[0m
+[0;32mI (7419) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.002[0m
+[0;32mI (7429) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (7439) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (7439) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7449) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7459) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (7459) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7469) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7479) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7489) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (7489) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7499) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (7509) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.998, Current HSR=1.000[0m
+[0;32mI (7519) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.002[0m
+[0;32mI (7519) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (7529) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7539) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7539) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7549) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7559) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7569) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7569) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7579) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7589) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (7599) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.998, Current HSR=1.000[0m
+[0;32mI (7599) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (7609) BLE: Discovery event received: data_len=0, rssi=-28[0m
+[0;32mI (7619) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (7619) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7629) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7639) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (7649) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7649) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7659) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7669) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (7669) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7679) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (7689) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (7699) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (7709) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (7709) BLE: Discovery event received: data_len=23, rssi=-25[0m
+[0;32mI (7719) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7719) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7729) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7739) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7749) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7749) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7759) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7769) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7769) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-25, seq=13[0m
+[0;32mI (7779) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (7789) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (7799) BLE: Discovery event received: data_len=0, rssi=-25[0m
+[0;32mI (7799) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (7809) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7819) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7819) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (7829) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7839) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7849) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7849) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (7859) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7869) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (7869) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (7879) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (7889) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (7899) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7899) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7909) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (7919) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (7929) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (7929) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (7939) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (7949) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (7959) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (7959) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (7969) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (7979) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (7979) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (7989) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (7999) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8009) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8009) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8019) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8029) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8039) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8039) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (8049) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8059) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8069) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (8069) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (8079) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8079) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8089) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (8099) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8109) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8119) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8119) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (8129) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8139) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-30, seq=1[0m
+[0;32mI (8139) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8149) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8159) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (8169) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (8169) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8179) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8189) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8189) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8199) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8209) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8219) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8219) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8229) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=13[0m
+[0;32mI (8239) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8249) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8249) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (8259) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (8259) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8269) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8279) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8289) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8289) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8299) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8309) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8319) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8319) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (8329) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8339) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8349) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (8349) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (8359) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8369) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (8379) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8389) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8399) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8399) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (8409) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8419) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (8419) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8429) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8439) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (8449) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (8449) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8459) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8469) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8469) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8479) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8489) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8499) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8499) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8509) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (8519) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8519) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.001[0m
+[0;32mI (8529) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (8539) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (8539) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8549) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8559) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8569) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8569) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8579) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8589) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8599) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8599) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (8609) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=0.999, Current HSR=1.000[0m
+[0;32mI (8619) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (8629) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (8629) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (8639) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8639) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8649) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (8659) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8669) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8669) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8679) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (8689) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8699) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (8699) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (8709) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (8719) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (8719) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (8729) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8739) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8739) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (8749) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8759) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8769) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8769) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (8779) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8789) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (8799) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (8799) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (8809) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (8819) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (8819) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8829) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8839) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (8849) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8849) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8859) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8869) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (8879) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8879) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (8889) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (8899) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (8909) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (8909) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (8919) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (8919) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (8929) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (8939) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (8949) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (8949) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (8959) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (8969) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (8969) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (8979) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=E (8989) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (8989) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (8989) task_wdt: Tasks currently running:[0m
+[1;31mE (8989) task_wdt: CPU 0: nimble_host[0m
+[1;31mE (8989) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (8989) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x420D46AF:0x3FCA5FE0 0x420D4A24:0x3FCA6000 0x4037C655:0x3FCA6030 0x42007F06:0x3FCCD390 0x42008E7F:0x3FCCD3C0 0x4200A7E5:0x3FCCD3E0 0x420C263E:0x3FCCD400 0x4200A111:0x3FCCD420 0x4200A7E5:0x3FCCD440 0x420C1352:0x3FCCD460 0x420C08CD:0x3FCCD480 0x420C091F:0x3FCCD4A0 0x420C0F01:0x3FCCD4C0 0x420C9CBB:0x3FCCD4F0 0x420C9B91:0x3FCCD510 0x420C13C9:0x3FCCD830 0x4038D381:0x3FCCD860 0x4038D351:0x3FCCD890 0x4200F079:0x3FCCD8E0 0x4200D6D1:0x3FCCD930 0x420114A5:0x3FCCDA70 0x420119B1:0x3FCCDBB0 0x4201E54F:0x3FCCDBD0 0x4201E0FA:0x3FCCDC10 0x4201E743:0x3FCCDC30 0x4201D959:0x3FCCDC50 0x420CB6EB:0x3FCCDC70 0x40377CBD:0x3FCCDC90 0x4200D227:0x3FCCDCB0 0x40386999:0x3FCCDCD0
+
+1.000
+[0;32mI (9079) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9089) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (9089) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (9099) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9099) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9109) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (9119) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9129) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9129) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9139) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (9149) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9149) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-31, seq=1[0m
+[0;32mI (9159) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9169) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9179) BLE: Discovery event received: data_len=0, rssi=-30[0m
+[0;32mI (9179) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (9189) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9199) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9199) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (9209) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9219) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9229) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9229) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (9239) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9249) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (9249) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9259) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9269) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (9279) BLE: Discovery event received: data_len=23, rssi=-81[0m
+[0;32mI (9279) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9289) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9299) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (9299) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9309) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9319) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9329) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (9329) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9339) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-81, seq=1[0m
+[0;32mI (9349) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9359) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9359) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (9369) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (9379) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9379) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9389) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9399) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9399) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9409) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9419) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9429) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9429) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (9439) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9449) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9459) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (9459) BLE: Discovery event received: data_len=23, rssi=-25[0m
+[0;32mI (9469) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9479) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9479) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9489) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9499) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9509) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9509) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9519) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9529) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-25, seq=13[0m
+[0;32mI (9529) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9539) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9549) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (9559) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (9559) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9569) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9579) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9579) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9589) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9599) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9609) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9609) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9619) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (9629) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9639) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9639) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (9649) BLE: Discovery event received: data_len=23, rssi=-29[0m
+[0;32mI (9659) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9659) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9669) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9679) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9679) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9689) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9699) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9709) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9709) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-29, seq=13[0m
+[0;32mI (9719) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9729) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9739) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (9739) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (9749) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9759) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9759) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9769) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9779) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9789) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9789) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9799) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9809) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-26, seq=13[0m
+[0;32mI (9809) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9819) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9829) BLE: Discovery event received: data_len=0, rssi=-25[0m
+[0;32mI (9839) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (9839) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9849) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9859) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9859) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9869) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9879) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9889) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9889) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9899) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (9909) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (9919) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (9919) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (9929) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (9929) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (9939) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (9949) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba f2 bb 72 3f ac 26 34 21 0f 27 5c b0 00 0d 86 [0m
+[0;33mW (9959) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (9959) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (9969) BLE: Received packet HMAC: 86, mfg_data_len=21, packet_size=21[0m
+[0;33mW (9979) BLE: HMAC check: computed=86, received=86, diff=0, node_id=3125566642, seq_num=13[0m
+[0;32mI (9989) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (9989) BLE: Discovered neighbor: node_id=3125566642, score=0.95, rssi=-23, seq=13[0m
+[0;32mI (9999) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10009) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10019) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (10019) BLE: Discovery event received: data_len=23, rssi=-80[0m
+[0;32mI (10029) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10039) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10039) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (10049) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10059) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10069) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10069) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (10079) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10089) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-80, seq=1[0m
+[0;32mI (10089) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10099) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10109) BLE: Discovery event received: data_len=0, rssi=-30[0m
+[0;32mI (10119) BLE: Discovery event received: data_len=23, rssi=-81[0m
+[0;32mI (10119) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10129) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10139) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba 86 b6 6e 3f ac 26 33 21 0f 27 5c b0 00 0e a6 [0m
+[0;33mW (10149) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10149) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10159) BLE: Received packet HMAC: a6, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10169) BLE: HMAC check: computed=a6, received=a6, diff=0, node_id=3125566642, seq_num=14[0m
+[0;32mI (10169) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10179) BLE: Discovered neighbor: node_id=3125566642, score=0.93, rssi=-81, seq=14[0m
+[0;32mI (10189) METRICS: [METRICS] Trust Update Input: Rep=0.850, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10199) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10209) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;32mI (10209) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (10219) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10219) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10229) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (10239) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10249) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10249) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10259) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (10269) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10279) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-22, seq=1[0m
+[0;32mI (10279) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10289) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10299) BLE: Discovery event received: data_len=0, rssi=-21[0m
+[0;32mI (10309) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (10309) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10319) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10329) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (10329) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10339) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10349) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10359) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (10359) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10369) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (10379) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10389) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10389) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (10399) BLE: Transmitting packet bytes (last 2): 02 1c[0m
+[0;33mW (10409) sensors: BME280 not responding on 0x76[0m
+[0;33mW (10409) main: BME280 init attempt 3/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;33mW (10409) main: BME280 init skipped after 3 retries[0m
+[0;33mW (10419) sensors: AHT21 I2C write failed: ESP_FAIL[0m
+[0;33mW (10419) sensors: AHT21 init command failed[0m
+[0;33mW (10429) main: AHT21 init attempt 1/3 failed: ESP_FAIL[0m
+[0;32mI (10439) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (10439) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10449) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10449) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (10459) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10469) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10479) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10479) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (10489) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10499) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-21, seq=1[0m
+[0;32mI (10499) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10509) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10519) BLE: Discovery event received: data_len=0, rssi=-21[0m
+[0;32mI (10529) NimBLE: GAP procedure initiated: stop advertising.[0m
+
+[0;32mI (10529) BLE: BLE advertising stopped[0m
+[0;32mI (10539) BLE: BLE scanning stopped[0m
+[0;32mI (10539) STATE: State transition: DISCOVER -> CANDIDATE[0m
+[0;32mI (10539) LED_MANAGER: LED State changed: 1 -> 2[0m
+[0;32mI (10549) ELECTION: Election window reset[0m
+[0;32mI (10649) BLE: Advertising packet: node_id=3125534146, seq=3, HMAC=d4, packet_size=21[0m
+[0;32mI (10649) BLE: Transmitting packet bytes (last 2): 03 d4[0m
+[0;32mI (10649) NimBLE: GAP procedure initiated: advertise; [0m
+[0;32mI (10649) NimBLE: disc_mode=2[0m
+[0;32mI (10649) NimBLE:  adv_channel_map=0 own_addr_type=0 adv_filter_policy=0 adv_itvl_min=48 adv_itvl_max=96[0m
+[0;32mI (10659) NimBLE: [0m
+
+[0;32mI (10669) BLE: BLE advertising started[0m
+[0;32mI (10669) NimBLE: GAP procedure initiated: discovery; [0m
+[0;32mI (10669) NimBLE: own_addr_type=0 filter_policy=0 passive=0 limited=0 filter_duplicates=0 [0m
+[0;32mI (10679) NimBLE: duration=forever[0m
+[0;32mI (10689) NimBLE: [0m
+
+[0;32mI (10689) BLE: BLE scanning started[0m
+[0;32mI (10689) BLE: Advertising packet: node_id=3125534146, seq=4, HMAC=85, packet_size=21[0m
+[0;32mI (10699) BLE: Transmitting packet bytes (last 2): 04 85[0m
+[0;32mI (10749) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (10749) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10759) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10759) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba aa 63 3e 3f 10 27 88 13 88 13 5a 98 00 01 f0 [0m
+[0;33mW (10769) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10779) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10789) BLE: Received packet HMAC: f0, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10789) BLE: HMAC check: computed=f0, received=f0, diff=0, node_id=3125566106, seq_num=1[0m
+[0;32mI (10799) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10809) BLE: Discovered neighbor: node_id=3125566106, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (10809) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (10819) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (10829) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;33mW (10929) sensors: AHT21 I2C write failed: ESP_FAIL[0m
+[0;33mW (10929) sensors: AHT21 init command failed[0m
+[0;33mW (10929) main: AHT21 init attempt 2/3 failed: ESP_FAIL[0m
+[0;32mI (10949) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (10949) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (10949) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (10959) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 02 14 [0m
+[0;33mW (10959) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (10969) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (10979) BLE: Received packet HMAC: 14, mfg_data_len=21, packet_size=21[0m
+[0;33mW (10989) BLE: HMAC check: computed=14, received=14, diff=0, node_id=3125566106, seq_num=2[0m
+[0;32mI (10989) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (10999) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-22, seq=2[0m
+[0;32mI (11009) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11019) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11019) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (11069) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (11069) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11069) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11079) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11079) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11089) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11099) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11109) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11109) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11119) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=3[0m
+[0;32mI (11129) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11139) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11139) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11229) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (11229) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11239) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11239) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11249) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11259) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11269) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11269) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11279) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11289) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=3[0m
+[0;32mI (11299) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11299) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11309) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11409) METRICS: [STELLAR] Lyapunov weights: B=0.299 U=0.201 T=0.300 L=0.200, V=0.00105, Conv=0[0m
+[0;32mI (11409) METRICS: [STELLAR] Score components: u_B=1.000 u_U=0.762 u_T=0.989 u_L=1.000, base=0.949, κ=1.000, ρ=0.000, Ψ=0.9487[0m
+[0;32mI (11419) main: STATUS: State=CANDIDATE, Role=NODE, CH=0, Size=2[0m
+[0;33mW (11429) sensors: AHT21 I2C write failed: ESP_FAIL[0m
+[0;33mW (11429) sensors: AHT21 init command failed[0m
+[0;33mW (11429) main: AHT21 init attempt 3/3 failed: ESP_FAIL[0m
+[0;33mW (11429) main: AHT21 init skipped after 3 retries[0m
+[0;33mW (11439) sensors: ENS160 not responding for PART_ID read: ESP_FAIL[0m
+[0;33mW (11449) main: ENS160 init attempt 1/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;32mI (11449) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (11459) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11459) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11469) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11479) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11489) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11489) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11499) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11509) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11519) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=3[0m
+[0;32mI (11519) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11529) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11539) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11549) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (11549) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11559) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11569) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11569) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11579) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11589) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11599) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11599) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11609) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=3[0m
+[0;32mI (11619) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11629) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11629) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11659) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (11659) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11659) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11669) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11669) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11679) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11689) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11699) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11699) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11709) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-30, seq=3[0m
+[0;32mI (11719) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11729) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11729) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11739) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (11749) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11749) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11759) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11769) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11779) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11779) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11789) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11799) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11799) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=3[0m
+[0;32mI (11809) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11819) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (11829) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (11829) BLE: Advertising packet: node_id=3125534146, seq=5, HMAC=c1, packet_size=21[0m
+[0;32mI (11839) BLE: Transmitting packet bytes (last 2): 05 c1[0m
+[0;32mI (11929) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (11929) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (11929) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (11939) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (11949) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (11959) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (11959) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (11969) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (11979) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (11979) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=3[0m
+[0;32mI (11989) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (11999) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12009) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (12069) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (12069) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12069) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12079) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba a8 0f 72 3f 10 27 9e 23 0f 27 5a 98 00 03 e9 [0m
+[0;33mW (12079) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12089) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12099) BLE: Received packet HMAC: e9, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12109) BLE: HMAC check: computed=e9, received=e9, diff=0, node_id=3125566106, seq_num=3[0m
+[0;32mI (12109) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12119) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=3[0m
+[0;32mI (12129) METRICS: [METRICS] Trust Update Input: Rep=0.912, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12139) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12139) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (12149) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (12159) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12159) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12169) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12179) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12189) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12189) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12199) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12209) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12209) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=4[0m
+[0;32mI (12219) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12229) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12239) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;33mW (12239) sensors: ENS160 not responding for PART_ID read: ESP_FAIL[0m
+[0;33mW (12249) main: ENS160 init attempt 2/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;32mI (12259) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (12259) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12269) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12279) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12279) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12289) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12299) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12309) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12309) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12319) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-30, seq=4[0m
+[0;32mI (12329) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12339) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12339) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (12349) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (12359) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12369) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12379) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12389) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12389) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12399) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12409) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12409) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-21, seq=4[0m
+[0;32mI (12419) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12429) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12439) BLE: Discovery event received: data_len=0, rssi=-21[0m
+[0;32mI (12449) METRICS: [STELLAR] Lyapunov weights: B=0.299 U=0.202 T=0.299 L=0.200, V=0.00096, Conv=1[0m
+[0;32mI (12449) METRICS: [STELLAR] Score components: u_B=1.000 u_U=0.762 u_T=0.999 u_L=1.000, base=0.952, κ=1.000, ρ=0.000, Ψ=0.9517[0m
+[0;32mI (12449) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (12469) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12479) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12479) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12489) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12499) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12509) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12509) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12519) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12529) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=4[0m
+[0;32mI (12539) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12539) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12549) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (12559) main: STATUS: State=CANDIDATE, Role=NODE, CH=0, Size=2[0m
+[0;32mI (12659) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (12659) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12659) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12669) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12679) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12689) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12689) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12699) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12709) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12709) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=4[0m
+[0;32mI (12719) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12729) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12739) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;33mW (12759) sensors: ENS160 not responding for PART_ID read: ESP_FAIL[0m
+[0;33mW (12759) main: ENS160 init attempt 3/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;33mW (12759) main: ENS160 init skipped after 3 retries[0m
+[0;33mW (12759) sensors: GY-271 reset failed: ESP_FAIL[0m
+[0;32mI (12759) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (12769) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12779) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12789) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12789) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12799) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12809) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12819) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12819) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12829) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-21, seq=4[0m
+[0;32mI (12839) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12849) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12849) BLE: Discovery event received: data_len=0, rssi=-21[0m
+[0;32mI (12859) BLE: Advertising packet: node_id=3125534146, seq=6, HMAC=58, packet_size=21[0m
+[0;32mI (12869) BLE: Transmitting packet bytes (last 2): 06 58[0m
+[0;32mI (12869) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (12879) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (12879) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (12889) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 95 5d 73 3f 10 27 d9 25 0f 27 5a 98 00 04 76 [0m
+[0;33mW (12899) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (12909) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (12919) BLE: Received packet HMAC: 76, mfg_data_len=21, packet_size=21[0m
+[0;33mW (12919) BLE: HMAC check: computed=76, received=76, diff=0, node_id=3125566106, seq_num=4[0m
+[0;32mI (12929) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (12939) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=4[0m
+[0;32mI (12939) METRICS: [METRICS] Trust Update Input: Rep=0.969, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (12949) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (12959) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;33mW (12969) main: GY-271 init attempt 1/3 failed: ESP_FAIL[0m
+[0;32mI (13359) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (13359) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (13359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (13369) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 00 2d [0m
+[0;33mW (13379) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (13379) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (13389) BLE: Received packet HMAC: 2d, mfg_data_len=21, packet_size=21[0m
+[0;33mW (13399) BLE: HMAC check: computed=2d, received=2d, diff=0, node_id=3125566642, seq_num=0[0m
+[0;32mI (13409) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (13409) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-28, seq=0[0m
+[0;32mI (13419) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (13429) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (13439) BLE: Discovery event received: data_len=0, rssi=-29[0m
+[0;33mW (13469) sensors: GY-271 reset failed: ESP_FAIL[0m
+[0;33mW (13469) main: GY-271 init attempt 2/3 failed: ESP_FAIL[0m
+[0;32mI (13559) METRICS: [STELLAR] Lyapunov weights: B=0.299 U=0.202 T=0.299 L=0.200, V=0.00088, Conv=1[0m
+[0;32mI (13559) METRICS: [STELLAR] Score components: u_B=1.000 u_U=0.762 u_T=0.992 u_L=1.000, base=0.949, κ=1.000, ρ=0.000, Ψ=0.9494[0m
+[0;32mI (13559) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (13569) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (13579) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (13589) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (13589) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (13599) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (13609) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (13619) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (13619) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (13629) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=5[0m
+[0;32mI (13639) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (13649) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (13649) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (13659) BLE: Discovery event received: data_len=23, rssi=-81[0m
+[0;32mI (13669) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (13669) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (13679) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (13689) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (13699) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (13699) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (13709) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (13719) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (13719) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-81, seq=5[0m
+[0;32mI (13729) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (13739) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (13749) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (13749) main: STATUS: State=CANDIDATE, Role=NODE, CH=0, Size=2[0m
+[0;32mI (13839) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (13839) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (13839) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (13849) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (13849) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (13859) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (13869) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (13879) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (13879) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (13889) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-21, seq=5[0m
+[0;32mI (13899) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (13909) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (13909) BLE: Discovery event received: data_len=0, rssi=-21[0m
+[0;32mI (13919) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (13929) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (13929) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (13939) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (13949) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (13949) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (13959) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (13969) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (13979) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (13979) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=5[0m
+[0;32mI (13989) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (13999) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14009) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (14009) BLE: Advertising packet: node_id=3125534146, seq=7, HMAC=d5, packet_size=21[0m
+[0;32mI (14019) BLE: Transmitting packet bytes (last 2): 07 d5[0m
+[0;33mW (14029) sensors: GY-271 reset failed: ESP_FAIL[0m
+[0;33mW (14029) main: GY-271 init attempt 3/3 failed: ESP_FAIL[0m
+[0;33mW (14039) main: GY-271 init skipped after 3 retries[0m
+[0;33mW (14039) sensors: INA219 not responding on 0x40[0m
+[0;33mW (14039) main: INA219 init attempt 1/3 failed: ESP_ERR_NOT_FOUND[0m
+[0;32mI (14049) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (14059) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14059) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14069) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14079) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14089) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14089) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14099) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14109) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14109) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-22, seq=5[0m
+[0;32mI (14119) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14129) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14139) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (14139) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (14149) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14159) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14159) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14169) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14179) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14189) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14199) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14199) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14209) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=5[0m
+[0;32mI (14219) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14219) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14229) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (14259) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (14259) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14259) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14269) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14279) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14289) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14289) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14299) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14309) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14319) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-30, seq=5[0m
+[0;32mI (14319) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14329) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14339) BLE: Discovery event received: data_len=0, rssi=-30[0m
+[0;32mI (14349) BLE: Discovery event received: data_len=23, rssi=-22[0m
+[0;32mI (14349) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14369) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14369) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14379) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14389) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14399) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14399) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14409) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-22, seq=5[0m
+[0;32mI (14419) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14429) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14429) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (14509) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (14519) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14519) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14519) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (14529) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14539) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14549) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14559) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (14559) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14569) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-28, seq=1[0m
+[0;32mI (14579) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14579) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14589) BLE: Discovery event received: data_len=0, rssi=-28[0m
+[0;32mI (14599) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (14599) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14609) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14619) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14629) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14629) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14639) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14649) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14659) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14659) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-30, seq=5[0m
+[0;32mI (14669) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14679) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14689) BLE: Discovery event received: data_len=0, rssi=-30[0m
+[0;32mI (14689) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (14699) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14699) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14709) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (14719) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14729) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14739) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14739) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (14749) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14759) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (14759) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14769) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14779) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (14789) BLE: Discovery event received: data_len=23, rssi=-81[0m
+[0;32mI (14789) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14799) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14809) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14809) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14819) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14829) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14839) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (14839) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14849) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-81, seq=5[0m
+[0;32mI (14859) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14869) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14879) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (14879) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (14889) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14889) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14899) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (14909) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (14919) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (14919) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (14929) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (14939) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (14949) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-23, seq=1[0m
+[0;32mI (14949) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (14959) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (14969) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (14979) BLE: Discovery event received: data_len=23, rssi=-21[0m
+[0;32mI (14979) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (14989) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (14999) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (14999) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15009) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15019) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15029) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (15029) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15039) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-21, seq=5[0m
+[0;32mI (15049) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15059) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15059) BLE: Discovery event received: data_len=0, rssi=-22[0m
+[0;32mI (15069) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (15069) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15079) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15089) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15099) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15099) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15109) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15119) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15129) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15129) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-28, seq=1[0m
+[0;32mI (15139) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15149) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15159) BLE: Discovery event received: data_len=0, rssi=-28[0m
+[0;32mI (15159) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (15169) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15179) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15179) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15189) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15199) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15209) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15209) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15219) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15229) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-26, seq=1[0m
+[0;32mI (15239) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15239) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15249) BLE: Discovery event received: data_len=0, rssi=-26[0m
+[0;32mI (15259) BLE: Discovery event received: data_len=23, rssi=-26[0m
+[0;32mI (15259) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15269) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15279) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (15289) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15289) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15299) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15309) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (15319) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15319) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-26, seq=5[0m
+[0;32mI (15329) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15339) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15349) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (15349) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15359) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15369) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15369) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15379) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15389) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15399) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15399) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15409) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-23, seq=1[0m
+[0;32mI (15419) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15429) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15439) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (15439) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15449) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15459) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15459) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15469) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15479) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15489) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15489) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15499) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-23, seq=1[0m
+[0;32mI (15509) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15519) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15519) BLE: Discovery event received: data_len=23, rssi=-23[0m
+[0;32mI (15529) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15539) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15539) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15549) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15559) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15569) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15569) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15579) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15589) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-23, seq=1[0m
+[0;32mI (15599) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15599) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15609) BLE: Discovery event received: data_len=0, rssi=-23[0m
+[0;32mI (15619) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (15619) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15629) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15639) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15649) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15649) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15659) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15669) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15679) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15679) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-28, seq=1[0m
+[0;32mI (15689) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15699) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15709) BLE: Discovery event received: data_len=0, rssi=-28[0m
+[0;32mI (15709) BLE: Discovery event received: data_len=23, rssi=-28[0m
+[0;32mI (15719) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15719) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15729) BLE: Mfg Data Hex: e5 02 b2 5c 4c ba aa 63 3e 3f 10 27 88 13 88 13 5c b0 00 01 db [0m
+[0;33mW (15739) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15749) BLE: Packet found: node_id=3125566642 (0xba4c5cb2), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15759) BLE: Received packet HMAC: db, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15759) BLE: HMAC check: computed=db, received=db, diff=0, node_id=3125566642, seq_num=1[0m
+[0;32mI (15769) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15779) BLE: Discovered neighbor: node_id=3125566642, score=0.74, rssi=-28, seq=1[0m
+[0;32mI (15779) METRICS: [METRICS] Trust Update Input: Rep=0.500, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15789) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15799) BLE: Discovery event received: data_len=0, rssi=-28[0m
+[0;32mI (15809) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (15809) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15819) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15829) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (15829) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15839) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15849) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15859) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (15859) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15869) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-31, seq=5[0m
+[0;32mI (15879) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15889) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15899) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (15899) BLE: Discovery event received: data_len=23, rssi=-30[0m
+[0;32mI (15909) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+[0;32mI (15909) BLE: Found manufacturer data: ad_len=22, mfg_data_offset=2, mfg_data_len=21[0m
+[0;32mI (15919) BLE: Mfg Data Hex: e5 02 9a 5a 4c ba 1f aa 73 3f 10 27 ce 26 0f 27 5a 98 00 05 98 [0m
+[0;33mW (15929) BLE: Mfg data check: mfg_data_len=21, needed=21, offset=2, total_len=23[0m
+[0;32mI (15939) BLE: Packet found: node_id=3125566106 (0xba4c5a9a), our_id=3125534146 (0xba4bddc2)[0m
+[0;33mW (15939) BLE: Received packet HMAC: 98, mfg_data_len=21, packet_size=21[0m
+[0;33mW (15949) BLE: HMAC check: computed=98, received=98, diff=0, node_id=3125566106, seq_num=5[0m
+[0;32mI (15959) METRICS: [METRICS] HMAC Update: Success=1, New HSR_EWMA=1.000[0m
+[0;32mI (15959) BLE: Discovered neighbor: node_id=3125566106, score=0.95, rssi=-30, seq=5[0m
+[0;32mI (15969) METRICS: [METRICS] Trust Update Input: Rep=0.993, Current PDR=1.000, Current HSR=1.000[0m
+[0;32mI (15979) METRICS: [METRICS] BLE Reception: Success=1, Fail=0, BatchPER=0.00, New PER_EWMA=0.000[0m
+[0;32mI (15989) BLE: Discovery event received: data_len=0, rssi=-31[0m
+[0;32mI (15989) BLE: Discovery event received: data_len=23, rssi=-31[0m
+[0;32mI (15999) BLE: Mfg data: ad_len=22, data_portion=20, our_data_len=21, offset=2[0m
+

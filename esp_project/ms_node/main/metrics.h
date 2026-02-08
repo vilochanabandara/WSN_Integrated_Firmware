@@ -173,6 +173,34 @@ float stellar_utility_uptime(float uptime_normalized);
  */
 float stellar_utility_trust(float trust);
 
+// ============================================
+// Sensor Data Payload
+// ============================================
+typedef struct {
+  uint32_t node_id;
+  float temp_c;
+  float hum_pct;
+  uint32_t pressure_hpa;
+  uint16_t eco2_ppm;
+  uint16_t tvoc_ppb;
+  uint16_t aqi;
+  float audio_rms;
+  float mag_x;
+  float mag_y;
+  float mag_z;
+  uint32_t timestamp;
+} sensor_payload_t;
+
+/**
+ * @brief Set the latest sensor data payload
+ */
+void metrics_set_sensor_data(const sensor_payload_t *data);
+
+/**
+ * @brief Get the latest sensor data payload
+ */
+void metrics_get_sensor_data(sensor_payload_t *data);
+
 /**
  * @brief Link quality utility function: power utility
  * φ_linkq(l) = l^(1/γ)

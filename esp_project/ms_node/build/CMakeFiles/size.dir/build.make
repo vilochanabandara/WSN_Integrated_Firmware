@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: ms_node.map
-	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/ms_node.map -D OUTPUT_JSON= -P /Users/vilochanabandara/esp/esp-idf/tools/cmake/run_size_tool.cmake
+	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/ms_node.map -D OUTPUT_JSON= -P /Users/vilochanabandara/esp/esp-idf/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size.dir/codegen:
 .PHONY : CMakeFiles/size.dir/codegen

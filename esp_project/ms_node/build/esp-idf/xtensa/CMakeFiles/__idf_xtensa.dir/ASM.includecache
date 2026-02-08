@@ -12,18 +12,6 @@ assert.h
 
 /Users/vilochanabandara/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/assert.h
-sdkconfig.h
--
-stdlib.h
--
-stdint.h
--
-
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/reent.h
-sdkconfig.h
-/Users/vilochanabandara/esp/esp-idf/components/esp_libc/platform_include/sys/sdkconfig.h
-
 /Users/vilochanabandara/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h
 xtensa/coreasm.h
 -
@@ -49,14 +37,26 @@ assert.h
 -
 freertos/FreeRTOSConfig_arch.h
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/freertos/FreeRTOSConfig_arch.h
-esp_trace_freertos.h
-/Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/esp_trace_freertos.h
+SEGGER_SYSVIEW_FreeRTOS.h
+/Users/vilochanabandara/esp/esp-idf/components/freertos/config/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
 
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h
 sdkconfig.h
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/sdkconfig.h
 xtensa_config.h
 /Users/vilochanabandara/esp/esp-idf/components/freertos/config/xtensa/include/freertos/xtensa_config.h
+
+/Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/assert.h
+sdkconfig.h
+-
+stdlib.h
+-
+stdint.h
+-
+
+/Users/vilochanabandara/esp/esp-idf/components/newlib/platform_include/sys/reent.h
+
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reg_base.h
 
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
 stdint.h
@@ -65,10 +65,8 @@ esp_assert.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/esp_assert.h
 esp_bit_defs.h
 /Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/esp_bit_defs.h
-soc/reg_base.h
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/soc/reg_base.h
-
-/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
+reg_base.h
+/Users/vilochanabandara/esp/esp-idf/components/soc/esp32s3/include/soc/reg_base.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h
 
@@ -100,15 +98,15 @@ xtensa/config/tie-asm.h
 tie-asm.h
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h
 
+/Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h
+xtensa/corebits.h
+-
+
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h
-
-/Users/vilochanabandara/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/xt_specreg.h
-xtensa/corebits.h
--
 
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/esp_private/panic_reason.h
 
@@ -117,7 +115,7 @@ xtensa/corebits.h
 /Users/vilochanabandara/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h
 xtensa/config/core.h
 -
-xtensa/config/xt_specreg.h
+xtensa/config/specreg.h
 -
 xtensa/config/system.h
 -

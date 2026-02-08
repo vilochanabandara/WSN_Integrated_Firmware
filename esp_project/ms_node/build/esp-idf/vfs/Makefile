@@ -175,30 +175,6 @@ __idf_vfs/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build
 .PHONY : __idf_vfs/fast
 
-nullfs.obj: nullfs.c.obj
-.PHONY : nullfs.obj
-
-# target to build an object file
-nullfs.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj
-.PHONY : nullfs.c.obj
-
-nullfs.i: nullfs.c.i
-.PHONY : nullfs.i
-
-# target to preprocess a source file
-nullfs.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.i
-.PHONY : nullfs.c.i
-
-nullfs.s: nullfs.c.s
-.PHONY : nullfs.s
-
-# target to generate assembly for a file
-nullfs.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.s
-.PHONY : nullfs.c.s
-
 vfs.obj: vfs.c.obj
 .PHONY : vfs.obj
 
@@ -284,9 +260,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_vfs"
-	@echo "... nullfs.obj"
-	@echo "... nullfs.i"
-	@echo "... nullfs.s"
 	@echo "... vfs.obj"
 	@echo "... vfs.i"
 	@echo "... vfs.s"

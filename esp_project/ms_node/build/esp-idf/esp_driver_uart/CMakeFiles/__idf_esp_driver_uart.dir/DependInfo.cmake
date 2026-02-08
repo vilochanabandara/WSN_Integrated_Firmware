@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uart.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uart_wakeup.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_wakeup.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_wakeup.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/esp_driver_uart/src/uhci.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uhci.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uhci.c.obj.d"
   )
 

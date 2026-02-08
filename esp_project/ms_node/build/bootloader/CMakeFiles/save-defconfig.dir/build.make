@@ -67,8 +67,8 @@ include CMakeFiles/save-defconfig.dir/compiler_depend.make
 include CMakeFiles/save-defconfig.dir/progress.make
 
 CMakeFiles/save-defconfig:
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/config.env
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/vilochanabandara/esp/esp-idf/Kconfig --sdkconfig-rename /Users/vilochanabandara/esp/esp-idf/sdkconfig.rename --config /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /Users/vilochanabandara/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults --env KCONFIG_REPORT_VERBOSITY=default
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/config.env
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/vilochanabandara/esp/esp-idf/Kconfig --sdkconfig-rename /Users/vilochanabandara/esp/esp-idf/sdkconfig.rename --config /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /Users/vilochanabandara/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults
 
 CMakeFiles/save-defconfig.dir/codegen:
 .PHONY : CMakeFiles/save-defconfig.dir/codegen

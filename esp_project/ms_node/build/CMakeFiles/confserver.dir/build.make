@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/config.env
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python -m kconfserver --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/config.env --kconfig /Users/vilochanabandara/esp/esp-idf/Kconfig --sdkconfig-rename /Users/vilochanabandara/esp/esp-idf/sdkconfig.rename --config /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/config.env
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python -m kconfserver --env-file /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/config.env --kconfig /Users/vilochanabandara/esp/esp-idf/Kconfig --sdkconfig-rename /Users/vilochanabandara/esp/esp-idf/sdkconfig.rename --config /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig
 
 CMakeFiles/confserver.dir/codegen:
 .PHONY : CMakeFiles/confserver.dir/codegen

@@ -81,15 +81,6 @@ CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloade
 	/opt/homebrew/bin/cmake -E touch /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles/bootloader-complete
 	/opt/homebrew/bin/cmake -E touch /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
 
-bootloader-prefix/src/bootloader-stamp/bootloader-install:
-.PHONY : bootloader-prefix/src/bootloader-stamp/bootloader-install
-
-bootloader-prefix/src/bootloader-stamp/bootloader-build:
-.PHONY : bootloader-prefix/src/bootloader-stamp/bootloader-build
-
-bootloader-prefix/src/bootloader-stamp/bootloader-install:
-.PHONY : bootloader-prefix/src/bootloader-stamp/bootloader-install
-
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader && $(MAKE)
@@ -97,7 +88,7 @@ bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/b
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/tmp/bootloader-cfgcmd.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader && /opt/homebrew/bin/cmake -DSDKCONFIG=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig -DIDF_PATH=/Users/vilochanabandara/esp/esp-idf -DIDF_TARGET=esp32s3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/vilochanabandara/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" -S /Users/vilochanabandara/esp/esp-idf/components/bootloader/subproject -B /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader && /opt/homebrew/bin/cmake -DSDKCONFIG=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/sdkconfig -DIDF_PATH=/Users/vilochanabandara/esp/esp-idf -DIDF_TARGET=esp32s3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python -DEXTRA_COMPONENT_DIRS=/Users/vilochanabandara/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" -S /Users/vilochanabandara/esp/esp-idf/components/bootloader/subproject -B /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader && /opt/homebrew/bin/cmake -E touch /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-source_dirinfo.txt
@@ -109,9 +100,6 @@ bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/sr
 bootloader-prefix/src/bootloader-stamp/bootloader-install: bootloader-prefix/src/bootloader-stamp/bootloader-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader && /opt/homebrew/bin/cmake -E echo_append
-
-bootloader-prefix/src/bootloader-stamp/bootloader-build:
-.PHONY : bootloader-prefix/src/bootloader-stamp/bootloader-build
 
 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"

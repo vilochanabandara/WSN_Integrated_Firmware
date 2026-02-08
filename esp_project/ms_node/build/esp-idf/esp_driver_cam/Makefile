@@ -175,54 +175,6 @@ __idf_esp_driver_cam/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build
 .PHONY : __idf_esp_driver_cam/fast
 
-dvp/src/esp_cam_ctlr_dvp_cam.obj: dvp/src/esp_cam_ctlr_dvp_cam.c.obj
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.obj
-
-# target to build an object file
-dvp/src/esp_cam_ctlr_dvp_cam.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.obj
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.c.obj
-
-dvp/src/esp_cam_ctlr_dvp_cam.i: dvp/src/esp_cam_ctlr_dvp_cam.c.i
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.i
-
-# target to preprocess a source file
-dvp/src/esp_cam_ctlr_dvp_cam.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.i
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.c.i
-
-dvp/src/esp_cam_ctlr_dvp_cam.s: dvp/src/esp_cam_ctlr_dvp_cam.c.s
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.s
-
-# target to generate assembly for a file
-dvp/src/esp_cam_ctlr_dvp_cam.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.s
-.PHONY : dvp/src/esp_cam_ctlr_dvp_cam.c.s
-
-dvp/src/esp_cam_ctlr_dvp_gdma.obj: dvp/src/esp_cam_ctlr_dvp_gdma.c.obj
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.obj
-
-# target to build an object file
-dvp/src/esp_cam_ctlr_dvp_gdma.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.obj
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.c.obj
-
-dvp/src/esp_cam_ctlr_dvp_gdma.i: dvp/src/esp_cam_ctlr_dvp_gdma.c.i
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.i
-
-# target to preprocess a source file
-dvp/src/esp_cam_ctlr_dvp_gdma.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.i
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.c.i
-
-dvp/src/esp_cam_ctlr_dvp_gdma.s: dvp/src/esp_cam_ctlr_dvp_gdma.c.s
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.s
-
-# target to generate assembly for a file
-dvp/src/esp_cam_ctlr_dvp_gdma.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/build.make esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.s
-.PHONY : dvp/src/esp_cam_ctlr_dvp_gdma.c.s
-
 dvp_share_ctrl.obj: dvp_share_ctrl.c.obj
 .PHONY : dvp_share_ctrl.obj
 
@@ -284,12 +236,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_driver_cam"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_cam.obj"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_cam.i"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_cam.s"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_gdma.obj"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_gdma.i"
-	@echo "... dvp/src/esp_cam_ctlr_dvp_gdma.s"
 	@echo "... dvp_share_ctrl.obj"
 	@echo "... dvp_share_ctrl.i"
 	@echo "... dvp_share_ctrl.s"

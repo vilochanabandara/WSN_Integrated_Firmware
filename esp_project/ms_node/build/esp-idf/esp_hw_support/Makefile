@@ -271,6 +271,30 @@ cpu.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.s
 .PHONY : cpu.c.s
 
+deprecated/gdma_legacy.obj: deprecated/gdma_legacy.c.obj
+.PHONY : deprecated/gdma_legacy.obj
+
+# target to build an object file
+deprecated/gdma_legacy.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated/gdma_legacy.c.obj
+.PHONY : deprecated/gdma_legacy.c.obj
+
+deprecated/gdma_legacy.i: deprecated/gdma_legacy.c.i
+.PHONY : deprecated/gdma_legacy.i
+
+# target to preprocess a source file
+deprecated/gdma_legacy.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated/gdma_legacy.c.i
+.PHONY : deprecated/gdma_legacy.c.i
+
+deprecated/gdma_legacy.s: deprecated/gdma_legacy.c.s
+.PHONY : deprecated/gdma_legacy.s
+
+# target to generate assembly for a file
+deprecated/gdma_legacy.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated/gdma_legacy.c.s
+.PHONY : deprecated/gdma_legacy.c.s
+
 dma/async_memcpy_gdma.obj: dma/async_memcpy_gdma.c.obj
 .PHONY : dma/async_memcpy_gdma.obj
 
@@ -439,6 +463,30 @@ esp_clock_output.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.s
 .PHONY : esp_clock_output.c.s
 
+esp_ds.obj: esp_ds.c.obj
+.PHONY : esp_ds.obj
+
+# target to build an object file
+esp_ds.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_ds.c.obj
+.PHONY : esp_ds.c.obj
+
+esp_ds.i: esp_ds.c.i
+.PHONY : esp_ds.i
+
+# target to preprocess a source file
+esp_ds.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_ds.c.i
+.PHONY : esp_ds.c.i
+
+esp_ds.s: esp_ds.c.s
+.PHONY : esp_ds.s
+
+# target to generate assembly for a file
+esp_ds.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_ds.c.s
+.PHONY : esp_ds.c.s
+
 esp_gpio_reserve.obj: esp_gpio_reserve.c.obj
 .PHONY : esp_gpio_reserve.obj
 
@@ -462,6 +510,30 @@ esp_gpio_reserve.s: esp_gpio_reserve.c.s
 esp_gpio_reserve.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.s
 .PHONY : esp_gpio_reserve.c.s
+
+esp_hmac.obj: esp_hmac.c.obj
+.PHONY : esp_hmac.obj
+
+# target to build an object file
+esp_hmac.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_hmac.c.obj
+.PHONY : esp_hmac.c.obj
+
+esp_hmac.i: esp_hmac.c.i
+.PHONY : esp_hmac.i
+
+# target to preprocess a source file
+esp_hmac.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_hmac.c.i
+.PHONY : esp_hmac.c.i
+
+esp_hmac.s: esp_hmac.c.s
+.PHONY : esp_hmac.s
+
+# target to generate assembly for a file
+esp_hmac.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_hmac.c.s
+.PHONY : esp_hmac.c.s
 
 esp_memory_utils.obj: esp_memory_utils.c.obj
 .PHONY : esp_memory_utils.obj
@@ -535,29 +607,29 @@ intr_alloc.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.s
 .PHONY : intr_alloc.c.s
 
-lowpower/port/esp32s3/sleep_cpu.obj: lowpower/port/esp32s3/sleep_cpu.c.obj
-.PHONY : lowpower/port/esp32s3/sleep_cpu.obj
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.obj: lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.obj
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.obj
 
 # target to build an object file
-lowpower/port/esp32s3/sleep_cpu.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32s3/sleep_cpu.c.obj
-.PHONY : lowpower/port/esp32s3/sleep_cpu.c.obj
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.obj
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.obj
 
-lowpower/port/esp32s3/sleep_cpu.i: lowpower/port/esp32s3/sleep_cpu.c.i
-.PHONY : lowpower/port/esp32s3/sleep_cpu.i
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.i: lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.i
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.i
 
 # target to preprocess a source file
-lowpower/port/esp32s3/sleep_cpu.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32s3/sleep_cpu.c.i
-.PHONY : lowpower/port/esp32s3/sleep_cpu.c.i
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.i
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.i
 
-lowpower/port/esp32s3/sleep_cpu.s: lowpower/port/esp32s3/sleep_cpu.c.s
-.PHONY : lowpower/port/esp32s3/sleep_cpu.s
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.s: lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.s
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.s
 
 # target to generate assembly for a file
-lowpower/port/esp32s3/sleep_cpu.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32s3/sleep_cpu.c.s
-.PHONY : lowpower/port/esp32s3/sleep_cpu.c.s
+lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.s
+.PHONY : lowpower/cpu_retention/port/esp32s3/sleep_cpu.c.s
 
 mac_addr.obj: mac_addr.c.obj
 .PHONY : mac_addr.obj
@@ -583,77 +655,53 @@ mac_addr.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.s
 .PHONY : mac_addr.c.s
 
-mspi_timing_tuning/mspi_timing_tuning.obj: mspi_timing_tuning/mspi_timing_tuning.c.obj
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.obj
+mspi_timing_by_mspi_delay.obj: mspi_timing_by_mspi_delay.c.obj
+.PHONY : mspi_timing_by_mspi_delay.obj
 
 # target to build an object file
-mspi_timing_tuning/mspi_timing_tuning.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/mspi_timing_tuning.c.obj
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.c.obj
+mspi_timing_by_mspi_delay.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_by_mspi_delay.c.obj
+.PHONY : mspi_timing_by_mspi_delay.c.obj
 
-mspi_timing_tuning/mspi_timing_tuning.i: mspi_timing_tuning/mspi_timing_tuning.c.i
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.i
+mspi_timing_by_mspi_delay.i: mspi_timing_by_mspi_delay.c.i
+.PHONY : mspi_timing_by_mspi_delay.i
 
 # target to preprocess a source file
-mspi_timing_tuning/mspi_timing_tuning.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/mspi_timing_tuning.c.i
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.c.i
+mspi_timing_by_mspi_delay.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_by_mspi_delay.c.i
+.PHONY : mspi_timing_by_mspi_delay.c.i
 
-mspi_timing_tuning/mspi_timing_tuning.s: mspi_timing_tuning/mspi_timing_tuning.c.s
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.s
+mspi_timing_by_mspi_delay.s: mspi_timing_by_mspi_delay.c.s
+.PHONY : mspi_timing_by_mspi_delay.s
 
 # target to generate assembly for a file
-mspi_timing_tuning/mspi_timing_tuning.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/mspi_timing_tuning.c.s
-.PHONY : mspi_timing_tuning/mspi_timing_tuning.c.s
+mspi_timing_by_mspi_delay.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_by_mspi_delay.c.s
+.PHONY : mspi_timing_by_mspi_delay.c.s
 
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.obj: mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.obj
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.obj
+mspi_timing_tuning.obj: mspi_timing_tuning.c.obj
+.PHONY : mspi_timing_tuning.obj
 
 # target to build an object file
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.obj
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.obj
+mspi_timing_tuning.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning.c.obj
+.PHONY : mspi_timing_tuning.c.obj
 
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.i: mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.i
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.i
-
-# target to preprocess a source file
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.i
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.i
-
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.s: mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.s
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.s
-
-# target to generate assembly for a file
-mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.s
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c.s
-
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.obj: mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.obj
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.obj
-
-# target to build an object file
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.obj
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.obj
-
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.i: mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.i
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.i
+mspi_timing_tuning.i: mspi_timing_tuning.c.i
+.PHONY : mspi_timing_tuning.i
 
 # target to preprocess a source file
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.i
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.i
+mspi_timing_tuning.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning.c.i
+.PHONY : mspi_timing_tuning.c.i
 
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.s: mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.s
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.s
+mspi_timing_tuning.s: mspi_timing_tuning.c.s
+.PHONY : mspi_timing_tuning.s
 
 # target to generate assembly for a file
-mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.s
-.PHONY : mspi_timing_tuning/port/esp32s3/mspi_timing_config.c.s
+mspi_timing_tuning.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning.c.s
+.PHONY : mspi_timing_tuning.c.s
 
 periph_ctrl.obj: periph_ctrl.c.obj
 .PHONY : periph_ctrl.obj
@@ -775,6 +823,30 @@ port/esp32s3/esp_cpu_intr.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_cpu_intr.c.s
 .PHONY : port/esp32s3/esp_cpu_intr.c.s
 
+port/esp32s3/esp_crypto_lock.obj: port/esp32s3/esp_crypto_lock.c.obj
+.PHONY : port/esp32s3/esp_crypto_lock.obj
+
+# target to build an object file
+port/esp32s3/esp_crypto_lock.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_crypto_lock.c.obj
+.PHONY : port/esp32s3/esp_crypto_lock.c.obj
+
+port/esp32s3/esp_crypto_lock.i: port/esp32s3/esp_crypto_lock.c.i
+.PHONY : port/esp32s3/esp_crypto_lock.i
+
+# target to preprocess a source file
+port/esp32s3/esp_crypto_lock.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_crypto_lock.c.i
+.PHONY : port/esp32s3/esp_crypto_lock.c.i
+
+port/esp32s3/esp_crypto_lock.s: port/esp32s3/esp_crypto_lock.c.s
+.PHONY : port/esp32s3/esp_crypto_lock.s
+
+# target to generate assembly for a file
+port/esp32s3/esp_crypto_lock.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_crypto_lock.c.s
+.PHONY : port/esp32s3/esp_crypto_lock.c.s
+
 port/esp32s3/esp_memprot.obj: port/esp32s3/esp_memprot.c.obj
 .PHONY : port/esp32s3/esp_memprot.obj
 
@@ -822,6 +894,30 @@ port/esp32s3/io_mux.s: port/esp32s3/io_mux.c.s
 port/esp32s3/io_mux.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/io_mux.c.s
 .PHONY : port/esp32s3/io_mux.c.s
+
+port/esp32s3/mspi_timing_config.obj: port/esp32s3/mspi_timing_config.c.obj
+.PHONY : port/esp32s3/mspi_timing_config.obj
+
+# target to build an object file
+port/esp32s3/mspi_timing_config.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/mspi_timing_config.c.obj
+.PHONY : port/esp32s3/mspi_timing_config.c.obj
+
+port/esp32s3/mspi_timing_config.i: port/esp32s3/mspi_timing_config.c.i
+.PHONY : port/esp32s3/mspi_timing_config.i
+
+# target to preprocess a source file
+port/esp32s3/mspi_timing_config.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/mspi_timing_config.c.i
+.PHONY : port/esp32s3/mspi_timing_config.c.i
+
+port/esp32s3/mspi_timing_config.s: port/esp32s3/mspi_timing_config.c.s
+.PHONY : port/esp32s3/mspi_timing_config.s
+
+# target to generate assembly for a file
+port/esp32s3/mspi_timing_config.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/mspi_timing_config.c.s
+.PHONY : port/esp32s3/mspi_timing_config.c.s
 
 port/esp32s3/rtc_clk.obj: port/esp32s3/rtc_clk.c.obj
 .PHONY : port/esp32s3/rtc_clk.obj
@@ -1039,30 +1135,6 @@ port/esp_memprot_conv.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_memprot_conv.c.s
 .PHONY : port/esp_memprot_conv.c.s
 
-power_supply/brownout.obj: power_supply/brownout.c.obj
-.PHONY : power_supply/brownout.obj
-
-# target to build an object file
-power_supply/brownout.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout.c.obj
-.PHONY : power_supply/brownout.c.obj
-
-power_supply/brownout.i: power_supply/brownout.c.i
-.PHONY : power_supply/brownout.i
-
-# target to preprocess a source file
-power_supply/brownout.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout.c.i
-.PHONY : power_supply/brownout.c.i
-
-power_supply/brownout.s: power_supply/brownout.c.s
-.PHONY : power_supply/brownout.s
-
-# target to generate assembly for a file
-power_supply/brownout.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout.c.s
-.PHONY : power_supply/brownout.c.s
-
 regi2c_ctrl.obj: regi2c_ctrl.c.obj
 .PHONY : regi2c_ctrl.obj
 
@@ -1135,29 +1207,29 @@ rtc_module.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.s
 .PHONY : rtc_module.c.s
 
-sar_tsens_ctrl.obj: sar_tsens_ctrl.c.obj
-.PHONY : sar_tsens_ctrl.obj
+sar_periph_ctrl_common.obj: sar_periph_ctrl_common.c.obj
+.PHONY : sar_periph_ctrl_common.obj
 
 # target to build an object file
-sar_tsens_ctrl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.obj
-.PHONY : sar_tsens_ctrl.c.obj
+sar_periph_ctrl_common.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.obj
+.PHONY : sar_periph_ctrl_common.c.obj
 
-sar_tsens_ctrl.i: sar_tsens_ctrl.c.i
-.PHONY : sar_tsens_ctrl.i
+sar_periph_ctrl_common.i: sar_periph_ctrl_common.c.i
+.PHONY : sar_periph_ctrl_common.i
 
 # target to preprocess a source file
-sar_tsens_ctrl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.i
-.PHONY : sar_tsens_ctrl.c.i
+sar_periph_ctrl_common.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.i
+.PHONY : sar_periph_ctrl_common.c.i
 
-sar_tsens_ctrl.s: sar_tsens_ctrl.c.s
-.PHONY : sar_tsens_ctrl.s
+sar_periph_ctrl_common.s: sar_periph_ctrl_common.c.s
+.PHONY : sar_periph_ctrl_common.s
 
 # target to generate assembly for a file
-sar_tsens_ctrl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_tsens_ctrl.c.s
-.PHONY : sar_tsens_ctrl.c.s
+sar_periph_ctrl_common.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.s
+.PHONY : sar_periph_ctrl_common.c.s
 
 sleep_console.obj: sleep_console.c.obj
 .PHONY : sleep_console.obj
@@ -1279,30 +1351,6 @@ sleep_modes.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.s
 .PHONY : sleep_modes.c.s
 
-sleep_mspi.obj: sleep_mspi.c.obj
-.PHONY : sleep_mspi.obj
-
-# target to build an object file
-sleep_mspi.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mspi.c.obj
-.PHONY : sleep_mspi.c.obj
-
-sleep_mspi.i: sleep_mspi.c.i
-.PHONY : sleep_mspi.i
-
-# target to preprocess a source file
-sleep_mspi.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mspi.c.i
-.PHONY : sleep_mspi.c.i
-
-sleep_mspi.s: sleep_mspi.c.s
-.PHONY : sleep_mspi.s
-
-# target to generate assembly for a file
-sleep_mspi.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_mspi.c.s
-.PHONY : sleep_mspi.c.s
-
 sleep_usb.obj: sleep_usb.c.obj
 .PHONY : sleep_usb.obj
 
@@ -1399,30 +1447,6 @@ spi_share_hw_ctrl.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.s
 .PHONY : spi_share_hw_ctrl.c.s
 
-usb_phy/usb_phy.obj: usb_phy/usb_phy.c.obj
-.PHONY : usb_phy/usb_phy.obj
-
-# target to build an object file
-usb_phy/usb_phy.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/usb_phy/usb_phy.c.obj
-.PHONY : usb_phy/usb_phy.c.obj
-
-usb_phy/usb_phy.i: usb_phy/usb_phy.c.i
-.PHONY : usb_phy/usb_phy.i
-
-# target to preprocess a source file
-usb_phy/usb_phy.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/usb_phy/usb_phy.c.i
-.PHONY : usb_phy/usb_phy.c.i
-
-usb_phy/usb_phy.s: usb_phy/usb_phy.c.s
-.PHONY : usb_phy/usb_phy.s
-
-# target to generate assembly for a file
-usb_phy/usb_phy.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/usb_phy/usb_phy.c.s
-.PHONY : usb_phy/usb_phy.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1448,6 +1472,9 @@ help:
 	@echo "... cpu.obj"
 	@echo "... cpu.i"
 	@echo "... cpu.s"
+	@echo "... deprecated/gdma_legacy.obj"
+	@echo "... deprecated/gdma_legacy.i"
+	@echo "... deprecated/gdma_legacy.s"
 	@echo "... dma/async_memcpy_gdma.obj"
 	@echo "... dma/async_memcpy_gdma.i"
 	@echo "... dma/async_memcpy_gdma.s"
@@ -1469,9 +1496,15 @@ help:
 	@echo "... esp_clock_output.obj"
 	@echo "... esp_clock_output.i"
 	@echo "... esp_clock_output.s"
+	@echo "... esp_ds.obj"
+	@echo "... esp_ds.i"
+	@echo "... esp_ds.s"
 	@echo "... esp_gpio_reserve.obj"
 	@echo "... esp_gpio_reserve.i"
 	@echo "... esp_gpio_reserve.s"
+	@echo "... esp_hmac.obj"
+	@echo "... esp_hmac.i"
+	@echo "... esp_hmac.s"
 	@echo "... esp_memory_utils.obj"
 	@echo "... esp_memory_utils.i"
 	@echo "... esp_memory_utils.s"
@@ -1481,21 +1514,18 @@ help:
 	@echo "... intr_alloc.obj"
 	@echo "... intr_alloc.i"
 	@echo "... intr_alloc.s"
-	@echo "... lowpower/port/esp32s3/sleep_cpu.obj"
-	@echo "... lowpower/port/esp32s3/sleep_cpu.i"
-	@echo "... lowpower/port/esp32s3/sleep_cpu.s"
+	@echo "... lowpower/cpu_retention/port/esp32s3/sleep_cpu.obj"
+	@echo "... lowpower/cpu_retention/port/esp32s3/sleep_cpu.i"
+	@echo "... lowpower/cpu_retention/port/esp32s3/sleep_cpu.s"
 	@echo "... mac_addr.obj"
 	@echo "... mac_addr.i"
 	@echo "... mac_addr.s"
-	@echo "... mspi_timing_tuning/mspi_timing_tuning.obj"
-	@echo "... mspi_timing_tuning/mspi_timing_tuning.i"
-	@echo "... mspi_timing_tuning/mspi_timing_tuning.s"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.obj"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.i"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.s"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_config.obj"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_config.i"
-	@echo "... mspi_timing_tuning/port/esp32s3/mspi_timing_config.s"
+	@echo "... mspi_timing_by_mspi_delay.obj"
+	@echo "... mspi_timing_by_mspi_delay.i"
+	@echo "... mspi_timing_by_mspi_delay.s"
+	@echo "... mspi_timing_tuning.obj"
+	@echo "... mspi_timing_tuning.i"
+	@echo "... mspi_timing_tuning.s"
 	@echo "... periph_ctrl.obj"
 	@echo "... periph_ctrl.i"
 	@echo "... periph_ctrl.s"
@@ -1511,12 +1541,18 @@ help:
 	@echo "... port/esp32s3/esp_cpu_intr.obj"
 	@echo "... port/esp32s3/esp_cpu_intr.i"
 	@echo "... port/esp32s3/esp_cpu_intr.s"
+	@echo "... port/esp32s3/esp_crypto_lock.obj"
+	@echo "... port/esp32s3/esp_crypto_lock.i"
+	@echo "... port/esp32s3/esp_crypto_lock.s"
 	@echo "... port/esp32s3/esp_memprot.obj"
 	@echo "... port/esp32s3/esp_memprot.i"
 	@echo "... port/esp32s3/esp_memprot.s"
 	@echo "... port/esp32s3/io_mux.obj"
 	@echo "... port/esp32s3/io_mux.i"
 	@echo "... port/esp32s3/io_mux.s"
+	@echo "... port/esp32s3/mspi_timing_config.obj"
+	@echo "... port/esp32s3/mspi_timing_config.i"
+	@echo "... port/esp32s3/mspi_timing_config.s"
 	@echo "... port/esp32s3/rtc_clk.obj"
 	@echo "... port/esp32s3/rtc_clk.i"
 	@echo "... port/esp32s3/rtc_clk.s"
@@ -1544,9 +1580,6 @@ help:
 	@echo "... port/esp_memprot_conv.obj"
 	@echo "... port/esp_memprot_conv.i"
 	@echo "... port/esp_memprot_conv.s"
-	@echo "... power_supply/brownout.obj"
-	@echo "... power_supply/brownout.i"
-	@echo "... power_supply/brownout.s"
 	@echo "... regi2c_ctrl.obj"
 	@echo "... regi2c_ctrl.i"
 	@echo "... regi2c_ctrl.s"
@@ -1556,9 +1589,9 @@ help:
 	@echo "... rtc_module.obj"
 	@echo "... rtc_module.i"
 	@echo "... rtc_module.s"
-	@echo "... sar_tsens_ctrl.obj"
-	@echo "... sar_tsens_ctrl.i"
-	@echo "... sar_tsens_ctrl.s"
+	@echo "... sar_periph_ctrl_common.obj"
+	@echo "... sar_periph_ctrl_common.i"
+	@echo "... sar_periph_ctrl_common.s"
 	@echo "... sleep_console.obj"
 	@echo "... sleep_console.i"
 	@echo "... sleep_console.s"
@@ -1574,9 +1607,6 @@ help:
 	@echo "... sleep_modes.obj"
 	@echo "... sleep_modes.i"
 	@echo "... sleep_modes.s"
-	@echo "... sleep_mspi.obj"
-	@echo "... sleep_mspi.i"
-	@echo "... sleep_mspi.s"
 	@echo "... sleep_usb.obj"
 	@echo "... sleep_usb.i"
 	@echo "... sleep_usb.s"
@@ -1589,9 +1619,6 @@ help:
 	@echo "... spi_share_hw_ctrl.obj"
 	@echo "... spi_share_hw_ctrl.i"
 	@echo "... spi_share_hw_ctrl.s"
-	@echo "... usb_phy/usb_phy.obj"
-	@echo "... usb_phy/usb_phy.i"
-	@echo "... usb_phy/usb_phy.s"
 .PHONY : help
 
 

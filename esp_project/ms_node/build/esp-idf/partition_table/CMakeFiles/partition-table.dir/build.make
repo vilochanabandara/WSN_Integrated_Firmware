@@ -69,7 +69,7 @@ include esp-idf/partition_table/CMakeFiles/partition-table.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition-table:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "Partition table binary generated. Contents:"
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "*******************************************************************************"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/partition_table && /Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 16MB -- /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/partition_table/partition-table.bin
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/partition_table && /Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 16MB -- /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/partition_table/partition-table.bin
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "*******************************************************************************"
 
 esp-idf/partition_table/CMakeFiles/partition-table.dir/codegen:

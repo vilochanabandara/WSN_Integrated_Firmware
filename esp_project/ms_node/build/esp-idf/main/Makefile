@@ -199,54 +199,6 @@ auth.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/auth.c.s
 .PHONY : auth.c.s
 
-ble_beacon.obj: ble_beacon.c.obj
-.PHONY : ble_beacon.obj
-
-# target to build an object file
-ble_beacon.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_beacon.c.obj
-.PHONY : ble_beacon.c.obj
-
-ble_beacon.i: ble_beacon.c.i
-.PHONY : ble_beacon.i
-
-# target to preprocess a source file
-ble_beacon.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_beacon.c.i
-.PHONY : ble_beacon.c.i
-
-ble_beacon.s: ble_beacon.c.s
-.PHONY : ble_beacon.s
-
-# target to generate assembly for a file
-ble_beacon.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_beacon.c.s
-.PHONY : ble_beacon.c.s
-
-ble_gatt_service.obj: ble_gatt_service.c.obj
-.PHONY : ble_gatt_service.obj
-
-# target to build an object file
-ble_gatt_service.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_gatt_service.c.obj
-.PHONY : ble_gatt_service.c.obj
-
-ble_gatt_service.i: ble_gatt_service.c.i
-.PHONY : ble_gatt_service.i
-
-# target to preprocess a source file
-ble_gatt_service.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_gatt_service.c.i
-.PHONY : ble_gatt_service.c.i
-
-ble_gatt_service.s: ble_gatt_service.c.s
-.PHONY : ble_gatt_service.s
-
-# target to generate assembly for a file
-ble_gatt_service.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_gatt_service.c.s
-.PHONY : ble_gatt_service.c.s
-
 ble_manager.obj: ble_manager.c.obj
 .PHONY : ble_manager.obj
 
@@ -503,12 +455,6 @@ help:
 	@echo "... auth.obj"
 	@echo "... auth.i"
 	@echo "... auth.s"
-	@echo "... ble_beacon.obj"
-	@echo "... ble_beacon.i"
-	@echo "... ble_beacon.s"
-	@echo "... ble_gatt_service.obj"
-	@echo "... ble_gatt_service.i"
-	@echo "... ble_gatt_service.s"
 	@echo "... ble_manager.obj"
 	@echo "... ble_manager.i"
 	@echo "... ble_manager.s"

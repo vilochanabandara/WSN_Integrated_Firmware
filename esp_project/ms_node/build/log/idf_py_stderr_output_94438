@@ -1,0 +1,3 @@
+/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/main/state_machine.c:27:17: warning: 'last_ch_beacon_time' defined but not used [-Wunused-variable]
+   27 | static uint64_t last_ch_beacon_time = 0;
+      |                 ^~~~~~~~~~~~~~~~~~~

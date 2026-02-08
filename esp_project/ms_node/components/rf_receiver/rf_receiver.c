@@ -9,6 +9,7 @@ static const char *TAG = "RF_RX";
 
 static rmt_channel_handle_t rx_chan = NULL;
 static QueueHandle_t rx_queue = NULL;
+static rmt_symbol_word_t raw_symbols[64]; // Buffer for received symbols
 
 // RMT Configuration
 #define RMT_RESOLUTION_HZ 1000000 // 1MHz, 1us per tick
@@ -60,14 +61,24 @@ esp_err_t rf_receiver_init(void) {
       .signal_range_min_ns = 1000,
       .signal_range_max_ns = 10000000, // 10ms max pulse
   };
-  ESP_ERROR_CHECK(rmt_receive(rx_chan, NULL, 0));
+  ESP_ERROR_CHECK(
+      rmt_receive(rx_chan, raw_symbols, sizeof(raw_symbols), &receive_config));
 
   return ESP_OK;
 }
 
 bool rf_receiver_check_trigger(void) {
+  if (rx_queue == NULL) {
+    return false;
+  }
   rmt_rx_done_event_data_t edata;
   if (xQueueReceive(rx_queue, &edata, 0) == pdTRUE) {
+    // Re-enable params
+    rmt_receive_config_t receive_config = {
+        .signal_range_min_ns = 1000,
+        .signal_range_max_ns = 10000000,
+    };
+
     // Process received symbols
     // For this port, since we lack the full RCSwitch C library,
     // we will assume ANY valid encoded burst on 433Hz is the trigger
@@ -77,14 +88,15 @@ bool rf_receiver_check_trigger(void) {
     // For now, return TRUE if we see a substantial burst (likely the trigger).
     // This is a placeholder to ensure the logic flow works.
     if (edata.num_symbols > 10) {
-      ESP_LOGI(TAG, "RF Signal Detected (%d symbols)", edata.num_symbols);
+      ESP_LOGI(TAG, "RF Signal Detected (%u symbols)",
+               (unsigned)edata.num_symbols);
       // Re-enable rx for next time
-      rmt_receive(rx_chan, NULL, 0);
+      rmt_receive(rx_chan, raw_symbols, sizeof(raw_symbols), &receive_config);
       return true;
     }
 
     // Re-enable rx
-    rmt_receive(rx_chan, NULL, 0);
+    rmt_receive(rx_chan, raw_symbols, sizeof(raw_symbols), &receive_config);
   }
   return false;
 }

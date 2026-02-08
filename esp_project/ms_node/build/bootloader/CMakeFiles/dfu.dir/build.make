@@ -67,7 +67,7 @@ include CMakeFiles/dfu.dir/compiler_depend.make
 include CMakeFiles/dfu.dir/progress.make
 
 CMakeFiles/dfu: bootloader
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/mkdfu.py write -o /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/dfu.bin --json /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/flasher_args.json --pid 9 --flash-size 16MB
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/tools/mkdfu.py write -o /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/dfu.bin --json /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/flasher_args.json --pid 9 --flash-size 16MB
 
 CMakeFiles/dfu.dir/codegen:
 .PHONY : CMakeFiles/dfu.dir/codegen

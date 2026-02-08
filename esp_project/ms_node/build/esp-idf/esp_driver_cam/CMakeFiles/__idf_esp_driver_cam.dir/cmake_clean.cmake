@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.obj"
-  "CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.obj.d"
-  "CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.obj"
-  "CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.obj.d"
   "CMakeFiles/__idf_esp_driver_cam.dir/dvp_share_ctrl.c.obj"
   "CMakeFiles/__idf_esp_driver_cam.dir/dvp_share_ctrl.c.obj.d"
   "CMakeFiles/__idf_esp_driver_cam.dir/esp_cam_ctlr.c.obj"

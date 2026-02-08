@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_bootloader.c" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj.d"
-  "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj.d"
   "/Users/vilochanabandara/esp/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj" "gcc" "esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj.d"

@@ -161,68 +161,6 @@ depend:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/rule:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/rule
-.PHONY : esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/rule
-
-# Convenience name for target.
-__idf_esp_driver_touch_sens: esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/rule
-.PHONY : __idf_esp_driver_touch_sens
-
-# fast build rule for target.
-__idf_esp_driver_touch_sens/fast:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build
-.PHONY : __idf_esp_driver_touch_sens/fast
-
-common/touch_sens_common.obj: common/touch_sens_common.c.obj
-.PHONY : common/touch_sens_common.obj
-
-# target to build an object file
-common/touch_sens_common.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.obj
-.PHONY : common/touch_sens_common.c.obj
-
-common/touch_sens_common.i: common/touch_sens_common.c.i
-.PHONY : common/touch_sens_common.i
-
-# target to preprocess a source file
-common/touch_sens_common.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.i
-.PHONY : common/touch_sens_common.c.i
-
-common/touch_sens_common.s: common/touch_sens_common.c.s
-.PHONY : common/touch_sens_common.s
-
-# target to generate assembly for a file
-common/touch_sens_common.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.s
-.PHONY : common/touch_sens_common.c.s
-
-hw_ver2/touch_version_specific.obj: hw_ver2/touch_version_specific.c.obj
-.PHONY : hw_ver2/touch_version_specific.obj
-
-# target to build an object file
-hw_ver2/touch_version_specific.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver2/touch_version_specific.c.obj
-.PHONY : hw_ver2/touch_version_specific.c.obj
-
-hw_ver2/touch_version_specific.i: hw_ver2/touch_version_specific.c.i
-.PHONY : hw_ver2/touch_version_specific.i
-
-# target to preprocess a source file
-hw_ver2/touch_version_specific.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver2/touch_version_specific.c.i
-.PHONY : hw_ver2/touch_version_specific.c.i
-
-hw_ver2/touch_version_specific.s: hw_ver2/touch_version_specific.c.s
-.PHONY : hw_ver2/touch_version_specific.s
-
-# target to generate assembly for a file
-hw_ver2/touch_version_specific.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/build.make esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver2/touch_version_specific.c.s
-.PHONY : hw_ver2/touch_version_specific.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,13 +173,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... __idf_esp_driver_touch_sens"
-	@echo "... common/touch_sens_common.obj"
-	@echo "... common/touch_sens_common.i"
-	@echo "... common/touch_sens_common.s"
-	@echo "... hw_ver2/touch_version_specific.obj"
-	@echo "... hw_ver2/touch_version_specific.i"
-	@echo "... hw_ver2/touch_version_specific.s"
 .PHONY : help
 
 

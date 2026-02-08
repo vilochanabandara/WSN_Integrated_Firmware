@@ -67,7 +67,7 @@ include CMakeFiles/uf2.dir/compiler_depend.make
 include CMakeFiles/uf2.dir/progress.make
 
 CMakeFiles/uf2:
-	/opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "UF2_CMD=/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python;/Users/vilochanabandara/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/flasher_args.json;-o;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/uf2.bin" -P /Users/vilochanabandara/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "UF2_CMD=/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python;/Users/vilochanabandara/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/flasher_args.json;-o;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/uf2.bin" -P /Users/vilochanabandara/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 CMakeFiles/uf2.dir/codegen:
 .PHONY : CMakeFiles/uf2.dir/codegen

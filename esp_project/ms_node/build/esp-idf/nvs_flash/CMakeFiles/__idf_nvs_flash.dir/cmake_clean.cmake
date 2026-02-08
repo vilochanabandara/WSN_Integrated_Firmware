@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj"
   "CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj.d"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj.d"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj.d"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj"
-  "CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj.d"
   "CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj"
   "CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj.d"
   "CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj"
@@ -38,6 +32,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C CXX)
+foreach(lang CXX)
   include(CMakeFiles/__idf_nvs_flash.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

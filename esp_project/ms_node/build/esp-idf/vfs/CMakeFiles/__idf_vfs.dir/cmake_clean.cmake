@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_vfs.dir/nullfs.c.obj"
-  "CMakeFiles/__idf_vfs.dir/nullfs.c.obj.d"
   "CMakeFiles/__idf_vfs.dir/vfs.c.obj"
   "CMakeFiles/__idf_vfs.dir/vfs.c.obj.d"
   "CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj"

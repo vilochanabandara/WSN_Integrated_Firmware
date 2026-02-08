@@ -76,15 +76,15 @@ esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj: esp-idf/pme/CMakeFiles/__idf_pme
 esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj: /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c
 esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj: esp-idf/pme/CMakeFiles/__idf_pme.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj -MF CMakeFiles/__idf_pme.dir/pme.c.obj.d -o CMakeFiles/__idf_pme.dir/pme.c.obj -c /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.obj -MF CMakeFiles/__idf_pme.dir/pme.c.obj.d -o CMakeFiles/__idf_pme.dir/pme.c.obj -c /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c
 
 esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_pme.dir/pme.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c > CMakeFiles/__idf_pme.dir/pme.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c > CMakeFiles/__idf_pme.dir/pme.c.i
 
 esp-idf/pme/CMakeFiles/__idf_pme.dir/pme.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_pme.dir/pme.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c -o CMakeFiles/__idf_pme.dir/pme.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/esp-idf/pme && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/components/pme/pme.c -o CMakeFiles/__idf_pme.dir/pme.c.s
 
 # Object files for target __idf_pme
 __idf_pme_OBJECTS = \

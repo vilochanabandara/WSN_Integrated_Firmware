@@ -175,6 +175,30 @@ __idf_app_update/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build
 .PHONY : __idf_app_update/fast
 
+esp_ota_app_desc.obj: esp_ota_app_desc.c.obj
+.PHONY : esp_ota_app_desc.obj
+
+# target to build an object file
+esp_ota_app_desc.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj
+.PHONY : esp_ota_app_desc.c.obj
+
+esp_ota_app_desc.i: esp_ota_app_desc.c.i
+.PHONY : esp_ota_app_desc.i
+
+# target to preprocess a source file
+esp_ota_app_desc.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.i
+.PHONY : esp_ota_app_desc.c.i
+
+esp_ota_app_desc.s: esp_ota_app_desc.c.s
+.PHONY : esp_ota_app_desc.s
+
+# target to generate assembly for a file
+esp_ota_app_desc.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.s
+.PHONY : esp_ota_app_desc.c.s
+
 esp_ota_ops.obj: esp_ota_ops.c.obj
 .PHONY : esp_ota_ops.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_app_update"
+	@echo "... esp_ota_app_desc.obj"
+	@echo "... esp_ota_app_desc.i"
+	@echo "... esp_ota_app_desc.s"
 	@echo "... esp_ota_ops.obj"
 	@echo "... esp_ota_ops.i"
 	@echo "... esp_ota_ops.s"

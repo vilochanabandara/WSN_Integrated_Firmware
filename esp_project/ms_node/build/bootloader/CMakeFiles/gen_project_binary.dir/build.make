@@ -66,11 +66,18 @@ include CMakeFiles/gen_project_binary.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/gen_project_binary.dir/progress.make
 
-CMakeFiles/gen_project_binary:
+CMakeFiles/gen_project_binary: .bin_timestamp
+
+.bin_timestamp: bootloader.elf
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 16MB --min-rev-full 0 --max-rev-full 99 -o /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/bootloader.bin /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/bootloader.elf
+	/opt/homebrew/bin/cmake -E echo "Generated /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/bootloader.bin"
+	/opt/homebrew/bin/cmake -E md5sum /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/bootloader.bin > /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/.bin_timestamp
 
 CMakeFiles/gen_project_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_project_binary.dir/codegen
 
+gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary
 gen_project_binary: CMakeFiles/gen_project_binary.dir/build.make
 .PHONY : gen_project_binary

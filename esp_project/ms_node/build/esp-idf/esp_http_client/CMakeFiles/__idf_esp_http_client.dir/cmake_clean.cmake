@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj.d"
   "CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj"
   "CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj.d"
-  "CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.obj"
-  "CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.obj.d"
   "CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj"
   "CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj.d"
   "CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj"

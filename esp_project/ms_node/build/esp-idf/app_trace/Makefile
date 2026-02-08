@@ -161,6 +161,116 @@ depend:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
+.PHONY : esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
+
+# Convenience name for target.
+__idf_app_trace: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
+.PHONY : __idf_app_trace
+
+# fast build rule for target.
+__idf_app_trace/fast:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build
+.PHONY : __idf_app_trace/fast
+
+app_trace.obj: app_trace.c.obj
+.PHONY : app_trace.obj
+
+# target to build an object file
+app_trace.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+.PHONY : app_trace.c.obj
+
+app_trace.i: app_trace.c.i
+.PHONY : app_trace.i
+
+# target to preprocess a source file
+app_trace.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.i
+.PHONY : app_trace.c.i
+
+app_trace.s: app_trace.c.s
+.PHONY : app_trace.s
+
+# target to generate assembly for a file
+app_trace.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.s
+.PHONY : app_trace.c.s
+
+app_trace_util.obj: app_trace_util.c.obj
+.PHONY : app_trace_util.obj
+
+# target to build an object file
+app_trace_util.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+.PHONY : app_trace_util.c.obj
+
+app_trace_util.i: app_trace_util.c.i
+.PHONY : app_trace_util.i
+
+# target to preprocess a source file
+app_trace_util.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i
+.PHONY : app_trace_util.c.i
+
+app_trace_util.s: app_trace_util.c.s
+.PHONY : app_trace_util.s
+
+# target to generate assembly for a file
+app_trace_util.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s
+.PHONY : app_trace_util.c.s
+
+host_file_io.obj: host_file_io.c.obj
+.PHONY : host_file_io.obj
+
+# target to build an object file
+host_file_io.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+.PHONY : host_file_io.c.obj
+
+host_file_io.i: host_file_io.c.i
+.PHONY : host_file_io.i
+
+# target to preprocess a source file
+host_file_io.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.i
+.PHONY : host_file_io.c.i
+
+host_file_io.s: host_file_io.c.s
+.PHONY : host_file_io.s
+
+# target to generate assembly for a file
+host_file_io.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.s
+.PHONY : host_file_io.c.s
+
+port/port_uart.obj: port/port_uart.c.obj
+.PHONY : port/port_uart.obj
+
+# target to build an object file
+port/port_uart.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+.PHONY : port/port_uart.c.obj
+
+port/port_uart.i: port/port_uart.c.i
+.PHONY : port/port_uart.i
+
+# target to preprocess a source file
+port/port_uart.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.i
+.PHONY : port/port_uart.c.i
+
+port/port_uart.s: port/port_uart.c.s
+.PHONY : port/port_uart.s
+
+# target to generate assembly for a file
+port/port_uart.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.s
+.PHONY : port/port_uart.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +283,19 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... __idf_app_trace"
+	@echo "... app_trace.obj"
+	@echo "... app_trace.i"
+	@echo "... app_trace.s"
+	@echo "... app_trace_util.obj"
+	@echo "... app_trace_util.i"
+	@echo "... app_trace_util.s"
+	@echo "... host_file_io.obj"
+	@echo "... host_file_io.i"
+	@echo "... host_file_io.s"
+	@echo "... port/port_uart.obj"
+	@echo "... port/port_uart.i"
+	@echo "... port/port_uart.s"
 .PHONY : help
 
 

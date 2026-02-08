@@ -199,6 +199,54 @@ apps/dhcpserver/dhcpserver.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver/dhcpserver.c.s
 .PHONY : apps/dhcpserver/dhcpserver.c.s
 
+apps/ping/esp_ping.obj: apps/ping/esp_ping.c.obj
+.PHONY : apps/ping/esp_ping.obj
+
+# target to build an object file
+apps/ping/esp_ping.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.obj
+.PHONY : apps/ping/esp_ping.c.obj
+
+apps/ping/esp_ping.i: apps/ping/esp_ping.c.i
+.PHONY : apps/ping/esp_ping.i
+
+# target to preprocess a source file
+apps/ping/esp_ping.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.i
+.PHONY : apps/ping/esp_ping.c.i
+
+apps/ping/esp_ping.s: apps/ping/esp_ping.c.s
+.PHONY : apps/ping/esp_ping.s
+
+# target to generate assembly for a file
+apps/ping/esp_ping.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/esp_ping.c.s
+.PHONY : apps/ping/esp_ping.c.s
+
+apps/ping/ping.obj: apps/ping/ping.c.obj
+.PHONY : apps/ping/ping.obj
+
+# target to build an object file
+apps/ping/ping.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.obj
+.PHONY : apps/ping/ping.c.obj
+
+apps/ping/ping.i: apps/ping/ping.c.i
+.PHONY : apps/ping/ping.i
+
+# target to preprocess a source file
+apps/ping/ping.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.i
+.PHONY : apps/ping/ping.c.i
+
+apps/ping/ping.s: apps/ping/ping.c.s
+.PHONY : apps/ping/ping.s
+
+# target to generate assembly for a file
+apps/ping/ping.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping.c.s
+.PHONY : apps/ping/ping.c.s
+
 apps/ping/ping_sock.obj: apps/ping/ping_sock.c.obj
 .PHONY : apps/ping/ping_sock.obj
 
@@ -2167,30 +2215,6 @@ lwip/src/netif/slipif.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/slipif.c.s
 .PHONY : lwip/src/netif/slipif.c.s
 
-port/acd_dhcp_check.obj: port/acd_dhcp_check.c.obj
-.PHONY : port/acd_dhcp_check.obj
-
-# target to build an object file
-port/acd_dhcp_check.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.obj
-.PHONY : port/acd_dhcp_check.c.obj
-
-port/acd_dhcp_check.i: port/acd_dhcp_check.c.i
-.PHONY : port/acd_dhcp_check.i
-
-# target to preprocess a source file
-port/acd_dhcp_check.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.i
-.PHONY : port/acd_dhcp_check.c.i
-
-port/acd_dhcp_check.s: port/acd_dhcp_check.c.s
-.PHONY : port/acd_dhcp_check.s
-
-# target to generate assembly for a file
-port/acd_dhcp_check.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.s
-.PHONY : port/acd_dhcp_check.c.s
-
 port/debug/lwip_debug.obj: port/debug/lwip_debug.c.obj
 .PHONY : port/debug/lwip_debug.obj
 
@@ -2311,30 +2335,6 @@ port/hooks/tcp_isn_default.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks/tcp_isn_default.c.s
 .PHONY : port/hooks/tcp_isn_default.c.s
 
-port/if_index.obj: port/if_index.c.obj
-.PHONY : port/if_index.obj
-
-# target to build an object file
-port/if_index.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/if_index.c.obj
-.PHONY : port/if_index.c.obj
-
-port/if_index.i: port/if_index.c.i
-.PHONY : port/if_index.i
-
-# target to preprocess a source file
-port/if_index.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/if_index.c.i
-.PHONY : port/if_index.c.i
-
-port/if_index.s: port/if_index.c.s
-.PHONY : port/if_index.s
-
-# target to generate assembly for a file
-port/if_index.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/if_index.c.s
-.PHONY : port/if_index.c.s
-
 port/sockets_ext.obj: port/sockets_ext.c.obj
 .PHONY : port/sockets_ext.obj
 
@@ -2375,6 +2375,12 @@ help:
 	@echo "... apps/dhcpserver/dhcpserver.obj"
 	@echo "... apps/dhcpserver/dhcpserver.i"
 	@echo "... apps/dhcpserver/dhcpserver.s"
+	@echo "... apps/ping/esp_ping.obj"
+	@echo "... apps/ping/esp_ping.i"
+	@echo "... apps/ping/esp_ping.s"
+	@echo "... apps/ping/ping.obj"
+	@echo "... apps/ping/ping.i"
+	@echo "... apps/ping/ping.s"
 	@echo "... apps/ping/ping_sock.obj"
 	@echo "... apps/ping/ping_sock.i"
 	@echo "... apps/ping/ping_sock.s"
@@ -2621,9 +2627,6 @@ help:
 	@echo "... lwip/src/netif/slipif.obj"
 	@echo "... lwip/src/netif/slipif.i"
 	@echo "... lwip/src/netif/slipif.s"
-	@echo "... port/acd_dhcp_check.obj"
-	@echo "... port/acd_dhcp_check.i"
-	@echo "... port/acd_dhcp_check.s"
 	@echo "... port/debug/lwip_debug.obj"
 	@echo "... port/debug/lwip_debug.i"
 	@echo "... port/debug/lwip_debug.s"
@@ -2639,9 +2642,6 @@ help:
 	@echo "... port/hooks/tcp_isn_default.obj"
 	@echo "... port/hooks/tcp_isn_default.i"
 	@echo "... port/hooks/tcp_isn_default.s"
-	@echo "... port/if_index.obj"
-	@echo "... port/if_index.i"
-	@echo "... port/if_index.s"
 	@echo "... port/sockets_ext.obj"
 	@echo "... port/sockets_ext.i"
 	@echo "... port/sockets_ext.s"

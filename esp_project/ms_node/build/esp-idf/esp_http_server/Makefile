@@ -175,30 +175,6 @@ __idf_esp_http_server/fast:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build
 .PHONY : __idf_esp_http_server/fast
 
-src/httpd_crypto_mbedtls.obj: src/httpd_crypto_mbedtls.c.obj
-.PHONY : src/httpd_crypto_mbedtls.obj
-
-# target to build an object file
-src/httpd_crypto_mbedtls.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_mbedtls.c.obj
-.PHONY : src/httpd_crypto_mbedtls.c.obj
-
-src/httpd_crypto_mbedtls.i: src/httpd_crypto_mbedtls.c.i
-.PHONY : src/httpd_crypto_mbedtls.i
-
-# target to preprocess a source file
-src/httpd_crypto_mbedtls.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_mbedtls.c.i
-.PHONY : src/httpd_crypto_mbedtls.c.i
-
-src/httpd_crypto_mbedtls.s: src/httpd_crypto_mbedtls.c.s
-.PHONY : src/httpd_crypto_mbedtls.s
-
-# target to generate assembly for a file
-src/httpd_crypto_mbedtls.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_crypto_mbedtls.c.s
-.PHONY : src/httpd_crypto_mbedtls.c.s
-
 src/httpd_main.obj: src/httpd_main.c.obj
 .PHONY : src/httpd_main.obj
 
@@ -380,9 +356,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_http_server"
-	@echo "... src/httpd_crypto_mbedtls.obj"
-	@echo "... src/httpd_crypto_mbedtls.i"
-	@echo "... src/httpd_crypto_mbedtls.s"
 	@echo "... src/httpd_main.obj"
 	@echo "... src/httpd_main.i"
 	@echo "... src/httpd_main.s"

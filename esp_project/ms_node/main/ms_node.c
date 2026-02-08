@@ -9,6 +9,7 @@
 
 #include "aht21_sensor.h"
 #include "bme280_sensor.h"
+#include "config.h"
 #include "ens160_sensor.h"
 #include "gy271_sensor.h"
 #include "i2c_bus.h"
@@ -17,16 +18,23 @@
 #include "sensor_config.h"
 #include "sensors.h"
 
+#include "auth.h"
 #include "battery.h"
-#include "logger.h"
-#include "pme.h"
-// #include "ble_beacon.h" // Removed conflict
-#include "ble_gatt_service.h"
 #include "ble_manager.h"
+#include "election.h"
 #include "esp_now_manager.h"
+#include "led_manager.h"
+#include "logger.h"
+#include "metrics.h"
+#include "neighbor_manager.h"
 #include "nvs_flash.h"
+#include "persistence.h"
+#include "pme.h"
 #include "rf_receiver.h"
 #include "state_machine.h"
+#include <inttypes.h>
+#include <stdlib.h>
+#include <string.h>
 
 static const char *TAG = "main";
 
@@ -112,6 +120,129 @@ static void compression_bench_task(void *arg) {
   vTaskDelete(NULL);
 }
 
+// Apply one key=value to sensor config (serial console, same keys as BLE).
+static esp_err_t apply_config_key_value(const char *key_value) {
+  char buf[128];
+  size_t len = strlen(key_value);
+  if (len >= sizeof(buf))
+    return ESP_ERR_INVALID_ARG;
+  memcpy(buf, key_value, len + 1);
+  char *eq = strchr(buf, '=');
+  if (!eq)
+    return ESP_ERR_INVALID_ARG;
+  *eq = '\0';
+  const char *key = buf;
+  const char *value = eq + 1;
+  sensor_config_t cfg;
+  sensor_config_get(&cfg);
+  if (strcmp(key, "audio_interval_ms") == 0) {
+    cfg.audio_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "env_sensor_interval_ms") == 0) {
+    cfg.env_sensor_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "gas_sensor_interval_ms") == 0) {
+    cfg.gas_sensor_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "mag_sensor_interval_ms") == 0) {
+    cfg.mag_sensor_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "power_sensor_interval_ms") == 0) {
+    cfg.power_sensor_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "inmp441_enabled") == 0) {
+    cfg.inmp441_enabled = (atoi(value) != 0);
+  } else if (strcmp(key, "bme280_enabled") == 0) {
+    cfg.bme280_enabled = (atoi(value) != 0);
+  } else if (strcmp(key, "ens160_enabled") == 0) {
+    cfg.ens160_enabled = (atoi(value) != 0);
+  } else if (strcmp(key, "gy271_enabled") == 0) {
+    cfg.gy271_enabled = (atoi(value) != 0);
+  } else if (strcmp(key, "audio_sample_rate") == 0) {
+    cfg.audio_sample_rate = (uint32_t)atoi(value);
+  } else if (strcmp(key, "audio_duration_ms") == 0) {
+    cfg.audio_duration_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "beacon_interval_ms") == 0) {
+    cfg.beacon_interval_ms = (uint32_t)atoi(value);
+  } else if (strcmp(key, "beacon_offset_ms") == 0) {
+    cfg.beacon_offset_ms = (uint32_t)atoi(value);
+  } else {
+    ESP_LOGW(TAG, "Unknown config key: %s", key);
+    return ESP_ERR_NOT_FOUND;
+  }
+  sensor_config_update(&cfg);
+  sensor_config_save(&cfg);
+  ESP_LOGI(TAG, "Config updated: %s=%s", key, value);
+  return ESP_OK;
+}
+
+// Print cluster report for host script (CLUSTER command).
+static void cluster_report_print(void) {
+  node_metrics_t m = metrics_get_current();
+  uint32_t ch_id = neighbor_manager_get_current_ch();
+  size_t member_count = neighbor_manager_get_member_count();
+  uint64_t mac = g_mac_addr;
+
+  printf("CLUSTER_REPORT_START\n");
+  printf("NODE_ID=%" PRIu32 "\n", g_node_id);
+  printf("MAC=%02x:%02x:%02x:%02x:%02x:%02x\n",
+         (unsigned)((mac >> 40) & 0xff), (unsigned)((mac >> 32) & 0xff),
+         (unsigned)((mac >> 24) & 0xff), (unsigned)((mac >> 16) & 0xff),
+         (unsigned)((mac >> 8) & 0xff), (unsigned)(mac & 0xff));
+  printf("ROLE=%s\n", state_machine_get_state_name());
+  printf("IS_CH=%d\n", g_is_ch ? 1 : 0);
+  printf("STELLAR_SCORE=%.4f\n", m.stellar_score);
+  printf("COMPOSITE_SCORE=%.4f\n", m.composite_score);
+  printf("BATTERY=%.2f\n", m.battery);
+  printf("TRUST=%.2f\n", m.trust);
+  printf("LINK_QUALITY=%.2f\n", m.link_quality);
+  printf("CURRENT_CH=%" PRIu32 "\n", ch_id);
+  printf("MEMBER_COUNT=%zu\n", member_count);
+
+  neighbor_entry_t neighbors[MAX_NEIGHBORS];
+  size_t n = neighbor_manager_get_all(neighbors, MAX_NEIGHBORS);
+  for (size_t i = 0; i < n; i++) {
+    if (!neighbors[i].is_ch && neighbors[i].verified &&
+        neighbors[i].rssi_ewma >= CLUSTER_RADIUS_RSSI_THRESHOLD) {
+      printf("MEMBER_ID=%" PRIu32 "\n", neighbors[i].node_id);
+      printf("MEMBER_MAC=%02x:%02x:%02x:%02x:%02x:%02x\n",
+             neighbors[i].mac_addr[0], neighbors[i].mac_addr[1],
+             neighbors[i].mac_addr[2], neighbors[i].mac_addr[3],
+             neighbors[i].mac_addr[4], neighbors[i].mac_addr[5]);
+      printf("MEMBER_SCORE=%.4f\n", neighbors[i].score);
+    }
+  }
+  printf("CLUSTER_REPORT_END\n");
+}
+
+// Serial console task: "CONFIG key=value" and "CLUSTER" for report.
+static void console_config_task(void *pvParameters) {
+  char line[128];
+  int pos = 0;
+  ESP_LOGI(TAG, "Serial: CONFIG key=value or CLUSTER for report");
+  for (;;) {
+    int c = fgetc(stdin);
+    if (c == EOF || c == '\r') {
+      vTaskDelay(pdMS_TO_TICKS(20));
+      continue;
+    }
+    if (c == '\n') {
+      line[pos] = '\0';
+      if (pos > 0) {
+        if (strncmp(line, "CONFIG ", 7) == 0) {
+          esp_err_t err = apply_config_key_value(line + 7);
+          if (err == ESP_OK) {
+            printf("OK config applied\n");
+          } else {
+            printf("ERR config %s\n", esp_err_to_name(err));
+          }
+        } else if (strcmp(line, "CLUSTER") == 0) {
+          cluster_report_print();
+        }
+      }
+      pos = 0;
+      continue;
+    }
+    if (pos < (int)sizeof(line) - 1)
+      line[pos++] = (char)c;
+  }
+}
+
 static void logger_force_sample_flush(void) {
 #if LOGGER_FORCE_FLUSH_TEST
   ESP_LOGW(TAG, "FORCE FLUSH TEST: writing sample lines");
@@ -130,15 +261,75 @@ static void logger_force_sample_flush(void) {
 #endif
 }
 
+// ========== STELLAR CLUSTER TASKS (from original clusterCreation) ==========
+
+// State machine task - runs every 100ms for responsive state transitions
+static void state_machine_task(void *pvParameters) {
+  ESP_LOGI(TAG, "State machine task started");
+
+  while (1) {
+    state_machine_run();
+    vTaskDelay(pdMS_TO_TICKS(100)); // Run every 100ms
+  }
+}
+
+// Metrics update task - updates STELLAR metrics every second
+static void metrics_task(void *pvParameters) {
+  ESP_LOGI(TAG, "Metrics task started");
+
+  while (1) {
+    metrics_update();
+    uint32_t ch_id = neighbor_manager_get_current_ch();
+    size_t cluster_size = neighbor_manager_get_count();
+    ESP_LOGI(TAG, "STATUS: State=%s, Role=%s, CH=%lu, Size=%zu",
+             state_machine_get_state_name(), g_is_ch ? "CH" : "NODE", ch_id,
+             cluster_size);
+    vTaskDelay(pdMS_TO_TICKS(1000)); // Update every second
+  }
+}
+
+// ===========================================================================
+
 void app_main(void) {
-  ESP_ERROR_CHECK(ble_beacon_init());
-  ESP_ERROR_CHECK(ble_gatt_service_init());
+  // Initialize NVS
+  esp_err_t nvs_ret = nvs_flash_init();
+  if (nvs_ret == ESP_ERR_NVS_NO_FREE_PAGES ||
+      nvs_ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+    ESP_ERROR_CHECK(nvs_flash_erase());
+    nvs_ret = nvs_flash_init();
+  }
+  ESP_ERROR_CHECK(nvs_ret);
+
+  // Initialize Managers
+  // Use ble_manager directly (NimBLE) instead of legacy ble_beacon (Bluedroid)
+
+  // Initialize STELLAR subsystems (CRITICAL - must be before
+  // state_machine_init)
+  auth_init();
+  metrics_init();
+  neighbor_manager_init();
+  election_init();
+  persistence_init(); // Initialize persistence before other systems
+
+  ble_manager_init();
+  led_manager_init();
   ESP_ERROR_CHECK(logger_init());
-  esp_log_level_set("ble_beacon", ESP_LOG_DEBUG);
+
+  // Initialize ESP-NOW
+  esp_now_manager_init();
+
+  // Initialize RF Receiver
+  rf_receiver_init();
+
+  // Initialize State Machine (MUST be after all subsystems)
+  state_machine_init();
+  vTaskDelay(pdMS_TO_TICKS(50));
 
   // Load sensor configuration from NVS
   ESP_ERROR_CHECK(sensor_config_load(&s_sensor_config));
-  ESP_LOGI(TAG, "Sensor config: audio_interval=%ums, env_interval=%ums",
+  ESP_LOGI(TAG,
+           "Sensor config: audio_interval=%" PRIu32 "ms, env_interval=%" PRIu32
+           "ms",
            s_sensor_config.audio_interval_ms,
            s_sensor_config.env_sensor_interval_ms);
 
@@ -158,52 +349,50 @@ void app_main(void) {
   // Emit a small batch of lines and flush once so SPIFFS dump shows an MSLG
   // block.
   logger_force_sample_flush();
-
-  // Run compression bench in its own task after startup to avoid WDT/log
-  // contention.
-  (void)xTaskCreate(compression_bench_task, "comp_bench", 12288, NULL,
-                    tskIDLE_PRIORITY + 1, NULL);
+  vTaskDelay(pdMS_TO_TICKS(20));
 
   log_wakeup_reason();
 
-  // ---- Battery ADC config ----
+  // ---- Battery + PME before cluster tasks (so metrics_task sees valid battery) ----
   battery_cfg_t bcfg = {
       .unit = ADC_UNIT_1,
-
-      // If BAT_SENSE is wired to GPIO4:
       .channel = ADC_CHANNEL_3, // ADC1 CH3 = GPIO4 (ESP32-S3)
-
-      // If BAT_SENSE is wired to GPIO1 instead, use:
-      // .channel = ADC_CHANNEL_0,  // ADC1 CH0 = GPIO1
-
-      .atten = ADC_ATTEN_DB_2_5, // safe for ~1.3–1.5V-ish range at BAT_SENSE
+      .atten = ADC_ATTEN_DB_2_5,
       .r1_ohm = 220000,
       .r2_ohm = 100000,
       .samples = 32,
   };
   ESP_ERROR_CHECK(battery_init(&bcfg));
 
-  // ---- PME init (thresholds matter; fake params are just boot defaults) ----
   pme_config_t cfg = {
-      .th =
-          {
-              .normal_min_pct = 60,
-              .power_save_min_pct = 10,
-          },
+      .th = {.normal_min_pct = 60, .power_save_min_pct = 10},
       .fake_start_pct = 100,
       .fake_drop_per_tick = 1,
       .fake_tick_ms = 1000,
   };
   ESP_ERROR_CHECK(pme_init(&cfg));
 
+  // ========== STELLAR CLUSTER TASKS (after battery/PME so metrics_task gets valid battery) ==========
+  ESP_LOGI(TAG, "Creating STELLAR cluster tasks...");
+  xTaskCreate(state_machine_task, "state_machine", 8192, NULL, 5, NULL);
+  xTaskCreate(metrics_task, "metrics", 4096, NULL, 4, NULL);
+  (void)xTaskCreate(console_config_task, "console_cfg", 4096, NULL,
+                    tskIDLE_PRIORITY + 1, NULL);
+
   esp_err_t ret;
 
   // Initialize I2C bus BEFORE sensor initialization
+  vTaskDelay(pdMS_TO_TICKS(30));
   ret = ms_i2c_init();
   if (ret != ESP_OK) {
     ESP_LOGE(TAG, "I2C bus init failed: %s", esp_err_to_name(ret));
+#if !ENABLE_MOCK_SENSORS
     ESP_ERROR_CHECK(ret); // Fatal error - can't proceed without I2C
+#else
+    ESP_LOGW(TAG, "Proceeding in MOCK SENSOR mode without I2C");
+#endif
   }
+  vTaskDelay(pdMS_TO_TICKS(20));
 
   // Sensor init with retry logic (3 attempts)
   const int MAX_RETRIES = 3;
@@ -297,20 +486,60 @@ void app_main(void) {
   // logger_dump_to_uart();
   // vTaskDelay(pdMS_TO_TICKS(1000)); // Give time for UART output
 
+  static int s_config_reload_count = 0;
+  static bool s_first_loop = true;
   while (1) {
+
+    if (s_first_loop) {
+      ESP_LOGI(TAG, "Main loop running (state machine + metrics active)");
+      s_first_loop = false;
+    }
+
+    // Reload config periodically so BLE/serial updates take effect
+    if (++s_config_reload_count >= 15) {
+      s_config_reload_count = 0;
+      (void)sensor_config_load(&s_sensor_config);
+    }
 
     // ---- Battery read (real) ----
     uint32_t vadc_mv = 0, vbat_mv = 0;
     uint8_t batt_pct = 0;
+    bool use_mock_battery = false;
 
-    if (battery_read(&vadc_mv, &vbat_mv, &batt_pct) == ESP_OK) {
+#if ENABLE_MOCK_SENSORS
+    use_mock_battery = true;
+#endif
+
+    // If not forced mock, try real read. If read fails or voltage is critically
+    // low (floating pin), fallback to mock.
+    if (!use_mock_battery &&
+        battery_read(&vadc_mv, &vbat_mv, &batt_pct) == ESP_OK &&
+        vbat_mv > 2000) {
       ESP_LOGI(TAG, "BAT vadc=%lumV vbat=%lumV pct=%u%%",
                (unsigned long)vadc_mv, (unsigned long)vbat_mv, batt_pct);
 
       // Feed PME with real percentage
       pme_set_batt_pct(batt_pct);
     } else {
-      ESP_LOGW(TAG, "battery_read failed");
+      // Mock Mode or Fallback
+#if ENABLE_MOCK_SENSORS
+      // Simulate battery drain
+      static uint8_t sim_batt = 100;
+      static int calls = 0;
+      if (calls++ % 10 == 0 && sim_batt > 10)
+        sim_batt--;
+      batt_pct = sim_batt;
+      vbat_mv = 3300 + (sim_batt * 9); // Approximate 3.3V - 4.2V mapped
+      ESP_LOGW(TAG, "[MOCK] Battery: %u%% (Simulated)", batt_pct);
+      pme_set_batt_pct(batt_pct);
+#else
+      // Fallback for USB power (no battery detected but node is running)
+      // Assume 100% to prevent re-election loop due to "dead battery"
+      batt_pct = 100;
+      vbat_mv = 5000; // USB voltage approx
+      ESP_LOGW(TAG, "Battery not detected (USB Power?), assuming 100%%");
+      pme_set_batt_pct(batt_pct);
+#endif
     }
 
     // PME mode is always derived from the latest stored % (real if available)
@@ -326,8 +555,10 @@ void app_main(void) {
       ESP_LOGW(TAG, "Storage WARNING (>90%%)");
     }
 
-    // Update BLE beacon with current status (lightweight advert)
-    ble_beacon_update(batt_pct, mode);
+    // NOTE: metrics_update() and state_machine_run() are now handled by
+    // dedicated tasks (metrics_task runs every 1s, state_machine_task runs
+    // every 100ms) This allows the main loop to focus on sensor sampling
+    // without blocking STELLAR operations
 
     // ---- Per-sensor interval timing (mode-dependent) ----
     uint64_t now_ms = esp_timer_get_time() / 1000ULL;
@@ -396,12 +627,29 @@ void app_main(void) {
     // Environmental sensors (BME280, AHT21) - interval + mode gated
     if (do_full && time_for_env && s_sensor_config.bme280_enabled) {
       ok_bme = (bme280_read(&bme) == ESP_OK);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_bme) {
+        float t_offset = 25.0f + 5.0f * sinf(now_ms / 10000.0f);
+        bme.temperature_c = t_offset;
+        bme.humidity_pct = 50.0f + 10.0f * cosf(now_ms / 10000.0f);
+        bme.pressure_hpa = 1013.0f + 5.0f * sinf(now_ms / 20000.0f);
+        ok_bme = true;
+        ESP_LOGW(TAG, "[MOCK] BME280 Data Generated");
+      }
+#endif
       if (ok_bme)
         s_last_env_read_ms = now_ms;
     }
 
     if (do_light && time_for_env && s_sensor_config.aht21_enabled) {
       ok_aht = (aht21_read_with_raw(&aht, aht_raw) == ESP_OK);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_aht) {
+        aht.temperature_c = 25.0f + 5.0f * sinf(now_ms / 10000.0f);
+        aht.humidity_pct = 50.0f + 10.0f * cosf(now_ms / 10000.0f);
+        ok_aht = true;
+      }
+#endif
       if (ok_aht)
         s_last_env_read_ms = now_ms;
     }
@@ -409,6 +657,15 @@ void app_main(void) {
     // Gas sensor (ENS160) - interval + mode gated
     if (do_light && time_for_gas && s_sensor_config.ens160_enabled) {
       ok_ens = (ens160_read_iaq(&ens) == ESP_OK);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_ens) {
+        ens.aqi_uba = 1 + (now_ms / 1000) % 5;
+        ens.tvoc_ppb = 10 + (now_ms / 1000) % 50;
+        ens.eco2_ppm = 400 + (now_ms / 1000) % 100;
+        ens.status = 0;
+        ok_ens = true;
+      }
+#endif
       if (ok_ens)
         s_last_gas_read_ms = now_ms;
     }
@@ -416,6 +673,14 @@ void app_main(void) {
     // Power monitor (INA219) - interval + mode gated
     if (do_light && time_for_power && s_sensor_config.ina219_enabled) {
       ok_ina = (ina219_read_basic(&ina) == ESP_OK);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_ina) {
+        ina.bus_voltage_v = 4.0f;
+        ina.shunt_voltage_mv = 10.0f + 5.0f * sinf(now_ms / 5000.0f);
+        ina.current_ma = ina.shunt_voltage_mv / 0.1f; // assume 0.1 ohm
+        ok_ina = true;
+      }
+#endif
       if (ok_ina)
         s_last_power_read_ms = now_ms;
     }
@@ -423,6 +688,14 @@ void app_main(void) {
     // Magnetometer (GY-271) - interval + mode gated
     if (do_full && time_for_mag && s_sensor_config.gy271_enabled) {
       ok_mag = (gy271_read(&mag) == ESP_OK);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_mag) {
+        mag.x_uT = 30.0f * cosf(now_ms / 5000.0f);
+        mag.y_uT = 30.0f * sinf(now_ms / 5000.0f);
+        mag.z_uT = 40.0f;
+        ok_mag = true;
+      }
+#endif
       if (ok_mag)
         s_last_mag_read_ms = now_ms;
     }
@@ -430,6 +703,16 @@ void app_main(void) {
     // Microphone (INMP441) - interval + mode gated
     if (do_audio && time_for_audio && s_sensor_config.inmp441_enabled) {
       ok_audio = (inmp441_read(&audio) == ESP_OK && audio.valid);
+#if ENABLE_MOCK_SENSORS
+      if (!ok_audio) {
+        audio.count = 512;
+        audio.rms_amplitude = 0.05f + 0.02f * sinf(now_ms / 1000.0f);
+        audio.peak_amplitude = audio.rms_amplitude * 1.414f;
+        audio.timestamp_ms = now_ms;
+        audio.valid = true;
+        ok_audio = true;
+      }
+#endif
       if (ok_audio)
         s_last_audio_read_ms = now_ms;
     }
@@ -578,10 +861,10 @@ void app_main(void) {
     // ---- Deep sleep decision ----
     if (mode == PME_MODE_CRITICAL) {
       uint32_t sleep_ms = 1800000; // 30 minutes - wake to recheck battery
-      ESP_LOGW(
-          TAG,
-          "PME critical: entering deep sleep for %u ms (will recheck battery)",
-          sleep_ms);
+      ESP_LOGW(TAG,
+               "PME critical: entering deep sleep for %" PRIu32
+               " ms (will recheck battery)",
+               sleep_ms);
 
       // Ensure buffered logs are written before power-down.
       (void)logger_flush();

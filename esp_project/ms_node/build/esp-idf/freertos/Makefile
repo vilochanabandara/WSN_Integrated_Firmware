@@ -423,6 +423,30 @@ app_startup.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.s
 .PHONY : app_startup.c.s
 
+esp_additions/freertos_compatibility.obj: esp_additions/freertos_compatibility.c.obj
+.PHONY : esp_additions/freertos_compatibility.obj
+
+# target to build an object file
+esp_additions/freertos_compatibility.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.obj
+.PHONY : esp_additions/freertos_compatibility.c.obj
+
+esp_additions/freertos_compatibility.i: esp_additions/freertos_compatibility.c.i
+.PHONY : esp_additions/freertos_compatibility.i
+
+# target to preprocess a source file
+esp_additions/freertos_compatibility.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.i
+.PHONY : esp_additions/freertos_compatibility.c.i
+
+esp_additions/freertos_compatibility.s: esp_additions/freertos_compatibility.c.s
+.PHONY : esp_additions/freertos_compatibility.s
+
+# target to generate assembly for a file
+esp_additions/freertos_compatibility.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.s
+.PHONY : esp_additions/freertos_compatibility.c.s
+
 esp_additions/idf_additions.obj: esp_additions/idf_additions.c.obj
 .PHONY : esp_additions/idf_additions.obj
 
@@ -446,30 +470,6 @@ esp_additions/idf_additions.s: esp_additions/idf_additions.c.s
 esp_additions/idf_additions.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.s
 .PHONY : esp_additions/idf_additions.c.s
-
-esp_additions/idf_additions_event_groups.obj: esp_additions/idf_additions_event_groups.c.obj
-.PHONY : esp_additions/idf_additions_event_groups.obj
-
-# target to build an object file
-esp_additions/idf_additions_event_groups.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
-.PHONY : esp_additions/idf_additions_event_groups.c.obj
-
-esp_additions/idf_additions_event_groups.i: esp_additions/idf_additions_event_groups.c.i
-.PHONY : esp_additions/idf_additions_event_groups.i
-
-# target to preprocess a source file
-esp_additions/idf_additions_event_groups.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.i
-.PHONY : esp_additions/idf_additions_event_groups.c.i
-
-esp_additions/idf_additions_event_groups.s: esp_additions/idf_additions_event_groups.c.s
-.PHONY : esp_additions/idf_additions_event_groups.s
-
-# target to generate assembly for a file
-esp_additions/idf_additions_event_groups.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.s
-.PHONY : esp_additions/idf_additions_event_groups.c.s
 
 heap_idf.obj: heap_idf.c.obj
 .PHONY : heap_idf.obj
@@ -587,12 +587,12 @@ help:
 	@echo "... app_startup.obj"
 	@echo "... app_startup.i"
 	@echo "... app_startup.s"
+	@echo "... esp_additions/freertos_compatibility.obj"
+	@echo "... esp_additions/freertos_compatibility.i"
+	@echo "... esp_additions/freertos_compatibility.s"
 	@echo "... esp_additions/idf_additions.obj"
 	@echo "... esp_additions/idf_additions.i"
 	@echo "... esp_additions/idf_additions.s"
-	@echo "... esp_additions/idf_additions_event_groups.obj"
-	@echo "... esp_additions/idf_additions_event_groups.i"
-	@echo "... esp_additions/idf_additions_event_groups.s"
 	@echo "... heap_idf.obj"
 	@echo "... heap_idf.i"
 	@echo "... heap_idf.s"

@@ -76,85 +76,85 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: esp-idf/hal/CMakeFiles/__i
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj -MF CMakeFiles/__idf_hal.dir/hal_utils.c.obj.d -o CMakeFiles/__idf_hal.dir/hal_utils.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj -MF CMakeFiles/__idf_hal.dir/hal_utils.c.obj.d -o CMakeFiles/__idf_hal.dir/hal_utils.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/hal_utils.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c > CMakeFiles/__idf_hal.dir/hal_utils.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c > CMakeFiles/__idf_hal.dir/hal_utils.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/hal_utils.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c -o CMakeFiles/__idf_hal.dir/hal_utils.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/hal_utils.c -o CMakeFiles/__idf_hal.dir/hal_utils.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/mpu_hal.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c > CMakeFiles/__idf_hal.dir/mpu_hal.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c > CMakeFiles/__idf_hal.dir/mpu_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/mpu_hal.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c -o CMakeFiles/__idf_hal.dir/mpu_hal.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/mpu_hal.c -o CMakeFiles/__idf_hal.dir/mpu_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/efuse_hal.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c > CMakeFiles/__idf_hal.dir/efuse_hal.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c > CMakeFiles/__idf_hal.dir/efuse_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/efuse_hal.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c -o CMakeFiles/__idf_hal.dir/efuse_hal.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/efuse_hal.c -o CMakeFiles/__idf_hal.dir/efuse_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c > CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c > CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/esp32s3/efuse_hal.c -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mmu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mmu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/mmu_hal.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c > CMakeFiles/__idf_hal.dir/mmu_hal.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c > CMakeFiles/__idf_hal.dir/mmu_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/mmu_hal.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c -o CMakeFiles/__idf_hal.dir/mmu_hal.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/mmu_hal.c -o CMakeFiles/__idf_hal.dir/mmu_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
 esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj -MF CMakeFiles/__idf_hal.dir/cache_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/cache_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj -MF CMakeFiles/__idf_hal.dir/cache_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/cache_hal.c.obj -c /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/cache_hal.c.i"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c > CMakeFiles/__idf_hal.dir/cache_hal.c.i
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c > CMakeFiles/__idf_hal.dir/cache_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/cache_hal.c.s"
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20250929/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c -o CMakeFiles/__idf_hal.dir/cache_hal.c.s
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/bootloader/esp-idf/hal && /Users/vilochanabandara/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/vilochanabandara/esp/esp-idf/components/hal/cache_hal.c -o CMakeFiles/__idf_hal.dir/cache_hal.c.s
 
 # Object files for target __idf_hal
 __idf_hal_OBJECTS = \

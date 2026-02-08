@@ -263,10 +263,9 @@ static int ble_gap_event(struct ble_gap_event *event, void *arg) {
               if (hmac_diff == 0) {
                 // Valid packet - update neighbor
                 metrics_record_hmac_success(true);
-                // Convert uint16_t back to float (0-10000 -> 0.0-1.0 or
-                // 0.0-100.0)
+                // Convert uint16_t back to float (0-10000 -> 0.0-1.0)
                 float battery_f =
-                    (float)pkt->battery / 100.0f; // 0-10000 -> 0.00-100.00%
+                    (float)pkt->battery / 10000.0f; // 0-10000 -> 0.00-1.00
                 float trust_f =
                     (float)pkt->trust / 10000.0f; // 0-10000 -> 0.00-1.00
                 float link_quality_f =
@@ -445,9 +444,8 @@ void ble_manager_update_advertisement(void) {
   pkt->node_id = g_node_id;
   pkt->score = metrics.composite_score;
   // Scale float values to uint16_t (0.0-100.0 -> 0-10000, 0.0-1.0 -> 0-10000)
-  pkt->battery =
-      (uint16_t)(metrics.battery * 100.0f);          // 0.00-100.00% -> 0-10000
-  pkt->trust = (uint16_t)(metrics.trust * 10000.0f); // 0.00-1.00 -> 0-10000
+  pkt->battery = (uint16_t)(metrics.battery * 10000.0f); // 0.00-1.00 -> 0-10000
+  pkt->trust = (uint16_t)(metrics.trust * 10000.0f);     // 0.00-1.00 -> 0-10000
   pkt->link_quality =
       (uint16_t)(metrics.link_quality * 10000.0f); // 0.00-1.00 -> 0-10000
   pkt->is_ch = g_is_ch;

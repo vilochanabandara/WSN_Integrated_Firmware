@@ -319,30 +319,6 @@ common/btc/core/btc_task.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s
 .PHONY : common/btc/core/btc_task.c.s
 
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.obj: common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.obj
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.obj
-
-# target to build an object file
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.obj
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.obj
-
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.i: common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.i
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.i
-
-# target to preprocess a source file
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.i
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.i
-
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.s: common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.s
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.s
-
-# target to generate assembly for a file
-common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.s
-.PHONY : common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.s
-
 common/btc/profile/esp/blufi/blufi_prf.obj: common/btc/profile/esp/blufi/blufi_prf.c.obj
 .PHONY : common/btc/profile/esp/blufi/blufi_prf.obj
 
@@ -390,6 +366,30 @@ common/btc/profile/esp/blufi/blufi_protocol.s: common/btc/profile/esp/blufi/bluf
 common/btc/profile/esp/blufi/blufi_protocol.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.s
 .PHONY : common/btc/profile/esp/blufi/blufi_protocol.c.s
+
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.obj: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.obj
+
+# target to build an object file
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
+
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.i: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.i
+
+# target to preprocess a source file
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
+
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.s: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.s
+
+# target to generate assembly for a file
+common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
+.PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
 
 common/hci_log/bt_hci_log.obj: common/hci_log/bt_hci_log.c.obj
 .PHONY : common/hci_log/bt_hci_log.obj
@@ -1183,5957 +1183,1973 @@ controller/esp32c3/bt.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.s
 .PHONY : controller/esp32c3/bt.c.s
 
-host/bluedroid/api/esp_a2dp_api.obj: host/bluedroid/api/esp_a2dp_api.c.obj
-.PHONY : host/bluedroid/api/esp_a2dp_api.obj
+host/nimble/esp-hci/src/esp_nimble_hci.obj: host/nimble/esp-hci/src/esp_nimble_hci.c.obj
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.obj
 
 # target to build an object file
-host/bluedroid/api/esp_a2dp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.obj
-.PHONY : host/bluedroid/api/esp_a2dp_api.c.obj
+host/nimble/esp-hci/src/esp_nimble_hci.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.obj
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.obj
 
-host/bluedroid/api/esp_a2dp_api.i: host/bluedroid/api/esp_a2dp_api.c.i
-.PHONY : host/bluedroid/api/esp_a2dp_api.i
+host/nimble/esp-hci/src/esp_nimble_hci.i: host/nimble/esp-hci/src/esp_nimble_hci.c.i
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_a2dp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.i
-.PHONY : host/bluedroid/api/esp_a2dp_api.c.i
+host/nimble/esp-hci/src/esp_nimble_hci.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.i
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.i
 
-host/bluedroid/api/esp_a2dp_api.s: host/bluedroid/api/esp_a2dp_api.c.s
-.PHONY : host/bluedroid/api/esp_a2dp_api.s
+host/nimble/esp-hci/src/esp_nimble_hci.s: host/nimble/esp-hci/src/esp_nimble_hci.c.s
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_a2dp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_a2dp_api.c.s
-.PHONY : host/bluedroid/api/esp_a2dp_api.c.s
+host/nimble/esp-hci/src/esp_nimble_hci.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.s
+.PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.s
 
-host/bluedroid/api/esp_avrc_api.obj: host/bluedroid/api/esp_avrc_api.c.obj
-.PHONY : host/bluedroid/api/esp_avrc_api.obj
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.obj: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.obj
 
 # target to build an object file
-host/bluedroid/api/esp_avrc_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.obj
-.PHONY : host/bluedroid/api/esp_avrc_api.c.obj
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
 
-host/bluedroid/api/esp_avrc_api.i: host/bluedroid/api/esp_avrc_api.c.i
-.PHONY : host/bluedroid/api/esp_avrc_api.i
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.i: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_avrc_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.i
-.PHONY : host/bluedroid/api/esp_avrc_api.c.i
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
 
-host/bluedroid/api/esp_avrc_api.s: host/bluedroid/api/esp_avrc_api.c.s
-.PHONY : host/bluedroid/api/esp_avrc_api.s
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.s: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_avrc_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_avrc_api.c.s
-.PHONY : host/bluedroid/api/esp_avrc_api.c.s
+host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
 
-host/bluedroid/api/esp_bluedroid_hci.obj: host/bluedroid/api/esp_bluedroid_hci.c.obj
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.obj
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.obj: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.obj
 
 # target to build an object file
-host/bluedroid/api/esp_bluedroid_hci.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bluedroid_hci.c.obj
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.c.obj
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
 
-host/bluedroid/api/esp_bluedroid_hci.i: host/bluedroid/api/esp_bluedroid_hci.c.i
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.i
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.i: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_bluedroid_hci.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bluedroid_hci.c.i
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.c.i
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
 
-host/bluedroid/api/esp_bluedroid_hci.s: host/bluedroid/api/esp_bluedroid_hci.c.s
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.s
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.s: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_bluedroid_hci.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bluedroid_hci.c.s
-.PHONY : host/bluedroid/api/esp_bluedroid_hci.c.s
+host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
 
-host/bluedroid/api/esp_bt_device.obj: host/bluedroid/api/esp_bt_device.c.obj
-.PHONY : host/bluedroid/api/esp_bt_device.obj
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.obj: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.obj
 
 # target to build an object file
-host/bluedroid/api/esp_bt_device.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.obj
-.PHONY : host/bluedroid/api/esp_bt_device.c.obj
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
 
-host/bluedroid/api/esp_bt_device.i: host/bluedroid/api/esp_bt_device.c.i
-.PHONY : host/bluedroid/api/esp_bt_device.i
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.i: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_bt_device.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.i
-.PHONY : host/bluedroid/api/esp_bt_device.c.i
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
 
-host/bluedroid/api/esp_bt_device.s: host/bluedroid/api/esp_bt_device.c.s
-.PHONY : host/bluedroid/api/esp_bt_device.s
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.s: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_bt_device.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_device.c.s
-.PHONY : host/bluedroid/api/esp_bt_device.c.s
+host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
 
-host/bluedroid/api/esp_bt_main.obj: host/bluedroid/api/esp_bt_main.c.obj
-.PHONY : host/bluedroid/api/esp_bt_main.obj
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.obj: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.obj
 
 # target to build an object file
-host/bluedroid/api/esp_bt_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.obj
-.PHONY : host/bluedroid/api/esp_bt_main.c.obj
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
 
-host/bluedroid/api/esp_bt_main.i: host/bluedroid/api/esp_bt_main.c.i
-.PHONY : host/bluedroid/api/esp_bt_main.i
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.i: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_bt_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.i
-.PHONY : host/bluedroid/api/esp_bt_main.c.i
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
 
-host/bluedroid/api/esp_bt_main.s: host/bluedroid/api/esp_bt_main.c.s
-.PHONY : host/bluedroid/api/esp_bt_main.s
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.s: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_bt_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_bt_main.c.s
-.PHONY : host/bluedroid/api/esp_bt_main.c.s
+host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
 
-host/bluedroid/api/esp_gap_ble_api.obj: host/bluedroid/api/esp_gap_ble_api.c.obj
-.PHONY : host/bluedroid/api/esp_gap_ble_api.obj
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.obj: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.obj
 
 # target to build an object file
-host/bluedroid/api/esp_gap_ble_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.obj
-.PHONY : host/bluedroid/api/esp_gap_ble_api.c.obj
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
 
-host/bluedroid/api/esp_gap_ble_api.i: host/bluedroid/api/esp_gap_ble_api.c.i
-.PHONY : host/bluedroid/api/esp_gap_ble_api.i
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.i: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_gap_ble_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.i
-.PHONY : host/bluedroid/api/esp_gap_ble_api.c.i
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
 
-host/bluedroid/api/esp_gap_ble_api.s: host/bluedroid/api/esp_gap_ble_api.c.s
-.PHONY : host/bluedroid/api/esp_gap_ble_api.s
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.s: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_gap_ble_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_ble_api.c.s
-.PHONY : host/bluedroid/api/esp_gap_ble_api.c.s
+host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
 
-host/bluedroid/api/esp_gap_bt_api.obj: host/bluedroid/api/esp_gap_bt_api.c.obj
-.PHONY : host/bluedroid/api/esp_gap_bt_api.obj
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.obj: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.obj
 
 # target to build an object file
-host/bluedroid/api/esp_gap_bt_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.obj
-.PHONY : host/bluedroid/api/esp_gap_bt_api.c.obj
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
 
-host/bluedroid/api/esp_gap_bt_api.i: host/bluedroid/api/esp_gap_bt_api.c.i
-.PHONY : host/bluedroid/api/esp_gap_bt_api.i
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.i: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_gap_bt_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.i
-.PHONY : host/bluedroid/api/esp_gap_bt_api.c.i
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
 
-host/bluedroid/api/esp_gap_bt_api.s: host/bluedroid/api/esp_gap_bt_api.c.s
-.PHONY : host/bluedroid/api/esp_gap_bt_api.s
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.s: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_gap_bt_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gap_bt_api.c.s
-.PHONY : host/bluedroid/api/esp_gap_bt_api.c.s
+host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
 
-host/bluedroid/api/esp_gatt_common_api.obj: host/bluedroid/api/esp_gatt_common_api.c.obj
-.PHONY : host/bluedroid/api/esp_gatt_common_api.obj
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj
 
 # target to build an object file
-host/bluedroid/api/esp_gatt_common_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.obj
-.PHONY : host/bluedroid/api/esp_gatt_common_api.c.obj
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
 
-host/bluedroid/api/esp_gatt_common_api.i: host/bluedroid/api/esp_gatt_common_api.c.i
-.PHONY : host/bluedroid/api/esp_gatt_common_api.i
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.i: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_gatt_common_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.i
-.PHONY : host/bluedroid/api/esp_gatt_common_api.c.i
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
 
-host/bluedroid/api/esp_gatt_common_api.s: host/bluedroid/api/esp_gatt_common_api.c.s
-.PHONY : host/bluedroid/api/esp_gatt_common_api.s
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.s: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_gatt_common_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatt_common_api.c.s
-.PHONY : host/bluedroid/api/esp_gatt_common_api.c.s
+host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
 
-host/bluedroid/api/esp_gattc_api.obj: host/bluedroid/api/esp_gattc_api.c.obj
-.PHONY : host/bluedroid/api/esp_gattc_api.obj
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.obj: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.obj
 
 # target to build an object file
-host/bluedroid/api/esp_gattc_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.obj
-.PHONY : host/bluedroid/api/esp_gattc_api.c.obj
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
 
-host/bluedroid/api/esp_gattc_api.i: host/bluedroid/api/esp_gattc_api.c.i
-.PHONY : host/bluedroid/api/esp_gattc_api.i
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.i: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_gattc_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.i
-.PHONY : host/bluedroid/api/esp_gattc_api.c.i
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
 
-host/bluedroid/api/esp_gattc_api.s: host/bluedroid/api/esp_gattc_api.c.s
-.PHONY : host/bluedroid/api/esp_gattc_api.s
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.s: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_gattc_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gattc_api.c.s
-.PHONY : host/bluedroid/api/esp_gattc_api.c.s
+host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
 
-host/bluedroid/api/esp_gatts_api.obj: host/bluedroid/api/esp_gatts_api.c.obj
-.PHONY : host/bluedroid/api/esp_gatts_api.obj
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.obj: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.obj
 
 # target to build an object file
-host/bluedroid/api/esp_gatts_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.obj
-.PHONY : host/bluedroid/api/esp_gatts_api.c.obj
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
 
-host/bluedroid/api/esp_gatts_api.i: host/bluedroid/api/esp_gatts_api.c.i
-.PHONY : host/bluedroid/api/esp_gatts_api.i
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.i: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_gatts_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.i
-.PHONY : host/bluedroid/api/esp_gatts_api.c.i
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
 
-host/bluedroid/api/esp_gatts_api.s: host/bluedroid/api/esp_gatts_api.c.s
-.PHONY : host/bluedroid/api/esp_gatts_api.s
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.s: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_gatts_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_gatts_api.c.s
-.PHONY : host/bluedroid/api/esp_gatts_api.c.s
+host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
 
-host/bluedroid/api/esp_hf_ag_api.obj: host/bluedroid/api/esp_hf_ag_api.c.obj
-.PHONY : host/bluedroid/api/esp_hf_ag_api.obj
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.obj: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.obj
 
 # target to build an object file
-host/bluedroid/api/esp_hf_ag_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.obj
-.PHONY : host/bluedroid/api/esp_hf_ag_api.c.obj
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
 
-host/bluedroid/api/esp_hf_ag_api.i: host/bluedroid/api/esp_hf_ag_api.c.i
-.PHONY : host/bluedroid/api/esp_hf_ag_api.i
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.i: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_hf_ag_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.i
-.PHONY : host/bluedroid/api/esp_hf_ag_api.c.i
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
 
-host/bluedroid/api/esp_hf_ag_api.s: host/bluedroid/api/esp_hf_ag_api.c.s
-.PHONY : host/bluedroid/api/esp_hf_ag_api.s
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.s: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_hf_ag_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_ag_api.c.s
-.PHONY : host/bluedroid/api/esp_hf_ag_api.c.s
+host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
 
-host/bluedroid/api/esp_hf_client_api.obj: host/bluedroid/api/esp_hf_client_api.c.obj
-.PHONY : host/bluedroid/api/esp_hf_client_api.obj
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.obj: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.obj
 
 # target to build an object file
-host/bluedroid/api/esp_hf_client_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.obj
-.PHONY : host/bluedroid/api/esp_hf_client_api.c.obj
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
 
-host/bluedroid/api/esp_hf_client_api.i: host/bluedroid/api/esp_hf_client_api.c.i
-.PHONY : host/bluedroid/api/esp_hf_client_api.i
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.i: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_hf_client_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.i
-.PHONY : host/bluedroid/api/esp_hf_client_api.c.i
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
 
-host/bluedroid/api/esp_hf_client_api.s: host/bluedroid/api/esp_hf_client_api.c.s
-.PHONY : host/bluedroid/api/esp_hf_client_api.s
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.s: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_hf_client_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hf_client_api.c.s
-.PHONY : host/bluedroid/api/esp_hf_client_api.c.s
+host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
 
-host/bluedroid/api/esp_hidd_api.obj: host/bluedroid/api/esp_hidd_api.c.obj
-.PHONY : host/bluedroid/api/esp_hidd_api.obj
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.obj: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.obj
 
 # target to build an object file
-host/bluedroid/api/esp_hidd_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidd_api.c.obj
-.PHONY : host/bluedroid/api/esp_hidd_api.c.obj
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
 
-host/bluedroid/api/esp_hidd_api.i: host/bluedroid/api/esp_hidd_api.c.i
-.PHONY : host/bluedroid/api/esp_hidd_api.i
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.i: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_hidd_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidd_api.c.i
-.PHONY : host/bluedroid/api/esp_hidd_api.c.i
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
 
-host/bluedroid/api/esp_hidd_api.s: host/bluedroid/api/esp_hidd_api.c.s
-.PHONY : host/bluedroid/api/esp_hidd_api.s
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.s: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_hidd_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidd_api.c.s
-.PHONY : host/bluedroid/api/esp_hidd_api.c.s
+host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
 
-host/bluedroid/api/esp_hidh_api.obj: host/bluedroid/api/esp_hidh_api.c.obj
-.PHONY : host/bluedroid/api/esp_hidh_api.obj
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.obj: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.obj
 
 # target to build an object file
-host/bluedroid/api/esp_hidh_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidh_api.c.obj
-.PHONY : host/bluedroid/api/esp_hidh_api.c.obj
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
 
-host/bluedroid/api/esp_hidh_api.i: host/bluedroid/api/esp_hidh_api.c.i
-.PHONY : host/bluedroid/api/esp_hidh_api.i
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.i: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_hidh_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidh_api.c.i
-.PHONY : host/bluedroid/api/esp_hidh_api.c.i
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
 
-host/bluedroid/api/esp_hidh_api.s: host/bluedroid/api/esp_hidh_api.c.s
-.PHONY : host/bluedroid/api/esp_hidh_api.s
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.s: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_hidh_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_hidh_api.c.s
-.PHONY : host/bluedroid/api/esp_hidh_api.c.s
+host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
 
-host/bluedroid/api/esp_l2cap_bt_api.obj: host/bluedroid/api/esp_l2cap_bt_api.c.obj
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.obj
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.obj: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.obj
 
 # target to build an object file
-host/bluedroid/api/esp_l2cap_bt_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_l2cap_bt_api.c.obj
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.c.obj
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
 
-host/bluedroid/api/esp_l2cap_bt_api.i: host/bluedroid/api/esp_l2cap_bt_api.c.i
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.i
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.i: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_l2cap_bt_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_l2cap_bt_api.c.i
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.c.i
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
 
-host/bluedroid/api/esp_l2cap_bt_api.s: host/bluedroid/api/esp_l2cap_bt_api.c.s
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.s
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.s: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_l2cap_bt_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_l2cap_bt_api.c.s
-.PHONY : host/bluedroid/api/esp_l2cap_bt_api.c.s
+host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
 
-host/bluedroid/api/esp_pbac_api.obj: host/bluedroid/api/esp_pbac_api.c.obj
-.PHONY : host/bluedroid/api/esp_pbac_api.obj
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.obj: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.obj
 
 # target to build an object file
-host/bluedroid/api/esp_pbac_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_pbac_api.c.obj
-.PHONY : host/bluedroid/api/esp_pbac_api.c.obj
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
 
-host/bluedroid/api/esp_pbac_api.i: host/bluedroid/api/esp_pbac_api.c.i
-.PHONY : host/bluedroid/api/esp_pbac_api.i
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.i: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_pbac_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_pbac_api.c.i
-.PHONY : host/bluedroid/api/esp_pbac_api.c.i
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
 
-host/bluedroid/api/esp_pbac_api.s: host/bluedroid/api/esp_pbac_api.c.s
-.PHONY : host/bluedroid/api/esp_pbac_api.s
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.s: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_pbac_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_pbac_api.c.s
-.PHONY : host/bluedroid/api/esp_pbac_api.c.s
+host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
 
-host/bluedroid/api/esp_sdp_api.obj: host/bluedroid/api/esp_sdp_api.c.obj
-.PHONY : host/bluedroid/api/esp_sdp_api.obj
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.obj: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.obj
 
 # target to build an object file
-host/bluedroid/api/esp_sdp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_sdp_api.c.obj
-.PHONY : host/bluedroid/api/esp_sdp_api.c.obj
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
 
-host/bluedroid/api/esp_sdp_api.i: host/bluedroid/api/esp_sdp_api.c.i
-.PHONY : host/bluedroid/api/esp_sdp_api.i
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.i: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_sdp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_sdp_api.c.i
-.PHONY : host/bluedroid/api/esp_sdp_api.c.i
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
 
-host/bluedroid/api/esp_sdp_api.s: host/bluedroid/api/esp_sdp_api.c.s
-.PHONY : host/bluedroid/api/esp_sdp_api.s
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.s: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_sdp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_sdp_api.c.s
-.PHONY : host/bluedroid/api/esp_sdp_api.c.s
+host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
 
-host/bluedroid/api/esp_spp_api.obj: host/bluedroid/api/esp_spp_api.c.obj
-.PHONY : host/bluedroid/api/esp_spp_api.obj
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.obj: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.obj
 
 # target to build an object file
-host/bluedroid/api/esp_spp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.obj
-.PHONY : host/bluedroid/api/esp_spp_api.c.obj
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
 
-host/bluedroid/api/esp_spp_api.i: host/bluedroid/api/esp_spp_api.c.i
-.PHONY : host/bluedroid/api/esp_spp_api.i
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.i: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.i
 
 # target to preprocess a source file
-host/bluedroid/api/esp_spp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.i
-.PHONY : host/bluedroid/api/esp_spp_api.c.i
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
 
-host/bluedroid/api/esp_spp_api.s: host/bluedroid/api/esp_spp_api.c.s
-.PHONY : host/bluedroid/api/esp_spp_api.s
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.s: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.s
 
 # target to generate assembly for a file
-host/bluedroid/api/esp_spp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/api/esp_spp_api.c.s
-.PHONY : host/bluedroid/api/esp_spp_api.c.s
+host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
+.PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
 
-host/bluedroid/bta/ar/bta_ar.obj: host/bluedroid/bta/ar/bta_ar.c.obj
-.PHONY : host/bluedroid/bta/ar/bta_ar.obj
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.obj: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.obj
 
 # target to build an object file
-host/bluedroid/bta/ar/bta_ar.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.obj
-.PHONY : host/bluedroid/bta/ar/bta_ar.c.obj
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
 
-host/bluedroid/bta/ar/bta_ar.i: host/bluedroid/bta/ar/bta_ar.c.i
-.PHONY : host/bluedroid/bta/ar/bta_ar.i
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.i: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.i
 
 # target to preprocess a source file
-host/bluedroid/bta/ar/bta_ar.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.i
-.PHONY : host/bluedroid/bta/ar/bta_ar.c.i
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
 
-host/bluedroid/bta/ar/bta_ar.s: host/bluedroid/bta/ar/bta_ar.c.s
-.PHONY : host/bluedroid/bta/ar/bta_ar.s
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.s: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/ar/bta_ar.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/ar/bta_ar.c.s
-.PHONY : host/bluedroid/bta/ar/bta_ar.c.s
+host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
 
-host/bluedroid/bta/av/bta_av_aact.obj: host/bluedroid/bta/av/bta_av_aact.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_aact.obj
+host/nimble/nimble/nimble/host/src/ble_att.obj: host/nimble/nimble/nimble/host/src/ble_att.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_aact.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_aact.c.obj
+host/nimble/nimble/nimble/host/src/ble_att.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.obj
 
-host/bluedroid/bta/av/bta_av_aact.i: host/bluedroid/bta/av/bta_av_aact.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_aact.i
+host/nimble/nimble/nimble/host/src/ble_att.i: host/nimble/nimble/nimble/host/src/ble_att.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_aact.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_aact.c.i
+host/nimble/nimble/nimble/host/src/ble_att.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.i
 
-host/bluedroid/bta/av/bta_av_aact.s: host/bluedroid/bta/av/bta_av_aact.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_aact.s
+host/nimble/nimble/nimble/host/src/ble_att.s: host/nimble/nimble/nimble/host/src/ble_att.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_aact.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_aact.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_aact.c.s
+host/nimble/nimble/nimble/host/src/ble_att.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.s
 
-host/bluedroid/bta/av/bta_av_act.obj: host/bluedroid/bta/av/bta_av_act.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_act.obj
+host/nimble/nimble/nimble/host/src/ble_att_clt.obj: host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
 
-host/bluedroid/bta/av/bta_av_act.i: host/bluedroid/bta/av/bta_av_act.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_act.i
+host/nimble/nimble/nimble/host/src/ble_att_clt.i: host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_act.c.i
+host/nimble/nimble/nimble/host/src/ble_att_clt.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
 
-host/bluedroid/bta/av/bta_av_act.s: host/bluedroid/bta/av/bta_av_act.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_act.s
+host/nimble/nimble/nimble/host/src/ble_att_clt.s: host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_act.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_act.c.s
+host/nimble/nimble/nimble/host/src/ble_att_clt.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
 
-host/bluedroid/bta/av/bta_av_api.obj: host/bluedroid/bta/av/bta_av_api.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_api.obj
+host/nimble/nimble/nimble/host/src/ble_att_cmd.obj: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
 
-host/bluedroid/bta/av/bta_av_api.i: host/bluedroid/bta/av/bta_av_api.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_api.i
+host/nimble/nimble/nimble/host/src/ble_att_cmd.i: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_api.c.i
+host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
 
-host/bluedroid/bta/av/bta_av_api.s: host/bluedroid/bta/av/bta_av_api.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_api.s
+host/nimble/nimble/nimble/host/src/ble_att_cmd.s: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_api.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_api.c.s
+host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
 
-host/bluedroid/bta/av/bta_av_ca_act.obj: host/bluedroid/bta/av/bta_av_ca_act.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.obj
+host/nimble/nimble/nimble/host/src/ble_att_svr.obj: host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_ca_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_act.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
 
-host/bluedroid/bta/av/bta_av_ca_act.i: host/bluedroid/bta/av/bta_av_ca_act.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.i
+host/nimble/nimble/nimble/host/src/ble_att_svr.i: host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_ca_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_act.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.c.i
+host/nimble/nimble/nimble/host/src/ble_att_svr.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
 
-host/bluedroid/bta/av/bta_av_ca_act.s: host/bluedroid/bta/av/bta_av_ca_act.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.s
+host/nimble/nimble/nimble/host/src/ble_att_svr.s: host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_ca_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_act.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ca_act.c.s
+host/nimble/nimble/nimble/host/src/ble_att_svr.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
 
-host/bluedroid/bta/av/bta_av_ca_sm.obj: host/bluedroid/bta/av/bta_av_ca_sm.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.obj
+host/nimble/nimble/nimble/host/src/ble_cs.obj: host/nimble/nimble/nimble/host/src/ble_cs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_ca_sm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_sm.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.c.obj
+host/nimble/nimble/nimble/host/src/ble_cs.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.obj
 
-host/bluedroid/bta/av/bta_av_ca_sm.i: host/bluedroid/bta/av/bta_av_ca_sm.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.i
+host/nimble/nimble/nimble/host/src/ble_cs.i: host/nimble/nimble/nimble/host/src/ble_cs.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_ca_sm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_sm.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.c.i
+host/nimble/nimble/nimble/host/src/ble_cs.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.i
 
-host/bluedroid/bta/av/bta_av_ca_sm.s: host/bluedroid/bta/av/bta_av_ca_sm.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.s
+host/nimble/nimble/nimble/host/src/ble_cs.s: host/nimble/nimble/nimble/host/src/ble_cs.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_ca_sm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ca_sm.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ca_sm.c.s
+host/nimble/nimble/nimble/host/src/ble_cs.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.s
 
-host/bluedroid/bta/av/bta_av_cfg.obj: host/bluedroid/bta/av/bta_av_cfg.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.obj
+host/nimble/nimble/nimble/host/src/ble_ead.obj: host/nimble/nimble/nimble/host/src/ble_ead.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.c.obj
+host/nimble/nimble/nimble/host/src/ble_ead.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.obj
 
-host/bluedroid/bta/av/bta_av_cfg.i: host/bluedroid/bta/av/bta_av_cfg.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.i
+host/nimble/nimble/nimble/host/src/ble_ead.i: host/nimble/nimble/nimble/host/src/ble_ead.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.c.i
+host/nimble/nimble/nimble/host/src/ble_ead.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.i
 
-host/bluedroid/bta/av/bta_av_cfg.s: host/bluedroid/bta/av/bta_av_cfg.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.s
+host/nimble/nimble/nimble/host/src/ble_ead.s: host/nimble/nimble/nimble/host/src/ble_ead.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_cfg.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_cfg.c.s
+host/nimble/nimble/nimble/host/src/ble_ead.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.s
 
-host/bluedroid/bta/av/bta_av_ci.obj: host/bluedroid/bta/av/bta_av_ci.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ci.obj
+host/nimble/nimble/nimble/host/src/ble_eatt.obj: host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_ci.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ci.c.obj
+host/nimble/nimble/nimble/host/src/ble_eatt.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
 
-host/bluedroid/bta/av/bta_av_ci.i: host/bluedroid/bta/av/bta_av_ci.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ci.i
+host/nimble/nimble/nimble/host/src/ble_eatt.i: host/nimble/nimble/nimble/host/src/ble_eatt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_ci.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ci.c.i
+host/nimble/nimble/nimble/host/src/ble_eatt.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.i
 
-host/bluedroid/bta/av/bta_av_ci.s: host/bluedroid/bta/av/bta_av_ci.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ci.s
+host/nimble/nimble/nimble/host/src/ble_eatt.s: host/nimble/nimble/nimble/host/src/ble_eatt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_ci.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ci.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ci.c.s
+host/nimble/nimble/nimble/host/src/ble_eatt.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.s
 
-host/bluedroid/bta/av/bta_av_main.obj: host/bluedroid/bta/av/bta_av_main.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_main.obj
+host/nimble/nimble/nimble/host/src/ble_eddystone.obj: host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
 
-host/bluedroid/bta/av/bta_av_main.i: host/bluedroid/bta/av/bta_av_main.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_main.i
+host/nimble/nimble/nimble/host/src/ble_eddystone.i: host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_main.c.i
+host/nimble/nimble/nimble/host/src/ble_eddystone.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
 
-host/bluedroid/bta/av/bta_av_main.s: host/bluedroid/bta/av/bta_av_main.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_main.s
+host/nimble/nimble/nimble/host/src/ble_eddystone.s: host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_main.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_main.c.s
+host/nimble/nimble/nimble/host/src/ble_eddystone.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
 
-host/bluedroid/bta/av/bta_av_sbc.obj: host/bluedroid/bta/av/bta_av_sbc.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.obj
+host/nimble/nimble/nimble/host/src/ble_gap.obj: host/nimble/nimble/nimble/host/src/ble_gap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_sbc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.c.obj
+host/nimble/nimble/nimble/host/src/ble_gap.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.obj
 
-host/bluedroid/bta/av/bta_av_sbc.i: host/bluedroid/bta/av/bta_av_sbc.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.i
+host/nimble/nimble/nimble/host/src/ble_gap.i: host/nimble/nimble/nimble/host/src/ble_gap.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_sbc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.c.i
+host/nimble/nimble/nimble/host/src/ble_gap.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.i
 
-host/bluedroid/bta/av/bta_av_sbc.s: host/bluedroid/bta/av/bta_av_sbc.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.s
+host/nimble/nimble/nimble/host/src/ble_gap.s: host/nimble/nimble/nimble/host/src/ble_gap.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_sbc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_sbc.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_sbc.c.s
+host/nimble/nimble/nimble/host/src/ble_gap.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.s
 
-host/bluedroid/bta/av/bta_av_ssm.obj: host/bluedroid/bta/av/bta_av_ssm.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.obj
+host/nimble/nimble/nimble/host/src/ble_gattc.obj: host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.obj
 
 # target to build an object file
-host/bluedroid/bta/av/bta_av_ssm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.obj
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.c.obj
+host/nimble/nimble/nimble/host/src/ble_gattc.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
 
-host/bluedroid/bta/av/bta_av_ssm.i: host/bluedroid/bta/av/bta_av_ssm.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.i
+host/nimble/nimble/nimble/host/src/ble_gattc.i: host/nimble/nimble/nimble/host/src/ble_gattc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.i
 
 # target to preprocess a source file
-host/bluedroid/bta/av/bta_av_ssm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.i
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.c.i
+host/nimble/nimble/nimble/host/src/ble_gattc.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.i
 
-host/bluedroid/bta/av/bta_av_ssm.s: host/bluedroid/bta/av/bta_av_ssm.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.s
+host/nimble/nimble/nimble/host/src/ble_gattc.s: host/nimble/nimble/nimble/host/src/ble_gattc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/av/bta_av_ssm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/av/bta_av_ssm.c.s
-.PHONY : host/bluedroid/bta/av/bta_av_ssm.c.s
+host/nimble/nimble/nimble/host/src/ble_gattc.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.s
 
-host/bluedroid/bta/dm/bta_dm_act.obj: host/bluedroid/bta/dm/bta_dm_act.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.obj
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.obj: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
 
-host/bluedroid/bta/dm/bta_dm_act.i: host/bluedroid/bta/dm/bta_dm_act.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.i
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.i: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.c.i
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
 
-host/bluedroid/bta/dm/bta_dm_act.s: host/bluedroid/bta/dm/bta_dm_act.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.s
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.s: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_act.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_act.c.s
+host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
 
-host/bluedroid/bta/dm/bta_dm_api.obj: host/bluedroid/bta/dm/bta_dm_api.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.obj
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.obj: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
 
-host/bluedroid/bta/dm/bta_dm_api.i: host/bluedroid/bta/dm/bta_dm_api.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.i
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.i: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.c.i
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
 
-host/bluedroid/bta/dm/bta_dm_api.s: host/bluedroid/bta/dm/bta_dm_api.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.s
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.s: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_api.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_api.c.s
+host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
 
-host/bluedroid/bta/dm/bta_dm_cfg.obj: host/bluedroid/bta/dm/bta_dm_cfg.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.obj
+host/nimble/nimble/nimble/host/src/ble_gatts.obj: host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.c.obj
+host/nimble/nimble/nimble/host/src/ble_gatts.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
 
-host/bluedroid/bta/dm/bta_dm_cfg.i: host/bluedroid/bta/dm/bta_dm_cfg.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.i
+host/nimble/nimble/nimble/host/src/ble_gatts.i: host/nimble/nimble/nimble/host/src/ble_gatts.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.c.i
+host/nimble/nimble/nimble/host/src/ble_gatts.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.i
 
-host/bluedroid/bta/dm/bta_dm_cfg.s: host/bluedroid/bta/dm/bta_dm_cfg.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.s
+host/nimble/nimble/nimble/host/src/ble_gatts.s: host/nimble/nimble/nimble/host/src/ble_gatts.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_cfg.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_cfg.c.s
+host/nimble/nimble/nimble/host/src/ble_gatts.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.s
 
-host/bluedroid/bta/dm/bta_dm_ci.obj: host/bluedroid/bta/dm/bta_dm_ci.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.obj
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.obj: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_ci.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.c.obj
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
 
-host/bluedroid/bta/dm/bta_dm_ci.i: host/bluedroid/bta/dm/bta_dm_ci.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.i
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.i: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_ci.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.c.i
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
 
-host/bluedroid/bta/dm/bta_dm_ci.s: host/bluedroid/bta/dm/bta_dm_ci.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.s
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.s: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_ci.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_ci.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_ci.c.s
+host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
 
-host/bluedroid/bta/dm/bta_dm_co.obj: host/bluedroid/bta/dm/bta_dm_co.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.obj
+host/nimble/nimble/nimble/host/src/ble_hs.obj: host/nimble/nimble/nimble/host/src/ble_hs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.obj
 
-host/bluedroid/bta/dm/bta_dm_co.i: host/bluedroid/bta/dm/bta_dm_co.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.i
+host/nimble/nimble/nimble/host/src/ble_hs.i: host/nimble/nimble/nimble/host/src/ble_hs.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.c.i
+host/nimble/nimble/nimble/host/src/ble_hs.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.i
 
-host/bluedroid/bta/dm/bta_dm_co.s: host/bluedroid/bta/dm/bta_dm_co.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.s
+host/nimble/nimble/nimble/host/src/ble_hs.s: host/nimble/nimble/nimble/host/src/ble_hs.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_co.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_co.c.s
+host/nimble/nimble/nimble/host/src/ble_hs.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.s
 
-host/bluedroid/bta/dm/bta_dm_main.obj: host/bluedroid/bta/dm/bta_dm_main.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.obj
+host/nimble/nimble/nimble/host/src/ble_hs_adv.obj: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
 
-host/bluedroid/bta/dm/bta_dm_main.i: host/bluedroid/bta/dm/bta_dm_main.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.i
+host/nimble/nimble/nimble/host/src/ble_hs_adv.i: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
 
-host/bluedroid/bta/dm/bta_dm_main.s: host/bluedroid/bta/dm/bta_dm_main.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.s
+host/nimble/nimble/nimble/host/src/ble_hs_adv.s: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_main.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_main.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
 
-host/bluedroid/bta/dm/bta_dm_pm.obj: host/bluedroid/bta/dm/bta_dm_pm.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.obj
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.obj: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_pm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
 
-host/bluedroid/bta/dm/bta_dm_pm.i: host/bluedroid/bta/dm/bta_dm_pm.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.i
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.i: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_pm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
 
-host/bluedroid/bta/dm/bta_dm_pm.s: host/bluedroid/bta/dm/bta_dm_pm.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.s
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.s: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_pm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_pm.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_pm.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
 
-host/bluedroid/bta/dm/bta_dm_qos.obj: host/bluedroid/bta/dm/bta_dm_qos.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.obj
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.obj: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_qos.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_qos.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
 
-host/bluedroid/bta/dm/bta_dm_qos.i: host/bluedroid/bta/dm/bta_dm_qos.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.i
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.i: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_qos.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_qos.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
 
-host/bluedroid/bta/dm/bta_dm_qos.s: host/bluedroid/bta/dm/bta_dm_qos.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.s
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.s: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_qos.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_qos.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_qos.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
 
-host/bluedroid/bta/dm/bta_dm_sco.obj: host/bluedroid/bta/dm/bta_dm_sco.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.obj
+host/nimble/nimble/nimble/host/src/ble_hs_conn.obj: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.obj
 
 # target to build an object file
-host/bluedroid/bta/dm/bta_dm_sco.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.obj
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
 
-host/bluedroid/bta/dm/bta_dm_sco.i: host/bluedroid/bta/dm/bta_dm_sco.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.i
+host/nimble/nimble/nimble/host/src/ble_hs_conn.i: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.i
 
 # target to preprocess a source file
-host/bluedroid/bta/dm/bta_dm_sco.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.i
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
 
-host/bluedroid/bta/dm/bta_dm_sco.s: host/bluedroid/bta/dm/bta_dm_sco.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.s
+host/nimble/nimble/nimble/host/src/ble_hs_conn.s: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/dm/bta_dm_sco.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/dm/bta_dm_sco.c.s
-.PHONY : host/bluedroid/bta/dm/bta_dm_sco.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
 
-host/bluedroid/bta/gatt/bta_gatt_common.obj: host/bluedroid/bta/gatt/bta_gatt_common.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.obj
+host/nimble/nimble/nimble/host/src/ble_hs_flow.obj: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatt_common.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
 
-host/bluedroid/bta/gatt/bta_gatt_common.i: host/bluedroid/bta/gatt/bta_gatt_common.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.i
+host/nimble/nimble/nimble/host/src/ble_hs_flow.i: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatt_common.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
 
-host/bluedroid/bta/gatt/bta_gatt_common.s: host/bluedroid/bta/gatt/bta_gatt_common.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.s
+host/nimble/nimble/nimble/host/src/ble_hs_flow.s: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatt_common.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatt_common.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatt_common.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_act.obj: host/bluedroid/bta/gatt/bta_gattc_act.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_act.i: host/bluedroid/bta/gatt/bta_gattc_act.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci.i: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_act.s: host/bluedroid/bta/gatt/bta_gattc_act.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci.s: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_act.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_act.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_api.obj: host/bluedroid/bta/gatt/bta_gattc_api.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_api.i: host/bluedroid/bta/gatt/bta_gattc_api.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_api.s: host/bluedroid/bta/gatt/bta_gattc_api.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_api.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_api.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_cache.obj: host/bluedroid/bta/gatt/bta_gattc_cache.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_cache.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_cache.i: host/bluedroid/bta/gatt/bta_gattc_cache.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_cache.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_cache.s: host/bluedroid/bta/gatt/bta_gattc_cache.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_cache.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_cache.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_cache.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_ci.obj: host/bluedroid/bta/gatt/bta_gattc_ci.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_ci.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_ci.i: host/bluedroid/bta/gatt/bta_gattc_ci.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_ci.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_ci.s: host/bluedroid/bta/gatt/bta_gattc_ci.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_ci.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_ci.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_ci.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_co.obj: host/bluedroid/bta/gatt/bta_gattc_co.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.obj
+host/nimble/nimble/nimble/host/src/ble_hs_id.obj: host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_co.i: host/bluedroid/bta/gatt/bta_gattc_co.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.i
+host/nimble/nimble/nimble/host/src/ble_hs_id.i: host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_id.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_co.s: host/bluedroid/bta/gatt/bta_gattc_co.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.s
+host/nimble/nimble/nimble/host/src/ble_hs_id.s: host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_co.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_co.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_id.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_main.obj: host/bluedroid/bta/gatt/bta_gattc_main.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.obj
+host/nimble/nimble/nimble/host/src/ble_hs_log.obj: host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_main.i: host/bluedroid/bta/gatt/bta_gattc_main.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.i
+host/nimble/nimble/nimble/host/src/ble_hs_log.i: host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_log.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_main.s: host/bluedroid/bta/gatt/bta_gattc_main.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.s
+host/nimble/nimble/nimble/host/src/ble_hs_log.s: host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_main.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_main.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_log.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
 
-host/bluedroid/bta/gatt/bta_gattc_utils.obj: host/bluedroid/bta/gatt/bta_gattc_utils.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.obj
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.obj: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gattc_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
 
-host/bluedroid/bta/gatt/bta_gattc_utils.i: host/bluedroid/bta/gatt/bta_gattc_utils.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.i
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.i: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gattc_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
 
-host/bluedroid/bta/gatt/bta_gattc_utils.s: host/bluedroid/bta/gatt/bta_gattc_utils.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.s
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.s: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gattc_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gattc_utils.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gattc_utils.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
 
-host/bluedroid/bta/gatt/bta_gatts_act.obj: host/bluedroid/bta/gatt/bta_gatts_act.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.obj
+host/nimble/nimble/nimble/host/src/ble_hs_misc.obj: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatts_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
 
-host/bluedroid/bta/gatt/bta_gatts_act.i: host/bluedroid/bta/gatt/bta_gatts_act.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.i
+host/nimble/nimble/nimble/host/src/ble_hs_misc.i: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatts_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
 
-host/bluedroid/bta/gatt/bta_gatts_act.s: host/bluedroid/bta/gatt/bta_gatts_act.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.s
+host/nimble/nimble/nimble/host/src/ble_hs_misc.s: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatts_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_act.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_act.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
 
-host/bluedroid/bta/gatt/bta_gatts_api.obj: host/bluedroid/bta/gatt/bta_gatts_api.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.obj
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.obj: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatts_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
 
-host/bluedroid/bta/gatt/bta_gatts_api.i: host/bluedroid/bta/gatt/bta_gatts_api.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.i
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.i: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatts_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
 
-host/bluedroid/bta/gatt/bta_gatts_api.s: host/bluedroid/bta/gatt/bta_gatts_api.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.s
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.s: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatts_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_api.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_api.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
 
-host/bluedroid/bta/gatt/bta_gatts_co.obj: host/bluedroid/bta/gatt/bta_gatts_co.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.obj
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.obj: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatts_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
 
-host/bluedroid/bta/gatt/bta_gatts_co.i: host/bluedroid/bta/gatt/bta_gatts_co.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.i
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.i: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatts_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
 
-host/bluedroid/bta/gatt/bta_gatts_co.s: host/bluedroid/bta/gatt/bta_gatts_co.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.s
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.s: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatts_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_co.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_co.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
 
-host/bluedroid/bta/gatt/bta_gatts_main.obj: host/bluedroid/bta/gatt/bta_gatts_main.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.obj
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.obj: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatts_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
 
-host/bluedroid/bta/gatt/bta_gatts_main.i: host/bluedroid/bta/gatt/bta_gatts_main.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.i
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.i: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatts_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
 
-host/bluedroid/bta/gatt/bta_gatts_main.s: host/bluedroid/bta/gatt/bta_gatts_main.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.s
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.s: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatts_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_main.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_main.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
 
-host/bluedroid/bta/gatt/bta_gatts_utils.obj: host/bluedroid/bta/gatt/bta_gatts_utils.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.obj
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.obj: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.obj
 
 # target to build an object file
-host/bluedroid/bta/gatt/bta_gatts_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.obj
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
 
-host/bluedroid/bta/gatt/bta_gatts_utils.i: host/bluedroid/bta/gatt/bta_gatts_utils.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.i
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.i: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.i
 
 # target to preprocess a source file
-host/bluedroid/bta/gatt/bta_gatts_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.i
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
 
-host/bluedroid/bta/gatt/bta_gatts_utils.s: host/bluedroid/bta/gatt/bta_gatts_utils.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.s
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.s: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/gatt/bta_gatts_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/gatt/bta_gatts_utils.c.s
-.PHONY : host/bluedroid/bta/gatt/bta_gatts_utils.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
 
-host/bluedroid/bta/hd/bta_hd_act.obj: host/bluedroid/bta/hd/bta_hd_act.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.obj
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.obj: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.obj
 
 # target to build an object file
-host/bluedroid/bta/hd/bta_hd_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_act.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
 
-host/bluedroid/bta/hd/bta_hd_act.i: host/bluedroid/bta/hd/bta_hd_act.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.i
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.i: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hd/bta_hd_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_act.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
 
-host/bluedroid/bta/hd/bta_hd_act.s: host/bluedroid/bta/hd/bta_hd_act.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.s
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.s: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hd/bta_hd_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_act.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_act.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
 
-host/bluedroid/bta/hd/bta_hd_api.obj: host/bluedroid/bta/hd/bta_hd_api.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.obj
+host/nimble/nimble/nimble/host/src/ble_hs_startup.obj: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.obj
 
 # target to build an object file
-host/bluedroid/bta/hd/bta_hd_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_api.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
 
-host/bluedroid/bta/hd/bta_hd_api.i: host/bluedroid/bta/hd/bta_hd_api.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.i
+host/nimble/nimble/nimble/host/src/ble_hs_startup.i: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hd/bta_hd_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_api.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
 
-host/bluedroid/bta/hd/bta_hd_api.s: host/bluedroid/bta/hd/bta_hd_api.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.s
+host/nimble/nimble/nimble/host/src/ble_hs_startup.s: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hd/bta_hd_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_api.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_api.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
 
-host/bluedroid/bta/hd/bta_hd_main.obj: host/bluedroid/bta/hd/bta_hd_main.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.obj
+host/nimble/nimble/nimble/host/src/ble_hs_stop.obj: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.obj
 
 # target to build an object file
-host/bluedroid/bta/hd/bta_hd_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_main.c.obj
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
 
-host/bluedroid/bta/hd/bta_hd_main.i: host/bluedroid/bta/hd/bta_hd_main.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.i
+host/nimble/nimble/nimble/host/src/ble_hs_stop.i: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hd/bta_hd_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_main.c.i
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.c.i
+host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
 
-host/bluedroid/bta/hd/bta_hd_main.s: host/bluedroid/bta/hd/bta_hd_main.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.s
+host/nimble/nimble/nimble/host/src/ble_hs_stop.s: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hd/bta_hd_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hd/bta_hd_main.c.s
-.PHONY : host/bluedroid/bta/hd/bta_hd_main.c.s
+host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_act.obj: host/bluedroid/bta/hf_ag/bta_ag_act.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.obj
+host/nimble/nimble/nimble/host/src/ble_ibeacon.obj: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_act.i: host/bluedroid/bta/hf_ag/bta_ag_act.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.i
+host/nimble/nimble/nimble/host/src/ble_ibeacon.i: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.c.i
+host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_act.s: host/bluedroid/bta/hf_ag/bta_ag_act.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.s
+host/nimble/nimble/nimble/host/src/ble_ibeacon.s: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_act.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_act.c.s
+host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_api.obj: host/bluedroid/bta/hf_ag/bta_ag_api.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap.obj: host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_api.i: host/bluedroid/bta/hf_ag/bta_ag_api.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.i
+host/nimble/nimble/nimble/host/src/ble_l2cap.i: host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.c.i
+host/nimble/nimble/nimble/host/src/ble_l2cap.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_api.s: host/bluedroid/bta/hf_ag/bta_ag_api.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.s
+host/nimble/nimble/nimble/host/src/ble_l2cap.s: host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_api.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_api.c.s
+host/nimble/nimble/nimble/host/src/ble_l2cap.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_at.obj: host/bluedroid/bta/hf_ag/bta_ag_at.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_at.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.c.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_at.i: host/bluedroid/bta/hf_ag/bta_ag_at.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.i: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_at.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.c.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_at.s: host/bluedroid/bta/hf_ag/bta_ag_at.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.s: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_at.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_at.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_at.c.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_cfg.obj: host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.c.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_cfg.i: host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.i: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.c.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_cfg.s: host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.s: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cfg.c.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_cmd.obj: host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.c.obj
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_cmd.i: host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.i: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.c.i
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_cmd.s: host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.s: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_cmd.c.s
+host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_main.obj: host/bluedroid/bta/hf_ag/bta_ag_main.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.obj
+host/nimble/nimble/nimble/host/src/ble_sm.obj: host/nimble/nimble/nimble/host/src/ble_sm.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.c.obj
+host/nimble/nimble/nimble/host/src/ble_sm.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_main.i: host/bluedroid/bta/hf_ag/bta_ag_main.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.i
+host/nimble/nimble/nimble/host/src/ble_sm.i: host/nimble/nimble/nimble/host/src/ble_sm.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.c.i
+host/nimble/nimble/nimble/host/src/ble_sm.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_main.s: host/bluedroid/bta/hf_ag/bta_ag_main.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.s
+host/nimble/nimble/nimble/host/src/ble_sm.s: host/nimble/nimble/nimble/host/src/ble_sm.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_main.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_main.c.s
+host/nimble/nimble/nimble/host/src/ble_sm.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_rfc.obj: host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.obj
+host/nimble/nimble/nimble/host/src/ble_sm_alg.obj: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.c.obj
+host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_rfc.i: host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.i
+host/nimble/nimble/nimble/host/src/ble_sm_alg.i: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.c.i
+host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_rfc.s: host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.s
+host/nimble/nimble/nimble/host/src/ble_sm_alg.s: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_rfc.c.s
+host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_sco.obj: host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.obj
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.obj: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.c.obj
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_sco.i: host/bluedroid/bta/hf_ag/bta_ag_sco.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.i
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.i: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_sco.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.c.i
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_sco.s: host/bluedroid/bta/hf_ag/bta_ag_sco.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.s
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.s: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_sco.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sco.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sco.c.s
+host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
 
-host/bluedroid/bta/hf_ag/bta_ag_sdp.obj: host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.obj
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.obj: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.c.obj
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
 
-host/bluedroid/bta/hf_ag/bta_ag_sdp.i: host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.i
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.i: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.c.i
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
 
-host/bluedroid/bta/hf_ag/bta_ag_sdp.s: host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.s
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.s: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s
-.PHONY : host/bluedroid/bta/hf_ag/bta_ag_sdp.c.s
+host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_act.obj: host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.obj
+host/nimble/nimble/nimble/host/src/ble_sm_sc.obj: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.c.obj
+host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_act.i: host/bluedroid/bta/hf_client/bta_hf_client_act.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.i
+host/nimble/nimble/nimble/host/src/ble_sm_sc.i: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.c.i
+host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_act.s: host/bluedroid/bta/hf_client/bta_hf_client_act.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.s
+host/nimble/nimble/nimble/host/src/ble_sm_sc.s: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_act.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_act.c.s
+host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_api.obj: host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.obj
+host/nimble/nimble/nimble/host/src/ble_store.obj: host/nimble/nimble/nimble/host/src/ble_store.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.c.obj
+host/nimble/nimble/nimble/host/src/ble_store.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_api.i: host/bluedroid/bta/hf_client/bta_hf_client_api.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.i
+host/nimble/nimble/nimble/host/src/ble_store.i: host/nimble/nimble/nimble/host/src/ble_store.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.c.i
+host/nimble/nimble/nimble/host/src/ble_store.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_api.s: host/bluedroid/bta/hf_client/bta_hf_client_api.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.s
+host/nimble/nimble/nimble/host/src/ble_store.s: host/nimble/nimble/nimble/host/src/ble_store.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_api.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_api.c.s
+host/nimble/nimble/nimble/host/src/ble_store.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_at.obj: host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.obj
+host/nimble/nimble/nimble/host/src/ble_store_util.obj: host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.c.obj
+host/nimble/nimble/nimble/host/src/ble_store_util.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_at.i: host/bluedroid/bta/hf_client/bta_hf_client_at.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.i
+host/nimble/nimble/nimble/host/src/ble_store_util.i: host/nimble/nimble/nimble/host/src/ble_store_util.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_at.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.c.i
+host/nimble/nimble/nimble/host/src/ble_store_util.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_at.s: host/bluedroid/bta/hf_client/bta_hf_client_at.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.s
+host/nimble/nimble/nimble/host/src/ble_store_util.s: host/nimble/nimble/nimble/host/src/ble_store_util.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_at.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_at.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_at.c.s
+host/nimble/nimble/nimble/host/src/ble_store_util.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.obj: host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.obj
+host/nimble/nimble/nimble/host/src/ble_uuid.obj: host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.obj
+host/nimble/nimble/nimble/host/src/ble_uuid.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.i: host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.i
+host/nimble/nimble/nimble/host/src/ble_uuid.i: host/nimble/nimble/nimble/host/src/ble_uuid.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.i
+host/nimble/nimble/nimble/host/src/ble_uuid.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.i
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.s: host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.s
+host/nimble/nimble/nimble/host/src/ble_uuid.s: host/nimble/nimble/nimble/host/src/ble_uuid.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_cmd.c.s
+host/nimble/nimble/nimble/host/src/ble_uuid.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.s
+.PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_main.obj: host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.obj
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.obj: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.c.obj
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_main.i: host/bluedroid/bta/hf_client/bta_hf_client_main.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.i
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.i: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.c.i
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_main.s: host/bluedroid/bta/hf_client/bta_hf_client_main.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.s
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.s: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_main.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_main.c.s
+host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.obj: host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.obj
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.obj: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.obj
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.i: host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.i
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.i: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.i
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.s: host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.s
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.s: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_rfc.c.s
+host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_sco.obj: host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.obj
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.obj: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.c.obj
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_sco.i: host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.i
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.i: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.c.i
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_sco.s: host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.s
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.s: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sco.c.s
+host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
+.PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
 
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.obj: host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.obj
+host/nimble/nimble/nimble/host/util/src/addr.obj: host/nimble/nimble/nimble/host/util/src/addr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.obj
 
 # target to build an object file
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.obj
+host/nimble/nimble/nimble/host/util/src/addr.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.obj
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.obj
 
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.i: host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.i
+host/nimble/nimble/nimble/host/util/src/addr.i: host/nimble/nimble/nimble/host/util/src/addr.c.i
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.i
+host/nimble/nimble/nimble/host/util/src/addr.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.i
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.i
 
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.s: host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.s
+host/nimble/nimble/nimble/host/util/src/addr.s: host/nimble/nimble/nimble/host/util/src/addr.c.s
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s
-.PHONY : host/bluedroid/bta/hf_client/bta_hf_client_sdp.c.s
+host/nimble/nimble/nimble/host/util/src/addr.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.s
+.PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.s
 
-host/bluedroid/bta/hh/bta_hh_act.obj: host/bluedroid/bta/hh/bta_hh_act.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.obj
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.obj: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.c.obj
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
 
-host/bluedroid/bta/hh/bta_hh_act.i: host/bluedroid/bta/hh/bta_hh_act.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.i
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.i: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.c.i
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
 
-host/bluedroid/bta/hh/bta_hh_act.s: host/bluedroid/bta/hh/bta_hh_act.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.s
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.s: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_act.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_act.c.s
+host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
+.PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
 
-host/bluedroid/bta/hh/bta_hh_api.obj: host/bluedroid/bta/hh/bta_hh_api.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.obj
+host/nimble/nimble/nimble/transport/src/transport.obj: host/nimble/nimble/nimble/transport/src/transport.c.obj
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.c.obj
+host/nimble/nimble/nimble/transport/src/transport.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.obj
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.c.obj
 
-host/bluedroid/bta/hh/bta_hh_api.i: host/bluedroid/bta/hh/bta_hh_api.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.i
+host/nimble/nimble/nimble/transport/src/transport.i: host/nimble/nimble/nimble/transport/src/transport.c.i
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.c.i
+host/nimble/nimble/nimble/transport/src/transport.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.i
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.c.i
 
-host/bluedroid/bta/hh/bta_hh_api.s: host/bluedroid/bta/hh/bta_hh_api.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.s
+host/nimble/nimble/nimble/transport/src/transport.s: host/nimble/nimble/nimble/transport/src/transport.c.s
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_api.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_api.c.s
+host/nimble/nimble/nimble/transport/src/transport.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.s
+.PHONY : host/nimble/nimble/nimble/transport/src/transport.c.s
 
-host/bluedroid/bta/hh/bta_hh_cfg.obj: host/bluedroid/bta/hh/bta_hh_cfg.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.obj
+host/nimble/nimble/porting/nimble/src/endian.obj: host/nimble/nimble/porting/nimble/src/endian.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.c.obj
+host/nimble/nimble/porting/nimble/src/endian.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.c.obj
 
-host/bluedroid/bta/hh/bta_hh_cfg.i: host/bluedroid/bta/hh/bta_hh_cfg.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.i
+host/nimble/nimble/porting/nimble/src/endian.i: host/nimble/nimble/porting/nimble/src/endian.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.c.i
+host/nimble/nimble/porting/nimble/src/endian.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.c.i
 
-host/bluedroid/bta/hh/bta_hh_cfg.s: host/bluedroid/bta/hh/bta_hh_cfg.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.s
+host/nimble/nimble/porting/nimble/src/endian.s: host/nimble/nimble/porting/nimble/src/endian.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_cfg.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_cfg.c.s
+host/nimble/nimble/porting/nimble/src/endian.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/endian.c.s
 
-host/bluedroid/bta/hh/bta_hh_le.obj: host/bluedroid/bta/hh/bta_hh_le.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.obj
+host/nimble/nimble/porting/nimble/src/mem.obj: host/nimble/nimble/porting/nimble/src/mem.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_le.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.c.obj
+host/nimble/nimble/porting/nimble/src/mem.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.c.obj
 
-host/bluedroid/bta/hh/bta_hh_le.i: host/bluedroid/bta/hh/bta_hh_le.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.i
+host/nimble/nimble/porting/nimble/src/mem.i: host/nimble/nimble/porting/nimble/src/mem.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_le.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.c.i
+host/nimble/nimble/porting/nimble/src/mem.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.c.i
 
-host/bluedroid/bta/hh/bta_hh_le.s: host/bluedroid/bta/hh/bta_hh_le.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.s
+host/nimble/nimble/porting/nimble/src/mem.s: host/nimble/nimble/porting/nimble/src/mem.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_le.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_le.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_le.c.s
+host/nimble/nimble/porting/nimble/src/mem.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/mem.c.s
 
-host/bluedroid/bta/hh/bta_hh_main.obj: host/bluedroid/bta/hh/bta_hh_main.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.obj
+host/nimble/nimble/porting/nimble/src/nimble_port.obj: host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.c.obj
+host/nimble/nimble/porting/nimble/src/nimble_port.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
 
-host/bluedroid/bta/hh/bta_hh_main.i: host/bluedroid/bta/hh/bta_hh_main.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.i
+host/nimble/nimble/porting/nimble/src/nimble_port.i: host/nimble/nimble/porting/nimble/src/nimble_port.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.c.i
+host/nimble/nimble/porting/nimble/src/nimble_port.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.i
 
-host/bluedroid/bta/hh/bta_hh_main.s: host/bluedroid/bta/hh/bta_hh_main.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.s
+host/nimble/nimble/porting/nimble/src/nimble_port.s: host/nimble/nimble/porting/nimble/src/nimble_port.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_main.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_main.c.s
+host/nimble/nimble/porting/nimble/src/nimble_port.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.s
 
-host/bluedroid/bta/hh/bta_hh_utils.obj: host/bluedroid/bta/hh/bta_hh_utils.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.obj
+host/nimble/nimble/porting/nimble/src/os_mbuf.obj: host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.obj
 
 # target to build an object file
-host/bluedroid/bta/hh/bta_hh_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.obj
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.c.obj
+host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
 
-host/bluedroid/bta/hh/bta_hh_utils.i: host/bluedroid/bta/hh/bta_hh_utils.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.i
+host/nimble/nimble/porting/nimble/src/os_mbuf.i: host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.i
 
 # target to preprocess a source file
-host/bluedroid/bta/hh/bta_hh_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.i
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.c.i
+host/nimble/nimble/porting/nimble/src/os_mbuf.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
 
-host/bluedroid/bta/hh/bta_hh_utils.s: host/bluedroid/bta/hh/bta_hh_utils.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.s
+host/nimble/nimble/porting/nimble/src/os_mbuf.s: host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/hh/bta_hh_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/hh/bta_hh_utils.c.s
-.PHONY : host/bluedroid/bta/hh/bta_hh_utils.c.s
+host/nimble/nimble/porting/nimble/src/os_mbuf.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
 
-host/bluedroid/bta/jv/bta_jv_act.obj: host/bluedroid/bta/jv/bta_jv_act.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.obj
+host/nimble/nimble/porting/nimble/src/os_mempool.obj: host/nimble/nimble/porting/nimble/src/os_mempool.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.obj
 
 # target to build an object file
-host/bluedroid/bta/jv/bta_jv_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.c.obj
+host/nimble/nimble/porting/nimble/src/os_mempool.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mempool.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.c.obj
 
-host/bluedroid/bta/jv/bta_jv_act.i: host/bluedroid/bta/jv/bta_jv_act.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.i
+host/nimble/nimble/porting/nimble/src/os_mempool.i: host/nimble/nimble/porting/nimble/src/os_mempool.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.i
 
 # target to preprocess a source file
-host/bluedroid/bta/jv/bta_jv_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.c.i
+host/nimble/nimble/porting/nimble/src/os_mempool.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mempool.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.c.i
 
-host/bluedroid/bta/jv/bta_jv_act.s: host/bluedroid/bta/jv/bta_jv_act.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.s
+host/nimble/nimble/porting/nimble/src/os_mempool.s: host/nimble/nimble/porting/nimble/src/os_mempool.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/jv/bta_jv_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_act.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_act.c.s
+host/nimble/nimble/porting/nimble/src/os_mempool.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mempool.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_mempool.c.s
 
-host/bluedroid/bta/jv/bta_jv_api.obj: host/bluedroid/bta/jv/bta_jv_api.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.obj
+host/nimble/nimble/porting/nimble/src/os_msys_init.obj: host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.obj
 
 # target to build an object file
-host/bluedroid/bta/jv/bta_jv_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.c.obj
+host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
 
-host/bluedroid/bta/jv/bta_jv_api.i: host/bluedroid/bta/jv/bta_jv_api.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.i
+host/nimble/nimble/porting/nimble/src/os_msys_init.i: host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.i
 
 # target to preprocess a source file
-host/bluedroid/bta/jv/bta_jv_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.c.i
+host/nimble/nimble/porting/nimble/src/os_msys_init.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
 
-host/bluedroid/bta/jv/bta_jv_api.s: host/bluedroid/bta/jv/bta_jv_api.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.s
+host/nimble/nimble/porting/nimble/src/os_msys_init.s: host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/jv/bta_jv_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_api.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_api.c.s
+host/nimble/nimble/porting/nimble/src/os_msys_init.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
+.PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
 
-host/bluedroid/bta/jv/bta_jv_cfg.obj: host/bluedroid/bta/jv/bta_jv_cfg.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.obj
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.obj: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.obj
 
 # target to build an object file
-host/bluedroid/bta/jv/bta_jv_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.c.obj
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
 
-host/bluedroid/bta/jv/bta_jv_cfg.i: host/bluedroid/bta/jv/bta_jv_cfg.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.i
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.i: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.i
 
 # target to preprocess a source file
-host/bluedroid/bta/jv/bta_jv_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.c.i
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
 
-host/bluedroid/bta/jv/bta_jv_cfg.s: host/bluedroid/bta/jv/bta_jv_cfg.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.s
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.s: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/jv/bta_jv_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_cfg.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_cfg.c.s
+host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
 
-host/bluedroid/bta/jv/bta_jv_main.obj: host/bluedroid/bta/jv/bta_jv_main.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.obj
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj
 
 # target to build an object file
-host/bluedroid/bta/jv/bta_jv_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.obj
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.c.obj
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
 
-host/bluedroid/bta/jv/bta_jv_main.i: host/bluedroid/bta/jv/bta_jv_main.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.i
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i
 
 # target to preprocess a source file
-host/bluedroid/bta/jv/bta_jv_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.i
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.c.i
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
 
-host/bluedroid/bta/jv/bta_jv_main.s: host/bluedroid/bta/jv/bta_jv_main.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.s
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/jv/bta_jv_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/jv/bta_jv_main.c.s
-.PHONY : host/bluedroid/bta/jv/bta_jv_main.c.s
+host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
+.PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
 
-host/bluedroid/bta/pba/bta_pba_client_act.obj: host/bluedroid/bta/pba/bta_pba_client_act.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.obj
+host/nimble/port/src/nvs_port.obj: host/nimble/port/src/nvs_port.c.obj
+.PHONY : host/nimble/port/src/nvs_port.obj
 
 # target to build an object file
-host/bluedroid/bta/pba/bta_pba_client_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_act.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.c.obj
+host/nimble/port/src/nvs_port.c.obj:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.obj
+.PHONY : host/nimble/port/src/nvs_port.c.obj
 
-host/bluedroid/bta/pba/bta_pba_client_act.i: host/bluedroid/bta/pba/bta_pba_client_act.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.i
+host/nimble/port/src/nvs_port.i: host/nimble/port/src/nvs_port.c.i
+.PHONY : host/nimble/port/src/nvs_port.i
 
 # target to preprocess a source file
-host/bluedroid/bta/pba/bta_pba_client_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_act.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.c.i
+host/nimble/port/src/nvs_port.c.i:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.i
+.PHONY : host/nimble/port/src/nvs_port.c.i
 
-host/bluedroid/bta/pba/bta_pba_client_act.s: host/bluedroid/bta/pba/bta_pba_client_act.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.s
+host/nimble/port/src/nvs_port.s: host/nimble/port/src/nvs_port.c.s
+.PHONY : host/nimble/port/src/nvs_port.s
 
 # target to generate assembly for a file
-host/bluedroid/bta/pba/bta_pba_client_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_act.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_act.c.s
-
-host/bluedroid/bta/pba/bta_pba_client_api.obj: host/bluedroid/bta/pba/bta_pba_client_api.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.obj
-
-# target to build an object file
-host/bluedroid/bta/pba/bta_pba_client_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_api.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.c.obj
-
-host/bluedroid/bta/pba/bta_pba_client_api.i: host/bluedroid/bta/pba/bta_pba_client_api.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.i
-
-# target to preprocess a source file
-host/bluedroid/bta/pba/bta_pba_client_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_api.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.c.i
-
-host/bluedroid/bta/pba/bta_pba_client_api.s: host/bluedroid/bta/pba/bta_pba_client_api.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/pba/bta_pba_client_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_api.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_api.c.s
-
-host/bluedroid/bta/pba/bta_pba_client_main.obj: host/bluedroid/bta/pba/bta_pba_client_main.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.obj
-
-# target to build an object file
-host/bluedroid/bta/pba/bta_pba_client_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_main.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.c.obj
-
-host/bluedroid/bta/pba/bta_pba_client_main.i: host/bluedroid/bta/pba/bta_pba_client_main.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.i
-
-# target to preprocess a source file
-host/bluedroid/bta/pba/bta_pba_client_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_main.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.c.i
-
-host/bluedroid/bta/pba/bta_pba_client_main.s: host/bluedroid/bta/pba/bta_pba_client_main.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/pba/bta_pba_client_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_main.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_main.c.s
-
-host/bluedroid/bta/pba/bta_pba_client_sdp.obj: host/bluedroid/bta/pba/bta_pba_client_sdp.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.obj
-
-# target to build an object file
-host/bluedroid/bta/pba/bta_pba_client_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_sdp.c.obj
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.c.obj
-
-host/bluedroid/bta/pba/bta_pba_client_sdp.i: host/bluedroid/bta/pba/bta_pba_client_sdp.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.i
-
-# target to preprocess a source file
-host/bluedroid/bta/pba/bta_pba_client_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_sdp.c.i
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.c.i
-
-host/bluedroid/bta/pba/bta_pba_client_sdp.s: host/bluedroid/bta/pba/bta_pba_client_sdp.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/pba/bta_pba_client_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/pba/bta_pba_client_sdp.c.s
-.PHONY : host/bluedroid/bta/pba/bta_pba_client_sdp.c.s
-
-host/bluedroid/bta/sdp/bta_sdp.obj: host/bluedroid/bta/sdp/bta_sdp.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.obj
-
-# target to build an object file
-host/bluedroid/bta/sdp/bta_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.c.obj
-
-host/bluedroid/bta/sdp/bta_sdp.i: host/bluedroid/bta/sdp/bta_sdp.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sdp/bta_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.c.i
-
-host/bluedroid/bta/sdp/bta_sdp.s: host/bluedroid/bta/sdp/bta_sdp.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sdp/bta_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp.c.s
-
-host/bluedroid/bta/sdp/bta_sdp_act.obj: host/bluedroid/bta/sdp/bta_sdp_act.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.obj
-
-# target to build an object file
-host/bluedroid/bta/sdp/bta_sdp_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.c.obj
-
-host/bluedroid/bta/sdp/bta_sdp_act.i: host/bluedroid/bta/sdp/bta_sdp_act.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sdp/bta_sdp_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.c.i
-
-host/bluedroid/bta/sdp/bta_sdp_act.s: host/bluedroid/bta/sdp/bta_sdp_act.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sdp/bta_sdp_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_act.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_act.c.s
-
-host/bluedroid/bta/sdp/bta_sdp_api.obj: host/bluedroid/bta/sdp/bta_sdp_api.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.obj
-
-# target to build an object file
-host/bluedroid/bta/sdp/bta_sdp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.c.obj
-
-host/bluedroid/bta/sdp/bta_sdp_api.i: host/bluedroid/bta/sdp/bta_sdp_api.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sdp/bta_sdp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.c.i
-
-host/bluedroid/bta/sdp/bta_sdp_api.s: host/bluedroid/bta/sdp/bta_sdp_api.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sdp/bta_sdp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_api.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_api.c.s
-
-host/bluedroid/bta/sdp/bta_sdp_cfg.obj: host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.obj
-
-# target to build an object file
-host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.c.obj
-
-host/bluedroid/bta/sdp/bta_sdp_cfg.i: host/bluedroid/bta/sdp/bta_sdp_cfg.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sdp/bta_sdp_cfg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.i
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.c.i
-
-host/bluedroid/bta/sdp/bta_sdp_cfg.s: host/bluedroid/bta/sdp/bta_sdp_cfg.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sdp/bta_sdp_cfg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sdp/bta_sdp_cfg.c.s
-.PHONY : host/bluedroid/bta/sdp/bta_sdp_cfg.c.s
-
-host/bluedroid/bta/sys/bta_sys_conn.obj: host/bluedroid/bta/sys/bta_sys_conn.c.obj
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.obj
-
-# target to build an object file
-host/bluedroid/bta/sys/bta_sys_conn.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.obj
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.c.obj
-
-host/bluedroid/bta/sys/bta_sys_conn.i: host/bluedroid/bta/sys/bta_sys_conn.c.i
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sys/bta_sys_conn.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.i
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.c.i
-
-host/bluedroid/bta/sys/bta_sys_conn.s: host/bluedroid/bta/sys/bta_sys_conn.c.s
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sys/bta_sys_conn.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_conn.c.s
-.PHONY : host/bluedroid/bta/sys/bta_sys_conn.c.s
-
-host/bluedroid/bta/sys/bta_sys_main.obj: host/bluedroid/bta/sys/bta_sys_main.c.obj
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.obj
-
-# target to build an object file
-host/bluedroid/bta/sys/bta_sys_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.obj
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.c.obj
-
-host/bluedroid/bta/sys/bta_sys_main.i: host/bluedroid/bta/sys/bta_sys_main.c.i
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sys/bta_sys_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.i
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.c.i
-
-host/bluedroid/bta/sys/bta_sys_main.s: host/bluedroid/bta/sys/bta_sys_main.c.s
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sys/bta_sys_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/bta_sys_main.c.s
-.PHONY : host/bluedroid/bta/sys/bta_sys_main.c.s
-
-host/bluedroid/bta/sys/utl.obj: host/bluedroid/bta/sys/utl.c.obj
-.PHONY : host/bluedroid/bta/sys/utl.obj
-
-# target to build an object file
-host/bluedroid/bta/sys/utl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.obj
-.PHONY : host/bluedroid/bta/sys/utl.c.obj
-
-host/bluedroid/bta/sys/utl.i: host/bluedroid/bta/sys/utl.c.i
-.PHONY : host/bluedroid/bta/sys/utl.i
-
-# target to preprocess a source file
-host/bluedroid/bta/sys/utl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.i
-.PHONY : host/bluedroid/bta/sys/utl.c.i
-
-host/bluedroid/bta/sys/utl.s: host/bluedroid/bta/sys/utl.c.s
-.PHONY : host/bluedroid/bta/sys/utl.s
-
-# target to generate assembly for a file
-host/bluedroid/bta/sys/utl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/bta/sys/utl.c.s
-.PHONY : host/bluedroid/bta/sys/utl.c.s
-
-host/bluedroid/btc/core/btc_ble_storage.obj: host/bluedroid/btc/core/btc_ble_storage.c.obj
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_ble_storage.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.obj
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.c.obj
-
-host/bluedroid/btc/core/btc_ble_storage.i: host/bluedroid/btc/core/btc_ble_storage.c.i
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_ble_storage.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.i
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.c.i
-
-host/bluedroid/btc/core/btc_ble_storage.s: host/bluedroid/btc/core/btc_ble_storage.c.s
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_ble_storage.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_ble_storage.c.s
-.PHONY : host/bluedroid/btc/core/btc_ble_storage.c.s
-
-host/bluedroid/btc/core/btc_config.obj: host/bluedroid/btc/core/btc_config.c.obj
-.PHONY : host/bluedroid/btc/core/btc_config.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_config.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.obj
-.PHONY : host/bluedroid/btc/core/btc_config.c.obj
-
-host/bluedroid/btc/core/btc_config.i: host/bluedroid/btc/core/btc_config.c.i
-.PHONY : host/bluedroid/btc/core/btc_config.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_config.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.i
-.PHONY : host/bluedroid/btc/core/btc_config.c.i
-
-host/bluedroid/btc/core/btc_config.s: host/bluedroid/btc/core/btc_config.c.s
-.PHONY : host/bluedroid/btc/core/btc_config.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_config.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_config.c.s
-.PHONY : host/bluedroid/btc/core/btc_config.c.s
-
-host/bluedroid/btc/core/btc_dev.obj: host/bluedroid/btc/core/btc_dev.c.obj
-.PHONY : host/bluedroid/btc/core/btc_dev.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_dev.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.obj
-.PHONY : host/bluedroid/btc/core/btc_dev.c.obj
-
-host/bluedroid/btc/core/btc_dev.i: host/bluedroid/btc/core/btc_dev.c.i
-.PHONY : host/bluedroid/btc/core/btc_dev.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_dev.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.i
-.PHONY : host/bluedroid/btc/core/btc_dev.c.i
-
-host/bluedroid/btc/core/btc_dev.s: host/bluedroid/btc/core/btc_dev.c.s
-.PHONY : host/bluedroid/btc/core/btc_dev.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_dev.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dev.c.s
-.PHONY : host/bluedroid/btc/core/btc_dev.c.s
-
-host/bluedroid/btc/core/btc_dm.obj: host/bluedroid/btc/core/btc_dm.c.obj
-.PHONY : host/bluedroid/btc/core/btc_dm.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_dm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.obj
-.PHONY : host/bluedroid/btc/core/btc_dm.c.obj
-
-host/bluedroid/btc/core/btc_dm.i: host/bluedroid/btc/core/btc_dm.c.i
-.PHONY : host/bluedroid/btc/core/btc_dm.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_dm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.i
-.PHONY : host/bluedroid/btc/core/btc_dm.c.i
-
-host/bluedroid/btc/core/btc_dm.s: host/bluedroid/btc/core/btc_dm.c.s
-.PHONY : host/bluedroid/btc/core/btc_dm.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_dm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_dm.c.s
-.PHONY : host/bluedroid/btc/core/btc_dm.c.s
-
-host/bluedroid/btc/core/btc_main.obj: host/bluedroid/btc/core/btc_main.c.obj
-.PHONY : host/bluedroid/btc/core/btc_main.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.obj
-.PHONY : host/bluedroid/btc/core/btc_main.c.obj
-
-host/bluedroid/btc/core/btc_main.i: host/bluedroid/btc/core/btc_main.c.i
-.PHONY : host/bluedroid/btc/core/btc_main.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.i
-.PHONY : host/bluedroid/btc/core/btc_main.c.i
-
-host/bluedroid/btc/core/btc_main.s: host/bluedroid/btc/core/btc_main.c.s
-.PHONY : host/bluedroid/btc/core/btc_main.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_main.c.s
-.PHONY : host/bluedroid/btc/core/btc_main.c.s
-
-host/bluedroid/btc/core/btc_profile_queue.obj: host/bluedroid/btc/core/btc_profile_queue.c.obj
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_profile_queue.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.obj
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.c.obj
-
-host/bluedroid/btc/core/btc_profile_queue.i: host/bluedroid/btc/core/btc_profile_queue.c.i
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_profile_queue.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.i
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.c.i
-
-host/bluedroid/btc/core/btc_profile_queue.s: host/bluedroid/btc/core/btc_profile_queue.c.s
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_profile_queue.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_profile_queue.c.s
-.PHONY : host/bluedroid/btc/core/btc_profile_queue.c.s
-
-host/bluedroid/btc/core/btc_sec.obj: host/bluedroid/btc/core/btc_sec.c.obj
-.PHONY : host/bluedroid/btc/core/btc_sec.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_sec.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.obj
-.PHONY : host/bluedroid/btc/core/btc_sec.c.obj
-
-host/bluedroid/btc/core/btc_sec.i: host/bluedroid/btc/core/btc_sec.c.i
-.PHONY : host/bluedroid/btc/core/btc_sec.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_sec.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.i
-.PHONY : host/bluedroid/btc/core/btc_sec.c.i
-
-host/bluedroid/btc/core/btc_sec.s: host/bluedroid/btc/core/btc_sec.c.s
-.PHONY : host/bluedroid/btc/core/btc_sec.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_sec.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sec.c.s
-.PHONY : host/bluedroid/btc/core/btc_sec.c.s
-
-host/bluedroid/btc/core/btc_sm.obj: host/bluedroid/btc/core/btc_sm.c.obj
-.PHONY : host/bluedroid/btc/core/btc_sm.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_sm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.obj
-.PHONY : host/bluedroid/btc/core/btc_sm.c.obj
-
-host/bluedroid/btc/core/btc_sm.i: host/bluedroid/btc/core/btc_sm.c.i
-.PHONY : host/bluedroid/btc/core/btc_sm.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_sm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.i
-.PHONY : host/bluedroid/btc/core/btc_sm.c.i
-
-host/bluedroid/btc/core/btc_sm.s: host/bluedroid/btc/core/btc_sm.c.s
-.PHONY : host/bluedroid/btc/core/btc_sm.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_sm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_sm.c.s
-.PHONY : host/bluedroid/btc/core/btc_sm.c.s
-
-host/bluedroid/btc/core/btc_storage.obj: host/bluedroid/btc/core/btc_storage.c.obj
-.PHONY : host/bluedroid/btc/core/btc_storage.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_storage.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.obj
-.PHONY : host/bluedroid/btc/core/btc_storage.c.obj
-
-host/bluedroid/btc/core/btc_storage.i: host/bluedroid/btc/core/btc_storage.c.i
-.PHONY : host/bluedroid/btc/core/btc_storage.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_storage.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.i
-.PHONY : host/bluedroid/btc/core/btc_storage.c.i
-
-host/bluedroid/btc/core/btc_storage.s: host/bluedroid/btc/core/btc_storage.c.s
-.PHONY : host/bluedroid/btc/core/btc_storage.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_storage.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_storage.c.s
-.PHONY : host/bluedroid/btc/core/btc_storage.c.s
-
-host/bluedroid/btc/core/btc_util.obj: host/bluedroid/btc/core/btc_util.c.obj
-.PHONY : host/bluedroid/btc/core/btc_util.obj
-
-# target to build an object file
-host/bluedroid/btc/core/btc_util.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.obj
-.PHONY : host/bluedroid/btc/core/btc_util.c.obj
-
-host/bluedroid/btc/core/btc_util.i: host/bluedroid/btc/core/btc_util.c.i
-.PHONY : host/bluedroid/btc/core/btc_util.i
-
-# target to preprocess a source file
-host/bluedroid/btc/core/btc_util.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.i
-.PHONY : host/bluedroid/btc/core/btc_util.c.i
-
-host/bluedroid/btc/core/btc_util.s: host/bluedroid/btc/core/btc_util.c.s
-.PHONY : host/bluedroid/btc/core/btc_util.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/core/btc_util.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/core/btc_util.c.s
-.PHONY : host/bluedroid/btc/core/btc_util.c.s
-
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.obj: host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.i: host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.i
-
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.s: host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/bta_av_co.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.obj: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.i: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.s: host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.c.s
-
-host/bluedroid/btc/profile/std/a2dp/btc_av.obj: host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.c.obj
-
-host/bluedroid/btc/profile/std/a2dp/btc_av.i: host/bluedroid/btc/profile/std/a2dp/btc_av.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/a2dp/btc_av.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.i
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.c.i
-
-host/bluedroid/btc/profile/std/a2dp/btc_av.s: host/bluedroid/btc/profile/std/a2dp/btc_av.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/a2dp/btc_av.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/a2dp/btc_av.c.s
-.PHONY : host/bluedroid/btc/profile/std/a2dp/btc_av.c.s
-
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.obj: host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.obj
-
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.i: host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.i
-
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.s: host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/avrc/bta_avrc_co.c.s
-
-host/bluedroid/btc/profile/std/avrc/btc_avrc.obj: host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.c.obj
-
-host/bluedroid/btc/profile/std/avrc/btc_avrc.i: host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.c.i
-
-host/bluedroid/btc/profile/std/avrc/btc_avrc.s: host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s
-.PHONY : host/bluedroid/btc/profile/std/avrc/btc_avrc.c.s
-
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.obj: host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.obj
-
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.i: host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.i
-
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.s: host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.c.s
-
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.obj: host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.obj
-
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.i: host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.i
-
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.s: host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_ble.c.s
-
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.obj: host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.obj
-
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.i: host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.i
-
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.s: host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s
-.PHONY : host/bluedroid/btc/profile/std/gap/btc_gap_bt.c.s
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.obj: host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.obj
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.i: host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.i
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.s: host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_common.c.s
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.obj: host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.obj
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.i: host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.i
-
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.s: host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatt_util.c.s
-
-host/bluedroid/btc/profile/std/gatt/btc_gattc.obj: host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.c.obj
-
-host/bluedroid/btc/profile/std/gatt/btc_gattc.i: host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.c.i
-
-host/bluedroid/btc/profile/std/gatt/btc_gattc.s: host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gattc.c.s
-
-host/bluedroid/btc/profile/std/gatt/btc_gatts.obj: host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.c.obj
-
-host/bluedroid/btc/profile/std/gatt/btc_gatts.i: host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.c.i
-
-host/bluedroid/btc/profile/std/gatt/btc_gatts.s: host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s
-.PHONY : host/bluedroid/btc/profile/std/gatt/btc_gatts.c.s
-
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.obj: host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.obj
-
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.i: host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.i
-
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.s: host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.c.s
-
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.obj: host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.obj
-
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.i: host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.i
-
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.s: host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.c.s
-
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.obj: host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.obj
-
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.i: host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.i
-
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.s: host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.c.s
-
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.obj: host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.obj
-
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.i: host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.i
-
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.s: host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s
-.PHONY : host/bluedroid/btc/profile/std/hf_client/btc_hf_client.c.s
-
-host/bluedroid/btc/profile/std/hid/bta_hh_co.obj: host/bluedroid/btc/profile/std/hid/bta_hh_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hid/bta_hh_co.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/bta_hh_co.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.c.obj
-
-host/bluedroid/btc/profile/std/hid/bta_hh_co.i: host/bluedroid/btc/profile/std/hid/bta_hh_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hid/bta_hh_co.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/bta_hh_co.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.c.i
-
-host/bluedroid/btc/profile/std/hid/bta_hh_co.s: host/bluedroid/btc/profile/std/hid/bta_hh_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hid/bta_hh_co.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/bta_hh_co.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/bta_hh_co.c.s
-
-host/bluedroid/btc/profile/std/hid/btc_hd.obj: host/bluedroid/btc/profile/std/hid/btc_hd.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hid/btc_hd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hd.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.c.obj
-
-host/bluedroid/btc/profile/std/hid/btc_hd.i: host/bluedroid/btc/profile/std/hid/btc_hd.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hid/btc_hd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hd.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.c.i
-
-host/bluedroid/btc/profile/std/hid/btc_hd.s: host/bluedroid/btc/profile/std/hid/btc_hd.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hid/btc_hd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hd.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hd.c.s
-
-host/bluedroid/btc/profile/std/hid/btc_hh.obj: host/bluedroid/btc/profile/std/hid/btc_hh.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/hid/btc_hh.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hh.c.obj
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.c.obj
-
-host/bluedroid/btc/profile/std/hid/btc_hh.i: host/bluedroid/btc/profile/std/hid/btc_hh.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/hid/btc_hh.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hh.c.i
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.c.i
-
-host/bluedroid/btc/profile/std/hid/btc_hh.s: host/bluedroid/btc/profile/std/hid/btc_hh.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/hid/btc_hh.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/hid/btc_hh.c.s
-.PHONY : host/bluedroid/btc/profile/std/hid/btc_hh.c.s
-
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.obj: host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.obj
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.obj
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.obj
-
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.i: host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.i
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.i
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.i
-
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.s: host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.s
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.s
-.PHONY : host/bluedroid/btc/profile/std/l2cap/btc_l2cap.c.s
-
-host/bluedroid/btc/profile/std/pba/btc_pba_client.obj: host/bluedroid/btc/profile/std/pba/btc_pba_client.c.obj
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/pba/btc_pba_client.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/pba/btc_pba_client.c.obj
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.c.obj
-
-host/bluedroid/btc/profile/std/pba/btc_pba_client.i: host/bluedroid/btc/profile/std/pba/btc_pba_client.c.i
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/pba/btc_pba_client.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/pba/btc_pba_client.c.i
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.c.i
-
-host/bluedroid/btc/profile/std/pba/btc_pba_client.s: host/bluedroid/btc/profile/std/pba/btc_pba_client.c.s
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/pba/btc_pba_client.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/pba/btc_pba_client.c.s
-.PHONY : host/bluedroid/btc/profile/std/pba/btc_pba_client.c.s
-
-host/bluedroid/btc/profile/std/sdp/btc_sdp.obj: host/bluedroid/btc/profile/std/sdp/btc_sdp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/sdp/btc_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/sdp/btc_sdp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.c.obj
-
-host/bluedroid/btc/profile/std/sdp/btc_sdp.i: host/bluedroid/btc/profile/std/sdp/btc_sdp.c.i
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/sdp/btc_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/sdp/btc_sdp.c.i
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.c.i
-
-host/bluedroid/btc/profile/std/sdp/btc_sdp.s: host/bluedroid/btc/profile/std/sdp/btc_sdp.c.s
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/sdp/btc_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/sdp/btc_sdp.c.s
-.PHONY : host/bluedroid/btc/profile/std/sdp/btc_sdp.c.s
-
-host/bluedroid/btc/profile/std/spp/btc_spp.obj: host/bluedroid/btc/profile/std/spp/btc_spp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.obj
-
-# target to build an object file
-host/bluedroid/btc/profile/std/spp/btc_spp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.obj
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.c.obj
-
-host/bluedroid/btc/profile/std/spp/btc_spp.i: host/bluedroid/btc/profile/std/spp/btc_spp.c.i
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.i
-
-# target to preprocess a source file
-host/bluedroid/btc/profile/std/spp/btc_spp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.i
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.c.i
-
-host/bluedroid/btc/profile/std/spp/btc_spp.s: host/bluedroid/btc/profile/std/spp/btc_spp.c.s
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.s
-
-# target to generate assembly for a file
-host/bluedroid/btc/profile/std/spp/btc_spp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/btc/profile/std/spp/btc_spp.c.s
-.PHONY : host/bluedroid/btc/profile/std/spp/btc_spp.c.s
-
-host/bluedroid/config/stack_config.obj: host/bluedroid/config/stack_config.c.obj
-.PHONY : host/bluedroid/config/stack_config.obj
-
-# target to build an object file
-host/bluedroid/config/stack_config.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/config/stack_config.c.obj
-.PHONY : host/bluedroid/config/stack_config.c.obj
-
-host/bluedroid/config/stack_config.i: host/bluedroid/config/stack_config.c.i
-.PHONY : host/bluedroid/config/stack_config.i
-
-# target to preprocess a source file
-host/bluedroid/config/stack_config.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/config/stack_config.c.i
-.PHONY : host/bluedroid/config/stack_config.c.i
-
-host/bluedroid/config/stack_config.s: host/bluedroid/config/stack_config.c.s
-.PHONY : host/bluedroid/config/stack_config.s
-
-# target to generate assembly for a file
-host/bluedroid/config/stack_config.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/config/stack_config.c.s
-.PHONY : host/bluedroid/config/stack_config.c.s
-
-host/bluedroid/device/bdaddr.obj: host/bluedroid/device/bdaddr.c.obj
-.PHONY : host/bluedroid/device/bdaddr.obj
-
-# target to build an object file
-host/bluedroid/device/bdaddr.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.obj
-.PHONY : host/bluedroid/device/bdaddr.c.obj
-
-host/bluedroid/device/bdaddr.i: host/bluedroid/device/bdaddr.c.i
-.PHONY : host/bluedroid/device/bdaddr.i
-
-# target to preprocess a source file
-host/bluedroid/device/bdaddr.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.i
-.PHONY : host/bluedroid/device/bdaddr.c.i
-
-host/bluedroid/device/bdaddr.s: host/bluedroid/device/bdaddr.c.s
-.PHONY : host/bluedroid/device/bdaddr.s
-
-# target to generate assembly for a file
-host/bluedroid/device/bdaddr.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/bdaddr.c.s
-.PHONY : host/bluedroid/device/bdaddr.c.s
-
-host/bluedroid/device/controller.obj: host/bluedroid/device/controller.c.obj
-.PHONY : host/bluedroid/device/controller.obj
-
-# target to build an object file
-host/bluedroid/device/controller.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.obj
-.PHONY : host/bluedroid/device/controller.c.obj
-
-host/bluedroid/device/controller.i: host/bluedroid/device/controller.c.i
-.PHONY : host/bluedroid/device/controller.i
-
-# target to preprocess a source file
-host/bluedroid/device/controller.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.i
-.PHONY : host/bluedroid/device/controller.c.i
-
-host/bluedroid/device/controller.s: host/bluedroid/device/controller.c.s
-.PHONY : host/bluedroid/device/controller.s
-
-# target to generate assembly for a file
-host/bluedroid/device/controller.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/controller.c.s
-.PHONY : host/bluedroid/device/controller.c.s
-
-host/bluedroid/device/interop.obj: host/bluedroid/device/interop.c.obj
-.PHONY : host/bluedroid/device/interop.obj
-
-# target to build an object file
-host/bluedroid/device/interop.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.obj
-.PHONY : host/bluedroid/device/interop.c.obj
-
-host/bluedroid/device/interop.i: host/bluedroid/device/interop.c.i
-.PHONY : host/bluedroid/device/interop.i
-
-# target to preprocess a source file
-host/bluedroid/device/interop.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.i
-.PHONY : host/bluedroid/device/interop.c.i
-
-host/bluedroid/device/interop.s: host/bluedroid/device/interop.c.s
-.PHONY : host/bluedroid/device/interop.s
-
-# target to generate assembly for a file
-host/bluedroid/device/interop.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/device/interop.c.s
-.PHONY : host/bluedroid/device/interop.c.s
-
-host/bluedroid/hci/hci_audio.obj: host/bluedroid/hci/hci_audio.c.obj
-.PHONY : host/bluedroid/hci/hci_audio.obj
-
-# target to build an object file
-host/bluedroid/hci/hci_audio.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj
-.PHONY : host/bluedroid/hci/hci_audio.c.obj
-
-host/bluedroid/hci/hci_audio.i: host/bluedroid/hci/hci_audio.c.i
-.PHONY : host/bluedroid/hci/hci_audio.i
-
-# target to preprocess a source file
-host/bluedroid/hci/hci_audio.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.i
-.PHONY : host/bluedroid/hci/hci_audio.c.i
-
-host/bluedroid/hci/hci_audio.s: host/bluedroid/hci/hci_audio.c.s
-.PHONY : host/bluedroid/hci/hci_audio.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/hci_audio.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.s
-.PHONY : host/bluedroid/hci/hci_audio.c.s
-
-host/bluedroid/hci/hci_hal_h4.obj: host/bluedroid/hci/hci_hal_h4.c.obj
-.PHONY : host/bluedroid/hci/hci_hal_h4.obj
-
-# target to build an object file
-host/bluedroid/hci/hci_hal_h4.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj
-.PHONY : host/bluedroid/hci/hci_hal_h4.c.obj
-
-host/bluedroid/hci/hci_hal_h4.i: host/bluedroid/hci/hci_hal_h4.c.i
-.PHONY : host/bluedroid/hci/hci_hal_h4.i
-
-# target to preprocess a source file
-host/bluedroid/hci/hci_hal_h4.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.i
-.PHONY : host/bluedroid/hci/hci_hal_h4.c.i
-
-host/bluedroid/hci/hci_hal_h4.s: host/bluedroid/hci/hci_hal_h4.c.s
-.PHONY : host/bluedroid/hci/hci_hal_h4.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/hci_hal_h4.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.s
-.PHONY : host/bluedroid/hci/hci_hal_h4.c.s
-
-host/bluedroid/hci/hci_layer.obj: host/bluedroid/hci/hci_layer.c.obj
-.PHONY : host/bluedroid/hci/hci_layer.obj
-
-# target to build an object file
-host/bluedroid/hci/hci_layer.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj
-.PHONY : host/bluedroid/hci/hci_layer.c.obj
-
-host/bluedroid/hci/hci_layer.i: host/bluedroid/hci/hci_layer.c.i
-.PHONY : host/bluedroid/hci/hci_layer.i
-
-# target to preprocess a source file
-host/bluedroid/hci/hci_layer.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.i
-.PHONY : host/bluedroid/hci/hci_layer.c.i
-
-host/bluedroid/hci/hci_layer.s: host/bluedroid/hci/hci_layer.c.s
-.PHONY : host/bluedroid/hci/hci_layer.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/hci_layer.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.s
-.PHONY : host/bluedroid/hci/hci_layer.c.s
-
-host/bluedroid/hci/hci_packet_factory.obj: host/bluedroid/hci/hci_packet_factory.c.obj
-.PHONY : host/bluedroid/hci/hci_packet_factory.obj
-
-# target to build an object file
-host/bluedroid/hci/hci_packet_factory.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj
-.PHONY : host/bluedroid/hci/hci_packet_factory.c.obj
-
-host/bluedroid/hci/hci_packet_factory.i: host/bluedroid/hci/hci_packet_factory.c.i
-.PHONY : host/bluedroid/hci/hci_packet_factory.i
-
-# target to preprocess a source file
-host/bluedroid/hci/hci_packet_factory.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.i
-.PHONY : host/bluedroid/hci/hci_packet_factory.c.i
-
-host/bluedroid/hci/hci_packet_factory.s: host/bluedroid/hci/hci_packet_factory.c.s
-.PHONY : host/bluedroid/hci/hci_packet_factory.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/hci_packet_factory.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.s
-.PHONY : host/bluedroid/hci/hci_packet_factory.c.s
-
-host/bluedroid/hci/hci_packet_parser.obj: host/bluedroid/hci/hci_packet_parser.c.obj
-.PHONY : host/bluedroid/hci/hci_packet_parser.obj
-
-# target to build an object file
-host/bluedroid/hci/hci_packet_parser.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj
-.PHONY : host/bluedroid/hci/hci_packet_parser.c.obj
-
-host/bluedroid/hci/hci_packet_parser.i: host/bluedroid/hci/hci_packet_parser.c.i
-.PHONY : host/bluedroid/hci/hci_packet_parser.i
-
-# target to preprocess a source file
-host/bluedroid/hci/hci_packet_parser.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.i
-.PHONY : host/bluedroid/hci/hci_packet_parser.c.i
-
-host/bluedroid/hci/hci_packet_parser.s: host/bluedroid/hci/hci_packet_parser.c.s
-.PHONY : host/bluedroid/hci/hci_packet_parser.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/hci_packet_parser.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.s
-.PHONY : host/bluedroid/hci/hci_packet_parser.c.s
-
-host/bluedroid/hci/packet_fragmenter.obj: host/bluedroid/hci/packet_fragmenter.c.obj
-.PHONY : host/bluedroid/hci/packet_fragmenter.obj
-
-# target to build an object file
-host/bluedroid/hci/packet_fragmenter.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj
-.PHONY : host/bluedroid/hci/packet_fragmenter.c.obj
-
-host/bluedroid/hci/packet_fragmenter.i: host/bluedroid/hci/packet_fragmenter.c.i
-.PHONY : host/bluedroid/hci/packet_fragmenter.i
-
-# target to preprocess a source file
-host/bluedroid/hci/packet_fragmenter.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.i
-.PHONY : host/bluedroid/hci/packet_fragmenter.c.i
-
-host/bluedroid/hci/packet_fragmenter.s: host/bluedroid/hci/packet_fragmenter.c.s
-.PHONY : host/bluedroid/hci/packet_fragmenter.s
-
-# target to generate assembly for a file
-host/bluedroid/hci/packet_fragmenter.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.s
-.PHONY : host/bluedroid/hci/packet_fragmenter.c.s
-
-host/bluedroid/main/bte_init.obj: host/bluedroid/main/bte_init.c.obj
-.PHONY : host/bluedroid/main/bte_init.obj
-
-# target to build an object file
-host/bluedroid/main/bte_init.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj
-.PHONY : host/bluedroid/main/bte_init.c.obj
-
-host/bluedroid/main/bte_init.i: host/bluedroid/main/bte_init.c.i
-.PHONY : host/bluedroid/main/bte_init.i
-
-# target to preprocess a source file
-host/bluedroid/main/bte_init.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.i
-.PHONY : host/bluedroid/main/bte_init.c.i
-
-host/bluedroid/main/bte_init.s: host/bluedroid/main/bte_init.c.s
-.PHONY : host/bluedroid/main/bte_init.s
-
-# target to generate assembly for a file
-host/bluedroid/main/bte_init.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.s
-.PHONY : host/bluedroid/main/bte_init.c.s
-
-host/bluedroid/main/bte_main.obj: host/bluedroid/main/bte_main.c.obj
-.PHONY : host/bluedroid/main/bte_main.obj
-
-# target to build an object file
-host/bluedroid/main/bte_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj
-.PHONY : host/bluedroid/main/bte_main.c.obj
-
-host/bluedroid/main/bte_main.i: host/bluedroid/main/bte_main.c.i
-.PHONY : host/bluedroid/main/bte_main.i
-
-# target to preprocess a source file
-host/bluedroid/main/bte_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.i
-.PHONY : host/bluedroid/main/bte_main.c.i
-
-host/bluedroid/main/bte_main.s: host/bluedroid/main/bte_main.c.s
-.PHONY : host/bluedroid/main/bte_main.s
-
-# target to generate assembly for a file
-host/bluedroid/main/bte_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.s
-.PHONY : host/bluedroid/main/bte_main.c.s
-
-host/bluedroid/stack/a2dp/a2d_api.obj: host/bluedroid/stack/a2dp/a2d_api.c.obj
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.obj
-
-# target to build an object file
-host/bluedroid/stack/a2dp/a2d_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.c.obj
-
-host/bluedroid/stack/a2dp/a2d_api.i: host/bluedroid/stack/a2dp/a2d_api.c.i
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/a2dp/a2d_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.i
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.c.i
-
-host/bluedroid/stack/a2dp/a2d_api.s: host/bluedroid/stack/a2dp/a2d_api.c.s
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/a2dp/a2d_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.s
-.PHONY : host/bluedroid/stack/a2dp/a2d_api.c.s
-
-host/bluedroid/stack/a2dp/a2d_sbc.obj: host/bluedroid/stack/a2dp/a2d_sbc.c.obj
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.obj
-
-# target to build an object file
-host/bluedroid/stack/a2dp/a2d_sbc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.c.obj
-
-host/bluedroid/stack/a2dp/a2d_sbc.i: host/bluedroid/stack/a2dp/a2d_sbc.c.i
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.i
-
-# target to preprocess a source file
-host/bluedroid/stack/a2dp/a2d_sbc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.i
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.c.i
-
-host/bluedroid/stack/a2dp/a2d_sbc.s: host/bluedroid/stack/a2dp/a2d_sbc.c.s
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/a2dp/a2d_sbc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.s
-.PHONY : host/bluedroid/stack/a2dp/a2d_sbc.c.s
-
-host/bluedroid/stack/avct/avct_api.obj: host/bluedroid/stack/avct/avct_api.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_api.obj
-
-# target to build an object file
-host/bluedroid/stack/avct/avct_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_api.c.obj
-
-host/bluedroid/stack/avct/avct_api.i: host/bluedroid/stack/avct/avct_api.c.i
-.PHONY : host/bluedroid/stack/avct/avct_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avct/avct_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.i
-.PHONY : host/bluedroid/stack/avct/avct_api.c.i
-
-host/bluedroid/stack/avct/avct_api.s: host/bluedroid/stack/avct/avct_api.c.s
-.PHONY : host/bluedroid/stack/avct/avct_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avct/avct_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.s
-.PHONY : host/bluedroid/stack/avct/avct_api.c.s
-
-host/bluedroid/stack/avct/avct_ccb.obj: host/bluedroid/stack/avct/avct_ccb.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_ccb.obj
-
-# target to build an object file
-host/bluedroid/stack/avct/avct_ccb.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_ccb.c.obj
-
-host/bluedroid/stack/avct/avct_ccb.i: host/bluedroid/stack/avct/avct_ccb.c.i
-.PHONY : host/bluedroid/stack/avct/avct_ccb.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avct/avct_ccb.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.i
-.PHONY : host/bluedroid/stack/avct/avct_ccb.c.i
-
-host/bluedroid/stack/avct/avct_ccb.s: host/bluedroid/stack/avct/avct_ccb.c.s
-.PHONY : host/bluedroid/stack/avct/avct_ccb.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avct/avct_ccb.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.s
-.PHONY : host/bluedroid/stack/avct/avct_ccb.c.s
-
-host/bluedroid/stack/avct/avct_l2c.obj: host/bluedroid/stack/avct/avct_l2c.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_l2c.obj
-
-# target to build an object file
-host/bluedroid/stack/avct/avct_l2c.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_l2c.c.obj
-
-host/bluedroid/stack/avct/avct_l2c.i: host/bluedroid/stack/avct/avct_l2c.c.i
-.PHONY : host/bluedroid/stack/avct/avct_l2c.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avct/avct_l2c.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.i
-.PHONY : host/bluedroid/stack/avct/avct_l2c.c.i
-
-host/bluedroid/stack/avct/avct_l2c.s: host/bluedroid/stack/avct/avct_l2c.c.s
-.PHONY : host/bluedroid/stack/avct/avct_l2c.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avct/avct_l2c.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.s
-.PHONY : host/bluedroid/stack/avct/avct_l2c.c.s
-
-host/bluedroid/stack/avct/avct_lcb.obj: host/bluedroid/stack/avct/avct_lcb.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_lcb.obj
-
-# target to build an object file
-host/bluedroid/stack/avct/avct_lcb.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_lcb.c.obj
-
-host/bluedroid/stack/avct/avct_lcb.i: host/bluedroid/stack/avct/avct_lcb.c.i
-.PHONY : host/bluedroid/stack/avct/avct_lcb.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avct/avct_lcb.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.i
-.PHONY : host/bluedroid/stack/avct/avct_lcb.c.i
-
-host/bluedroid/stack/avct/avct_lcb.s: host/bluedroid/stack/avct/avct_lcb.c.s
-.PHONY : host/bluedroid/stack/avct/avct_lcb.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avct/avct_lcb.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.s
-.PHONY : host/bluedroid/stack/avct/avct_lcb.c.s
-
-host/bluedroid/stack/avct/avct_lcb_act.obj: host/bluedroid/stack/avct/avct_lcb_act.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.obj
-
-# target to build an object file
-host/bluedroid/stack/avct/avct_lcb_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.c.obj
-
-host/bluedroid/stack/avct/avct_lcb_act.i: host/bluedroid/stack/avct/avct_lcb_act.c.i
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avct/avct_lcb_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.i
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.c.i
-
-host/bluedroid/stack/avct/avct_lcb_act.s: host/bluedroid/stack/avct/avct_lcb_act.c.s
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avct/avct_lcb_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.s
-.PHONY : host/bluedroid/stack/avct/avct_lcb_act.c.s
-
-host/bluedroid/stack/avdt/avdt_ad.obj: host/bluedroid/stack/avdt/avdt_ad.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_ad.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.c.obj
-
-host/bluedroid/stack/avdt/avdt_ad.i: host/bluedroid/stack/avdt/avdt_ad.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_ad.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.c.i
-
-host/bluedroid/stack/avdt/avdt_ad.s: host/bluedroid/stack/avdt/avdt_ad.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_ad.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ad.c.s
-
-host/bluedroid/stack/avdt/avdt_api.obj: host/bluedroid/stack/avdt/avdt_api.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_api.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_api.c.obj
-
-host/bluedroid/stack/avdt/avdt_api.i: host/bluedroid/stack/avdt/avdt_api.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_api.c.i
-
-host/bluedroid/stack/avdt/avdt_api.s: host/bluedroid/stack/avdt/avdt_api.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_api.c.s
-
-host/bluedroid/stack/avdt/avdt_ccb.obj: host/bluedroid/stack/avdt/avdt_ccb.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_ccb.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.c.obj
-
-host/bluedroid/stack/avdt/avdt_ccb.i: host/bluedroid/stack/avdt/avdt_ccb.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_ccb.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.c.i
-
-host/bluedroid/stack/avdt/avdt_ccb.s: host/bluedroid/stack/avdt/avdt_ccb.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_ccb.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb.c.s
-
-host/bluedroid/stack/avdt/avdt_ccb_act.obj: host/bluedroid/stack/avdt/avdt_ccb_act.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_ccb_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.c.obj
-
-host/bluedroid/stack/avdt/avdt_ccb_act.i: host/bluedroid/stack/avdt/avdt_ccb_act.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_ccb_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.c.i
-
-host/bluedroid/stack/avdt/avdt_ccb_act.s: host/bluedroid/stack/avdt/avdt_ccb_act.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_ccb_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_ccb_act.c.s
-
-host/bluedroid/stack/avdt/avdt_l2c.obj: host/bluedroid/stack/avdt/avdt_l2c.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_l2c.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.c.obj
-
-host/bluedroid/stack/avdt/avdt_l2c.i: host/bluedroid/stack/avdt/avdt_l2c.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_l2c.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.c.i
-
-host/bluedroid/stack/avdt/avdt_l2c.s: host/bluedroid/stack/avdt/avdt_l2c.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_l2c.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_l2c.c.s
-
-host/bluedroid/stack/avdt/avdt_msg.obj: host/bluedroid/stack/avdt/avdt_msg.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_msg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.c.obj
-
-host/bluedroid/stack/avdt/avdt_msg.i: host/bluedroid/stack/avdt/avdt_msg.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_msg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.c.i
-
-host/bluedroid/stack/avdt/avdt_msg.s: host/bluedroid/stack/avdt/avdt_msg.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_msg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_msg.c.s
-
-host/bluedroid/stack/avdt/avdt_scb.obj: host/bluedroid/stack/avdt/avdt_scb.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_scb.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.c.obj
-
-host/bluedroid/stack/avdt/avdt_scb.i: host/bluedroid/stack/avdt/avdt_scb.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_scb.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.c.i
-
-host/bluedroid/stack/avdt/avdt_scb.s: host/bluedroid/stack/avdt/avdt_scb.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_scb.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_scb.c.s
-
-host/bluedroid/stack/avdt/avdt_scb_act.obj: host/bluedroid/stack/avdt/avdt_scb_act.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.obj
-
-# target to build an object file
-host/bluedroid/stack/avdt/avdt_scb_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.c.obj
-
-host/bluedroid/stack/avdt/avdt_scb_act.i: host/bluedroid/stack/avdt/avdt_scb_act.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avdt/avdt_scb_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.i
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.c.i
-
-host/bluedroid/stack/avdt/avdt_scb_act.s: host/bluedroid/stack/avdt/avdt_scb_act.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avdt/avdt_scb_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.s
-.PHONY : host/bluedroid/stack/avdt/avdt_scb_act.c.s
-
-host/bluedroid/stack/avrc/avrc_api.obj: host/bluedroid/stack/avrc/avrc_api.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_api.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_api.c.obj
-
-host/bluedroid/stack/avrc/avrc_api.i: host/bluedroid/stack/avrc/avrc_api.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_api.c.i
-
-host/bluedroid/stack/avrc/avrc_api.s: host/bluedroid/stack/avrc/avrc_api.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_api.c.s
-
-host/bluedroid/stack/avrc/avrc_bld_ct.obj: host/bluedroid/stack/avrc/avrc_bld_ct.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_bld_ct.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.c.obj
-
-host/bluedroid/stack/avrc/avrc_bld_ct.i: host/bluedroid/stack/avrc/avrc_bld_ct.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_bld_ct.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.c.i
-
-host/bluedroid/stack/avrc/avrc_bld_ct.s: host/bluedroid/stack/avrc/avrc_bld_ct.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_bld_ct.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_ct.c.s
-
-host/bluedroid/stack/avrc/avrc_bld_tg.obj: host/bluedroid/stack/avrc/avrc_bld_tg.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_bld_tg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.c.obj
-
-host/bluedroid/stack/avrc/avrc_bld_tg.i: host/bluedroid/stack/avrc/avrc_bld_tg.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_bld_tg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.c.i
-
-host/bluedroid/stack/avrc/avrc_bld_tg.s: host/bluedroid/stack/avrc/avrc_bld_tg.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_bld_tg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_bld_tg.c.s
-
-host/bluedroid/stack/avrc/avrc_opt.obj: host/bluedroid/stack/avrc/avrc_opt.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_opt.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.c.obj
-
-host/bluedroid/stack/avrc/avrc_opt.i: host/bluedroid/stack/avrc/avrc_opt.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_opt.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.c.i
-
-host/bluedroid/stack/avrc/avrc_opt.s: host/bluedroid/stack/avrc/avrc_opt.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_opt.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_opt.c.s
-
-host/bluedroid/stack/avrc/avrc_pars_ct.obj: host/bluedroid/stack/avrc/avrc_pars_ct.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_pars_ct.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.c.obj
-
-host/bluedroid/stack/avrc/avrc_pars_ct.i: host/bluedroid/stack/avrc/avrc_pars_ct.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_pars_ct.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.c.i
-
-host/bluedroid/stack/avrc/avrc_pars_ct.s: host/bluedroid/stack/avrc/avrc_pars_ct.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_pars_ct.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_ct.c.s
-
-host/bluedroid/stack/avrc/avrc_pars_tg.obj: host/bluedroid/stack/avrc/avrc_pars_tg.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_pars_tg.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.c.obj
-
-host/bluedroid/stack/avrc/avrc_pars_tg.i: host/bluedroid/stack/avrc/avrc_pars_tg.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_pars_tg.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.c.i
-
-host/bluedroid/stack/avrc/avrc_pars_tg.s: host/bluedroid/stack/avrc/avrc_pars_tg.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_pars_tg.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_pars_tg.c.s
-
-host/bluedroid/stack/avrc/avrc_sdp.obj: host/bluedroid/stack/avrc/avrc_sdp.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_sdp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.c.obj
-
-host/bluedroid/stack/avrc/avrc_sdp.i: host/bluedroid/stack/avrc/avrc_sdp.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_sdp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.c.i
-
-host/bluedroid/stack/avrc/avrc_sdp.s: host/bluedroid/stack/avrc/avrc_sdp.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_sdp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_sdp.c.s
-
-host/bluedroid/stack/avrc/avrc_utils.obj: host/bluedroid/stack/avrc/avrc_utils.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/avrc/avrc_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.c.obj
-
-host/bluedroid/stack/avrc/avrc_utils.i: host/bluedroid/stack/avrc/avrc_utils.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/avrc/avrc_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.i
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.c.i
-
-host/bluedroid/stack/avrc/avrc_utils.s: host/bluedroid/stack/avrc/avrc_utils.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/avrc/avrc_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.s
-.PHONY : host/bluedroid/stack/avrc/avrc_utils.c.s
-
-host/bluedroid/stack/btm/btm_acl.obj: host/bluedroid/stack/btm/btm_acl.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_acl.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_acl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_acl.c.obj
-
-host/bluedroid/stack/btm/btm_acl.i: host/bluedroid/stack/btm/btm_acl.c.i
-.PHONY : host/bluedroid/stack/btm/btm_acl.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_acl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.i
-.PHONY : host/bluedroid/stack/btm/btm_acl.c.i
-
-host/bluedroid/stack/btm/btm_acl.s: host/bluedroid/stack/btm/btm_acl.c.s
-.PHONY : host/bluedroid/stack/btm/btm_acl.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_acl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.s
-.PHONY : host/bluedroid/stack/btm/btm_acl.c.s
-
-host/bluedroid/stack/btm/btm_ble.obj: host/bluedroid/stack/btm/btm_ble.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble.c.obj
-
-host/bluedroid/stack/btm/btm_ble.i: host/bluedroid/stack/btm/btm_ble.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble.c.i
-
-host/bluedroid/stack/btm/btm_ble.s: host/bluedroid/stack/btm/btm_ble.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble.c.s
-
-host/bluedroid/stack/btm/btm_ble_5_gap.obj: host/bluedroid/stack/btm/btm_ble_5_gap.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_5_gap.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_5_gap.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.c.obj
-
-host/bluedroid/stack/btm/btm_ble_5_gap.i: host/bluedroid/stack/btm/btm_ble_5_gap.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_5_gap.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_5_gap.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.c.i
-
-host/bluedroid/stack/btm/btm_ble_5_gap.s: host/bluedroid/stack/btm/btm_ble_5_gap.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_5_gap.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_5_gap.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_5_gap.c.s
-
-host/bluedroid/stack/btm/btm_ble_addr.obj: host/bluedroid/stack/btm/btm_ble_addr.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_addr.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.c.obj
-
-host/bluedroid/stack/btm/btm_ble_addr.i: host/bluedroid/stack/btm/btm_ble_addr.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_addr.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.c.i
-
-host/bluedroid/stack/btm/btm_ble_addr.s: host/bluedroid/stack/btm/btm_ble_addr.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_addr.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_addr.c.s
-
-host/bluedroid/stack/btm/btm_ble_adv_filter.obj: host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj
-
-host/bluedroid/stack/btm/btm_ble_adv_filter.i: host/bluedroid/stack/btm/btm_ble_adv_filter.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_adv_filter.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.c.i
-
-host/bluedroid/stack/btm/btm_ble_adv_filter.s: host/bluedroid/stack/btm/btm_ble_adv_filter.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_adv_filter.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_adv_filter.c.s
-
-host/bluedroid/stack/btm/btm_ble_batchscan.obj: host/bluedroid/stack/btm/btm_ble_batchscan.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_batchscan.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.c.obj
-
-host/bluedroid/stack/btm/btm_ble_batchscan.i: host/bluedroid/stack/btm/btm_ble_batchscan.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_batchscan.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.c.i
-
-host/bluedroid/stack/btm/btm_ble_batchscan.s: host/bluedroid/stack/btm/btm_ble_batchscan.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_batchscan.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_batchscan.c.s
-
-host/bluedroid/stack/btm/btm_ble_bgconn.obj: host/bluedroid/stack/btm/btm_ble_bgconn.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_bgconn.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.c.obj
-
-host/bluedroid/stack/btm/btm_ble_bgconn.i: host/bluedroid/stack/btm/btm_ble_bgconn.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_bgconn.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.c.i
-
-host/bluedroid/stack/btm/btm_ble_bgconn.s: host/bluedroid/stack/btm/btm_ble_bgconn.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_bgconn.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_bgconn.c.s
-
-host/bluedroid/stack/btm/btm_ble_cont_energy.obj: host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj
-
-host/bluedroid/stack/btm/btm_ble_cont_energy.i: host/bluedroid/stack/btm/btm_ble_cont_energy.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_cont_energy.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.c.i
-
-host/bluedroid/stack/btm/btm_ble_cont_energy.s: host/bluedroid/stack/btm/btm_ble_cont_energy.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_cont_energy.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_cont_energy.c.s
-
-host/bluedroid/stack/btm/btm_ble_gap.obj: host/bluedroid/stack/btm/btm_ble_gap.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_gap.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.c.obj
-
-host/bluedroid/stack/btm/btm_ble_gap.i: host/bluedroid/stack/btm/btm_ble_gap.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_gap.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.c.i
-
-host/bluedroid/stack/btm/btm_ble_gap.s: host/bluedroid/stack/btm/btm_ble_gap.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_gap.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_gap.c.s
-
-host/bluedroid/stack/btm/btm_ble_multi_adv.obj: host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj
-
-host/bluedroid/stack/btm/btm_ble_multi_adv.i: host/bluedroid/stack/btm/btm_ble_multi_adv.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_multi_adv.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.c.i
-
-host/bluedroid/stack/btm/btm_ble_multi_adv.s: host/bluedroid/stack/btm/btm_ble_multi_adv.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_multi_adv.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_multi_adv.c.s
-
-host/bluedroid/stack/btm/btm_ble_privacy.obj: host/bluedroid/stack/btm/btm_ble_privacy.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_ble_privacy.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.c.obj
-
-host/bluedroid/stack/btm/btm_ble_privacy.i: host/bluedroid/stack/btm/btm_ble_privacy.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_ble_privacy.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.i
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.c.i
-
-host/bluedroid/stack/btm/btm_ble_privacy.s: host/bluedroid/stack/btm/btm_ble_privacy.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_ble_privacy.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.s
-.PHONY : host/bluedroid/stack/btm/btm_ble_privacy.c.s
-
-host/bluedroid/stack/btm/btm_dev.obj: host/bluedroid/stack/btm/btm_dev.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_dev.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_dev.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_dev.c.obj
-
-host/bluedroid/stack/btm/btm_dev.i: host/bluedroid/stack/btm/btm_dev.c.i
-.PHONY : host/bluedroid/stack/btm/btm_dev.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_dev.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.i
-.PHONY : host/bluedroid/stack/btm/btm_dev.c.i
-
-host/bluedroid/stack/btm/btm_dev.s: host/bluedroid/stack/btm/btm_dev.c.s
-.PHONY : host/bluedroid/stack/btm/btm_dev.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_dev.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.s
-.PHONY : host/bluedroid/stack/btm/btm_dev.c.s
-
-host/bluedroid/stack/btm/btm_devctl.obj: host/bluedroid/stack/btm/btm_devctl.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_devctl.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_devctl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_devctl.c.obj
-
-host/bluedroid/stack/btm/btm_devctl.i: host/bluedroid/stack/btm/btm_devctl.c.i
-.PHONY : host/bluedroid/stack/btm/btm_devctl.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_devctl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.i
-.PHONY : host/bluedroid/stack/btm/btm_devctl.c.i
-
-host/bluedroid/stack/btm/btm_devctl.s: host/bluedroid/stack/btm/btm_devctl.c.s
-.PHONY : host/bluedroid/stack/btm/btm_devctl.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_devctl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.s
-.PHONY : host/bluedroid/stack/btm/btm_devctl.c.s
-
-host/bluedroid/stack/btm/btm_inq.obj: host/bluedroid/stack/btm/btm_inq.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_inq.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_inq.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_inq.c.obj
-
-host/bluedroid/stack/btm/btm_inq.i: host/bluedroid/stack/btm/btm_inq.c.i
-.PHONY : host/bluedroid/stack/btm/btm_inq.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_inq.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.i
-.PHONY : host/bluedroid/stack/btm/btm_inq.c.i
-
-host/bluedroid/stack/btm/btm_inq.s: host/bluedroid/stack/btm/btm_inq.c.s
-.PHONY : host/bluedroid/stack/btm/btm_inq.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_inq.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.s
-.PHONY : host/bluedroid/stack/btm/btm_inq.c.s
-
-host/bluedroid/stack/btm/btm_main.obj: host/bluedroid/stack/btm/btm_main.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_main.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_main.c.obj
-
-host/bluedroid/stack/btm/btm_main.i: host/bluedroid/stack/btm/btm_main.c.i
-.PHONY : host/bluedroid/stack/btm/btm_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.i
-.PHONY : host/bluedroid/stack/btm/btm_main.c.i
-
-host/bluedroid/stack/btm/btm_main.s: host/bluedroid/stack/btm/btm_main.c.s
-.PHONY : host/bluedroid/stack/btm/btm_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.s
-.PHONY : host/bluedroid/stack/btm/btm_main.c.s
-
-host/bluedroid/stack/btm/btm_pm.obj: host/bluedroid/stack/btm/btm_pm.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_pm.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_pm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_pm.c.obj
-
-host/bluedroid/stack/btm/btm_pm.i: host/bluedroid/stack/btm/btm_pm.c.i
-.PHONY : host/bluedroid/stack/btm/btm_pm.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_pm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.i
-.PHONY : host/bluedroid/stack/btm/btm_pm.c.i
-
-host/bluedroid/stack/btm/btm_pm.s: host/bluedroid/stack/btm/btm_pm.c.s
-.PHONY : host/bluedroid/stack/btm/btm_pm.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_pm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.s
-.PHONY : host/bluedroid/stack/btm/btm_pm.c.s
-
-host/bluedroid/stack/btm/btm_sco.obj: host/bluedroid/stack/btm/btm_sco.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_sco.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_sco.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_sco.c.obj
-
-host/bluedroid/stack/btm/btm_sco.i: host/bluedroid/stack/btm/btm_sco.c.i
-.PHONY : host/bluedroid/stack/btm/btm_sco.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_sco.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.i
-.PHONY : host/bluedroid/stack/btm/btm_sco.c.i
-
-host/bluedroid/stack/btm/btm_sco.s: host/bluedroid/stack/btm/btm_sco.c.s
-.PHONY : host/bluedroid/stack/btm/btm_sco.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_sco.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.s
-.PHONY : host/bluedroid/stack/btm/btm_sco.c.s
-
-host/bluedroid/stack/btm/btm_sec.obj: host/bluedroid/stack/btm/btm_sec.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_sec.obj
-
-# target to build an object file
-host/bluedroid/stack/btm/btm_sec.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj
-.PHONY : host/bluedroid/stack/btm/btm_sec.c.obj
-
-host/bluedroid/stack/btm/btm_sec.i: host/bluedroid/stack/btm/btm_sec.c.i
-.PHONY : host/bluedroid/stack/btm/btm_sec.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btm/btm_sec.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.i
-.PHONY : host/bluedroid/stack/btm/btm_sec.c.i
-
-host/bluedroid/stack/btm/btm_sec.s: host/bluedroid/stack/btm/btm_sec.c.s
-.PHONY : host/bluedroid/stack/btm/btm_sec.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btm/btm_sec.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.s
-.PHONY : host/bluedroid/stack/btm/btm_sec.c.s
-
-host/bluedroid/stack/btu/btu_hcif.obj: host/bluedroid/stack/btu/btu_hcif.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_hcif.obj
-
-# target to build an object file
-host/bluedroid/stack/btu/btu_hcif.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_hcif.c.obj
-
-host/bluedroid/stack/btu/btu_hcif.i: host/bluedroid/stack/btu/btu_hcif.c.i
-.PHONY : host/bluedroid/stack/btu/btu_hcif.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btu/btu_hcif.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.i
-.PHONY : host/bluedroid/stack/btu/btu_hcif.c.i
-
-host/bluedroid/stack/btu/btu_hcif.s: host/bluedroid/stack/btu/btu_hcif.c.s
-.PHONY : host/bluedroid/stack/btu/btu_hcif.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btu/btu_hcif.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.s
-.PHONY : host/bluedroid/stack/btu/btu_hcif.c.s
-
-host/bluedroid/stack/btu/btu_init.obj: host/bluedroid/stack/btu/btu_init.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_init.obj
-
-# target to build an object file
-host/bluedroid/stack/btu/btu_init.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_init.c.obj
-
-host/bluedroid/stack/btu/btu_init.i: host/bluedroid/stack/btu/btu_init.c.i
-.PHONY : host/bluedroid/stack/btu/btu_init.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btu/btu_init.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.i
-.PHONY : host/bluedroid/stack/btu/btu_init.c.i
-
-host/bluedroid/stack/btu/btu_init.s: host/bluedroid/stack/btu/btu_init.c.s
-.PHONY : host/bluedroid/stack/btu/btu_init.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btu/btu_init.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.s
-.PHONY : host/bluedroid/stack/btu/btu_init.c.s
-
-host/bluedroid/stack/btu/btu_task.obj: host/bluedroid/stack/btu/btu_task.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_task.obj
-
-# target to build an object file
-host/bluedroid/stack/btu/btu_task.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj
-.PHONY : host/bluedroid/stack/btu/btu_task.c.obj
-
-host/bluedroid/stack/btu/btu_task.i: host/bluedroid/stack/btu/btu_task.c.i
-.PHONY : host/bluedroid/stack/btu/btu_task.i
-
-# target to preprocess a source file
-host/bluedroid/stack/btu/btu_task.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.i
-.PHONY : host/bluedroid/stack/btu/btu_task.c.i
-
-host/bluedroid/stack/btu/btu_task.s: host/bluedroid/stack/btu/btu_task.c.s
-.PHONY : host/bluedroid/stack/btu/btu_task.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/btu/btu_task.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.s
-.PHONY : host/bluedroid/stack/btu/btu_task.c.s
-
-host/bluedroid/stack/gap/gap_api.obj: host/bluedroid/stack/gap/gap_api.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_api.obj
-
-# target to build an object file
-host/bluedroid/stack/gap/gap_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_api.c.obj
-
-host/bluedroid/stack/gap/gap_api.i: host/bluedroid/stack/gap/gap_api.c.i
-.PHONY : host/bluedroid/stack/gap/gap_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gap/gap_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.i
-.PHONY : host/bluedroid/stack/gap/gap_api.c.i
-
-host/bluedroid/stack/gap/gap_api.s: host/bluedroid/stack/gap/gap_api.c.s
-.PHONY : host/bluedroid/stack/gap/gap_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gap/gap_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.s
-.PHONY : host/bluedroid/stack/gap/gap_api.c.s
-
-host/bluedroid/stack/gap/gap_ble.obj: host/bluedroid/stack/gap/gap_ble.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_ble.obj
-
-# target to build an object file
-host/bluedroid/stack/gap/gap_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_ble.c.obj
-
-host/bluedroid/stack/gap/gap_ble.i: host/bluedroid/stack/gap/gap_ble.c.i
-.PHONY : host/bluedroid/stack/gap/gap_ble.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gap/gap_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.i
-.PHONY : host/bluedroid/stack/gap/gap_ble.c.i
-
-host/bluedroid/stack/gap/gap_ble.s: host/bluedroid/stack/gap/gap_ble.c.s
-.PHONY : host/bluedroid/stack/gap/gap_ble.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gap/gap_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.s
-.PHONY : host/bluedroid/stack/gap/gap_ble.c.s
-
-host/bluedroid/stack/gap/gap_conn.obj: host/bluedroid/stack/gap/gap_conn.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_conn.obj
-
-# target to build an object file
-host/bluedroid/stack/gap/gap_conn.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_conn.c.obj
-
-host/bluedroid/stack/gap/gap_conn.i: host/bluedroid/stack/gap/gap_conn.c.i
-.PHONY : host/bluedroid/stack/gap/gap_conn.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gap/gap_conn.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.i
-.PHONY : host/bluedroid/stack/gap/gap_conn.c.i
-
-host/bluedroid/stack/gap/gap_conn.s: host/bluedroid/stack/gap/gap_conn.c.s
-.PHONY : host/bluedroid/stack/gap/gap_conn.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gap/gap_conn.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.s
-.PHONY : host/bluedroid/stack/gap/gap_conn.c.s
-
-host/bluedroid/stack/gap/gap_utils.obj: host/bluedroid/stack/gap/gap_utils.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/gap/gap_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj
-.PHONY : host/bluedroid/stack/gap/gap_utils.c.obj
-
-host/bluedroid/stack/gap/gap_utils.i: host/bluedroid/stack/gap/gap_utils.c.i
-.PHONY : host/bluedroid/stack/gap/gap_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gap/gap_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.i
-.PHONY : host/bluedroid/stack/gap/gap_utils.c.i
-
-host/bluedroid/stack/gap/gap_utils.s: host/bluedroid/stack/gap/gap_utils.c.s
-.PHONY : host/bluedroid/stack/gap/gap_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gap/gap_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.s
-.PHONY : host/bluedroid/stack/gap/gap_utils.c.s
-
-host/bluedroid/stack/gatt/att_protocol.obj: host/bluedroid/stack/gatt/att_protocol.c.obj
-.PHONY : host/bluedroid/stack/gatt/att_protocol.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/att_protocol.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj
-.PHONY : host/bluedroid/stack/gatt/att_protocol.c.obj
-
-host/bluedroid/stack/gatt/att_protocol.i: host/bluedroid/stack/gatt/att_protocol.c.i
-.PHONY : host/bluedroid/stack/gatt/att_protocol.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/att_protocol.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.i
-.PHONY : host/bluedroid/stack/gatt/att_protocol.c.i
-
-host/bluedroid/stack/gatt/att_protocol.s: host/bluedroid/stack/gatt/att_protocol.c.s
-.PHONY : host/bluedroid/stack/gatt/att_protocol.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/att_protocol.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.s
-.PHONY : host/bluedroid/stack/gatt/att_protocol.c.s
-
-host/bluedroid/stack/gatt/gatt_api.obj: host/bluedroid/stack/gatt/gatt_api.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_api.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_api.c.obj
-
-host/bluedroid/stack/gatt/gatt_api.i: host/bluedroid/stack/gatt/gatt_api.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_api.c.i
-
-host/bluedroid/stack/gatt/gatt_api.s: host/bluedroid/stack/gatt/gatt_api.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_api.c.s
-
-host/bluedroid/stack/gatt/gatt_attr.obj: host/bluedroid/stack/gatt/gatt_attr.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_attr.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.c.obj
-
-host/bluedroid/stack/gatt/gatt_attr.i: host/bluedroid/stack/gatt/gatt_attr.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_attr.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.c.i
-
-host/bluedroid/stack/gatt/gatt_attr.s: host/bluedroid/stack/gatt/gatt_attr.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_attr.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_attr.c.s
-
-host/bluedroid/stack/gatt/gatt_auth.obj: host/bluedroid/stack/gatt/gatt_auth.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_auth.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.c.obj
-
-host/bluedroid/stack/gatt/gatt_auth.i: host/bluedroid/stack/gatt/gatt_auth.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_auth.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.c.i
-
-host/bluedroid/stack/gatt/gatt_auth.s: host/bluedroid/stack/gatt/gatt_auth.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_auth.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_auth.c.s
-
-host/bluedroid/stack/gatt/gatt_cl.obj: host/bluedroid/stack/gatt/gatt_cl.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_cl.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.c.obj
-
-host/bluedroid/stack/gatt/gatt_cl.i: host/bluedroid/stack/gatt/gatt_cl.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_cl.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.c.i
-
-host/bluedroid/stack/gatt/gatt_cl.s: host/bluedroid/stack/gatt/gatt_cl.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_cl.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_cl.c.s
-
-host/bluedroid/stack/gatt/gatt_db.obj: host/bluedroid/stack/gatt/gatt_db.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_db.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_db.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_db.c.obj
-
-host/bluedroid/stack/gatt/gatt_db.i: host/bluedroid/stack/gatt/gatt_db.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_db.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_db.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_db.c.i
-
-host/bluedroid/stack/gatt/gatt_db.s: host/bluedroid/stack/gatt/gatt_db.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_db.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_db.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_db.c.s
-
-host/bluedroid/stack/gatt/gatt_main.obj: host/bluedroid/stack/gatt/gatt_main.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_main.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_main.c.obj
-
-host/bluedroid/stack/gatt/gatt_main.i: host/bluedroid/stack/gatt/gatt_main.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_main.c.i
-
-host/bluedroid/stack/gatt/gatt_main.s: host/bluedroid/stack/gatt/gatt_main.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_main.c.s
-
-host/bluedroid/stack/gatt/gatt_sr.obj: host/bluedroid/stack/gatt/gatt_sr.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_sr.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.c.obj
-
-host/bluedroid/stack/gatt/gatt_sr.i: host/bluedroid/stack/gatt/gatt_sr.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_sr.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.c.i
-
-host/bluedroid/stack/gatt/gatt_sr.s: host/bluedroid/stack/gatt/gatt_sr.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_sr.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_sr.c.s
-
-host/bluedroid/stack/gatt/gatt_sr_hash.obj: host/bluedroid/stack/gatt/gatt_sr_hash.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_sr_hash.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr_hash.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.c.obj
-
-host/bluedroid/stack/gatt/gatt_sr_hash.i: host/bluedroid/stack/gatt/gatt_sr_hash.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_sr_hash.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr_hash.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.c.i
-
-host/bluedroid/stack/gatt/gatt_sr_hash.s: host/bluedroid/stack/gatt/gatt_sr_hash.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_sr_hash.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr_hash.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_sr_hash.c.s
-
-host/bluedroid/stack/gatt/gatt_utils.obj: host/bluedroid/stack/gatt/gatt_utils.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/gatt/gatt_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.c.obj
-
-host/bluedroid/stack/gatt/gatt_utils.i: host/bluedroid/stack/gatt/gatt_utils.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/gatt/gatt_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.i
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.c.i
-
-host/bluedroid/stack/gatt/gatt_utils.s: host/bluedroid/stack/gatt/gatt_utils.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/gatt/gatt_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.s
-.PHONY : host/bluedroid/stack/gatt/gatt_utils.c.s
-
-host/bluedroid/stack/goep/goepc_api.obj: host/bluedroid/stack/goep/goepc_api.c.obj
-.PHONY : host/bluedroid/stack/goep/goepc_api.obj
-
-# target to build an object file
-host/bluedroid/stack/goep/goepc_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_api.c.obj
-.PHONY : host/bluedroid/stack/goep/goepc_api.c.obj
-
-host/bluedroid/stack/goep/goepc_api.i: host/bluedroid/stack/goep/goepc_api.c.i
-.PHONY : host/bluedroid/stack/goep/goepc_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/goep/goepc_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_api.c.i
-.PHONY : host/bluedroid/stack/goep/goepc_api.c.i
-
-host/bluedroid/stack/goep/goepc_api.s: host/bluedroid/stack/goep/goepc_api.c.s
-.PHONY : host/bluedroid/stack/goep/goepc_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/goep/goepc_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_api.c.s
-.PHONY : host/bluedroid/stack/goep/goepc_api.c.s
-
-host/bluedroid/stack/goep/goepc_main.obj: host/bluedroid/stack/goep/goepc_main.c.obj
-.PHONY : host/bluedroid/stack/goep/goepc_main.obj
-
-# target to build an object file
-host/bluedroid/stack/goep/goepc_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_main.c.obj
-.PHONY : host/bluedroid/stack/goep/goepc_main.c.obj
-
-host/bluedroid/stack/goep/goepc_main.i: host/bluedroid/stack/goep/goepc_main.c.i
-.PHONY : host/bluedroid/stack/goep/goepc_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/goep/goepc_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_main.c.i
-.PHONY : host/bluedroid/stack/goep/goepc_main.c.i
-
-host/bluedroid/stack/goep/goepc_main.s: host/bluedroid/stack/goep/goepc_main.c.s
-.PHONY : host/bluedroid/stack/goep/goepc_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/goep/goepc_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/goep/goepc_main.c.s
-.PHONY : host/bluedroid/stack/goep/goepc_main.c.s
-
-host/bluedroid/stack/hcic/hciblecmds.obj: host/bluedroid/stack/hcic/hciblecmds.c.obj
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.obj
-
-# target to build an object file
-host/bluedroid/stack/hcic/hciblecmds.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.c.obj
-
-host/bluedroid/stack/hcic/hciblecmds.i: host/bluedroid/stack/hcic/hciblecmds.c.i
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hcic/hciblecmds.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.i
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.c.i
-
-host/bluedroid/stack/hcic/hciblecmds.s: host/bluedroid/stack/hcic/hciblecmds.c.s
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hcic/hciblecmds.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.s
-.PHONY : host/bluedroid/stack/hcic/hciblecmds.c.s
-
-host/bluedroid/stack/hcic/hcicmds.obj: host/bluedroid/stack/hcic/hcicmds.c.obj
-.PHONY : host/bluedroid/stack/hcic/hcicmds.obj
-
-# target to build an object file
-host/bluedroid/stack/hcic/hcicmds.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj
-.PHONY : host/bluedroid/stack/hcic/hcicmds.c.obj
-
-host/bluedroid/stack/hcic/hcicmds.i: host/bluedroid/stack/hcic/hcicmds.c.i
-.PHONY : host/bluedroid/stack/hcic/hcicmds.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hcic/hcicmds.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.i
-.PHONY : host/bluedroid/stack/hcic/hcicmds.c.i
-
-host/bluedroid/stack/hcic/hcicmds.s: host/bluedroid/stack/hcic/hcicmds.c.s
-.PHONY : host/bluedroid/stack/hcic/hcicmds.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hcic/hcicmds.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.s
-.PHONY : host/bluedroid/stack/hcic/hcicmds.c.s
-
-host/bluedroid/stack/hid/hidd_api.obj: host/bluedroid/stack/hid/hidd_api.c.obj
-.PHONY : host/bluedroid/stack/hid/hidd_api.obj
-
-# target to build an object file
-host/bluedroid/stack/hid/hidd_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_api.c.obj
-.PHONY : host/bluedroid/stack/hid/hidd_api.c.obj
-
-host/bluedroid/stack/hid/hidd_api.i: host/bluedroid/stack/hid/hidd_api.c.i
-.PHONY : host/bluedroid/stack/hid/hidd_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hid/hidd_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_api.c.i
-.PHONY : host/bluedroid/stack/hid/hidd_api.c.i
-
-host/bluedroid/stack/hid/hidd_api.s: host/bluedroid/stack/hid/hidd_api.c.s
-.PHONY : host/bluedroid/stack/hid/hidd_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hid/hidd_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_api.c.s
-.PHONY : host/bluedroid/stack/hid/hidd_api.c.s
-
-host/bluedroid/stack/hid/hidd_conn.obj: host/bluedroid/stack/hid/hidd_conn.c.obj
-.PHONY : host/bluedroid/stack/hid/hidd_conn.obj
-
-# target to build an object file
-host/bluedroid/stack/hid/hidd_conn.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_conn.c.obj
-.PHONY : host/bluedroid/stack/hid/hidd_conn.c.obj
-
-host/bluedroid/stack/hid/hidd_conn.i: host/bluedroid/stack/hid/hidd_conn.c.i
-.PHONY : host/bluedroid/stack/hid/hidd_conn.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hid/hidd_conn.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_conn.c.i
-.PHONY : host/bluedroid/stack/hid/hidd_conn.c.i
-
-host/bluedroid/stack/hid/hidd_conn.s: host/bluedroid/stack/hid/hidd_conn.c.s
-.PHONY : host/bluedroid/stack/hid/hidd_conn.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hid/hidd_conn.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_conn.c.s
-.PHONY : host/bluedroid/stack/hid/hidd_conn.c.s
-
-host/bluedroid/stack/hid/hidh_api.obj: host/bluedroid/stack/hid/hidh_api.c.obj
-.PHONY : host/bluedroid/stack/hid/hidh_api.obj
-
-# target to build an object file
-host/bluedroid/stack/hid/hidh_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_api.c.obj
-.PHONY : host/bluedroid/stack/hid/hidh_api.c.obj
-
-host/bluedroid/stack/hid/hidh_api.i: host/bluedroid/stack/hid/hidh_api.c.i
-.PHONY : host/bluedroid/stack/hid/hidh_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hid/hidh_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_api.c.i
-.PHONY : host/bluedroid/stack/hid/hidh_api.c.i
-
-host/bluedroid/stack/hid/hidh_api.s: host/bluedroid/stack/hid/hidh_api.c.s
-.PHONY : host/bluedroid/stack/hid/hidh_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hid/hidh_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_api.c.s
-.PHONY : host/bluedroid/stack/hid/hidh_api.c.s
-
-host/bluedroid/stack/hid/hidh_conn.obj: host/bluedroid/stack/hid/hidh_conn.c.obj
-.PHONY : host/bluedroid/stack/hid/hidh_conn.obj
-
-# target to build an object file
-host/bluedroid/stack/hid/hidh_conn.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_conn.c.obj
-.PHONY : host/bluedroid/stack/hid/hidh_conn.c.obj
-
-host/bluedroid/stack/hid/hidh_conn.i: host/bluedroid/stack/hid/hidh_conn.c.i
-.PHONY : host/bluedroid/stack/hid/hidh_conn.i
-
-# target to preprocess a source file
-host/bluedroid/stack/hid/hidh_conn.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_conn.c.i
-.PHONY : host/bluedroid/stack/hid/hidh_conn.c.i
-
-host/bluedroid/stack/hid/hidh_conn.s: host/bluedroid/stack/hid/hidh_conn.c.s
-.PHONY : host/bluedroid/stack/hid/hidh_conn.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/hid/hidh_conn.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_conn.c.s
-.PHONY : host/bluedroid/stack/hid/hidh_conn.c.s
-
-host/bluedroid/stack/l2cap/l2c_api.obj: host/bluedroid/stack/l2cap/l2c_api.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.c.obj
-
-host/bluedroid/stack/l2cap/l2c_api.i: host/bluedroid/stack/l2cap/l2c_api.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.c.i
-
-host/bluedroid/stack/l2cap/l2c_api.s: host/bluedroid/stack/l2cap/l2c_api.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_api.c.s
-
-host/bluedroid/stack/l2cap/l2c_ble.obj: host/bluedroid/stack/l2cap/l2c_ble.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_ble.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.c.obj
-
-host/bluedroid/stack/l2cap/l2c_ble.i: host/bluedroid/stack/l2cap/l2c_ble.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_ble.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.c.i
-
-host/bluedroid/stack/l2cap/l2c_ble.s: host/bluedroid/stack/l2cap/l2c_ble.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_ble.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_ble.c.s
-
-host/bluedroid/stack/l2cap/l2c_csm.obj: host/bluedroid/stack/l2cap/l2c_csm.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_csm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.c.obj
-
-host/bluedroid/stack/l2cap/l2c_csm.i: host/bluedroid/stack/l2cap/l2c_csm.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_csm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.c.i
-
-host/bluedroid/stack/l2cap/l2c_csm.s: host/bluedroid/stack/l2cap/l2c_csm.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_csm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_csm.c.s
-
-host/bluedroid/stack/l2cap/l2c_fcr.obj: host/bluedroid/stack/l2cap/l2c_fcr.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_fcr.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.c.obj
-
-host/bluedroid/stack/l2cap/l2c_fcr.i: host/bluedroid/stack/l2cap/l2c_fcr.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_fcr.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.c.i
-
-host/bluedroid/stack/l2cap/l2c_fcr.s: host/bluedroid/stack/l2cap/l2c_fcr.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_fcr.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_fcr.c.s
-
-host/bluedroid/stack/l2cap/l2c_link.obj: host/bluedroid/stack/l2cap/l2c_link.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_link.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.c.obj
-
-host/bluedroid/stack/l2cap/l2c_link.i: host/bluedroid/stack/l2cap/l2c_link.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_link.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.c.i
-
-host/bluedroid/stack/l2cap/l2c_link.s: host/bluedroid/stack/l2cap/l2c_link.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_link.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_link.c.s
-
-host/bluedroid/stack/l2cap/l2c_main.obj: host/bluedroid/stack/l2cap/l2c_main.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.c.obj
-
-host/bluedroid/stack/l2cap/l2c_main.i: host/bluedroid/stack/l2cap/l2c_main.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.c.i
-
-host/bluedroid/stack/l2cap/l2c_main.s: host/bluedroid/stack/l2cap/l2c_main.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_main.c.s
-
-host/bluedroid/stack/l2cap/l2c_ucd.obj: host/bluedroid/stack/l2cap/l2c_ucd.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_ucd.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.c.obj
-
-host/bluedroid/stack/l2cap/l2c_ucd.i: host/bluedroid/stack/l2cap/l2c_ucd.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_ucd.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.c.i
-
-host/bluedroid/stack/l2cap/l2c_ucd.s: host/bluedroid/stack/l2cap/l2c_ucd.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_ucd.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_ucd.c.s
-
-host/bluedroid/stack/l2cap/l2c_utils.obj: host/bluedroid/stack/l2cap/l2c_utils.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2c_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.c.obj
-
-host/bluedroid/stack/l2cap/l2c_utils.i: host/bluedroid/stack/l2cap/l2c_utils.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2c_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.c.i
-
-host/bluedroid/stack/l2cap/l2c_utils.s: host/bluedroid/stack/l2cap/l2c_utils.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2c_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2c_utils.c.s
-
-host/bluedroid/stack/l2cap/l2cap_client.obj: host/bluedroid/stack/l2cap/l2cap_client.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.obj
-
-# target to build an object file
-host/bluedroid/stack/l2cap/l2cap_client.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.c.obj
-
-host/bluedroid/stack/l2cap/l2cap_client.i: host/bluedroid/stack/l2cap/l2cap_client.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.i
-
-# target to preprocess a source file
-host/bluedroid/stack/l2cap/l2cap_client.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.i
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.c.i
-
-host/bluedroid/stack/l2cap/l2cap_client.s: host/bluedroid/stack/l2cap/l2cap_client.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/l2cap/l2cap_client.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.s
-.PHONY : host/bluedroid/stack/l2cap/l2cap_client.c.s
-
-host/bluedroid/stack/obex/obex_api.obj: host/bluedroid/stack/obex/obex_api.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_api.obj
-
-# target to build an object file
-host/bluedroid/stack/obex/obex_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_api.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_api.c.obj
-
-host/bluedroid/stack/obex/obex_api.i: host/bluedroid/stack/obex/obex_api.c.i
-.PHONY : host/bluedroid/stack/obex/obex_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/obex/obex_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_api.c.i
-.PHONY : host/bluedroid/stack/obex/obex_api.c.i
-
-host/bluedroid/stack/obex/obex_api.s: host/bluedroid/stack/obex/obex_api.c.s
-.PHONY : host/bluedroid/stack/obex/obex_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/obex/obex_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_api.c.s
-.PHONY : host/bluedroid/stack/obex/obex_api.c.s
-
-host/bluedroid/stack/obex/obex_main.obj: host/bluedroid/stack/obex/obex_main.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_main.obj
-
-# target to build an object file
-host/bluedroid/stack/obex/obex_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_main.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_main.c.obj
-
-host/bluedroid/stack/obex/obex_main.i: host/bluedroid/stack/obex/obex_main.c.i
-.PHONY : host/bluedroid/stack/obex/obex_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/obex/obex_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_main.c.i
-.PHONY : host/bluedroid/stack/obex/obex_main.c.i
-
-host/bluedroid/stack/obex/obex_main.s: host/bluedroid/stack/obex/obex_main.c.s
-.PHONY : host/bluedroid/stack/obex/obex_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/obex/obex_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_main.c.s
-.PHONY : host/bluedroid/stack/obex/obex_main.c.s
-
-host/bluedroid/stack/obex/obex_tl_l2cap.obj: host/bluedroid/stack/obex/obex_tl_l2cap.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.obj
-
-# target to build an object file
-host/bluedroid/stack/obex/obex_tl_l2cap.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_l2cap.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.c.obj
-
-host/bluedroid/stack/obex/obex_tl_l2cap.i: host/bluedroid/stack/obex/obex_tl_l2cap.c.i
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.i
-
-# target to preprocess a source file
-host/bluedroid/stack/obex/obex_tl_l2cap.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_l2cap.c.i
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.c.i
-
-host/bluedroid/stack/obex/obex_tl_l2cap.s: host/bluedroid/stack/obex/obex_tl_l2cap.c.s
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/obex/obex_tl_l2cap.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_l2cap.c.s
-.PHONY : host/bluedroid/stack/obex/obex_tl_l2cap.c.s
-
-host/bluedroid/stack/obex/obex_tl_rfcomm.obj: host/bluedroid/stack/obex/obex_tl_rfcomm.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.obj
-
-# target to build an object file
-host/bluedroid/stack/obex/obex_tl_rfcomm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_rfcomm.c.obj
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.c.obj
-
-host/bluedroid/stack/obex/obex_tl_rfcomm.i: host/bluedroid/stack/obex/obex_tl_rfcomm.c.i
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.i
-
-# target to preprocess a source file
-host/bluedroid/stack/obex/obex_tl_rfcomm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_rfcomm.c.i
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.c.i
-
-host/bluedroid/stack/obex/obex_tl_rfcomm.s: host/bluedroid/stack/obex/obex_tl_rfcomm.c.s
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/obex/obex_tl_rfcomm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/obex/obex_tl_rfcomm.c.s
-.PHONY : host/bluedroid/stack/obex/obex_tl_rfcomm.c.s
-
-host/bluedroid/stack/rfcomm/port_api.obj: host/bluedroid/stack/rfcomm/port_api.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_api.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/port_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_api.c.obj
-
-host/bluedroid/stack/rfcomm/port_api.i: host/bluedroid/stack/rfcomm/port_api.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/port_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_api.c.i
-
-host/bluedroid/stack/rfcomm/port_api.s: host/bluedroid/stack/rfcomm/port_api.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/port_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_api.c.s
-
-host/bluedroid/stack/rfcomm/port_rfc.obj: host/bluedroid/stack/rfcomm/port_rfc.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/port_rfc.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.c.obj
-
-host/bluedroid/stack/rfcomm/port_rfc.i: host/bluedroid/stack/rfcomm/port_rfc.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/port_rfc.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.c.i
-
-host/bluedroid/stack/rfcomm/port_rfc.s: host/bluedroid/stack/rfcomm/port_rfc.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/port_rfc.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_rfc.c.s
-
-host/bluedroid/stack/rfcomm/port_utils.obj: host/bluedroid/stack/rfcomm/port_utils.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/port_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.c.obj
-
-host/bluedroid/stack/rfcomm/port_utils.i: host/bluedroid/stack/rfcomm/port_utils.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/port_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.i
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.c.i
-
-host/bluedroid/stack/rfcomm/port_utils.s: host/bluedroid/stack/rfcomm/port_utils.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/port_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.s
-.PHONY : host/bluedroid/stack/rfcomm/port_utils.c.s
-
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.obj: host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.i: host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.i
-
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.s: host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.s
-
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.obj: host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.i: host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.i
-
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.s: host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.s
-
-host/bluedroid/stack/rfcomm/rfc_port_fsm.obj: host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_port_fsm.i: host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.c.i
-
-host/bluedroid/stack/rfcomm/rfc_port_fsm.s: host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_fsm.c.s
-
-host/bluedroid/stack/rfcomm/rfc_port_if.obj: host/bluedroid/stack/rfcomm/rfc_port_if.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_port_if.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_port_if.i: host/bluedroid/stack/rfcomm/rfc_port_if.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_port_if.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.c.i
-
-host/bluedroid/stack/rfcomm/rfc_port_if.s: host/bluedroid/stack/rfcomm/rfc_port_if.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_port_if.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_port_if.c.s
-
-host/bluedroid/stack/rfcomm/rfc_ts_frames.obj: host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_ts_frames.i: host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.c.i
-
-host/bluedroid/stack/rfcomm/rfc_ts_frames.s: host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_ts_frames.c.s
-
-host/bluedroid/stack/rfcomm/rfc_utils.obj: host/bluedroid/stack/rfcomm/rfc_utils.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/rfcomm/rfc_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.c.obj
-
-host/bluedroid/stack/rfcomm/rfc_utils.i: host/bluedroid/stack/rfcomm/rfc_utils.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/rfcomm/rfc_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.i
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.c.i
-
-host/bluedroid/stack/rfcomm/rfc_utils.s: host/bluedroid/stack/rfcomm/rfc_utils.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/rfcomm/rfc_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.s
-.PHONY : host/bluedroid/stack/rfcomm/rfc_utils.c.s
-
-host/bluedroid/stack/sdp/sdp_api.obj: host/bluedroid/stack/sdp/sdp_api.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_api.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_api.c.obj
-
-host/bluedroid/stack/sdp/sdp_api.i: host/bluedroid/stack/sdp/sdp_api.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_api.c.i
-
-host/bluedroid/stack/sdp/sdp_api.s: host/bluedroid/stack/sdp/sdp_api.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_api.c.s
-
-host/bluedroid/stack/sdp/sdp_db.obj: host/bluedroid/stack/sdp/sdp_db.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_db.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_db.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_db.c.obj
-
-host/bluedroid/stack/sdp/sdp_db.i: host/bluedroid/stack/sdp/sdp_db.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_db.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_db.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_db.c.i
-
-host/bluedroid/stack/sdp/sdp_db.s: host/bluedroid/stack/sdp/sdp_db.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_db.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_db.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_db.c.s
-
-host/bluedroid/stack/sdp/sdp_discovery.obj: host/bluedroid/stack/sdp/sdp_discovery.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_discovery.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.c.obj
-
-host/bluedroid/stack/sdp/sdp_discovery.i: host/bluedroid/stack/sdp/sdp_discovery.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_discovery.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.c.i
-
-host/bluedroid/stack/sdp/sdp_discovery.s: host/bluedroid/stack/sdp/sdp_discovery.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_discovery.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_discovery.c.s
-
-host/bluedroid/stack/sdp/sdp_main.obj: host/bluedroid/stack/sdp/sdp_main.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_main.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_main.c.obj
-
-host/bluedroid/stack/sdp/sdp_main.i: host/bluedroid/stack/sdp/sdp_main.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_main.c.i
-
-host/bluedroid/stack/sdp/sdp_main.s: host/bluedroid/stack/sdp/sdp_main.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_main.c.s
-
-host/bluedroid/stack/sdp/sdp_server.obj: host/bluedroid/stack/sdp/sdp_server.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_server.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_server.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_server.c.obj
-
-host/bluedroid/stack/sdp/sdp_server.i: host/bluedroid/stack/sdp/sdp_server.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_server.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_server.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_server.c.i
-
-host/bluedroid/stack/sdp/sdp_server.s: host/bluedroid/stack/sdp/sdp_server.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_server.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_server.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_server.c.s
-
-host/bluedroid/stack/sdp/sdp_utils.obj: host/bluedroid/stack/sdp/sdp_utils.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/sdp/sdp_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.c.obj
-
-host/bluedroid/stack/sdp/sdp_utils.i: host/bluedroid/stack/sdp/sdp_utils.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/sdp/sdp_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.i
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.c.i
-
-host/bluedroid/stack/sdp/sdp_utils.s: host/bluedroid/stack/sdp/sdp_utils.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/sdp/sdp_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.s
-.PHONY : host/bluedroid/stack/sdp/sdp_utils.c.s
-
-host/bluedroid/stack/smp/aes.obj: host/bluedroid/stack/smp/aes.c.obj
-.PHONY : host/bluedroid/stack/smp/aes.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/aes.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj
-.PHONY : host/bluedroid/stack/smp/aes.c.obj
-
-host/bluedroid/stack/smp/aes.i: host/bluedroid/stack/smp/aes.c.i
-.PHONY : host/bluedroid/stack/smp/aes.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/aes.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.i
-.PHONY : host/bluedroid/stack/smp/aes.c.i
-
-host/bluedroid/stack/smp/aes.s: host/bluedroid/stack/smp/aes.c.s
-.PHONY : host/bluedroid/stack/smp/aes.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/aes.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.s
-.PHONY : host/bluedroid/stack/smp/aes.c.s
-
-host/bluedroid/stack/smp/p_256_curvepara.obj: host/bluedroid/stack/smp/p_256_curvepara.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/p_256_curvepara.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.c.obj
-
-host/bluedroid/stack/smp/p_256_curvepara.i: host/bluedroid/stack/smp/p_256_curvepara.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/p_256_curvepara.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.c.i
-
-host/bluedroid/stack/smp/p_256_curvepara.s: host/bluedroid/stack/smp/p_256_curvepara.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/p_256_curvepara.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_curvepara.c.s
-
-host/bluedroid/stack/smp/p_256_ecc_pp.obj: host/bluedroid/stack/smp/p_256_ecc_pp.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/p_256_ecc_pp.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.c.obj
-
-host/bluedroid/stack/smp/p_256_ecc_pp.i: host/bluedroid/stack/smp/p_256_ecc_pp.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/p_256_ecc_pp.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.c.i
-
-host/bluedroid/stack/smp/p_256_ecc_pp.s: host/bluedroid/stack/smp/p_256_ecc_pp.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/p_256_ecc_pp.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_ecc_pp.c.s
-
-host/bluedroid/stack/smp/p_256_multprecision.obj: host/bluedroid/stack/smp/p_256_multprecision.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/p_256_multprecision.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.c.obj
-
-host/bluedroid/stack/smp/p_256_multprecision.i: host/bluedroid/stack/smp/p_256_multprecision.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/p_256_multprecision.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.i
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.c.i
-
-host/bluedroid/stack/smp/p_256_multprecision.s: host/bluedroid/stack/smp/p_256_multprecision.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/p_256_multprecision.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.s
-.PHONY : host/bluedroid/stack/smp/p_256_multprecision.c.s
-
-host/bluedroid/stack/smp/smp_act.obj: host/bluedroid/stack/smp/smp_act.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_act.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_act.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_act.c.obj
-
-host/bluedroid/stack/smp/smp_act.i: host/bluedroid/stack/smp/smp_act.c.i
-.PHONY : host/bluedroid/stack/smp/smp_act.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_act.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.i
-.PHONY : host/bluedroid/stack/smp/smp_act.c.i
-
-host/bluedroid/stack/smp/smp_act.s: host/bluedroid/stack/smp/smp_act.c.s
-.PHONY : host/bluedroid/stack/smp/smp_act.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_act.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.s
-.PHONY : host/bluedroid/stack/smp/smp_act.c.s
-
-host/bluedroid/stack/smp/smp_api.obj: host/bluedroid/stack/smp/smp_api.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_api.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_api.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_api.c.obj
-
-host/bluedroid/stack/smp/smp_api.i: host/bluedroid/stack/smp/smp_api.c.i
-.PHONY : host/bluedroid/stack/smp/smp_api.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_api.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.i
-.PHONY : host/bluedroid/stack/smp/smp_api.c.i
-
-host/bluedroid/stack/smp/smp_api.s: host/bluedroid/stack/smp/smp_api.c.s
-.PHONY : host/bluedroid/stack/smp/smp_api.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_api.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.s
-.PHONY : host/bluedroid/stack/smp/smp_api.c.s
-
-host/bluedroid/stack/smp/smp_br_main.obj: host/bluedroid/stack/smp/smp_br_main.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_br_main.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_br_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_br_main.c.obj
-
-host/bluedroid/stack/smp/smp_br_main.i: host/bluedroid/stack/smp/smp_br_main.c.i
-.PHONY : host/bluedroid/stack/smp/smp_br_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_br_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.i
-.PHONY : host/bluedroid/stack/smp/smp_br_main.c.i
-
-host/bluedroid/stack/smp/smp_br_main.s: host/bluedroid/stack/smp/smp_br_main.c.s
-.PHONY : host/bluedroid/stack/smp/smp_br_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_br_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.s
-.PHONY : host/bluedroid/stack/smp/smp_br_main.c.s
-
-host/bluedroid/stack/smp/smp_cmac.obj: host/bluedroid/stack/smp/smp_cmac.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_cmac.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_cmac.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_cmac.c.obj
-
-host/bluedroid/stack/smp/smp_cmac.i: host/bluedroid/stack/smp/smp_cmac.c.i
-.PHONY : host/bluedroid/stack/smp/smp_cmac.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_cmac.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.i
-.PHONY : host/bluedroid/stack/smp/smp_cmac.c.i
-
-host/bluedroid/stack/smp/smp_cmac.s: host/bluedroid/stack/smp/smp_cmac.c.s
-.PHONY : host/bluedroid/stack/smp/smp_cmac.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_cmac.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.s
-.PHONY : host/bluedroid/stack/smp/smp_cmac.c.s
-
-host/bluedroid/stack/smp/smp_keys.obj: host/bluedroid/stack/smp/smp_keys.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_keys.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_keys.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_keys.c.obj
-
-host/bluedroid/stack/smp/smp_keys.i: host/bluedroid/stack/smp/smp_keys.c.i
-.PHONY : host/bluedroid/stack/smp/smp_keys.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_keys.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.i
-.PHONY : host/bluedroid/stack/smp/smp_keys.c.i
-
-host/bluedroid/stack/smp/smp_keys.s: host/bluedroid/stack/smp/smp_keys.c.s
-.PHONY : host/bluedroid/stack/smp/smp_keys.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_keys.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.s
-.PHONY : host/bluedroid/stack/smp/smp_keys.c.s
-
-host/bluedroid/stack/smp/smp_l2c.obj: host/bluedroid/stack/smp/smp_l2c.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_l2c.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_l2c.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_l2c.c.obj
-
-host/bluedroid/stack/smp/smp_l2c.i: host/bluedroid/stack/smp/smp_l2c.c.i
-.PHONY : host/bluedroid/stack/smp/smp_l2c.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_l2c.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.i
-.PHONY : host/bluedroid/stack/smp/smp_l2c.c.i
-
-host/bluedroid/stack/smp/smp_l2c.s: host/bluedroid/stack/smp/smp_l2c.c.s
-.PHONY : host/bluedroid/stack/smp/smp_l2c.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_l2c.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.s
-.PHONY : host/bluedroid/stack/smp/smp_l2c.c.s
-
-host/bluedroid/stack/smp/smp_main.obj: host/bluedroid/stack/smp/smp_main.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_main.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_main.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_main.c.obj
-
-host/bluedroid/stack/smp/smp_main.i: host/bluedroid/stack/smp/smp_main.c.i
-.PHONY : host/bluedroid/stack/smp/smp_main.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_main.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.i
-.PHONY : host/bluedroid/stack/smp/smp_main.c.i
-
-host/bluedroid/stack/smp/smp_main.s: host/bluedroid/stack/smp/smp_main.c.s
-.PHONY : host/bluedroid/stack/smp/smp_main.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_main.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.s
-.PHONY : host/bluedroid/stack/smp/smp_main.c.s
-
-host/bluedroid/stack/smp/smp_utils.obj: host/bluedroid/stack/smp/smp_utils.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_utils.obj
-
-# target to build an object file
-host/bluedroid/stack/smp/smp_utils.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj
-.PHONY : host/bluedroid/stack/smp/smp_utils.c.obj
-
-host/bluedroid/stack/smp/smp_utils.i: host/bluedroid/stack/smp/smp_utils.c.i
-.PHONY : host/bluedroid/stack/smp/smp_utils.i
-
-# target to preprocess a source file
-host/bluedroid/stack/smp/smp_utils.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.i
-.PHONY : host/bluedroid/stack/smp/smp_utils.c.i
-
-host/bluedroid/stack/smp/smp_utils.s: host/bluedroid/stack/smp/smp_utils.c.s
-.PHONY : host/bluedroid/stack/smp/smp_utils.s
-
-# target to generate assembly for a file
-host/bluedroid/stack/smp/smp_utils.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.s
-.PHONY : host/bluedroid/stack/smp/smp_utils.c.s
+host/nimble/port/src/nvs_port.c.s:
+	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.s
+.PHONY : host/nimble/port/src/nvs_port.c.s
 
 porting/mem/bt_osi_mem.obj: porting/mem/bt_osi_mem.c.obj
 .PHONY : porting/mem/bt_osi_mem.obj
@@ -7190,15 +3206,15 @@ help:
 	@echo "... common/btc/core/btc_task.obj"
 	@echo "... common/btc/core/btc_task.i"
 	@echo "... common/btc/core/btc_task.s"
-	@echo "... common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.obj"
-	@echo "... common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.i"
-	@echo "... common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.s"
 	@echo "... common/btc/profile/esp/blufi/blufi_prf.obj"
 	@echo "... common/btc/profile/esp/blufi/blufi_prf.i"
 	@echo "... common/btc/profile/esp/blufi/blufi_prf.s"
 	@echo "... common/btc/profile/esp/blufi/blufi_protocol.obj"
 	@echo "... common/btc/profile/esp/blufi/blufi_protocol.i"
 	@echo "... common/btc/profile/esp/blufi/blufi_protocol.s"
+	@echo "... common/btc/profile/esp/blufi/nimble_host/esp_blufi.obj"
+	@echo "... common/btc/profile/esp/blufi/nimble_host/esp_blufi.i"
+	@echo "... common/btc/profile/esp/blufi/nimble_host/esp_blufi.s"
 	@echo "... common/hci_log/bt_hci_log.obj"
 	@echo "... common/hci_log/bt_hci_log.i"
 	@echo "... common/hci_log/bt_hci_log.s"
@@ -7298,750 +3314,252 @@ help:
 	@echo "... controller/esp32c3/bt.obj"
 	@echo "... controller/esp32c3/bt.i"
 	@echo "... controller/esp32c3/bt.s"
-	@echo "... host/bluedroid/api/esp_a2dp_api.obj"
-	@echo "... host/bluedroid/api/esp_a2dp_api.i"
-	@echo "... host/bluedroid/api/esp_a2dp_api.s"
-	@echo "... host/bluedroid/api/esp_avrc_api.obj"
-	@echo "... host/bluedroid/api/esp_avrc_api.i"
-	@echo "... host/bluedroid/api/esp_avrc_api.s"
-	@echo "... host/bluedroid/api/esp_bluedroid_hci.obj"
-	@echo "... host/bluedroid/api/esp_bluedroid_hci.i"
-	@echo "... host/bluedroid/api/esp_bluedroid_hci.s"
-	@echo "... host/bluedroid/api/esp_bt_device.obj"
-	@echo "... host/bluedroid/api/esp_bt_device.i"
-	@echo "... host/bluedroid/api/esp_bt_device.s"
-	@echo "... host/bluedroid/api/esp_bt_main.obj"
-	@echo "... host/bluedroid/api/esp_bt_main.i"
-	@echo "... host/bluedroid/api/esp_bt_main.s"
-	@echo "... host/bluedroid/api/esp_gap_ble_api.obj"
-	@echo "... host/bluedroid/api/esp_gap_ble_api.i"
-	@echo "... host/bluedroid/api/esp_gap_ble_api.s"
-	@echo "... host/bluedroid/api/esp_gap_bt_api.obj"
-	@echo "... host/bluedroid/api/esp_gap_bt_api.i"
-	@echo "... host/bluedroid/api/esp_gap_bt_api.s"
-	@echo "... host/bluedroid/api/esp_gatt_common_api.obj"
-	@echo "... host/bluedroid/api/esp_gatt_common_api.i"
-	@echo "... host/bluedroid/api/esp_gatt_common_api.s"
-	@echo "... host/bluedroid/api/esp_gattc_api.obj"
-	@echo "... host/bluedroid/api/esp_gattc_api.i"
-	@echo "... host/bluedroid/api/esp_gattc_api.s"
-	@echo "... host/bluedroid/api/esp_gatts_api.obj"
-	@echo "... host/bluedroid/api/esp_gatts_api.i"
-	@echo "... host/bluedroid/api/esp_gatts_api.s"
-	@echo "... host/bluedroid/api/esp_hf_ag_api.obj"
-	@echo "... host/bluedroid/api/esp_hf_ag_api.i"
-	@echo "... host/bluedroid/api/esp_hf_ag_api.s"
-	@echo "... host/bluedroid/api/esp_hf_client_api.obj"
-	@echo "... host/bluedroid/api/esp_hf_client_api.i"
-	@echo "... host/bluedroid/api/esp_hf_client_api.s"
-	@echo "... host/bluedroid/api/esp_hidd_api.obj"
-	@echo "... host/bluedroid/api/esp_hidd_api.i"
-	@echo "... host/bluedroid/api/esp_hidd_api.s"
-	@echo "... host/bluedroid/api/esp_hidh_api.obj"
-	@echo "... host/bluedroid/api/esp_hidh_api.i"
-	@echo "... host/bluedroid/api/esp_hidh_api.s"
-	@echo "... host/bluedroid/api/esp_l2cap_bt_api.obj"
-	@echo "... host/bluedroid/api/esp_l2cap_bt_api.i"
-	@echo "... host/bluedroid/api/esp_l2cap_bt_api.s"
-	@echo "... host/bluedroid/api/esp_pbac_api.obj"
-	@echo "... host/bluedroid/api/esp_pbac_api.i"
-	@echo "... host/bluedroid/api/esp_pbac_api.s"
-	@echo "... host/bluedroid/api/esp_sdp_api.obj"
-	@echo "... host/bluedroid/api/esp_sdp_api.i"
-	@echo "... host/bluedroid/api/esp_sdp_api.s"
-	@echo "... host/bluedroid/api/esp_spp_api.obj"
-	@echo "... host/bluedroid/api/esp_spp_api.i"
-	@echo "... host/bluedroid/api/esp_spp_api.s"
-	@echo "... host/bluedroid/bta/ar/bta_ar.obj"
-	@echo "... host/bluedroid/bta/ar/bta_ar.i"
-	@echo "... host/bluedroid/bta/ar/bta_ar.s"
-	@echo "... host/bluedroid/bta/av/bta_av_aact.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_aact.i"
-	@echo "... host/bluedroid/bta/av/bta_av_aact.s"
-	@echo "... host/bluedroid/bta/av/bta_av_act.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_act.i"
-	@echo "... host/bluedroid/bta/av/bta_av_act.s"
-	@echo "... host/bluedroid/bta/av/bta_av_api.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_api.i"
-	@echo "... host/bluedroid/bta/av/bta_av_api.s"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_act.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_act.i"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_act.s"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_sm.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_sm.i"
-	@echo "... host/bluedroid/bta/av/bta_av_ca_sm.s"
-	@echo "... host/bluedroid/bta/av/bta_av_cfg.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_cfg.i"
-	@echo "... host/bluedroid/bta/av/bta_av_cfg.s"
-	@echo "... host/bluedroid/bta/av/bta_av_ci.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_ci.i"
-	@echo "... host/bluedroid/bta/av/bta_av_ci.s"
-	@echo "... host/bluedroid/bta/av/bta_av_main.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_main.i"
-	@echo "... host/bluedroid/bta/av/bta_av_main.s"
-	@echo "... host/bluedroid/bta/av/bta_av_sbc.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_sbc.i"
-	@echo "... host/bluedroid/bta/av/bta_av_sbc.s"
-	@echo "... host/bluedroid/bta/av/bta_av_ssm.obj"
-	@echo "... host/bluedroid/bta/av/bta_av_ssm.i"
-	@echo "... host/bluedroid/bta/av/bta_av_ssm.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_act.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_act.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_act.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_api.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_api.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_api.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_cfg.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_cfg.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_cfg.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_ci.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_ci.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_ci.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_co.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_co.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_co.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_main.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_main.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_main.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_pm.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_pm.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_pm.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_qos.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_qos.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_qos.s"
-	@echo "... host/bluedroid/bta/dm/bta_dm_sco.obj"
-	@echo "... host/bluedroid/bta/dm/bta_dm_sco.i"
-	@echo "... host/bluedroid/bta/dm/bta_dm_sco.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatt_common.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatt_common.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatt_common.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_act.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_act.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_act.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_api.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_api.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_api.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_cache.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_cache.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_cache.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_ci.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_ci.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_ci.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_co.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_co.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_co.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_main.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_main.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_main.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_utils.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_utils.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gattc_utils.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_act.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_act.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_act.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_api.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_api.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_api.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_co.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_co.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_co.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_main.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_main.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_main.s"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_utils.obj"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_utils.i"
-	@echo "... host/bluedroid/bta/gatt/bta_gatts_utils.s"
-	@echo "... host/bluedroid/bta/hd/bta_hd_act.obj"
-	@echo "... host/bluedroid/bta/hd/bta_hd_act.i"
-	@echo "... host/bluedroid/bta/hd/bta_hd_act.s"
-	@echo "... host/bluedroid/bta/hd/bta_hd_api.obj"
-	@echo "... host/bluedroid/bta/hd/bta_hd_api.i"
-	@echo "... host/bluedroid/bta/hd/bta_hd_api.s"
-	@echo "... host/bluedroid/bta/hd/bta_hd_main.obj"
-	@echo "... host/bluedroid/bta/hd/bta_hd_main.i"
-	@echo "... host/bluedroid/bta/hd/bta_hd_main.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_act.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_act.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_act.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_api.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_api.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_api.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_at.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_at.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_at.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cfg.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cfg.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cfg.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cmd.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cmd.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_cmd.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_main.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_main.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_main.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_rfc.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_rfc.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_rfc.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sco.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sco.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sco.s"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sdp.obj"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sdp.i"
-	@echo "... host/bluedroid/bta/hf_ag/bta_ag_sdp.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_act.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_act.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_act.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_api.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_api.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_api.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_at.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_at.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_at.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_cmd.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_cmd.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_cmd.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_main.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_main.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_main.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_rfc.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_rfc.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_rfc.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sco.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sco.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sco.s"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sdp.obj"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sdp.i"
-	@echo "... host/bluedroid/bta/hf_client/bta_hf_client_sdp.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_act.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_act.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_act.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_api.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_api.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_api.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_cfg.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_cfg.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_cfg.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_le.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_le.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_le.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_main.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_main.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_main.s"
-	@echo "... host/bluedroid/bta/hh/bta_hh_utils.obj"
-	@echo "... host/bluedroid/bta/hh/bta_hh_utils.i"
-	@echo "... host/bluedroid/bta/hh/bta_hh_utils.s"
-	@echo "... host/bluedroid/bta/jv/bta_jv_act.obj"
-	@echo "... host/bluedroid/bta/jv/bta_jv_act.i"
-	@echo "... host/bluedroid/bta/jv/bta_jv_act.s"
-	@echo "... host/bluedroid/bta/jv/bta_jv_api.obj"
-	@echo "... host/bluedroid/bta/jv/bta_jv_api.i"
-	@echo "... host/bluedroid/bta/jv/bta_jv_api.s"
-	@echo "... host/bluedroid/bta/jv/bta_jv_cfg.obj"
-	@echo "... host/bluedroid/bta/jv/bta_jv_cfg.i"
-	@echo "... host/bluedroid/bta/jv/bta_jv_cfg.s"
-	@echo "... host/bluedroid/bta/jv/bta_jv_main.obj"
-	@echo "... host/bluedroid/bta/jv/bta_jv_main.i"
-	@echo "... host/bluedroid/bta/jv/bta_jv_main.s"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_act.obj"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_act.i"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_act.s"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_api.obj"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_api.i"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_api.s"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_main.obj"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_main.i"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_main.s"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_sdp.obj"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_sdp.i"
-	@echo "... host/bluedroid/bta/pba/bta_pba_client_sdp.s"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp.obj"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp.i"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp.s"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_act.obj"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_act.i"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_act.s"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_api.obj"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_api.i"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_api.s"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_cfg.obj"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_cfg.i"
-	@echo "... host/bluedroid/bta/sdp/bta_sdp_cfg.s"
-	@echo "... host/bluedroid/bta/sys/bta_sys_conn.obj"
-	@echo "... host/bluedroid/bta/sys/bta_sys_conn.i"
-	@echo "... host/bluedroid/bta/sys/bta_sys_conn.s"
-	@echo "... host/bluedroid/bta/sys/bta_sys_main.obj"
-	@echo "... host/bluedroid/bta/sys/bta_sys_main.i"
-	@echo "... host/bluedroid/bta/sys/bta_sys_main.s"
-	@echo "... host/bluedroid/bta/sys/utl.obj"
-	@echo "... host/bluedroid/bta/sys/utl.i"
-	@echo "... host/bluedroid/bta/sys/utl.s"
-	@echo "... host/bluedroid/btc/core/btc_ble_storage.obj"
-	@echo "... host/bluedroid/btc/core/btc_ble_storage.i"
-	@echo "... host/bluedroid/btc/core/btc_ble_storage.s"
-	@echo "... host/bluedroid/btc/core/btc_config.obj"
-	@echo "... host/bluedroid/btc/core/btc_config.i"
-	@echo "... host/bluedroid/btc/core/btc_config.s"
-	@echo "... host/bluedroid/btc/core/btc_dev.obj"
-	@echo "... host/bluedroid/btc/core/btc_dev.i"
-	@echo "... host/bluedroid/btc/core/btc_dev.s"
-	@echo "... host/bluedroid/btc/core/btc_dm.obj"
-	@echo "... host/bluedroid/btc/core/btc_dm.i"
-	@echo "... host/bluedroid/btc/core/btc_dm.s"
-	@echo "... host/bluedroid/btc/core/btc_main.obj"
-	@echo "... host/bluedroid/btc/core/btc_main.i"
-	@echo "... host/bluedroid/btc/core/btc_main.s"
-	@echo "... host/bluedroid/btc/core/btc_profile_queue.obj"
-	@echo "... host/bluedroid/btc/core/btc_profile_queue.i"
-	@echo "... host/bluedroid/btc/core/btc_profile_queue.s"
-	@echo "... host/bluedroid/btc/core/btc_sec.obj"
-	@echo "... host/bluedroid/btc/core/btc_sec.i"
-	@echo "... host/bluedroid/btc/core/btc_sec.s"
-	@echo "... host/bluedroid/btc/core/btc_sm.obj"
-	@echo "... host/bluedroid/btc/core/btc_sm.i"
-	@echo "... host/bluedroid/btc/core/btc_sm.s"
-	@echo "... host/bluedroid/btc/core/btc_storage.obj"
-	@echo "... host/bluedroid/btc/core/btc_storage.i"
-	@echo "... host/bluedroid/btc/core/btc_storage.s"
-	@echo "... host/bluedroid/btc/core/btc_util.obj"
-	@echo "... host/bluedroid/btc/core/btc_util.i"
-	@echo "... host/bluedroid/btc/core/btc_util.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/bta_av_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/bta_av_co.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/bta_av_co.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink_ext_coedc.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_a2dp_source_ext_codec.s"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_av.obj"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_av.i"
-	@echo "... host/bluedroid/btc/profile/std/a2dp/btc_av.s"
-	@echo "... host/bluedroid/btc/profile/std/avrc/bta_avrc_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/avrc/bta_avrc_co.i"
-	@echo "... host/bluedroid/btc/profile/std/avrc/bta_avrc_co.s"
-	@echo "... host/bluedroid/btc/profile/std/avrc/btc_avrc.obj"
-	@echo "... host/bluedroid/btc/profile/std/avrc/btc_avrc.i"
-	@echo "... host/bluedroid/btc/profile/std/avrc/btc_avrc.s"
-	@echo "... host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.i"
-	@echo "... host/bluedroid/btc/profile/std/gap/bta_gap_bt_co.s"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_ble.obj"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_ble.i"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_ble.s"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_bt.obj"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_bt.i"
-	@echo "... host/bluedroid/btc/profile/std/gap/btc_gap_bt.s"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_common.obj"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_common.i"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_common.s"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_util.obj"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_util.i"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatt_util.s"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gattc.obj"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gattc.i"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gattc.s"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatts.obj"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatts.i"
-	@echo "... host/bluedroid/btc/profile/std/gatt/btc_gatts.s"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.i"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/bta_ag_co.s"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.obj"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.i"
-	@echo "... host/bluedroid/btc/profile/std/hf_ag/btc_hf_ag.s"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.i"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/bta_hf_client_co.s"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/btc_hf_client.obj"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/btc_hf_client.i"
-	@echo "... host/bluedroid/btc/profile/std/hf_client/btc_hf_client.s"
-	@echo "... host/bluedroid/btc/profile/std/hid/bta_hh_co.obj"
-	@echo "... host/bluedroid/btc/profile/std/hid/bta_hh_co.i"
-	@echo "... host/bluedroid/btc/profile/std/hid/bta_hh_co.s"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hd.obj"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hd.i"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hd.s"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hh.obj"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hh.i"
-	@echo "... host/bluedroid/btc/profile/std/hid/btc_hh.s"
-	@echo "... host/bluedroid/btc/profile/std/l2cap/btc_l2cap.obj"
-	@echo "... host/bluedroid/btc/profile/std/l2cap/btc_l2cap.i"
-	@echo "... host/bluedroid/btc/profile/std/l2cap/btc_l2cap.s"
-	@echo "... host/bluedroid/btc/profile/std/pba/btc_pba_client.obj"
-	@echo "... host/bluedroid/btc/profile/std/pba/btc_pba_client.i"
-	@echo "... host/bluedroid/btc/profile/std/pba/btc_pba_client.s"
-	@echo "... host/bluedroid/btc/profile/std/sdp/btc_sdp.obj"
-	@echo "... host/bluedroid/btc/profile/std/sdp/btc_sdp.i"
-	@echo "... host/bluedroid/btc/profile/std/sdp/btc_sdp.s"
-	@echo "... host/bluedroid/btc/profile/std/spp/btc_spp.obj"
-	@echo "... host/bluedroid/btc/profile/std/spp/btc_spp.i"
-	@echo "... host/bluedroid/btc/profile/std/spp/btc_spp.s"
-	@echo "... host/bluedroid/config/stack_config.obj"
-	@echo "... host/bluedroid/config/stack_config.i"
-	@echo "... host/bluedroid/config/stack_config.s"
-	@echo "... host/bluedroid/device/bdaddr.obj"
-	@echo "... host/bluedroid/device/bdaddr.i"
-	@echo "... host/bluedroid/device/bdaddr.s"
-	@echo "... host/bluedroid/device/controller.obj"
-	@echo "... host/bluedroid/device/controller.i"
-	@echo "... host/bluedroid/device/controller.s"
-	@echo "... host/bluedroid/device/interop.obj"
-	@echo "... host/bluedroid/device/interop.i"
-	@echo "... host/bluedroid/device/interop.s"
-	@echo "... host/bluedroid/hci/hci_audio.obj"
-	@echo "... host/bluedroid/hci/hci_audio.i"
-	@echo "... host/bluedroid/hci/hci_audio.s"
-	@echo "... host/bluedroid/hci/hci_hal_h4.obj"
-	@echo "... host/bluedroid/hci/hci_hal_h4.i"
-	@echo "... host/bluedroid/hci/hci_hal_h4.s"
-	@echo "... host/bluedroid/hci/hci_layer.obj"
-	@echo "... host/bluedroid/hci/hci_layer.i"
-	@echo "... host/bluedroid/hci/hci_layer.s"
-	@echo "... host/bluedroid/hci/hci_packet_factory.obj"
-	@echo "... host/bluedroid/hci/hci_packet_factory.i"
-	@echo "... host/bluedroid/hci/hci_packet_factory.s"
-	@echo "... host/bluedroid/hci/hci_packet_parser.obj"
-	@echo "... host/bluedroid/hci/hci_packet_parser.i"
-	@echo "... host/bluedroid/hci/hci_packet_parser.s"
-	@echo "... host/bluedroid/hci/packet_fragmenter.obj"
-	@echo "... host/bluedroid/hci/packet_fragmenter.i"
-	@echo "... host/bluedroid/hci/packet_fragmenter.s"
-	@echo "... host/bluedroid/main/bte_init.obj"
-	@echo "... host/bluedroid/main/bte_init.i"
-	@echo "... host/bluedroid/main/bte_init.s"
-	@echo "... host/bluedroid/main/bte_main.obj"
-	@echo "... host/bluedroid/main/bte_main.i"
-	@echo "... host/bluedroid/main/bte_main.s"
-	@echo "... host/bluedroid/stack/a2dp/a2d_api.obj"
-	@echo "... host/bluedroid/stack/a2dp/a2d_api.i"
-	@echo "... host/bluedroid/stack/a2dp/a2d_api.s"
-	@echo "... host/bluedroid/stack/a2dp/a2d_sbc.obj"
-	@echo "... host/bluedroid/stack/a2dp/a2d_sbc.i"
-	@echo "... host/bluedroid/stack/a2dp/a2d_sbc.s"
-	@echo "... host/bluedroid/stack/avct/avct_api.obj"
-	@echo "... host/bluedroid/stack/avct/avct_api.i"
-	@echo "... host/bluedroid/stack/avct/avct_api.s"
-	@echo "... host/bluedroid/stack/avct/avct_ccb.obj"
-	@echo "... host/bluedroid/stack/avct/avct_ccb.i"
-	@echo "... host/bluedroid/stack/avct/avct_ccb.s"
-	@echo "... host/bluedroid/stack/avct/avct_l2c.obj"
-	@echo "... host/bluedroid/stack/avct/avct_l2c.i"
-	@echo "... host/bluedroid/stack/avct/avct_l2c.s"
-	@echo "... host/bluedroid/stack/avct/avct_lcb.obj"
-	@echo "... host/bluedroid/stack/avct/avct_lcb.i"
-	@echo "... host/bluedroid/stack/avct/avct_lcb.s"
-	@echo "... host/bluedroid/stack/avct/avct_lcb_act.obj"
-	@echo "... host/bluedroid/stack/avct/avct_lcb_act.i"
-	@echo "... host/bluedroid/stack/avct/avct_lcb_act.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_ad.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_ad.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_ad.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_api.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_api.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_api.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb_act.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb_act.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_ccb_act.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_l2c.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_l2c.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_l2c.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_msg.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_msg.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_msg.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb.s"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb_act.obj"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb_act.i"
-	@echo "... host/bluedroid/stack/avdt/avdt_scb_act.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_api.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_api.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_api.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_ct.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_ct.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_ct.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_tg.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_tg.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_bld_tg.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_opt.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_opt.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_opt.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_ct.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_ct.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_ct.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_tg.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_tg.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_pars_tg.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_sdp.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_sdp.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_sdp.s"
-	@echo "... host/bluedroid/stack/avrc/avrc_utils.obj"
-	@echo "... host/bluedroid/stack/avrc/avrc_utils.i"
-	@echo "... host/bluedroid/stack/avrc/avrc_utils.s"
-	@echo "... host/bluedroid/stack/btm/btm_acl.obj"
-	@echo "... host/bluedroid/stack/btm/btm_acl.i"
-	@echo "... host/bluedroid/stack/btm/btm_acl.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_5_gap.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_5_gap.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_5_gap.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_addr.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_addr.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_addr.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_adv_filter.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_adv_filter.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_adv_filter.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_batchscan.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_batchscan.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_batchscan.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_bgconn.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_bgconn.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_bgconn.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_cont_energy.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_cont_energy.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_cont_energy.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_gap.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_gap.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_gap.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_multi_adv.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_multi_adv.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_multi_adv.s"
-	@echo "... host/bluedroid/stack/btm/btm_ble_privacy.obj"
-	@echo "... host/bluedroid/stack/btm/btm_ble_privacy.i"
-	@echo "... host/bluedroid/stack/btm/btm_ble_privacy.s"
-	@echo "... host/bluedroid/stack/btm/btm_dev.obj"
-	@echo "... host/bluedroid/stack/btm/btm_dev.i"
-	@echo "... host/bluedroid/stack/btm/btm_dev.s"
-	@echo "... host/bluedroid/stack/btm/btm_devctl.obj"
-	@echo "... host/bluedroid/stack/btm/btm_devctl.i"
-	@echo "... host/bluedroid/stack/btm/btm_devctl.s"
-	@echo "... host/bluedroid/stack/btm/btm_inq.obj"
-	@echo "... host/bluedroid/stack/btm/btm_inq.i"
-	@echo "... host/bluedroid/stack/btm/btm_inq.s"
-	@echo "... host/bluedroid/stack/btm/btm_main.obj"
-	@echo "... host/bluedroid/stack/btm/btm_main.i"
-	@echo "... host/bluedroid/stack/btm/btm_main.s"
-	@echo "... host/bluedroid/stack/btm/btm_pm.obj"
-	@echo "... host/bluedroid/stack/btm/btm_pm.i"
-	@echo "... host/bluedroid/stack/btm/btm_pm.s"
-	@echo "... host/bluedroid/stack/btm/btm_sco.obj"
-	@echo "... host/bluedroid/stack/btm/btm_sco.i"
-	@echo "... host/bluedroid/stack/btm/btm_sco.s"
-	@echo "... host/bluedroid/stack/btm/btm_sec.obj"
-	@echo "... host/bluedroid/stack/btm/btm_sec.i"
-	@echo "... host/bluedroid/stack/btm/btm_sec.s"
-	@echo "... host/bluedroid/stack/btu/btu_hcif.obj"
-	@echo "... host/bluedroid/stack/btu/btu_hcif.i"
-	@echo "... host/bluedroid/stack/btu/btu_hcif.s"
-	@echo "... host/bluedroid/stack/btu/btu_init.obj"
-	@echo "... host/bluedroid/stack/btu/btu_init.i"
-	@echo "... host/bluedroid/stack/btu/btu_init.s"
-	@echo "... host/bluedroid/stack/btu/btu_task.obj"
-	@echo "... host/bluedroid/stack/btu/btu_task.i"
-	@echo "... host/bluedroid/stack/btu/btu_task.s"
-	@echo "... host/bluedroid/stack/gap/gap_api.obj"
-	@echo "... host/bluedroid/stack/gap/gap_api.i"
-	@echo "... host/bluedroid/stack/gap/gap_api.s"
-	@echo "... host/bluedroid/stack/gap/gap_ble.obj"
-	@echo "... host/bluedroid/stack/gap/gap_ble.i"
-	@echo "... host/bluedroid/stack/gap/gap_ble.s"
-	@echo "... host/bluedroid/stack/gap/gap_conn.obj"
-	@echo "... host/bluedroid/stack/gap/gap_conn.i"
-	@echo "... host/bluedroid/stack/gap/gap_conn.s"
-	@echo "... host/bluedroid/stack/gap/gap_utils.obj"
-	@echo "... host/bluedroid/stack/gap/gap_utils.i"
-	@echo "... host/bluedroid/stack/gap/gap_utils.s"
-	@echo "... host/bluedroid/stack/gatt/att_protocol.obj"
-	@echo "... host/bluedroid/stack/gatt/att_protocol.i"
-	@echo "... host/bluedroid/stack/gatt/att_protocol.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_api.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_api.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_api.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_attr.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_attr.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_attr.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_auth.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_auth.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_auth.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_cl.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_cl.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_cl.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_db.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_db.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_db.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_main.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_main.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_main.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr_hash.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr_hash.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_sr_hash.s"
-	@echo "... host/bluedroid/stack/gatt/gatt_utils.obj"
-	@echo "... host/bluedroid/stack/gatt/gatt_utils.i"
-	@echo "... host/bluedroid/stack/gatt/gatt_utils.s"
-	@echo "... host/bluedroid/stack/goep/goepc_api.obj"
-	@echo "... host/bluedroid/stack/goep/goepc_api.i"
-	@echo "... host/bluedroid/stack/goep/goepc_api.s"
-	@echo "... host/bluedroid/stack/goep/goepc_main.obj"
-	@echo "... host/bluedroid/stack/goep/goepc_main.i"
-	@echo "... host/bluedroid/stack/goep/goepc_main.s"
-	@echo "... host/bluedroid/stack/hcic/hciblecmds.obj"
-	@echo "... host/bluedroid/stack/hcic/hciblecmds.i"
-	@echo "... host/bluedroid/stack/hcic/hciblecmds.s"
-	@echo "... host/bluedroid/stack/hcic/hcicmds.obj"
-	@echo "... host/bluedroid/stack/hcic/hcicmds.i"
-	@echo "... host/bluedroid/stack/hcic/hcicmds.s"
-	@echo "... host/bluedroid/stack/hid/hidd_api.obj"
-	@echo "... host/bluedroid/stack/hid/hidd_api.i"
-	@echo "... host/bluedroid/stack/hid/hidd_api.s"
-	@echo "... host/bluedroid/stack/hid/hidd_conn.obj"
-	@echo "... host/bluedroid/stack/hid/hidd_conn.i"
-	@echo "... host/bluedroid/stack/hid/hidd_conn.s"
-	@echo "... host/bluedroid/stack/hid/hidh_api.obj"
-	@echo "... host/bluedroid/stack/hid/hidh_api.i"
-	@echo "... host/bluedroid/stack/hid/hidh_api.s"
-	@echo "... host/bluedroid/stack/hid/hidh_conn.obj"
-	@echo "... host/bluedroid/stack/hid/hidh_conn.i"
-	@echo "... host/bluedroid/stack/hid/hidh_conn.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_api.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_api.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_api.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ble.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ble.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ble.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_csm.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_csm.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_csm.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_fcr.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_fcr.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_fcr.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_link.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_link.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_link.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_main.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_main.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_main.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ucd.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ucd.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_ucd.s"
-	@echo "... host/bluedroid/stack/l2cap/l2c_utils.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2c_utils.i"
-	@echo "... host/bluedroid/stack/l2cap/l2c_utils.s"
-	@echo "... host/bluedroid/stack/l2cap/l2cap_client.obj"
-	@echo "... host/bluedroid/stack/l2cap/l2cap_client.i"
-	@echo "... host/bluedroid/stack/l2cap/l2cap_client.s"
-	@echo "... host/bluedroid/stack/obex/obex_api.obj"
-	@echo "... host/bluedroid/stack/obex/obex_api.i"
-	@echo "... host/bluedroid/stack/obex/obex_api.s"
-	@echo "... host/bluedroid/stack/obex/obex_main.obj"
-	@echo "... host/bluedroid/stack/obex/obex_main.i"
-	@echo "... host/bluedroid/stack/obex/obex_main.s"
-	@echo "... host/bluedroid/stack/obex/obex_tl_l2cap.obj"
-	@echo "... host/bluedroid/stack/obex/obex_tl_l2cap.i"
-	@echo "... host/bluedroid/stack/obex/obex_tl_l2cap.s"
-	@echo "... host/bluedroid/stack/obex/obex_tl_rfcomm.obj"
-	@echo "... host/bluedroid/stack/obex/obex_tl_rfcomm.i"
-	@echo "... host/bluedroid/stack/obex/obex_tl_rfcomm.s"
-	@echo "... host/bluedroid/stack/rfcomm/port_api.obj"
-	@echo "... host/bluedroid/stack/rfcomm/port_api.i"
-	@echo "... host/bluedroid/stack/rfcomm/port_api.s"
-	@echo "... host/bluedroid/stack/rfcomm/port_rfc.obj"
-	@echo "... host/bluedroid/stack/rfcomm/port_rfc.i"
-	@echo "... host/bluedroid/stack/rfcomm/port_rfc.s"
-	@echo "... host/bluedroid/stack/rfcomm/port_utils.obj"
-	@echo "... host/bluedroid/stack/rfcomm/port_utils.i"
-	@echo "... host/bluedroid/stack/rfcomm/port_utils.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_l2cap_if.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_l2cap_if.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_l2cap_if.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_mx_fsm.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_mx_fsm.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_mx_fsm.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_fsm.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_fsm.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_fsm.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_if.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_if.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_port_if.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_ts_frames.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_ts_frames.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_ts_frames.s"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_utils.obj"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_utils.i"
-	@echo "... host/bluedroid/stack/rfcomm/rfc_utils.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_api.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_api.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_api.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_db.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_db.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_db.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_discovery.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_discovery.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_discovery.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_main.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_main.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_main.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_server.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_server.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_server.s"
-	@echo "... host/bluedroid/stack/sdp/sdp_utils.obj"
-	@echo "... host/bluedroid/stack/sdp/sdp_utils.i"
-	@echo "... host/bluedroid/stack/sdp/sdp_utils.s"
-	@echo "... host/bluedroid/stack/smp/aes.obj"
-	@echo "... host/bluedroid/stack/smp/aes.i"
-	@echo "... host/bluedroid/stack/smp/aes.s"
-	@echo "... host/bluedroid/stack/smp/p_256_curvepara.obj"
-	@echo "... host/bluedroid/stack/smp/p_256_curvepara.i"
-	@echo "... host/bluedroid/stack/smp/p_256_curvepara.s"
-	@echo "... host/bluedroid/stack/smp/p_256_ecc_pp.obj"
-	@echo "... host/bluedroid/stack/smp/p_256_ecc_pp.i"
-	@echo "... host/bluedroid/stack/smp/p_256_ecc_pp.s"
-	@echo "... host/bluedroid/stack/smp/p_256_multprecision.obj"
-	@echo "... host/bluedroid/stack/smp/p_256_multprecision.i"
-	@echo "... host/bluedroid/stack/smp/p_256_multprecision.s"
-	@echo "... host/bluedroid/stack/smp/smp_act.obj"
-	@echo "... host/bluedroid/stack/smp/smp_act.i"
-	@echo "... host/bluedroid/stack/smp/smp_act.s"
-	@echo "... host/bluedroid/stack/smp/smp_api.obj"
-	@echo "... host/bluedroid/stack/smp/smp_api.i"
-	@echo "... host/bluedroid/stack/smp/smp_api.s"
-	@echo "... host/bluedroid/stack/smp/smp_br_main.obj"
-	@echo "... host/bluedroid/stack/smp/smp_br_main.i"
-	@echo "... host/bluedroid/stack/smp/smp_br_main.s"
-	@echo "... host/bluedroid/stack/smp/smp_cmac.obj"
-	@echo "... host/bluedroid/stack/smp/smp_cmac.i"
-	@echo "... host/bluedroid/stack/smp/smp_cmac.s"
-	@echo "... host/bluedroid/stack/smp/smp_keys.obj"
-	@echo "... host/bluedroid/stack/smp/smp_keys.i"
-	@echo "... host/bluedroid/stack/smp/smp_keys.s"
-	@echo "... host/bluedroid/stack/smp/smp_l2c.obj"
-	@echo "... host/bluedroid/stack/smp/smp_l2c.i"
-	@echo "... host/bluedroid/stack/smp/smp_l2c.s"
-	@echo "... host/bluedroid/stack/smp/smp_main.obj"
-	@echo "... host/bluedroid/stack/smp/smp_main.i"
-	@echo "... host/bluedroid/stack/smp/smp_main.s"
-	@echo "... host/bluedroid/stack/smp/smp_utils.obj"
-	@echo "... host/bluedroid/stack/smp/smp_utils.i"
-	@echo "... host/bluedroid/stack/smp/smp_utils.s"
+	@echo "... host/nimble/esp-hci/src/esp_nimble_hci.obj"
+	@echo "... host/nimble/esp-hci/src/esp_nimble_hci.i"
+	@echo "... host/nimble/esp-hci/src/esp_nimble_hci.s"
+	@echo "... host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.i"
+	@echo "... host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.s"
+	@echo "... host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.i"
+	@echo "... host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.s"
+	@echo "... host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.i"
+	@echo "... host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.s"
+	@echo "... host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.i"
+	@echo "... host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.s"
+	@echo "... host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.i"
+	@echo "... host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.s"
+	@echo "... host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.i"
+	@echo "... host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.s"
+	@echo "... host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.i"
+	@echo "... host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.s"
+	@echo "... host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.i"
+	@echo "... host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.s"
+	@echo "... host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.i"
+	@echo "... host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.s"
+	@echo "... host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.i"
+	@echo "... host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.s"
+	@echo "... host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.i"
+	@echo "... host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.s"
+	@echo "... host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.i"
+	@echo "... host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.s"
+	@echo "... host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.i"
+	@echo "... host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.s"
+	@echo "... host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.i"
+	@echo "... host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.s"
+	@echo "... host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.i"
+	@echo "... host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.s"
+	@echo "... host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.i"
+	@echo "... host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.s"
+	@echo "... host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.obj"
+	@echo "... host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.i"
+	@echo "... host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_aes_ccm.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_aes_ccm.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_aes_ccm.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_clt.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_clt.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_clt.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_cmd.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_cmd.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_cmd.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_svr.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_svr.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_att_svr.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_cs.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_cs.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_cs.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ead.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ead.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ead.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eatt.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eatt.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eatt.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eddystone.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eddystone.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_eddystone.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gap.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gap.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gap.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts_lcl.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts_lcl.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_gatts_lcl.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_adv.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_adv.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_adv.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_atomic.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_atomic.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_atomic.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_cfg.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_cfg.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_cfg.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_conn.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_conn.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_conn.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_flow.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_flow.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_flow.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_util.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_util.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_hci_util.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_id.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_id.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_id.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_log.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_log.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_log.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mbuf.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mbuf.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mbuf.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_misc.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_misc.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_misc.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mqueue.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mqueue.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_mqueue.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_pvcy.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_pvcy.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_pvcy.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_resolv.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_resolv.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_resolv.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_shutdown.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_shutdown.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_shutdown.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_startup.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_startup.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_startup.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_stop.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_stop.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_hs_stop.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ibeacon.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ibeacon.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_ibeacon.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_coc.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_coc.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_coc.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_alg.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_alg.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_alg.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_cmd.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_cmd.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_cmd.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_lgcy.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_lgcy.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_lgcy.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_sc.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_sc.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_sm_sc.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store_util.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store_util.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_store_util.s"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_uuid.obj"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_uuid.i"
+	@echo "... host/nimble/nimble/nimble/host/src/ble_uuid.s"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_config.obj"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_config.i"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_config.s"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.obj"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.i"
+	@echo "... host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.s"
+	@echo "... host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.obj"
+	@echo "... host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.i"
+	@echo "... host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.s"
+	@echo "... host/nimble/nimble/nimble/host/util/src/addr.obj"
+	@echo "... host/nimble/nimble/nimble/host/util/src/addr.i"
+	@echo "... host/nimble/nimble/nimble/host/util/src/addr.s"
+	@echo "... host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.obj"
+	@echo "... host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.i"
+	@echo "... host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.s"
+	@echo "... host/nimble/nimble/nimble/transport/src/transport.obj"
+	@echo "... host/nimble/nimble/nimble/transport/src/transport.i"
+	@echo "... host/nimble/nimble/nimble/transport/src/transport.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/endian.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/endian.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/endian.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/mem.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/mem.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/mem.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/nimble_port.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/nimble_port.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/nimble_port.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mbuf.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mbuf.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mbuf.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mempool.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mempool.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_mempool.s"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_msys_init.obj"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_msys_init.i"
+	@echo "... host/nimble/nimble/porting/nimble/src/os_msys_init.s"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.obj"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.i"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.s"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i"
+	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s"
+	@echo "... host/nimble/port/src/nvs_port.obj"
+	@echo "... host/nimble/port/src/nvs_port.i"
+	@echo "... host/nimble/port/src/nvs_port.s"
 	@echo "... porting/mem/bt_osi_mem.obj"
 	@echo "... porting/mem/bt_osi_mem.i"
 	@echo "... porting/mem/bt_osi_mem.s"

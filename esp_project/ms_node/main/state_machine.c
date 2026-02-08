@@ -9,8 +9,6 @@
 #include "led_manager.h"
 #include "metrics.h"
 #include "neighbor_manager.h"
-#include "rf_receiver.h"
-#include "uav_client.h"
 #include <string.h>
 
 static const char *TAG = "STATE";
@@ -120,11 +118,22 @@ void state_machine_run(void) {
         last_update = now_ms;
       }
     } else {
-      // Discovery complete, move to candidate
-      ble_manager_stop_advertising();
-      ble_manager_stop_scanning();
-      transition_to_state(STATE_CANDIDATE);
-      election_reset_window();
+      // Discovery complete - check if there's already a CH
+      uint32_t existing_ch = neighbor_manager_get_current_ch();
+      if (existing_ch != 0) {
+        ESP_LOGI(TAG, "DISCOVER: Found existing CH node_%lu, joining as MEMBER",
+                 existing_ch);
+        ble_manager_stop_advertising();
+        ble_manager_stop_scanning();
+        g_is_ch = false;
+        transition_to_state(STATE_MEMBER);
+      } else {
+        // No CH found, move to candidate for election
+        ble_manager_stop_advertising();
+        ble_manager_stop_scanning();
+        transition_to_state(STATE_CANDIDATE);
+        election_reset_window();
+      }
     }
     break;
 
@@ -269,23 +278,5 @@ void state_machine_run(void) {
   case STATE_SLEEP:
     // Sleep state (for future implementation)
     break;
-
-    // --- UAV / Data Ferrying Check ---
-    // Check for RF trigger in any state (except SLEEP?) or specific states
-    if (rf_receiver_check_trigger()) {
-      ESP_LOGI(TAG, "UAV Trigger Detected! Initiating Data Ferrying...");
-
-      // suspend normal operations if needed
-
-      // Run UAV Client Onboarding/Offload
-      esp_err_t uav_ret = uav_client_run_onboarding();
-      if (uav_ret == ESP_OK) {
-        ESP_LOGI(TAG, "UAV Data Ferrying Complete.");
-      } else {
-        ESP_LOGW(TAG, "UAV Data Ferrying Failed.");
-      }
-
-      // Resume normal operations
-    }
   }
 }

@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin:
-	cd /Users/vilochanabandara/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "SERIAL_TOOL=/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python;-m;esptool;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge-bin;-o;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/merged-binary.bin;@/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/flash_args" -D WORKING_DIRECTORY=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build -P run_serial_tool.cmake
+	cd /Users/vilochanabandara/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/vilochanabandara/esp/esp-idf -D "SERIAL_TOOL=/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python;;/Users/vilochanabandara/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/merged-binary.bin;@/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/flash_args" -D WORKING_DIRECTORY=/Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build -P run_serial_tool.cmake
 
 CMakeFiles/merge-bin.dir/codegen:
 .PHONY : CMakeFiles/merge-bin.dir/codegen

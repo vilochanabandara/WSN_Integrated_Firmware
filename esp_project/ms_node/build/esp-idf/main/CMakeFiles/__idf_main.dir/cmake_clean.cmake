@@ -1,10 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/auth.c.obj"
   "CMakeFiles/__idf_main.dir/auth.c.obj.d"
-  "CMakeFiles/__idf_main.dir/ble_beacon.c.obj"
-  "CMakeFiles/__idf_main.dir/ble_beacon.c.obj.d"
-  "CMakeFiles/__idf_main.dir/ble_gatt_service.c.obj"
-  "CMakeFiles/__idf_main.dir/ble_gatt_service.c.obj.d"
   "CMakeFiles/__idf_main.dir/ble_manager.c.obj"
   "CMakeFiles/__idf_main.dir/ble_manager.c.obj.d"
   "CMakeFiles/__idf_main.dir/compression_bench.c.obj"

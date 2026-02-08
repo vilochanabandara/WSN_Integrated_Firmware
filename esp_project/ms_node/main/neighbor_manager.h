@@ -86,4 +86,11 @@ void neighbor_manager_update_trust(uint32_t node_id, bool success);
  */
 size_t neighbor_manager_get_count(void);
 
+/**
+ * @brief Get number of cluster members (verified, in cluster, not CH).
+ *        For use by CH to know its member count.
+ * @return Member count
+ */
+size_t neighbor_manager_get_member_count(void);
+
 #endif // NEIGHBOR_MANAGER_H

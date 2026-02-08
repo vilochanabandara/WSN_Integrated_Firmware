@@ -67,7 +67,7 @@ include CMakeFiles/spiffs_storage_bin.dir/compiler_depend.make
 include CMakeFiles/spiffs_storage_bin.dir/progress.make
 
 CMakeFiles/spiffs_storage_bin:
-	/Users/vilochanabandara/.espressif/python_env/idf6.1_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/spiffs/spiffsgen.py 0xc00000 /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/spiffs_data /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len
+	/Users/vilochanabandara/.espressif/python_env/idf5.3_py3.12_env/bin/python /Users/vilochanabandara/esp/esp-idf/components/spiffs/spiffsgen.py 0xc00000 /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/spiffs_data /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len
 
 CMakeFiles/spiffs_storage_bin.dir/codegen:
 .PHONY : CMakeFiles/spiffs_storage_bin.dir/codegen

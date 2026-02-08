@@ -199,30 +199,6 @@ esp32s3/esp_adapter.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32s3/esp_adapter.c.s
 .PHONY : esp32s3/esp_adapter.c.s
 
-regulatory/esp_wifi_regulatory.obj: regulatory/esp_wifi_regulatory.c.obj
-.PHONY : regulatory/esp_wifi_regulatory.obj
-
-# target to build an object file
-regulatory/esp_wifi_regulatory.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory/esp_wifi_regulatory.c.obj
-.PHONY : regulatory/esp_wifi_regulatory.c.obj
-
-regulatory/esp_wifi_regulatory.i: regulatory/esp_wifi_regulatory.c.i
-.PHONY : regulatory/esp_wifi_regulatory.i
-
-# target to preprocess a source file
-regulatory/esp_wifi_regulatory.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory/esp_wifi_regulatory.c.i
-.PHONY : regulatory/esp_wifi_regulatory.c.i
-
-regulatory/esp_wifi_regulatory.s: regulatory/esp_wifi_regulatory.c.s
-.PHONY : regulatory/esp_wifi_regulatory.s
-
-# target to generate assembly for a file
-regulatory/esp_wifi_regulatory.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory/esp_wifi_regulatory.c.s
-.PHONY : regulatory/esp_wifi_regulatory.c.s
-
 src/lib_printf.obj: src/lib_printf.c.obj
 .PHONY : src/lib_printf.obj
 
@@ -431,9 +407,6 @@ help:
 	@echo "... esp32s3/esp_adapter.obj"
 	@echo "... esp32s3/esp_adapter.i"
 	@echo "... esp32s3/esp_adapter.s"
-	@echo "... regulatory/esp_wifi_regulatory.obj"
-	@echo "... regulatory/esp_wifi_regulatory.i"
-	@echo "... regulatory/esp_wifi_regulatory.s"
 	@echo "... src/lib_printf.obj"
 	@echo "... src/lib_printf.i"
 	@echo "... src/lib_printf.s"

@@ -223,30 +223,6 @@ lib/http_auth.c.s:
 	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.s
 .PHONY : lib/http_auth.c.s
 
-lib/http_crypto_mbedtls.obj: lib/http_crypto_mbedtls.c.obj
-.PHONY : lib/http_crypto_mbedtls.obj
-
-# target to build an object file
-lib/http_crypto_mbedtls.c.obj:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.obj
-.PHONY : lib/http_crypto_mbedtls.c.obj
-
-lib/http_crypto_mbedtls.i: lib/http_crypto_mbedtls.c.i
-.PHONY : lib/http_crypto_mbedtls.i
-
-# target to preprocess a source file
-lib/http_crypto_mbedtls.c.i:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.i
-.PHONY : lib/http_crypto_mbedtls.c.i
-
-lib/http_crypto_mbedtls.s: lib/http_crypto_mbedtls.c.s
-.PHONY : lib/http_crypto_mbedtls.s
-
-# target to generate assembly for a file
-lib/http_crypto_mbedtls.c.s:
-	cd /Users/vilochanabandara/Downloads/wsn/esp_project/ms_node/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_crypto_mbedtls.c.s
-.PHONY : lib/http_crypto_mbedtls.c.s
-
 lib/http_header.obj: lib/http_header.c.obj
 .PHONY : lib/http_header.obj
 
@@ -314,9 +290,6 @@ help:
 	@echo "... lib/http_auth.obj"
 	@echo "... lib/http_auth.i"
 	@echo "... lib/http_auth.s"
-	@echo "... lib/http_crypto_mbedtls.obj"
-	@echo "... lib/http_crypto_mbedtls.i"
-	@echo "... lib/http_crypto_mbedtls.s"
 	@echo "... lib/http_header.obj"
 	@echo "... lib/http_header.i"
 	@echo "... lib/http_header.s"
