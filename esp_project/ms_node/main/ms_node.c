@@ -1,5 +1,8 @@
 #include "esp_err.h"
+#include "esp_event.h"
 #include "esp_log.h"
+#include "esp_mac.h"
+#include "esp_netif.h"
 #include "esp_sleep.h"
 #include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
@@ -32,6 +35,7 @@
 #include "pme.h"
 #include "rf_receiver.h"
 #include "state_machine.h"
+#include "storage_manager.h"
 #include <inttypes.h>
 #include <stdlib.h>
 #include <string.h>
@@ -78,6 +82,11 @@ typedef struct {
 
 static last_log_t s_last_log = {.have = false};
 
+// Real vs dummy data: set when building payload / battery read (for CLUSTER
+// report)
+static bool s_battery_real = false;
+static bool s_sensors_real = false;
+
 static bool changed_f(float prev, float curr, float thresh) {
   return fabsf(curr - prev) >= thresh;
 }
@@ -112,13 +121,7 @@ static void log_wakeup_reason(void) {
   }
 }
 
-static void compression_bench_task(void *arg) {
-  // Let the system settle before running the bench to avoid early log
-  // contention.
-  vTaskDelay(pdMS_TO_TICKS(500));
-  compression_bench_run_once();
-  vTaskDelete(NULL);
-}
+// Compression bench task removed
 
 // Apply one key=value to sensor config (serial console, same keys as BLE).
 static esp_err_t apply_config_key_value(const char *key_value) {
@@ -172,6 +175,7 @@ static esp_err_t apply_config_key_value(const char *key_value) {
 }
 
 // Print cluster report for host script (CLUSTER command).
+// Print cluster report for host script (CLUSTER command).
 static void cluster_report_print(void) {
   node_metrics_t m = metrics_get_current();
   uint32_t ch_id = neighbor_manager_get_current_ch();
@@ -180,10 +184,10 @@ static void cluster_report_print(void) {
 
   printf("CLUSTER_REPORT_START\n");
   printf("NODE_ID=%" PRIu32 "\n", g_node_id);
-  printf("MAC=%02x:%02x:%02x:%02x:%02x:%02x\n",
-         (unsigned)((mac >> 40) & 0xff), (unsigned)((mac >> 32) & 0xff),
-         (unsigned)((mac >> 24) & 0xff), (unsigned)((mac >> 16) & 0xff),
-         (unsigned)((mac >> 8) & 0xff), (unsigned)(mac & 0xff));
+  printf("MAC=%02x:%02x:%02x:%02x:%02x:%02x\n", (unsigned)((mac >> 40) & 0xff),
+         (unsigned)((mac >> 32) & 0xff), (unsigned)((mac >> 24) & 0xff),
+         (unsigned)((mac >> 16) & 0xff), (unsigned)((mac >> 8) & 0xff),
+         (unsigned)(mac & 0xff));
   printf("ROLE=%s\n", state_machine_get_state_name());
   printf("IS_CH=%d\n", g_is_ch ? 1 : 0);
   printf("STELLAR_SCORE=%.4f\n", m.stellar_score);
@@ -191,22 +195,29 @@ static void cluster_report_print(void) {
   printf("BATTERY=%.2f\n", m.battery);
   printf("TRUST=%.2f\n", m.trust);
   printf("LINK_QUALITY=%.2f\n", m.link_quality);
+  printf("UPTIME=%" PRIu64 "\n", m.uptime_seconds);
   printf("CURRENT_CH=%" PRIu32 "\n", ch_id);
   printf("MEMBER_COUNT=%zu\n", member_count);
+  printf("SENSORS_REAL=%d\n", s_sensors_real ? 1 : 0);
+  printf("BATTERY_REAL=%d\n", s_battery_real ? 1 : 0);
 
+  // Print details for all neighbors (Members/CH candidates)
   neighbor_entry_t neighbors[MAX_NEIGHBORS];
-  size_t n = neighbor_manager_get_all(neighbors, MAX_NEIGHBORS);
-  for (size_t i = 0; i < n; i++) {
-    if (!neighbors[i].is_ch && neighbors[i].verified &&
-        neighbors[i].rssi_ewma >= CLUSTER_RADIUS_RSSI_THRESHOLD) {
-      printf("MEMBER_ID=%" PRIu32 "\n", neighbors[i].node_id);
-      printf("MEMBER_MAC=%02x:%02x:%02x:%02x:%02x:%02x\n",
-             neighbors[i].mac_addr[0], neighbors[i].mac_addr[1],
-             neighbors[i].mac_addr[2], neighbors[i].mac_addr[3],
-             neighbors[i].mac_addr[4], neighbors[i].mac_addr[5]);
-      printf("MEMBER_SCORE=%.4f\n", neighbors[i].score);
-    }
+  size_t count = neighbor_manager_get_all(neighbors, MAX_NEIGHBORS);
+
+  for (size_t i = 0; i < count; i++) {
+    printf("MEMBER_ID=%" PRIu32 "\n", neighbors[i].node_id);
+    printf("MEMBER_MAC=%02x:%02x:%02x:%02x:%02x:%02x\n",
+           neighbors[i].mac_addr[0], neighbors[i].mac_addr[1],
+           neighbors[i].mac_addr[2], neighbors[i].mac_addr[3],
+           neighbors[i].mac_addr[4], neighbors[i].mac_addr[5]);
+    printf("MEMBER_SCORE=%.4f\n", neighbors[i].score);
+    printf("MEMBER_TRUST=%.2f\n", neighbors[i].trust);
+    printf("MEMBER_LINK_QUALITY=%.2f\n", neighbors[i].link_quality);
+    printf("MEMBER_BATTERY=%.2f\n", neighbors[i].battery);
+    printf("MEMBER_IS_CH=%d\n", neighbors[i].is_ch ? 1 : 0);
   }
+
   printf("CLUSTER_REPORT_END\n");
 }
 
@@ -233,6 +244,10 @@ static void console_config_task(void *pvParameters) {
           }
         } else if (strcmp(line, "CLUSTER") == 0) {
           cluster_report_print();
+        } else if (strcmp(line, "TRIGGER_UAV") == 0) {
+          ESP_LOGI(TAG, "Command: TRIGGER_UAV (Forcing Transition)");
+          // rf_receiver_force_trigger(); // Old method
+          state_machine_force_uav_test(); // New robust method
         }
       }
       pos = 0;
@@ -315,6 +330,14 @@ void app_main(void) {
   led_manager_init();
   ESP_ERROR_CHECK(logger_init());
 
+  // Initialize Data Storage
+  ESP_ERROR_CHECK(storage_manager_init());
+
+  // Initialize network stack for WiFi/ESP-NOW (REQUIRED before esp_wifi_init)
+  ESP_ERROR_CHECK(esp_netif_init());
+  ESP_ERROR_CHECK(esp_event_loop_create_default());
+  ESP_LOGI(TAG, "Network interface initialized");
+
   // Initialize ESP-NOW
   esp_now_manager_init();
 
@@ -353,7 +376,8 @@ void app_main(void) {
 
   log_wakeup_reason();
 
-  // ---- Battery + PME before cluster tasks (so metrics_task sees valid battery) ----
+  // ---- Battery + PME before cluster tasks (so metrics_task sees valid
+  // battery) ----
   battery_cfg_t bcfg = {
       .unit = ADC_UNIT_1,
       .channel = ADC_CHANNEL_3, // ADC1 CH3 = GPIO4 (ESP32-S3)
@@ -372,7 +396,8 @@ void app_main(void) {
   };
   ESP_ERROR_CHECK(pme_init(&cfg));
 
-  // ========== STELLAR CLUSTER TASKS (after battery/PME so metrics_task gets valid battery) ==========
+  // ========== STELLAR CLUSTER TASKS (after battery/PME so metrics_task gets
+  // valid battery) ==========
   ESP_LOGI(TAG, "Creating STELLAR cluster tasks...");
   xTaskCreate(state_machine_task, "state_machine", 8192, NULL, 5, NULL);
   xTaskCreate(metrics_task, "metrics", 4096, NULL, 4, NULL);
@@ -511,16 +536,18 @@ void app_main(void) {
 #endif
 
     // If not forced mock, try real read. If read fails or voltage is critically
-    // low (floating pin), fallback to mock.
+    // low (floating pin), fallback to dummy/mock.
     if (!use_mock_battery &&
         battery_read(&vadc_mv, &vbat_mv, &batt_pct) == ESP_OK &&
         vbat_mv > 2000) {
+      s_battery_real = true;
       ESP_LOGI(TAG, "BAT vadc=%lumV vbat=%lumV pct=%u%%",
                (unsigned long)vadc_mv, (unsigned long)vbat_mv, batt_pct);
 
       // Feed PME with real percentage
       pme_set_batt_pct(batt_pct);
     } else {
+      s_battery_real = false;
       // Mock Mode or Fallback
 #if ENABLE_MOCK_SENSORS
       // Simulate battery drain
@@ -617,47 +644,45 @@ void app_main(void) {
         (mode != PME_MODE_CRITICAL); // Passive keeps light sensors + INA
     bool do_audio = (mode == PME_MODE_NORMAL); // Allow mic in Normal mode only
 
-    bool ok_bme = false;
-    bool ok_aht = false;
-    bool ok_ens = false;
-    bool ok_mag = false;
-    bool ok_ina = false;
-    bool ok_audio = false;
+    bool ok_bme = false, real_bme = false;
+    bool ok_aht = false, real_aht = false;
+    bool ok_ens = false, real_ens = false;
+    bool ok_mag = false, real_mag = false;
+    bool ok_ina = false, real_ina = false;
+    bool ok_audio = false, real_audio = false;
 
-    // Environmental sensors (BME280, AHT21) - interval + mode gated
+    // Environmental sensors (BME280, AHT21): try real read; if not connected
+    // use dummy
     if (do_full && time_for_env && s_sensor_config.bme280_enabled) {
       ok_bme = (bme280_read(&bme) == ESP_OK);
-#if ENABLE_MOCK_SENSORS
+      real_bme = ok_bme;
       if (!ok_bme) {
-        float t_offset = 25.0f + 5.0f * sinf(now_ms / 10000.0f);
-        bme.temperature_c = t_offset;
+        bme.temperature_c = 25.0f + 5.0f * sinf(now_ms / 10000.0f);
         bme.humidity_pct = 50.0f + 10.0f * cosf(now_ms / 10000.0f);
         bme.pressure_hpa = 1013.0f + 5.0f * sinf(now_ms / 20000.0f);
         ok_bme = true;
-        ESP_LOGW(TAG, "[MOCK] BME280 Data Generated");
+        ESP_LOGD(TAG, "BME280 not connected, using dummy values");
       }
-#endif
       if (ok_bme)
         s_last_env_read_ms = now_ms;
     }
 
     if (do_light && time_for_env && s_sensor_config.aht21_enabled) {
       ok_aht = (aht21_read_with_raw(&aht, aht_raw) == ESP_OK);
-#if ENABLE_MOCK_SENSORS
+      real_aht = ok_aht;
       if (!ok_aht) {
         aht.temperature_c = 25.0f + 5.0f * sinf(now_ms / 10000.0f);
         aht.humidity_pct = 50.0f + 10.0f * cosf(now_ms / 10000.0f);
         ok_aht = true;
       }
-#endif
       if (ok_aht)
         s_last_env_read_ms = now_ms;
     }
 
-    // Gas sensor (ENS160) - interval + mode gated
+    // Gas sensor (ENS160)
     if (do_light && time_for_gas && s_sensor_config.ens160_enabled) {
       ok_ens = (ens160_read_iaq(&ens) == ESP_OK);
-#if ENABLE_MOCK_SENSORS
+      real_ens = ok_ens;
       if (!ok_ens) {
         ens.aqi_uba = 1 + (now_ms / 1000) % 5;
         ens.tvoc_ppb = 10 + (now_ms / 1000) % 50;
@@ -665,45 +690,42 @@ void app_main(void) {
         ens.status = 0;
         ok_ens = true;
       }
-#endif
       if (ok_ens)
         s_last_gas_read_ms = now_ms;
     }
 
-    // Power monitor (INA219) - interval + mode gated
+    // Power monitor (INA219)
     if (do_light && time_for_power && s_sensor_config.ina219_enabled) {
       ok_ina = (ina219_read_basic(&ina) == ESP_OK);
-#if ENABLE_MOCK_SENSORS
+      real_ina = ok_ina;
       if (!ok_ina) {
         ina.bus_voltage_v = 4.0f;
         ina.shunt_voltage_mv = 10.0f + 5.0f * sinf(now_ms / 5000.0f);
-        ina.current_ma = ina.shunt_voltage_mv / 0.1f; // assume 0.1 ohm
+        ina.current_ma = ina.shunt_voltage_mv / 0.1f;
         ok_ina = true;
       }
-#endif
       if (ok_ina)
         s_last_power_read_ms = now_ms;
     }
 
-    // Magnetometer (GY-271) - interval + mode gated
+    // Magnetometer (GY-271)
     if (do_full && time_for_mag && s_sensor_config.gy271_enabled) {
       ok_mag = (gy271_read(&mag) == ESP_OK);
-#if ENABLE_MOCK_SENSORS
+      real_mag = ok_mag;
       if (!ok_mag) {
         mag.x_uT = 30.0f * cosf(now_ms / 5000.0f);
         mag.y_uT = 30.0f * sinf(now_ms / 5000.0f);
         mag.z_uT = 40.0f;
         ok_mag = true;
       }
-#endif
       if (ok_mag)
         s_last_mag_read_ms = now_ms;
     }
 
-    // Microphone (INMP441) - interval + mode gated
+    // Microphone (INMP441)
     if (do_audio && time_for_audio && s_sensor_config.inmp441_enabled) {
       ok_audio = (inmp441_read(&audio) == ESP_OK && audio.valid);
-#if ENABLE_MOCK_SENSORS
+      real_audio = ok_audio;
       if (!ok_audio) {
         audio.count = 512;
         audio.rms_amplitude = 0.05f + 0.02f * sinf(now_ms / 1000.0f);
@@ -712,7 +734,6 @@ void app_main(void) {
         audio.valid = true;
         ok_audio = true;
       }
-#endif
       if (ok_audio)
         s_last_audio_read_ms = now_ms;
     }
@@ -847,6 +868,49 @@ void app_main(void) {
           ESP_LOGW(TAG, "Log line truncated, skipped");
         }
       }
+
+      // Update metrics with latest sensor data for CH transmission
+      static uint32_t s_packet_seq_num = 0;
+      s_sensors_real = real_bme || real_aht || real_ens || real_mag ||
+                       real_ina || real_audio;
+
+      sensor_payload_t payload = {0};
+      payload.node_id = g_node_id;
+      payload.timestamp_ms = (uint64_t)(esp_timer_get_time() / 1000ULL);
+      payload.seq_num = s_packet_seq_num++;
+      payload.flags = (s_sensors_real ? SENSOR_PAYLOAD_FLAG_SENSORS_REAL : 0) |
+                      (s_battery_real ? SENSOR_PAYLOAD_FLAG_BATTERY_REAL : 0);
+
+      uint8_t mac[6];
+      esp_read_mac(mac, ESP_MAC_BT); // Use BT/BLE MAC as node ID is based on it
+      memcpy(payload.mac_addr, mac, 6);
+
+      if (ok_bme) {
+        payload.temp_c = bme.temperature_c;
+        payload.hum_pct = bme.humidity_pct;
+        payload.pressure_hpa = (uint32_t)bme.pressure_hpa;
+      } else if (ok_aht) {
+        payload.temp_c = aht.temperature_c;
+        payload.hum_pct = aht.humidity_pct;
+      }
+
+      if (ok_ens) {
+        payload.aqi = ens.aqi_uba;
+        payload.tvoc_ppb = ens.tvoc_ppb;
+        payload.eco2_ppm = ens.eco2_ppm;
+      }
+
+      if (ok_mag) {
+        payload.mag_x = mag.x_uT;
+        payload.mag_y = mag.y_uT;
+        payload.mag_z = mag.z_uT;
+      }
+
+      if (ok_audio) {
+        payload.audio_rms = audio.rms_amplitude;
+      }
+
+      metrics_set_sensor_data(&payload);
     }
 
     // ---- Storage monitoring ----
@@ -874,7 +938,20 @@ void app_main(void) {
       esp_deep_sleep_start();
     }
 
-    uint32_t period_ms = sample_period_ms_for_mode(mode);
-    vTaskDelay(pdMS_TO_TICKS(period_ms));
+    // Smart Sleep / Time Slicing Wait
+    // Instead of fixed period, we ask the state machine how long to sleep
+    uint32_t sleep_ms = state_machine_get_sleep_time_ms();
+
+    // If we are in critical mode, force deep sleep handled above.
+    // Otherwise, light sleep (vTaskDelay) to keep BLE running (STELLAR
+    // requirement).
+
+    // If state machine returns default (5000), check config mode
+    if (sleep_ms == 5000) {
+      sleep_ms = sample_period_ms_for_mode(mode);
+    }
+
+    ESP_LOGI(TAG, "Smart Sleep: Waiting %lu ms (BLE Active)", sleep_ms);
+    vTaskDelay(pdMS_TO_TICKS(sleep_ms));
   }
 }
